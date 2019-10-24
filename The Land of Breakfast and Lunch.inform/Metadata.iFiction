@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ifindex version="1.0" xmlns="http://babel.ifarchive.org/protocol/iFiction/">
+    <story>
+        <identification>
+            <ifid>4E7D8B5D-ABD4-4675-BBD2-31E9CCC2B2CC</ifid>
+            <format>glulx</format>
+        </identification>
+        <bibliographic>
+            <title>The Land of Breakfast and Lunch</title>
+            <author>Daniel Talsky</author>
+            <headline>An Interactive Fiction</headline>
+            <genre>Fiction</genre>
+            <firstpublished>2019</firstpublished>
+            <description>Some would say that life is like a box of metaphors. I would not say that. I would say life is a land of metaphors. You come to this land perhaps from a hidden door in the back of a piece of furniture, perhaps from a door in a dream. Either way, you find yourself here.</description>
+            <language>en</language>
+            <group>Inform</group>
+        </bibliographic>
+        <cover>
+            <format>jpg</format>
+            <height>680</height>
+            <width>680</width>
+            <description>The cover art.</description>
+        </cover>
+        <releases>
+            <attached>
+                <release>
+                    <releasedate>2019-10-24</releasedate>
+                    <version>1</version>
+                    <compiler>Inform 7</compiler>
+                    <compilerversion>6M62</compilerversion>
+                </release>
+            </attached>
+        </releases>
+        <colophon>
+            <generator>Inform 7</generator>
+            <generatorversion>6M62</generatorversion>
+            <originated>2019-10-24</originated>
+        </colophon>
+        <glulx>
+            <serial>191024</serial>
+            <release>1</release>
+            <compiler>Inform 7 build 6M62</compiler>
+            <coverpicture>1</coverpicture>
+        </glulx>
+    </story>
+</ifindex>
