@@ -17,14 +17,20 @@ You are wearing a shirt.
 
 Section 1 - General World Rules and Messages
 
-[Nicer default description of things with no description.]
-The description of a thing is usually "You look at [the noun] very closely indeed, and to be completely honest, it looks about how you'd expect.  You think for a moment that there might be something slightly special about it but then, upon looking just a little closer, you see that there isn't."
-
-Instead of waking up: say "You are fully alert."
-
 [There are only two directions.]
 Understand "forward" or "f" as north.
 Understand "backward" or "b" as south.
+Understand "go back" as south. Understand "back" or "return" or "retreat" as south.
+
+[Nicer default description of things with no description.]
+The description of a thing is usually "You look at [the noun] very closely indeed, and to be completely honest, it looks about how you'd expect.  You think for a moment that there might be something slightly special about it but then, upon looking just a little closer, you see that there isn't."
+
+Instead of sleeping: say "You don't feel even the tendrils of sleepiness.  You could lie down, but it sounds pretty boring."
+Instead of waking up: say "You are already quite alert."
+
+Xyzzying is an action out of world applying to nothing. Understand "xyzzy" as xyzzying. Carry out xyzzying: say "You feel the temperature shift briefly a little warmer, and then back to normal.  The air shimmers for a moment.  The very fabric of the universe quivers in anticipation.  Nothing actually changes, though."
+
+The print empty inventory rule response (A) is "You examine what you'd normally use to carry things, all the way from fingertip to elbow.  As you suspected, nothing is contained there.  You briefly check for pockets or some kind of fanny pack.  There isn't anything like that.  You are forced to conclude that you have no possessions." 
 
 Section 2 - The Land of Breakfast and Lunch
 
@@ -37,7 +43,7 @@ Check going south:
 		say "This really is as far back as the path goes.  Further behind you there's just a bunch of scrub brush as far as the eye can see.  It's really not your kind of thing."
 
 [The Land of Breakfast and Lunch]
-TLoBL is a room. "The Land of Breakfast and Lunch is a lot smaller than you were expecting.  It's actually just a small clearing near the road, like a roadside stop, with a painted picnic table containing a simple but nourishing breakfast on one end, and a simple but nourishing lunch on the other end.  A stubby little path leads backwards, and the path continues to forward, towards The Land of Unrealized Possibilities.  If you 'walk forward' or just 'forward' or even just 'f' you will be walking towards it.".  TLoBL is north of The Path.
+TLoBL is a room. "The Land of Breakfast and Lunch is a lot smaller than you were expecting.  It's actually just a small clearing near the road, like a roadside stop, with a painted picnic table containing a simple but nourishing breakfast on one end, and a simple but nourishing lunch on the other end.  A stubby little path leads backwards, and the path continues forward, towards The Land of Unrealized Possibilities.  If you 'walk forward' or just 'forward' or even just 'f' you will be walking towards it.".  TLoBL is north of The Path.
 The printed name of TLoBL is "The Land of Breakfast and Lunch"
 
 A clearing is in TLoBL.  The clearing is scenery.  The description is "The clearing is a small picnic area, intentionally cleared and maintained to allow a person or family to stop by the side of the path and dine."
@@ -80,6 +86,8 @@ The grilled cheese sandwich is a part-of-a-complete-lunch on the table.  Underst
 The bowl of tomato soup is a part-of-a-complete-lunch on the table.  Understand "pepper" as the soup.  The description of the bowl of tomato soup is "Warm, creamy, and comforting, about two thirds the way to filling a fiestaware bowl.  There is a bit of coarsely cracked pepper at the top.".
 The tray of antipasto is a part-of-a-complete-lunch on the table.  Understand "figs" or "fresh figs" or "vegetables" or "grilled vegetable slices" or "olives" or "cornichon" as the tray of antipasto.  The description of the tray of antipasto is "This is an antique bakelite tray containing an assortment of little foods: several different kinds of olives, marinated artichoke hearts, fresh figs, grilled vegetable slices, and cornichon.".
 
+
+
 Section 3 - The Land of Unrealized Possibilities
 
 The Hopeful Path is a room.  "You are on the hopeful path.  Backwards from here is The Land of Breakfast and Lunch.  Forward is The Land of Unrealized Possiblities."  The Hopeful Path is north of TLoBL.
@@ -87,7 +95,7 @@ The Hopeful Path is a room.  "You are on the hopeful path.  Backwards from here 
 TLoUP is a room. "You are in the Land of Unrealized Possibilities.  Just being here gives you a sense of all that could be accomplished if enough time, effort, and focus were pointed in a specific direction.  There is an sense of both excitement and disappointment here that is almost palpable.  The Hopeful Path leads backward towards The Land of Breakfast and Lunch, a place with a much clearer sense of purpose."   TLoUP is north of the hopeful path.
 The printed name of TLoUP is "The Land of Unrealized Possiblities"
 
-There is a toy box in TLoUP.  It is an openable closed container.  It is fixed in place.  The description of the toy box is "It is a large simple wooden toy box stained with a nice hand-painted varnish.  It has a hinged lid on top that you can open."
+There is a toy box in TLoUP.  It is an openable closed container.  It is fixed in place.  The description of the toy box is "It is a large simple wooden toy box stained with a nice hand-painted varnish.  It has a hinged lid on top."
 
 There is a wooden block in the toy box.  The description of the wooden block is "It is a simple block made out of wood.  It is unpainted.  It's the kind of thing you would find at a Montessouri school, usually in the company of many of its compatriots."
 
@@ -105,8 +113,15 @@ Carry out riding:
 Instead of riding the horse:
 	If the horse is in the box: 
 		say "The hobby horse takes up most of the box, and doesn't allow a lot of room to ride it.";
-	if the player is holding the horse:
+	otherwise if the player is holding the horse:
 		say "You're holding the hobby horse in both of your hands.  Anyone would be impressed if you found a way to ride it right now.";
 	otherwise:
 		say "You were pretty sure it was going to be awkward to do this, and it sure is.  Your legs are splayed way out and the hobby horse creaks dangerously under your weight.  It holds solid though, and you creak your way back and forward a few times.  You can say you did it.";
-		
+
+
+Section 4 - The Land of Launching and Mooring
+
+The Seaside Path is a room.  "You are on the the seaside path.  Backwards from here is The Land of Unrealized Possibilities.  Forward is The Land of Launching and Mooring."  The Seaside Path is north of TLoUP.
+
+TLOLAM is a room. "You are in the The Land of Launching and Mooring.  Sometimes a vessel is moored here, and sometimes it isn't.  Currently there is a vessel.  The Hopeful Path leads backward towards The Land of Unrealized Possibilities, a place you'd rather not visit."   TLOLAM is north of the seaside path.
+The printed name of TLOLAM is "The Land of Launching and Mooring"
