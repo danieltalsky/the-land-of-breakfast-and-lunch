@@ -22,18 +22,22 @@ The description of a thing is usually "You look at [the noun] very closely indee
 
 Instead of waking up: say "You are fully alert."
 
+[There are only two directions.]
+Understand "forward" or "f" as north.
+Understand "backward" or "b" as south.
+
 Section 2 - The Land of Breakfast and Lunch
 
-The Path is a room.  "You are at the beginning of a path.  It is plain, even homely.  It leads northward towards The Land of Breakfast and Lunch.  If you 'walk north' you will follow the path."
+The Path is a room.  "You are at the beginning of a path.  It is plain, even homely.  It leads forward towards The Land of Breakfast and Lunch.  If you 'walk forward' you will follow the path."
 
-Southmostpath is in The Path.  It is scenery.  The description of southmostpath is "It's a scrubby little path that just kind of tapers off to the south and leads northward towards The Land of Breakfast and Lunch.  If you 'walk north' you'll be following it." Understand "path" as southmostpath.
+Southmostpath is in The Path.  It is scenery.  The description of southmostpath is "It's a scrubby little path that just kind of tapers off behind you and leads forward towards The Land of Breakfast and Lunch.  If you 'walk forward' you'll be following it." Understand "path" as southmostpath.
 
 Check going south:
 	If the player is in The Path:
-		say "This really is as far south as the path goes.  Further south there's just a bunch of scrub brush as far as the eye can see.  It's really not your kind of thing."
+		say "This really is as far back as the path goes.  Further behind you there's just a bunch of scrub brush as far as the eye can see.  It's really not your kind of thing."
 
 [The Land of Breakfast and Lunch]
-TLoBL is a room. "The Land of Breakfast and Lunch is a lot smaller than you were expecting.  It's actually just a small clearing near the road, like a roadside stop, with a painted picnic table containing a simple but nourishing breakfast on one end, and a simple but nourishing lunch on the other end.  A stubby little path leads south, and the path continues to the north, towards The Land of Unrealized Possibilities.  If you 'walk north' you will be walking towards it.".  TLoBL is north of The Path.
+TLoBL is a room. "The Land of Breakfast and Lunch is a lot smaller than you were expecting.  It's actually just a small clearing near the road, like a roadside stop, with a painted picnic table containing a simple but nourishing breakfast on one end, and a simple but nourishing lunch on the other end.  A stubby little path leads backwards, and the path continues to forward, towards The Land of Unrealized Possibilities.  If you 'walk forward' or just 'forward' or even just 'f' you will be walking towards it.".  TLoBL is north of The Path.
 The printed name of TLoBL is "The Land of Breakfast and Lunch"
 
 A clearing is in TLoBL.  The clearing is scenery.  The description is "The clearing is a small picnic area, intentionally cleared and maintained to allow a person or family to stop by the side of the path and dine."
@@ -78,9 +82,9 @@ The tray of antipasto is a part-of-a-complete-lunch on the table.  Understand "f
 
 Section 3 - The Land of Unrealized Possibilities
 
-The Hopeful Path is a room.  "You are on the hopeful path.  To the south is The Land of Breakfast and Lunch.  To the north is The Land of Unrealized Possiblities."  The Hopeful Path is north of TLoBL.
+The Hopeful Path is a room.  "You are on the hopeful path.  Backwards from here is The Land of Breakfast and Lunch.  Forward is The Land of Unrealized Possiblities."  The Hopeful Path is north of TLoBL.
 
-TLoUP is a room. "You are in the Land of Unrealized Possibilities.  Just being here gives you a sense of all that could be accomplished if enough time, effort, and focus were pointed in a specific direction.  There is an sense of both excitement and disappointment here that is almost palpable.  The Hopeful Path leads southward towards The Land of Breakfast and Lunch, a place with a much clearer sense of purpose."   TLoUP is north of the hopeful path.
+TLoUP is a room. "You are in the Land of Unrealized Possibilities.  Just being here gives you a sense of all that could be accomplished if enough time, effort, and focus were pointed in a specific direction.  There is an sense of both excitement and disappointment here that is almost palpable.  The Hopeful Path leads backward towards The Land of Breakfast and Lunch, a place with a much clearer sense of purpose."   TLoUP is north of the hopeful path.
 The printed name of TLoUP is "The Land of Unrealized Possiblities"
 
 There is a toy box in TLoUP.  It is an openable closed container.  It is fixed in place.  The description of the toy box is "It is a large simple wooden toy box stained with a nice hand-painted varnish.  It has a hinged lid on top that you can open."
@@ -91,17 +95,18 @@ There is a small heart shaped locket in the toy box.  It is an openable closed c
 
 There is a faded picture of a child who looks a lot like you in the locket.    The description of the picture is "You don't remember ever seeing any picture of you like this photo, but this one looks almost exactly other pictures of you at about three.  There is a smile that's a mix of sadness and joy on the child's face.  When you look at it, you can almost feel the feeling."
 
-There is a small hobby horse in the toy box.   The horse is a supporter.  The description of the horse is "It is a small, wooden hobby horse.  It's very sturdily built, but made to entertain a three-year old.  It has yarn for a mane."  Understand "yarn" or "mane" as the horse.
+There is a small hobby horse in the toy box.   The description of the horse is "It is a small, wooden hobby horse.  It's very sturdily built, but made to entertain a three-year old.  It has yarn for a mane."  Understand "yarn" or "mane" as the horse.
 
-[The verb to ride (he rides, they ride, he rode it, it is ridden, he is riding) implies the reversed support relation.
-]
+[ Riding the horse]
+Understand "ride [something]" as riding.  Riding is an action applying to one thing.
+Carry out riding:
+		say "You can't ride stuff like that, silly."
 
-Riding is an action applying to one thing.
-
-To ride (item - an object):
-	say "You cant ride stuff silly."
-
-[
-Rule for riding the horse when the horse is in the box
-	say: "You cannot ride the horse while it is in the toy box."
-]
+Instead of riding the horse:
+	If the horse is in the box: 
+		say "The hobby horse takes up most of the box, and doesn't allow a lot of room to ride it.";
+	if the player is holding the horse:
+		say "You're holding the hobby horse in both of your hands.  Anyone would be impressed if you found a way to ride it right now.";
+	otherwise:
+		say "You were pretty sure it was going to be awkward to do this, and it sure is.  Your legs are splayed way out and the hobby horse creaks dangerously under your weight.  It holds solid though, and you creak your way back and forward a few times.  You can say you did it.";
+		
