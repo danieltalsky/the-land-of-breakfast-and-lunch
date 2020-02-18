@@ -1,4 +1,5 @@
 "The Land of Breakfast and Lunch" by Daniel Talsky
+The story headline is "A land can contain both."
 
 Release along with a website.  Release along with an interpreter.  Release along with cover art.  Release along with the source text.
 
@@ -18,9 +19,14 @@ You are wearing a shirt.
 Section 1 - General World Rules and Messages
 
 [There are only two directions.]
-Understand "forward" or "f" as north.
-Understand "backward" or "b" as south.
-Understand "go back" as south. Understand "back" or "return" or "retreat" as south.
+Understand "forward/forwards/f" as north.
+Understand "back/return/retreat/backward/backwards/b" as south.
+Understand "go back" as south. 
+Instead of going east:
+	say "Around these parts, folks mostly go backwards or forwards."
+Instead of going west:
+	say "You don't see anywhere to go except backwards and forwards."
+	
 
 [Nicer default description of things with no description.]
 The description of a thing is usually "You look at [the noun] very closely indeed, and to be completely honest, it looks about how you'd expect.  You think for a moment that there might be something slightly special about it but then, upon looking just a little closer, you see that there isn't."
