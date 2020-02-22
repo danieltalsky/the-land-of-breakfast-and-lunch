@@ -1,11 +1,12 @@
 "The Land of Breakfast and Lunch" by Daniel Talsky
-The story headline is "A land can contain both."
+
+The story headline is "~ a land can contain both ~"
 
 Release along with a website.  Release along with an interpreter.  Release along with cover art.  Release along with the source text.
 
 Use no scoring, the serial comma and American dialect. Use full-length room descriptions.
 
-The story description is "Some would say that life is like a box of metaphors.  I would not say that.  I would say life is a land of metaphors.  You come to this land perhaps from a hidden door in the back of a piece of furniture, perhaps from a door in a dream.  Either way, you find yourself here."
+The story description is "An interactive diorama of made-up memories."
 
 The description of the player is "You are a fictional character who looks very much like the non-fictional you looks.  Almost exactly, in fact, except the non-fictional you is slightly more attractive, and the fictional you is a slightly better speller."
 
@@ -13,7 +14,6 @@ When play begins:
 	say "Some would say that life is like a box of metaphors.  I would not say that.  I would say life is a land of metaphors.  You come to this land perhaps from a hidden door in the back of a piece of furniture, perhaps from a door in a dream.  Either way, you find yourself here."
 
 You are wearing a shirt.
-
 
 
 Section 1 - General World Rules and Messages
@@ -111,6 +111,26 @@ There is a faded picture of a child who looks a lot like you in the locket.    T
 
 There is a small hobby horse in the toy box.   The description of the horse is "It is a small, wooden hobby horse.  It's very sturdily built, but made to entertain a three-year old.  It has yarn for a mane."  Understand "yarn" or "mane" as the horse.
 
+[Your Brother]
+There is a couch in TLoUP.  It is a supporter. It is fixed in place. The description of the couch is "This is the blue corduroy couch of your youth.  You have rolled over on it many times and sat up to read it's wrinkled poem on your arm.  Why would anyone get a corduroy couch?"
+
+There is a TV in TLOUP. It is fixed in place.  The description of the TV is "An early 35' flatscreen.  Bulky, black, and plastic.  It lived in your den for way too long, just because no one wanted to lift it.  It's odd to see it here, in The Land of Unrealized Possibilities.  It is playing [one of]Buck Rogers[or]Big Chungus[or]Dogg Star[or]Thundercats[purely at random]"
+
+Understand "channel/knob/television" as TV.
+
+[Instead of using the TV:
+	say "C'mon, Farts McJohnson, I'm watching this."]
+
+Brother is a man.  The printed name of brother is "your brother". Brother is on the couch. The description of brother is "Your brother is a lean masterpiece of laziness and force.  He is devoted to his wasting of time right now and has himself wedged into the couch like a part of it. He is watching TV."
+
+Understand "kick", "punch", "hit" as attacking.
+Instead of attacking brother:
+		say "Your brother would kick your ass."
+Instead of kissing brother:
+	say "A swift wave of nausea dissuades you."
+	
+Understand "your brother", "my brother", "bro" as brother
+
 [ Riding the horse]
 Understand "ride [something]" as riding.  Riding is an action applying to one thing.
 Carry out riding:
@@ -125,9 +145,11 @@ Instead of riding the horse:
 		say "You were pretty sure it was going to be awkward to do this, and it sure is.  Your legs are splayed way out and the hobby horse creaks dangerously under your weight.  It holds solid though, and you creak your way back and forward a few times.  You can say you did it.";
 
 
-Section 4 - The Land of Launching and Mooring
+Section 4 - The Land of Unlaunched Vessels
 
-The Seaside Path is a room.  "You are on the the seaside path.  Backwards from here is The Land of Unrealized Possibilities.  Forward is The Land of Launching and Mooring."  The Seaside Path is north of TLoUP.
+The Seaside Path is a room.  "You are on the the seaside path.  Backwards from here is The Land of Unlaunched Vessels.  Forward is The Land of Launching and Mooring."  The Seaside Path is north of TLoUP.
+
+The sea is in the seaside path.  The sea is scenery.  "The sea is quite a ways away for a path to be called The Seaside Path, but you didn't name it, did you?"
 
 TLOLAM is a room. "You are in the The Land of Launching and Mooring.  Sometimes a vessel is moored here, and sometimes it isn't.  Currently there is a vessel.  The Hopeful Path leads backward towards The Land of Unrealized Possibilities, a place you'd rather not visit."   TLOLAM is north of the seaside path.
 The printed name of TLOLAM is "The Land of Launching and Mooring"

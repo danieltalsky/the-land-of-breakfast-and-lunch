@@ -1,20 +1,20 @@
 ! Blurb file created by Inform build 6M62
 
-status "C:\Program Files (x86)\Inform 7\Internal\Miscellany\CblorbModel.html" "E:\projects\the-land-of-breakfast-and-lunch\The Land of Breakfast and Lunch.inform\Build\StatusCblorb.html"
+status "/Applications/Inform.app/Contents/Resources/Internal/Miscellany/CblorbModel.html" "/Users/daniel/_git/the-land-of-breakfast-and-lunch/The Land of Breakfast and Lunch.inform/Build/StatusCblorb.html"
 
 
 ! Identification
 
-project folder "E:\projects\the-land-of-breakfast-and-lunch\The Land of Breakfast and Lunch.inform"
-release to "E:\projects\the-land-of-breakfast-and-lunch\The Land of Breakfast and Lunch.materials\Release"
+project folder "/Users/daniel/_git/the-land-of-breakfast-and-lunch/The Land of Breakfast and Lunch.inform"
+release to "/Users/daniel/_git/the-land-of-breakfast-and-lunch/The Land of Breakfast and Lunch.materials/Release"
 
 ! Blorb instructions
 
 storyfile leafname "The Land of Breakfast and Lunch.gblorb"
-storyfile "E:\projects\the-land-of-breakfast-and-lunch\The Land of Breakfast and Lunch.inform\Build\output.ulx" include
-ifiction "E:\projects\the-land-of-breakfast-and-lunch\The Land of Breakfast and Lunch.inform\Metadata.iFiction" include
-cover "E:\projects\the-land-of-breakfast-and-lunch\The Land of Breakfast and Lunch.materials\Cover.jpg"
-picture 1 "E:\projects\the-land-of-breakfast-and-lunch\The Land of Breakfast and Lunch.materials\Cover.jpg"
+storyfile "/Users/daniel/_git/the-land-of-breakfast-and-lunch/The Land of Breakfast and Lunch.inform/Build/output.ulx" include
+ifiction "/Users/daniel/_git/the-land-of-breakfast-and-lunch/The Land of Breakfast and Lunch.inform/Metadata.iFiction" include
+cover "/Users/daniel/_git/the-land-of-breakfast-and-lunch/The Land of Breakfast and Lunch.materials/Cover.jpg"
+picture 1 "/Users/daniel/_git/the-land-of-breakfast-and-lunch/The Land of Breakfast and Lunch.materials/Cover.jpg"
 
 ! Placeholder variables
 
@@ -22,8 +22,8 @@ placeholder [IFID] = "4E7D8B5D-ABD4-4675-BBD2-31E9CCC2B2CC"
 placeholder [RELEASE] = "1"
 placeholder [YEAR] = "2020"
 placeholder [TITLE] = "The Land of Breakfast and Lunch"
-placeholder [AUTHOR] = "Daniel Talsky The story headline is 'A land can contain both.'"
-placeholder [BLURB] = "Some would say that life is like a box of metaphors. I would not say that. I would say life is a land of metaphors. You come to this land perhaps from a hidden door in the back of a piece of furniture, perhaps from a door in a dream. Either way, you find yourself here."
+placeholder [AUTHOR] = "Daniel Talsky"
+placeholder [BLURB] = "An interactive diorama of made-up memories."
 
 ! Other material to release
 
@@ -32,24 +32,24 @@ source public
 ! Website instructions
 
 placeholder [ENCODEDSTORYFILE] = "The Land of Breakfast and Lunch.gblorb.js"
-template path "E:\projects\the-land-of-breakfast-and-lunch\The Land of Breakfast and Lunch.materials\Templates"
-template path "C:\Users\Daniel Talsky\Documents\Inform\Templates"
-template path "C:\Program Files (x86)\Inform 7\Internal\Templates"
+template path "/Users/daniel/_git/the-land-of-breakfast-and-lunch/The Land of Breakfast and Lunch.materials/Templates"
+template path "/Users/daniel/Library/Inform/Templates"
+template path "/Applications/Inform.app/Contents/Resources/Internal/Templates"
 placeholder [INTERPRETERSCRIPTS] = " "
 interpreter "Quixe" "g"
-base64 "E:\projects\the-land-of-breakfast-and-lunch\The Land of Breakfast and Lunch.inform\Build\output.ulx" to "E:\projects\the-land-of-breakfast-and-lunch\The Land of Breakfast and Lunch.materials\Release\interpreter\The Land of Breakfast and Lunch.gblorb.js"
+base64 "/Users/daniel/_git/the-land-of-breakfast-and-lunch/The Land of Breakfast and Lunch.inform/Build/output.ulx" to "/Users/daniel/_git/the-land-of-breakfast-and-lunch/The Land of Breakfast and Lunch.materials/Release/interpreter/The Land of Breakfast and Lunch.gblorb.js"
 
 ! Website instructions
 
-template path "E:\projects\the-land-of-breakfast-and-lunch\The Land of Breakfast and Lunch.materials\Templates"
-template path "C:\Users\Daniel Talsky\Documents\Inform\Templates"
-template path "C:\Program Files (x86)\Inform 7\Internal\Templates"
+template path "/Users/daniel/_git/the-land-of-breakfast-and-lunch/The Land of Breakfast and Lunch.materials/Templates"
+template path "/Users/daniel/Library/Inform/Templates"
+template path "/Applications/Inform.app/Contents/Resources/Internal/Templates"
 css
 website "Standard"
-status instruction ||&nbsp;<a href="source:story.ni#line4"><img border=0 src=inform:/doc_images/Reveal.png></a>||
-status instruction ||&nbsp;<a href="source:story.ni#line4"><img border=0 src=inform:/doc_images/Reveal.png></a>||
-status instruction ||&nbsp;<a href="source:story.ni#line4"><img border=0 src=inform:/doc_images/Reveal.png></a>||
-status instruction ||&nbsp;<a href="source:story.ni#line4"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line5"><img border=0 src=inform:/doc_images/Reveal.tif></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line5"><img border=0 src=inform:/doc_images/Reveal.tif></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line5"><img border=0 src=inform:/doc_images/Reveal.tif></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line5"><img border=0 src=inform:/doc_images/Reveal.tif></a>||
 status alternative ||Using 'Release along with a file of "Such-and-Such" called "whatever.pdf"', perhaps to add a manual, or a welcoming note&nbsp;<a href=inform:/doc401.html><img border=0 src=inform:/doc_images/help.png></a>||
 status alternative ||Using 'Release along with a solution'&nbsp;<a href=inform:/doc411.html><img border=0 src=inform:/doc_images/help.png></a>||
 status alternative ||Using 'Release along with the library card'&nbsp;<a href=inform:/doc412.html><img border=0 src=inform:/doc_images/help.png></a>||
