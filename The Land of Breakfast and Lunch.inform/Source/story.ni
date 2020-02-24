@@ -2,7 +2,8 @@
 
 The story headline is "~ a land can contain both ~"
 
-Release along with a website.  Release along with an interpreter.  Release along with cover art.  Release along with the source text.
+["Lunchy" Website Theme"]
+Release along with a website and a "Lunchy" website.  Release along with an interpreter.  Release along with cover art.  Release along with the source text.
 
 Use no scoring, the serial comma and American dialect. Use full-length room descriptions.
 
@@ -13,7 +14,7 @@ The description of the player is "You are a fictional character who looks very m
 When play begins:
 	say "Some would say that life is like a box of metaphors.  I would not say that.  I would say life is a land of metaphors.  You come to this land perhaps from a hidden door in the back of a piece of furniture, perhaps from a door in a dream.  Either way, you find yourself here."
 
-You are wearing a shirt.
+You are wearing a shirt. 
 
 
 Section 1 - General World Rules and Messages
@@ -54,7 +55,12 @@ The printed name of TLoBL is "The Land of Breakfast and Lunch"
 
 A clearing is in TLoBL.  The clearing is scenery.  The description is "The clearing is a small picnic area, intentionally cleared and maintained to allow a person or family to stop by the side of the path and dine."
 
-A painted picnic table is in TLoBL. The description of the table is "It's a well-maintained picnic table painted in a bright, childish, civic style, depicting a crude sun with huge yellow beams bathing jagged pine trees in their light.".  
+A painted picnic table is in TLoBL. The table is a supporter. The table is enterable.  The description is "It's a well-maintained picnic table painted in a bright, childish, civic style, depicting a crude sun with huge yellow beams bathing jagged pine trees in their light.".  
+Understand "table/sun/beams/trees" as the painted picnic table.
+Instead of looking under the table, say "The grass underneath is getting a bit brown."
+Instead of entering the table:
+	say "You ease onto one of the table's benches.";
+	now the player is in the table;
 
 [breakfast]
 Breakfast is on the table.  It is edible.  The description of breakfast is "Breakfast consists of a halved grapefruit with the membranes cut for easier eating, a soft-boiled egg in a specially designed holder, and a bowl of Lieutenant Chomp with a small pitcher of milk next to it.". 
@@ -63,15 +69,21 @@ Instead of taking the breakfast: say "The breakfast has several items and is a l
 
 Instead of eating the breakfast:
 	say "You sit down for a moment and eat breakfast.  It is delicious but you still don't quite feel satisfied.";
-	remove the breakfast from play
+	now the description of TLoBL is "The Land of Breakfast and Lunch is a lot smaller than you were expecting.  It's actually just a small clearing near the road, like a roadside stop, with a painted picnic table containing a the empty dishes from a simple but nourishing breakfast on one end, and the a simple but nourishing lunch on the other end.  A stubby little path leads backwards, and the path continues forward, towards The Land of Unrealized Possibilities.  If you 'walk forward' or just 'forward' or even just 'f' you will be walking towards it.";
+	now the description of the breakfast dishes is "You've politely stacked the breakfast dishes, so the table doesn't look too messy.";
+	remove the breakfast from play;
 
 A part-of-a-complete-breakfast is a kind of thing. A part-of-a-complete-breakfast is always scenery.  
-Instead of eating or taking a part-of-a-complete-breakfast, say "Breakfast is kind of an all-or-nothing affair.  One really needs to sit down and tuck into it, rather than simply nibbling at one thing or another and leaving the rest of it to repel and disgust another traveller.".
-
-The bowl of Lieutenant Chomp is a part-of-a-complete-breakfast on the table.  Understand "cereal" or "Lieutenant Chomp" as the bowl of Lieutenant Chomp.  The description of the bowl is "It looks like a bowl filled with the famous cereal known as Lieutenant Chomp.  You grew up seeing the commercials and can almost see the picture of the Lieutenant on the box in your mind's eye.  You know from experience that if you pour the milk too soon before you eat, the cereal will lacerate the roof of your mouth.  If you wait too long: sugary mush.".
+Instead of eating or taking or tasting a part-of-a-complete-breakfast, say "Breakfast is kind of an all-or-nothing affair.  One really needs to sit down and tuck into it, rather than simply nibbling at one thing or another and leaving the rest of it to repel and disgust another traveller.".
+The bowl of Lieutenant Chomp is a part-of-a-complete-breakfast on the table.  Understand "cereal" or "Lieutenant Chomp" as the bowl of Lieutenant Chomp.  The description of the bowl is "It looks like a bowl filled with the famous cereal known as Lieutenant Chomp.  You grew up seeing the commercials and can almost see the picture of the Lieutenant on the box in your mind's eye.  You know from experience that if you pour the milk too soon before you eat, the cereal will lacerate the roof of your mouth.  If you wait too long: sugary mush."
+Instead of smelling the bowl of Lieutenant Chomp, say "It smells like sugar."
 The pitcher of milk is a part-of-a-complete-breakfast on the table.  The description of the pitcher of milk is "It's a simple, white pitcher of milk, like you'd find in a diner."
+Instead of smelling the pitcher of milk, say "Smells faintly of the sweetness of lactose."
 The halved grapefruit is a part-of-a-complete-breakfast on the table. Understand "membrane" or "sugar" as the grapefruit.  The description is "It's a traditional grapefruit.  It's not one of the slightly sweeter red varieties, and it's not an exotic pomelo.  It looks as if a very thin sprinkling of sugar has been applied.".
-The soft-boiled egg is a part-of-a-complete-breakfast on the table. Understand "spoon" or "little spoon" or "holder" as the egg.  The description of the egg is "The soft-boiled egg is a prim and underappreciated breakfast item.  Sure, it's a lot of work to get to all the egg, but it's a very delicate experience.  You take the nearby small spoon, and gently crack the top of the egg off, exposing the soft and rich partially-cooked egg inside. "
+Instead of smelling the halved grapefruit, say "You can tell the grapefruit was recently cut, since the oils of the peel almost burn your nose with their zinginess."
+The soft-boiled egg is a part-of-a-complete-breakfast on the table. Understand "spoon" or "little spoon" or "holder" as the egg.  The description is "The soft-boiled egg is a prim and underappreciated breakfast item.  Sure, it's a lot of work to get to all the egg, but it's a very delicate experience.  You would take the nearby small spoon and gently crack the top of the egg off, exposing the soft and rich partially-cooked egg inside."
+Instead of smelling the soft-boiled egg, say "A soft-boiled egg doesn't smell like much but you can feel the warmth of it on your nose."
+The breakfast dishes are on the table.  The breakfast dishes are scenery.  The description is "They are keeping the breakfast from just sitting on the table."
 
 [lunch]
 Lunch is on the table.  It is edible.  The description of lunch is "Lunch is made up of a grilled cheese sandwich, a bowl of tomato soup, a small tray of antipasto, and a ramekin filled with a very enticing potato salad.".
@@ -84,13 +96,21 @@ Instead of eating the lunch:
 		";
 	else:
 		say "Lunch was wonderful.  Your stomach feels like a puzzle, where the final piece has finally been snapped into place.  You now feel as if you could take on the world.";
+		now the description of TLoBL is "The Land of Breakfast and Lunch is a lot smaller than you were expecting.  It's actually just a small clearing near the road, like a roadside stop, with a painted picnic table containing a the empty dishes from a simple but nourishing breakfast on one end, and the dishes of a simple but nourishing lunch on the other end.  A stubby little path leads backwards, and the path continues forward, towards The Land of Unrealized Possibilities.  If you 'walk forward' or just 'forward' or even just 'f' you will be walking towards it.";
+		now the description of the lunch dishes is "You've politely stacked the lunch dishes, so the table doesn't look too messy.";
 		remove the lunch from play;
 
 A part-of-a-complete-lunch is a kind of thing. A part-of-a-complete-lunch is always scenery.  
-Instead of eating or taking a part-of-a-complete-lunch, say "Lunch is kind of an all-or-nothing affair.  One really needs to sit down and tuck into it, rather than simply nibbling at one thing or another and leaving the rest of it to repel and disgust another traveller.".
-The grilled cheese sandwich is a part-of-a-complete-lunch on the table.  Understand "bread" or "butter" as the sandwich.  The description of the grilled cheese sandwich is "It's a grilled cheese sandwich in the classic sense, in that there's nothing in it but cheese.  The sandwich has been cut in half diagonally and the tiniest bit of cheese has oozed out towards the table.  It looks like a combination of cheeses.  The bread is toasted to a perfect golden brown and glistens with its thin layer of butter.".
-The bowl of tomato soup is a part-of-a-complete-lunch on the table.  Understand "pepper" as the soup.  The description of the bowl of tomato soup is "Warm, creamy, and comforting, about two thirds the way to filling a fiestaware bowl.  There is a bit of coarsely cracked pepper at the top.".
-The tray of antipasto is a part-of-a-complete-lunch on the table.  Understand "figs" or "fresh figs" or "vegetables" or "grilled vegetable slices" or "olives" or "cornichon" as the tray of antipasto.  The description of the tray of antipasto is "This is an antique bakelite tray containing an assortment of little foods: several different kinds of olives, marinated artichoke hearts, fresh figs, grilled vegetable slices, and cornichon.".
+Instead of eating or taking or tasting a part-of-a-complete-lunch, say "Lunch is kind of an all-or-nothing affair.  One really needs to sit down and tuck into it, rather than simply nibbling at one thing or another and leaving the rest of it to repel and disgust another traveller.".
+The grilled cheese sandwich is a part-of-a-complete-lunch on the table.  Understand "bread" or "butter" as the sandwich.  The description of the grilled cheese sandwich is "It's a grilled cheese sandwich in the classic sense, in that there's nothing in it but cheese.  The sandwich has been cut in half diagonally and the tiniest bit of cheese has oozed out towards the table.  It looks like a combination of cheeses.  The bread is toasted to a perfect golden brown and glistens with its thin layer of butter."
+Instead of smelling the grilled cheese sandwich, say "You mostly smell butter, but perhaps a hint of cheddar."
+The bowl of tomato soup is a part-of-a-complete-lunch on the table.  Understand "pepper" as the soup.  The description of the bowl of tomato soup is "Warm, creamy, and comforting, about two thirds the way to filling a fiestaware bowl.  There is a bit of coarsely cracked pepper at the top."
+Instead of smelling the bowl of tomato soup, say "You mostly smell the pepper, but with a warm tomato-ey bottom note."
+The tray of antipasto is a part-of-a-complete-lunch on the table.  Understand "figs" or "fresh figs" or "vegetables" or "grilled vegetable slices" or "olives" or "cornichon" as the tray of antipasto.  The description of the tray of antipasto is "This is an antique bakelite tray containing an assortment of little foods: several different kinds of olives, marinated artichoke hearts, fresh figs, grilled vegetable slices, and cornichon."
+Instead of smelling the tray of antipasto, say "You mostly smell the tartness of the artichoke hearts, but if you lean closely you can smell the cornichon."
+The ramekin of potato salad is a part-of-a-complete-lunch on the table.  Understand "potato salad", "salad/ramekin/potato/potatoes/potatos/paprika" as the ramekin of potato salad.  The description of the ramekin of potato salad is "It looks like a well-made potato salad, filled with richness and zing.  You can see flecks of red onion and a light dusting of paprika.  In case you don't know what a ramekin is, it's a small straight-walled bowl with scalloped outside walls. Perfect for an attractive presentation of a small potato salad serving."
+Instead of smelling the ramekin of potato salad, say "Smells like smoked paprika and mustard."
+The lunch dishes are on the table.  The lunch dishes are scenery.  The description is "They are keeping the lunch from just sitting on the table."
 
 
 
@@ -113,6 +133,7 @@ There is a small hobby horse in the toy box.   The description of the horse is "
 
 [Your Brother]
 There is a couch in TLoUP.  It is a supporter. It is fixed in place. The description of the couch is "This is the blue corduroy couch of your youth.  You have rolled over on it many times and sat up to read it's wrinkled poem on your arm.  Why would anyone get a corduroy couch?"
+There is a small, grimy penny under the couch.
 
 There is a TV in TLOUP. It is fixed in place.  The description of the TV is "An early 35' flatscreen.  Bulky, black, and plastic.  It lived in your den for way too long, just because no one wanted to lift it.  It's odd to see it here, in The Land of Unrealized Possibilities.  It is playing [one of]Buck Rogers[or]Big Chungus[or]Dogg Star[or]Thundercats[purely at random]"
 
@@ -123,15 +144,19 @@ Understand "channel/knob/television" as TV.
 
 Brother is a man.  The printed name of brother is "your brother". Brother is on the couch. The description of brother is "Your brother is a lean masterpiece of laziness and force.  He is devoted to his wasting of time right now and has himself wedged into the couch like a part of it. He is watching TV."
 
-Understand "kick", "punch", "hit" as attacking.
-Instead of attacking brother:
-		say "Your brother would kick your ass."
-Instead of kissing brother:
-	say "A swift wave of nausea dissuades you."
-	
-Understand "your brother", "my brother", "bro" as brother
+[Understand "talk to [someone]" as asking.]
 
-[ Riding the horse]
+Instead of smelling brother:
+	say "Weirdly, he smells fine."
+Instead of attacking brother:
+	say "Your brother nearly-psychically determines your intention. In a flash, he socks you in the quadricep with precision and speed.  He hits what you realize is an existing bruise from last time and you have to take deep breaths to keep from doubling over in pain.   ‘What’s your problem, you aggro dipwad?’ he says, distractedly, eyes still on the TV."
+Instead of kissing brother:
+	say "A swift wave of nausea dissuades you."	
+	
+Understand "kick", "punch", "hit" as attacking.
+Understand "my brother", "bro" as brother
+
+[Riding (the horse)]
 Understand "ride [something]" as riding.  Riding is an action applying to one thing.
 Carry out riding:
 		say "You can't ride stuff like that, silly."
@@ -143,13 +168,16 @@ Instead of riding the horse:
 		say "You're holding the hobby horse in both of your hands.  Anyone would be impressed if you found a way to ride it right now.";
 	otherwise:
 		say "You were pretty sure it was going to be awkward to do this, and it sure is.  Your legs are splayed way out and the hobby horse creaks dangerously under your weight.  It holds solid though, and you creak your way back and forward a few times.  You can say you did it.";
+		
+Instead of riding brother, say "The mental picture is pretty funny, but you are 100% certain your brother is not going to find it funny."
+Instead of entering or riding the couch, say "Your brother gives you a quick, dirty look that reminds you he's ready to back it up with the kind of painful violence that will not leave a mark."
 
 
 Section 4 - The Land of Unlaunched Vessels
 
 The Seaside Path is a room.  "You are on the the seaside path.  Backwards from here is The Land of Unlaunched Vessels.  Forward is The Land of Launching and Mooring."  The Seaside Path is north of TLoUP.
 
-The sea is in the seaside path.  The sea is scenery.  "The sea is quite a ways away for a path to be called The Seaside Path, but you didn't name it, did you?"
+The sea is in the seaside path.  The sea is scenery.  The description is "The sea is quite a ways away for a path to be called The Seaside Path, but you didn't name it, did you?"
 
 TLOLAM is a room. "You are in the The Land of Launching and Mooring.  Sometimes a vessel is moored here, and sometimes it isn't.  Currently there is a vessel.  The Hopeful Path leads backward towards The Land of Unrealized Possibilities, a place you'd rather not visit."   TLOLAM is north of the seaside path.
 The printed name of TLOLAM is "The Land of Launching and Mooring"

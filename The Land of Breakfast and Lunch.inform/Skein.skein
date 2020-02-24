@@ -11,7 +11,7 @@ Some would say that life is like a box of metaphors.  I would not say that.  I w
 
 The Land of Breakfast and Lunch
 ~ a land can contain both ~ by Daniel Talsky
-Release 1 / Serial number 200222 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
+Release 1 / Serial number 200223 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
 
 Path
 You are at the beginning of a path.  It is plain, even homely.  It leads forward towards The Land of Breakfast and Lunch.  If you "walk forward" you will follow the path.
@@ -23,6 +23,7 @@ You are at the beginning of a path.  It is plain, even homely.  It leads forward
             <child nodeId="node-1068"></child>
             <child nodeId="node-1057"></child>
             <child nodeId="node-1098"></child>
+            <child nodeId="node-1159"></child>
             <child nodeId="node-1010"></child>
             <child nodeId="node-1008"></child>
             <child nodeId="node-1007"></child>
@@ -540,6 +541,43 @@ You are on the the seaside path.  Backwards from here is The Land of Unlaunched 
         <command xml:space="preserve">look sea</command>
         <result xml:space="preserve">The sea is quite a ways a way for a path to be called The Seaside Path, but  you didn't name it.
 
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1159">
+        <command xml:space="preserve">look potato</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1160"></child>
+        </children>
+    </item>
+    <item nodeId="node-1160">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+The Land of Breakfast and Lunch
+The Land of Breakfast and Lunch is a lot smaller than you were expecting.  It's actually just a small clearing near the road, like a roadside stop, with a painted picnic table containing a simple but nourishing breakfast on one end, and a simple but nourishing lunch on the other end.  A stubby little path leads backwards, and the path continues forward, towards The Land of Unrealized Possibilities.  If you "walk forward" or just "forward" or even just "f" you will be walking towards it.
+
+You can see a painted picnic table (on which are Breakfast and Lunch) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1161"></child>
+        </children>
+    </item>
+    <item nodeId="node-1161">
+        <command xml:space="preserve">look potato</command>
+        <result xml:space="preserve">It looks like a well-made potato salad, filled with richness and zing.  You can see flecks of red onion and a light dusting of paprika.  In case you don't know what a ramekin is, it's a small straight-walled bowl with scalloped outside walls. Perfect for an attractive presentation of a small potato salad serving.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1162"></child>
+        </children>
+    </item>
+    <item nodeId="node-1162">
+        <command xml:space="preserve">smell potato</command>
+        <result xml:space="preserve">yo
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
@@ -1154,8 +1192,190 @@ You can see a painted picnic table (on which are Breakfast and Lunch) here.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1074"></child>
+            <child nodeId="node-1183"></child>
+            <child nodeId="node-1170"></child>
+            <child nodeId="node-1199"></child>
             <child nodeId="node-1072"></child>
+            <child nodeId="node-1203"></child>
+            <child nodeId="node-1206"></child>
+            <child nodeId="node-1209"></child>
+            <child nodeId="node-1164"></child>
+            <child nodeId="node-1201"></child>
+            <child nodeId="node-1175"></child>
+            <child nodeId="node-1166"></child>
         </children>
+    </item>
+    <item nodeId="node-1166">
+        <command xml:space="preserve">x breakfast</command>
+        <result xml:space="preserve">Breakfast consists of a halved grapefruit with the membranes cut for easier eating, a soft-boiled egg in a specially designed holder, and a bowl of Lieutenant Chomp with a small pitcher of milk next to it.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1167"></child>
+        </children>
+    </item>
+    <item nodeId="node-1167">
+        <command xml:space="preserve">smell grapefruit</command>
+        <result xml:space="preserve">Smells pretty much like grapefruit.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1175">
+        <command xml:space="preserve">x</command>
+        <result xml:space="preserve">(the painted picnic table)
+It's a well-maintained picnic table painted in a bright, childish, civic style, depicting a crude sun with huge yellow beams bathing jagged pine trees in their light.
+
+On the painted picnic table are Breakfast and Lunch.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1176"></child>
+        </children>
+    </item>
+    <item nodeId="node-1176">
+        <command xml:space="preserve">look breakfast</command>
+        <result xml:space="preserve">Breakfast consists of a halved grapefruit with the membranes cut for easier eating, a soft-boiled egg in a specially designed holder, and a bowl of Lieutenant Chomp with a small pitcher of milk next to it.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1177"></child>
+        </children>
+    </item>
+    <item nodeId="node-1177">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">The Land of Breakfast and Lunch
+The Land of Breakfast and Lunch is a lot smaller than you were expecting.  It's actually just a small clearing near the road, like a roadside stop, with a painted picnic table containing a simple but nourishing breakfast on one end, and a simple but nourishing lunch on the other end.  A stubby little path leads backwards, and the path continues forward, towards The Land of Unrealized Possibilities.  If you "walk forward" or just "forward" or even just "f" you will be walking towards it.
+
+You can see a painted picnic table (on which are Breakfast and Lunch) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1178"></child>
+        </children>
+    </item>
+    <item nodeId="node-1178">
+        <command xml:space="preserve">eat brakfast</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1179"></child>
+        </children>
+    </item>
+    <item nodeId="node-1179">
+        <command xml:space="preserve">eat breakfast</command>
+        <result xml:space="preserve">You sit down for a moment and eat breakfast.  It is delicious but you still don't quite feel satisfied.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1180"></child>
+        </children>
+    </item>
+    <item nodeId="node-1180">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">The Land of Breakfast and Lunch
+The Land of Breakfast and Lunch is a lot smaller than you were expecting.  It's actually just a small clearing near the road, like a roadside stop, with a painted picnic table containing a the empty dishes from a simple but nourishing breakfast on one end, and the a simple but nourishing lunch on the other end.  A stubby little path leads backwards, and the path continues forward, towards The Land of Unrealized Possibilities.  If you "walk forward" or just "forward" or even just "f" you will be walking towards it.
+
+You can see a painted picnic table (on which is Lunch) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1181"></child>
+        </children>
+    </item>
+    <item nodeId="node-1181">
+        <command xml:space="preserve">look dishes</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1201">
+        <command xml:space="preserve">taste potato</command>
+        <result xml:space="preserve">Lunch is kind of an all-or-nothing affair.  One really needs to sit down and tuck into it, rather than simply nibbling at one thing or another and leaving the rest of it to repel and disgust another traveller.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1164">
+        <command xml:space="preserve">smell potato</command>
+        <result xml:space="preserve">Smells like smoked paprika and mustard.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1209">
+        <command xml:space="preserve">sit table</command>
+        <result xml:space="preserve">I didn't understand that sentence.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1210"></child>
+        </children>
+    </item>
+    <item nodeId="node-1210">
+        <command xml:space="preserve">sit on table</command>
+        <result xml:space="preserve">You ease on to one of the benches.
+
+The Land of Breakfast and Lunch (on the painted picnic table)
+The Land of Breakfast and Lunch is a lot smaller than you were expecting.  It's actually just a small clearing near the road, like a roadside stop, with a painted picnic table containing a simple but nourishing breakfast on one end, and a simple but nourishing lunch on the other end.  A stubby little path leads backwards, and the path continues forward, towards The Land of Unrealized Possibilities.  If you "walk forward" or just "forward" or even just "f" you will be walking towards it.
+
+On the painted picnic table you can see Breakfast and Lunch.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1211"></child>
+        </children>
+    </item>
+    <item nodeId="node-1211">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">(first getting off the painted picnic table)
+
+Hopeful Path
+You are on the hopeful path.  Backwards from here is The Land of Breakfast and Lunch.  Forward is The Land of Unrealized Possiblities.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1206">
+        <command xml:space="preserve">sit on table</command>
+        <result xml:space="preserve">You get onto the painted picnic table.
+
+On the painted picnic table you can see Breakfast and Lunch.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1207"></child>
+        </children>
+    </item>
+    <item nodeId="node-1207">
+        <command xml:space="preserve">get up</command>
+        <result xml:space="preserve">You get off the painted picnic table.
+
+The Land of Breakfast and Lunch
+The Land of Breakfast and Lunch is a lot smaller than you were expecting.  It's actually just a small clearing near the road, like a roadside stop, with a painted picnic table containing a simple but nourishing breakfast on one end, and a simple but nourishing lunch on the other end.  A stubby little path leads backwards, and the path continues forward, towards The Land of Unrealized Possibilities.  If you "walk forward" or just "forward" or even just "f" you will be walking towards it.
+
+You can see a painted picnic table (on which are Breakfast and Lunch) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1203">
+        <command xml:space="preserve">sit at table</command>
+        <result xml:space="preserve">I didn't understand that sentence.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1204"></child>
+        </children>
+    </item>
+    <item nodeId="node-1204">
+        <command xml:space="preserve">sit on table</command>
+        <result xml:space="preserve">That's not something you can sit down on.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1072">
         <command xml:space="preserve">retreat</command>
@@ -1170,6 +1390,150 @@ You are at the beginning of a path.  It is plain, even homely.  It leads forward
     <item nodeId="node-1073">
         <command xml:space="preserve">take off shirt</command>
         <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1199">
+        <command xml:space="preserve">look under table</command>
+        <result xml:space="preserve">The grass underneath is getting a bit brown.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1170">
+        <command xml:space="preserve">look sun</command>
+        <result xml:space="preserve">It's a well-maintained picnic table painted in a bright, childish, civic style, depicting a crude sun with huge yellow beams bathing jagged pine trees in their light.
+
+On the painted picnic table are Breakfast and Lunch.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1171"></child>
+        </children>
+    </item>
+    <item nodeId="node-1171">
+        <command xml:space="preserve">eat breakfast</command>
+        <result xml:space="preserve">You sit down for a moment and eat breakfast.  It is delicious but you still don't quite feel satisfied.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1172"></child>
+        </children>
+    </item>
+    <item nodeId="node-1172">
+        <command xml:space="preserve">eat lunch</command>
+        <result xml:space="preserve">Lunch was wonderful.  Your stomach feels like a puzzle, where the final piece has finally been snapped into place.  You now feel as if you could take on the world.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1173"></child>
+        </children>
+    </item>
+    <item nodeId="node-1173">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">The Land of Breakfast and Lunch
+The Land of Breakfast and Lunch is a lot smaller than you were expecting.  It's actually just a small clearing near the road, like a roadside stop, with a painted picnic table containing a simple but nourishing breakfast on one end, and a simple but nourishing lunch on the other end.  A stubby little path leads backwards, and the path continues forward, towards The Land of Unrealized Possibilities.  If you "walk forward" or just "forward" or even just "f" you will be walking towards it.
+
+You can see a painted picnic table here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1183">
+        <command xml:space="preserve">look dishes</command>
+        <result xml:space="preserve">Which do you mean, the breakfast dishes or the lunch dishes?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1188"></child>
+        </children>
+    </item>
+    <item nodeId="node-1188">
+        <command xml:space="preserve">breakfast</command>
+        <result xml:space="preserve">They are keeping the breakfast from just sitting on the table.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1189"></child>
+        </children>
+    </item>
+    <item nodeId="node-1189">
+        <command xml:space="preserve">look dishes</command>
+        <result xml:space="preserve">Which do you mean, the breakfast dishes or the lunch dishes?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1190"></child>
+        </children>
+    </item>
+    <item nodeId="node-1190">
+        <command xml:space="preserve">lunch</command>
+        <result xml:space="preserve">They are keeping the lunch from just sitting on the table.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1191"></child>
+        </children>
+    </item>
+    <item nodeId="node-1191">
+        <command xml:space="preserve">eat breakfast</command>
+        <result xml:space="preserve">(Breakfast)
+You sit down for a moment and eat breakfast.  It is delicious but you still don't quite feel satisfied.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1192"></child>
+        </children>
+    </item>
+    <item nodeId="node-1192">
+        <command xml:space="preserve">look dishes</command>
+        <result xml:space="preserve">Which do you mean, the breakfast dishes or the lunch dishes?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1193"></child>
+        </children>
+    </item>
+    <item nodeId="node-1193">
+        <command xml:space="preserve">lunch</command>
+        <result xml:space="preserve">They are keeping the lunch from just sitting on the table.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1194"></child>
+        </children>
+    </item>
+    <item nodeId="node-1194">
+        <command xml:space="preserve">look dishes</command>
+        <result xml:space="preserve">Which do you mean, the breakfast dishes or the lunch dishes?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1195"></child>
+        </children>
+    </item>
+    <item nodeId="node-1195">
+        <command xml:space="preserve">breakfast</command>
+        <result xml:space="preserve">You've politely stacked the breakfast dishes, so the table doesn't look too messy.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1196"></child>
+        </children>
+    </item>
+    <item nodeId="node-1196">
+        <command xml:space="preserve">get dishes</command>
+        <result xml:space="preserve">Which do you mean, the breakfast dishes or the lunch dishes?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1197"></child>
+        </children>
+    </item>
+    <item nodeId="node-1197">
+        <command xml:space="preserve">breakfast</command>
+        <result xml:space="preserve">That's hardly portable.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -1219,9 +1583,11 @@ You can see a toy box (closed), a couch (on which is your brother), and a TV her
             <child nodeId="node-1080"></child>
             <child nodeId="node-1114"></child>
             <child nodeId="node-1108"></child>
+            <child nodeId="node-1230"></child>
             <child nodeId="node-1128"></child>
             <child nodeId="node-1079"></child>
             <child nodeId="node-1078"></child>
+            <child nodeId="node-1251"></child>
             <child nodeId="node-1145"></child>
         </children>
     </item>
@@ -1295,6 +1661,84 @@ You can see a toy box (closed), a couch (on which is your brother), and a TV her
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
+    <item nodeId="node-1251">
+        <command xml:space="preserve">ride brother</command>
+        <result xml:space="preserve">The mental picture is pretty funny, but you are 100% certain your brother is not going to find it funny.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1260"></child>
+            <child nodeId="node-1252"></child>
+        </children>
+    </item>
+    <item nodeId="node-1252">
+        <command xml:space="preserve">sit couch</command>
+        <result xml:space="preserve">I didn't understand that sentence.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1253"></child>
+        </children>
+    </item>
+    <item nodeId="node-1253">
+        <command xml:space="preserve">sit on the couch</command>
+        <result xml:space="preserve">Your brother gives you a quick, dirty look that you know he's ready to back up with violence.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1254"></child>
+        </children>
+    </item>
+    <item nodeId="node-1254">
+        <command xml:space="preserve">get on the couch</command>
+        <result xml:space="preserve">Your brother gives you a quick, dirty look that you know he's ready to back up with violence.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1255"></child>
+        </children>
+    </item>
+    <item nodeId="node-1255">
+        <command xml:space="preserve">ride couch</command>
+        <result xml:space="preserve">Your brother gives you a quick, dirty look that you know he's ready to back up with violence.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1260">
+        <command xml:space="preserve">kick brother</command>
+        <result xml:space="preserve">I only understood you as far as wanting to kick.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1261"></child>
+        </children>
+    </item>
+    <item nodeId="node-1261">
+        <command xml:space="preserve">sit on couch</command>
+        <result xml:space="preserve">Your brother gives you a quick, dirty look that reminds you he's ready to back it up with the kind of painful violence that will not leave a mark.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1262"></child>
+        </children>
+    </item>
+    <item nodeId="node-1262">
+        <command xml:space="preserve">hit brother</command>
+        <result xml:space="preserve">Your brother nearly-psychically determines your intention. In a flash, he socks you in the quadricep with precision and speed.  He hits what you realize is an existing bruise from last time and you have to take deep breaths to keep from doubling over in pain.   "What's your problem, you aggro dipwad?" he says, distractedly, eyes still on the TV.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1263"></child>
+        </children>
+    </item>
+    <item nodeId="node-1263">
+        <command xml:space="preserve">hug brother</command>
+        <result xml:space="preserve">A swift wave of nausea dissuades you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
     <item nodeId="node-1078">
         <command xml:space="preserve">look tv</command>
         <result xml:space="preserve">It's a TV
@@ -1304,7 +1748,63 @@ You can see a toy box (closed), a couch (on which is your brother), and a TV her
     </item>
     <item nodeId="node-1079">
         <command xml:space="preserve">look couch</command>
-        <result xml:space="preserve">It's a couch
+        <result xml:space="preserve">This is the blue corduroy couch of your youth.  You have rolled over on it many times and sat up to read it's wrinkled poem on your arm.  Why would anyone get a corduroy couch?
+
+On the couch is your brother.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1216"></child>
+        </children>
+    </item>
+    <item nodeId="node-1216">
+        <command xml:space="preserve">look under couch</command>
+        <result xml:space="preserve">You find nothing of interest.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1222"></child>
+        </children>
+    </item>
+    <item nodeId="node-1222">
+        <command xml:space="preserve">look penny</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1223"></child>
+        </children>
+    </item>
+    <item nodeId="node-1223">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You examine what you'd normally use to carry things, all the way from fingertip to elbow.  As you suspected, nothing is contained there.  You briefly check for pockets or some kind of fanny pack.  There isn't anything like that.  You are forced to conclude that you have no possessions.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1224"></child>
+        </children>
+    </item>
+    <item nodeId="node-1224">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You don't see anywhere to go except backwards and forwards.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1225"></child>
+        </children>
+    </item>
+    <item nodeId="node-1225">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">Around these parts, folks mostly go backwards or forwards.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1226"></child>
+        </children>
+    </item>
+    <item nodeId="node-1226">
+        <command xml:space="preserve">sw</command>
+        <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -1365,6 +1865,84 @@ You can see a toy box (closed), a couch (on which is your brother), and a TV her
     <item nodeId="node-1129">
         <command xml:space="preserve">ask brother about locket</command>
         <result xml:space="preserve">You can only do that to something animate.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1230">
+        <command xml:space="preserve">kick brother</command>
+        <result xml:space="preserve">I only understood you as far as wanting to kick.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1237"></child>
+            <child nodeId="node-1231"></child>
+        </children>
+    </item>
+    <item nodeId="node-1231">
+        <command xml:space="preserve">kick my brother</command>
+        <result xml:space="preserve">I only understood you as far as wanting to kick.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1232"></child>
+        </children>
+    </item>
+    <item nodeId="node-1232">
+        <command xml:space="preserve">attack brother</command>
+        <result xml:space="preserve">Your brother nearly-psychically determines your intention. In a flash, he socks you in the quadricep with precision and speed.  He hits what you realize is an existing bruise from last time and you have to take deep breaths to keep from doubling over in pain.   "What's your problem, you aggro dipwad?" he says, distractedly, eyes still on the TV.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1237">
+        <command xml:space="preserve">hit brother</command>
+        <result xml:space="preserve">Your brother nearly-psychically determines your intention. In a flash, he socks you in the quadricep with precision and speed.  He hits what you realize is an existing bruise from last time and you have to take deep breaths to keep from doubling over in pain.   "What's your problem, you aggro dipwad?" he says, distractedly, eyes still on the TV.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1243"></child>
+        </children>
+    </item>
+    <item nodeId="node-1243">
+        <command xml:space="preserve">smell brother</command>
+        <result xml:space="preserve">Weirdly, he smells fine.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1244"></child>
+        </children>
+    </item>
+    <item nodeId="node-1244">
+        <command xml:space="preserve">talk brother</command>
+        <result xml:space="preserve">That's not a verb I recognize.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1245"></child>
+        </children>
+    </item>
+    <item nodeId="node-1245">
+        <command xml:space="preserve">talk to brother</command>
+        <result xml:space="preserve">That's not a verb I recognize.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1246"></child>
+        </children>
+    </item>
+    <item nodeId="node-1246">
+        <command xml:space="preserve">ask brother about locket</command>
+        <result xml:space="preserve">There is no reply.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1247"></child>
+        </children>
+    </item>
+    <item nodeId="node-1247">
+        <command xml:space="preserve">ride brother</command>
+        <result xml:space="preserve">You can't ride stuff like that, silly.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>

@@ -11,28 +11,28 @@
     </dict>
     <key>1</key><dict>
         <key>Filename</key><string>/Users/daniel/_git/the-land-of-breakfast-and-lunch/The Land of Breakfast and Lunch.inform/Source/story.ni</string>
-        <key>Line</key><integer>19</integer>
+        <key>Line</key><integer>20</integer>
         <key>Title</key><string>Section 1 - General World Rules and Messages</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>2</key><dict>
         <key>Filename</key><string>/Users/daniel/_git/the-land-of-breakfast-and-lunch/The Land of Breakfast and Lunch.inform/Source/story.ni</string>
-        <key>Line</key><integer>41</integer>
+        <key>Line</key><integer>42</integer>
         <key>Title</key><string>Section 2 - The Land of Breakfast and Lunch</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>3</key><dict>
         <key>Filename</key><string>/Users/daniel/_git/the-land-of-breakfast-and-lunch/The Land of Breakfast and Lunch.inform/Source/story.ni</string>
-        <key>Line</key><integer>97</integer>
+        <key>Line</key><integer>117</integer>
         <key>Title</key><string>Section 3 - The Land of Unrealized Possibilities</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>4</key><dict>
         <key>Filename</key><string>/Users/daniel/_git/the-land-of-breakfast-and-lunch/The Land of Breakfast and Lunch.inform/Source/story.ni</string>
-        <key>Line</key><integer>148</integer>
+        <key>Line</key><integer>176</integer>
         <key>Title</key><string>Section 4 - The Land of Unlaunched Vessels</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>1</integer>
