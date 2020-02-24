@@ -135,7 +135,25 @@ There is a small hobby horse in the toy box.   The description of the horse is "
 There is a couch in TLoUP.  It is a supporter. It is fixed in place. The description of the couch is "This is the blue corduroy couch of your youth.  You have rolled over on it many times and sat up to read it's wrinkled poem on your arm.  Why would anyone get a corduroy couch?"
 There is a small, grimy penny under the couch.
 
-There is a TV in TLOUP. It is fixed in place.  The description of the TV is "An early 35' flatscreen.  Bulky, black, and plastic.  It lived in your den for way too long, just because no one wanted to lift it.  It's odd to see it here, in The Land of Unrealized Possibilities.  It is playing [one of]Buck Rogers[or]Big Chungus[or]Dogg Star[or]Thundercats[purely at random]"
+Table 1 - TV Shows
+channel	show
+10	"Darkwing Duck"
+11	"Thundercats"
+12 	"Buck Rogers"
+13	"Enraged Juggalos"
+14	"Blue Planet IV"
+15	"Botswana (1992)"
+16	"Gorgon: The Magnificent"
+17	"The Beige Man Group"
+18	"The Great Snafu (1956)"
+19	"Borderline Personality Island"
+20	"Access Hollywoo"
+
+
+There is a TV in TLOUP. It is fixed in place.  
+Instead of examining the TV:
+	choose a random row in the Table of TV Shows;
+	say "An early 35' flatscreen.  Bulky, black, and plastic.  It lived in your den for way too long, just because no one wanted to lift it.  It's odd to see it here, in The Land of Unrealized Possibilities.  It is playing [show entry]."
 
 Understand "channel/knob/television" as TV.
 
@@ -175,9 +193,31 @@ Instead of entering or riding the couch, say "Your brother gives you a quick, di
 
 Section 4 - The Land of Unlaunched Vessels
 
-The Seaside Path is a room.  "You are on the the seaside path.  Backwards from here is The Land of Unlaunched Vessels.  Forward is The Land of Launching and Mooring."  The Seaside Path is north of TLoUP.
+The Seaside Path is a room.  "You are on the the seaside path.  Backwards from here is The Land of Unlaunched Vessels.  Forward is The Land of Unlaunched Vessels."  The Seaside Path is north of TLoUP.
 
-The sea is in the seaside path.  The sea is scenery.  The description is "The sea is quite a ways away for a path to be called The Seaside Path, but you didn't name it, did you?"
+The sea is in the seaside path.  The sea is scenery.  The description is "The sea is quite a ways away for a path to be called The Seaside Path, but you didn't name it, did you?  Even from here you can see it's not really a sea but some kind of sound or bay."
 
-TLOLAM is a room. "You are in the The Land of Launching and Mooring.  Sometimes a vessel is moored here, and sometimes it isn't.  Currently there is a vessel.  The Hopeful Path leads backward towards The Land of Unrealized Possibilities, a place you'd rather not visit."   TLOLAM is north of the seaside path.
-The printed name of TLOLAM is "The Land of Launching and Mooring"
+TLOLUV is a room. "You are in the The Land of Unlaunched Vessels.  You stand near the edge of the bay, and there is a vessel moored here with thick and aged ropes.  The Hopeful Path leads backward towards The Land of Unrealized Possibilities, a place you'd rather not visit."   TLOLUV is north of the seaside path.
+The printed name of TLOLUV is "The Land of Unlaunched Vessels"
+
+The ropes are in TLOLUV.  The ropes are scenery.  The description is "The ropes are weathered but sturdy, with crusty barnacles aplenty.  They are tied with odd-looking knots to a giant metal bollard bolted to a cement retaining wall."
+
+The barnacles are in TLOLUV.  The barnacles are scenery.  The description is "Those damn things will grow on anything that touches the water a lot."
+
+The bollard is in TLOLUV.  The bollard is scenery.  The description is "It's an incredibly sturdy metal tie-down bolted to a cement retaining wall."
+
+The cement retaining wall is in TLOLUV.  The wall is scenery.  The description is "A cement retaining wall keeping the land seperate from the bay."
+
+The vessel is in TLOLUV.  The vessel is scenery.  The description is "It's perhaps a trireme, and it's clearly under construction."
+
+The bay is in TLOLUV. The bay is scenery.  The description is "You stand at the edge of the bay.  It could be any kind of inlet, possibly a fjord, but it's too calm to be the sea itself, and you can't see land on the other side.  Let's call it a bay.  A cement retaining wall allows you to stand right at the edge of it."
+Understand "the water" or "sea" or "the sea" or "water" or "ocean" or "inlet" or "fjord" as the bay.
+
+Instead of entering the vessel:
+	say "You can't figure out a way to get on the vessel.";
+	
+Understand "swim" or "swim in the water" or "swim bay" or "swim in bay" or "swim in the bay" or "go swimming" as swimming.
+Swimming is an action applying to nothing.
+Check swimming:
+	say "You don't want to get wet, and you don't think you'd be able to get on the vessel that way, or really be able to do much of anything."
+	

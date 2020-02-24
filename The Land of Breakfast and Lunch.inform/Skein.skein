@@ -11,14 +11,15 @@ Some would say that life is like a box of metaphors.  I would not say that.  I w
 
 The Land of Breakfast and Lunch
 ~ a land can contain both ~ by Daniel Talsky
-Release 1 / Serial number 200223 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
+Release 1 / Serial number 200224 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
 
 Path
 You are at the beginning of a path.  It is plain, even homely.  It leads forward towards The Land of Breakfast and Lunch.  If you "walk forward" you will follow the path.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1094"></child>
+        <children><child nodeId="node-1334"></child>
+            <child nodeId="node-1094"></child>
             <child nodeId="node-1071"></child>
             <child nodeId="node-1068"></child>
             <child nodeId="node-1057"></child>
@@ -1593,7 +1594,7 @@ You can see a toy box (closed), a couch (on which is your brother), and a TV her
     </item>
     <item nodeId="node-1145">
         <command xml:space="preserve">x tv</command>
-        <result xml:space="preserve">An early 35" flatscreen.  Bulky, black, and plastic.  It lived in your den for way too long, just because no one wanted to lift it.  It's odd to see it here, in The Land of Unrealized Possibilities.  It is playing Thundercats
+        <result xml:space="preserve">An early 35" flatscreen.  Bulky, black, and plastic.  It lived in your den for way too long, just because no one wanted to lift it.  It's odd to see it here, in The Land of Unrealized Possibilities.  It is playing Thundercats.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -1602,7 +1603,7 @@ You can see a toy box (closed), a couch (on which is your brother), and a TV her
     </item>
     <item nodeId="node-1146">
         <command xml:space="preserve">x tv</command>
-        <result xml:space="preserve">An early 35" flatscreen.  Bulky, black, and plastic.  It lived in your den for way too long, just because no one wanted to lift it.  It's odd to see it here, in The Land of Unrealized Possibilities.  It is playing Buck Rogers
+        <result xml:space="preserve">An early 35" flatscreen.  Bulky, black, and plastic.  It lived in your den for way too long, just because no one wanted to lift it.  It's odd to see it here, in The Land of Unrealized Possibilities.  It is playing Darkwing Duck.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -1611,7 +1612,7 @@ You can see a toy box (closed), a couch (on which is your brother), and a TV her
     </item>
     <item nodeId="node-1147">
         <command xml:space="preserve">x tv</command>
-        <result xml:space="preserve">An early 35" flatscreen.  Bulky, black, and plastic.  It lived in your den for way too long, just because no one wanted to lift it.  It's odd to see it here, in The Land of Unrealized Possibilities.  It is playing Dogg Star
+        <result xml:space="preserve">An early 35" flatscreen.  Bulky, black, and plastic.  It lived in your den for way too long, just because no one wanted to lift it.  It's odd to see it here, in The Land of Unrealized Possibilities.  It is playing The Beige Man Group.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -1620,7 +1621,7 @@ You can see a toy box (closed), a couch (on which is your brother), and a TV her
     </item>
     <item nodeId="node-1148">
         <command xml:space="preserve">x tv</command>
-        <result xml:space="preserve">An early 35" flatscreen.  Bulky, black, and plastic.  It lived in your den for way too long, just because no one wanted to lift it.  It's odd to see it here, in The Land of Unrealized Possibilities.  It is playing Big Chungus
+        <result xml:space="preserve">An early 35" flatscreen.  Bulky, black, and plastic.  It lived in your den for way too long, just because no one wanted to lift it.  It's odd to see it here, in The Land of Unrealized Possibilities.  It is playing Darkwing Duck.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -1629,7 +1630,7 @@ You can see a toy box (closed), a couch (on which is your brother), and a TV her
     </item>
     <item nodeId="node-1149">
         <command xml:space="preserve">x tv</command>
-        <result xml:space="preserve">An early 35" flatscreen.  Bulky, black, and plastic.  It lived in your den for way too long, just because no one wanted to lift it.  It's odd to see it here, in The Land of Unrealized Possibilities.  It is playing Big Chungus
+        <result xml:space="preserve">An early 35" flatscreen.  Bulky, black, and plastic.  It lived in your den for way too long, just because no one wanted to lift it.  It's odd to see it here, in The Land of Unrealized Possibilities.  It is playing Buck Rogers.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -1638,7 +1639,7 @@ You can see a toy box (closed), a couch (on which is your brother), and a TV her
     </item>
     <item nodeId="node-1150">
         <command xml:space="preserve">x tv</command>
-        <result xml:space="preserve">An early 35" flatscreen.  Bulky, black, and plastic.  It lived in your den for way too long, just because no one wanted to lift it.  It's odd to see it here, in The Land of Unrealized Possibilities.  It is playing Big Chungus
+        <result xml:space="preserve">An early 35" flatscreen.  Bulky, black, and plastic.  It lived in your den for way too long, just because no one wanted to lift it.  It's odd to see it here, in The Land of Unrealized Possibilities.  It is playing Buck Rogers.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -1647,7 +1648,7 @@ You can see a toy box (closed), a couch (on which is your brother), and a TV her
     </item>
     <item nodeId="node-1151">
         <command xml:space="preserve">x tv</command>
-        <result xml:space="preserve">An early 35" flatscreen.  Bulky, black, and plastic.  It lived in your den for way too long, just because no one wanted to lift it.  It's odd to see it here, in The Land of Unrealized Possibilities.  It is playing Thundercats
+        <result xml:space="preserve">An early 35" flatscreen.  Bulky, black, and plastic.  It lived in your den for way too long, just because no one wanted to lift it.  It's odd to see it here, in The Land of Unrealized Possibilities.  It is playing Thundercats.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -1656,7 +1657,232 @@ You can see a toy box (closed), a couch (on which is your brother), and a TV her
     </item>
     <item nodeId="node-1152">
         <command xml:space="preserve">x tv</command>
-        <result xml:space="preserve">An early 35" flatscreen.  Bulky, black, and plastic.  It lived in your den for way too long, just because no one wanted to lift it.  It's odd to see it here, in The Land of Unrealized Possibilities.  It is playing Dogg Star
+        <result xml:space="preserve">An early 35" flatscreen.  Bulky, black, and plastic.  It lived in your den for way too long, just because no one wanted to lift it.  It's odd to see it here, in The Land of Unrealized Possibilities.  It is playing Buck Rogers.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1303"></child>
+        </children>
+    </item>
+    <item nodeId="node-1303">
+        <command xml:space="preserve">x tv</command>
+        <result xml:space="preserve">An early 35" flatscreen.  Bulky, black, and plastic.  It lived in your den for way too long, just because no one wanted to lift it.  It's odd to see it here, in The Land of Unrealized Possibilities.  It is playing Gorgon: The Magnificent.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1304"></child>
+        </children>
+    </item>
+    <item nodeId="node-1304">
+        <command xml:space="preserve">x tv</command>
+        <result xml:space="preserve">An early 35" flatscreen.  Bulky, black, and plastic.  It lived in your den for way too long, just because no one wanted to lift it.  It's odd to see it here, in The Land of Unrealized Possibilities.  It is playing Blue Planet IV.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1305"></child>
+        </children>
+    </item>
+    <item nodeId="node-1305">
+        <command xml:space="preserve">x tv</command>
+        <result xml:space="preserve">An early 35" flatscreen.  Bulky, black, and plastic.  It lived in your den for way too long, just because no one wanted to lift it.  It's odd to see it here, in The Land of Unrealized Possibilities.  It is playing The Beige Man Group.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1306"></child>
+        </children>
+    </item>
+    <item nodeId="node-1306">
+        <command xml:space="preserve">x tv</command>
+        <result xml:space="preserve">An early 35" flatscreen.  Bulky, black, and plastic.  It lived in your den for way too long, just because no one wanted to lift it.  It's odd to see it here, in The Land of Unrealized Possibilities.  It is playing The Beige Man Group.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1307"></child>
+        </children>
+    </item>
+    <item nodeId="node-1307">
+        <command xml:space="preserve">x tv</command>
+        <result xml:space="preserve">An early 35" flatscreen.  Bulky, black, and plastic.  It lived in your den for way too long, just because no one wanted to lift it.  It's odd to see it here, in The Land of Unrealized Possibilities.  It is playing Darkwing Duck.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1308"></child>
+        </children>
+    </item>
+    <item nodeId="node-1308">
+        <command xml:space="preserve">x tv</command>
+        <result xml:space="preserve">An early 35" flatscreen.  Bulky, black, and plastic.  It lived in your den for way too long, just because no one wanted to lift it.  It's odd to see it here, in The Land of Unrealized Possibilities.  It is playing Buck Rogers.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1309"></child>
+        </children>
+    </item>
+    <item nodeId="node-1309">
+        <command xml:space="preserve">x tv</command>
+        <result xml:space="preserve">An early 35" flatscreen.  Bulky, black, and plastic.  It lived in your den for way too long, just because no one wanted to lift it.  It's odd to see it here, in The Land of Unrealized Possibilities.  It is playing Blue Planet IV.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1310"></child>
+        </children>
+    </item>
+    <item nodeId="node-1310">
+        <command xml:space="preserve">x tv</command>
+        <result xml:space="preserve">An early 35" flatscreen.  Bulky, black, and plastic.  It lived in your den for way too long, just because no one wanted to lift it.  It's odd to see it here, in The Land of Unrealized Possibilities.  It is playing The Great Snafu (1956).
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1311"></child>
+        </children>
+    </item>
+    <item nodeId="node-1311">
+        <command xml:space="preserve">x tv</command>
+        <result xml:space="preserve">An early 35" flatscreen.  Bulky, black, and plastic.  It lived in your den for way too long, just because no one wanted to lift it.  It's odd to see it here, in The Land of Unrealized Possibilities.  It is playing Darkwing Duck.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1312"></child>
+        </children>
+    </item>
+    <item nodeId="node-1312">
+        <command xml:space="preserve">x tv</command>
+        <result xml:space="preserve">An early 35" flatscreen.  Bulky, black, and plastic.  It lived in your den for way too long, just because no one wanted to lift it.  It's odd to see it here, in The Land of Unrealized Possibilities.  It is playing Gorgon: The Magnificent.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1313"></child>
+        </children>
+    </item>
+    <item nodeId="node-1313">
+        <command xml:space="preserve">x tv</command>
+        <result xml:space="preserve">An early 35" flatscreen.  Bulky, black, and plastic.  It lived in your den for way too long, just because no one wanted to lift it.  It's odd to see it here, in The Land of Unrealized Possibilities.  It is playing Botswana (1992).
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1314"></child>
+        </children>
+    </item>
+    <item nodeId="node-1314">
+        <command xml:space="preserve">x tv</command>
+        <result xml:space="preserve">An early 35" flatscreen.  Bulky, black, and plastic.  It lived in your den for way too long, just because no one wanted to lift it.  It's odd to see it here, in The Land of Unrealized Possibilities.  It is playing Buck Rogers.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1315"></child>
+        </children>
+    </item>
+    <item nodeId="node-1315">
+        <command xml:space="preserve">x tv</command>
+        <result xml:space="preserve">An early 35" flatscreen.  Bulky, black, and plastic.  It lived in your den for way too long, just because no one wanted to lift it.  It's odd to see it here, in The Land of Unrealized Possibilities.  It is playing Blue Planet IV.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1316"></child>
+        </children>
+    </item>
+    <item nodeId="node-1316">
+        <command xml:space="preserve">x tv</command>
+        <result xml:space="preserve">An early 35" flatscreen.  Bulky, black, and plastic.  It lived in your den for way too long, just because no one wanted to lift it.  It's odd to see it here, in The Land of Unrealized Possibilities.  It is playing Gorgon: The Magnificent.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1317"></child>
+        </children>
+    </item>
+    <item nodeId="node-1317">
+        <command xml:space="preserve">x tv</command>
+        <result xml:space="preserve">An early 35" flatscreen.  Bulky, black, and plastic.  It lived in your den for way too long, just because no one wanted to lift it.  It's odd to see it here, in The Land of Unrealized Possibilities.  It is playing Thundercats.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1318"></child>
+        </children>
+    </item>
+    <item nodeId="node-1318">
+        <command xml:space="preserve">x tv</command>
+        <result xml:space="preserve">An early 35" flatscreen.  Bulky, black, and plastic.  It lived in your den for way too long, just because no one wanted to lift it.  It's odd to see it here, in The Land of Unrealized Possibilities.  It is playing Buck Rogers.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1319"></child>
+        </children>
+    </item>
+    <item nodeId="node-1319">
+        <command xml:space="preserve">x tv</command>
+        <result xml:space="preserve">An early 35" flatscreen.  Bulky, black, and plastic.  It lived in your den for way too long, just because no one wanted to lift it.  It's odd to see it here, in The Land of Unrealized Possibilities.  It is playing Botswana (1992).
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1320"></child>
+        </children>
+    </item>
+    <item nodeId="node-1320">
+        <command xml:space="preserve">x tv</command>
+        <result xml:space="preserve">An early 35" flatscreen.  Bulky, black, and plastic.  It lived in your den for way too long, just because no one wanted to lift it.  It's odd to see it here, in The Land of Unrealized Possibilities.  It is playing Enraged Juggalos.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1321"></child>
+        </children>
+    </item>
+    <item nodeId="node-1321">
+        <command xml:space="preserve">x tv</command>
+        <result xml:space="preserve">An early 35" flatscreen.  Bulky, black, and plastic.  It lived in your den for way too long, just because no one wanted to lift it.  It's odd to see it here, in The Land of Unrealized Possibilities.  It is playing Gorgon: The Magnificent.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1322"></child>
+        </children>
+    </item>
+    <item nodeId="node-1322">
+        <command xml:space="preserve">x tv</command>
+        <result xml:space="preserve">An early 35" flatscreen.  Bulky, black, and plastic.  It lived in your den for way too long, just because no one wanted to lift it.  It's odd to see it here, in The Land of Unrealized Possibilities.  It is playing The Beige Man Group.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1323"></child>
+        </children>
+    </item>
+    <item nodeId="node-1323">
+        <command xml:space="preserve">x tv</command>
+        <result xml:space="preserve">An early 35" flatscreen.  Bulky, black, and plastic.  It lived in your den for way too long, just because no one wanted to lift it.  It's odd to see it here, in The Land of Unrealized Possibilities.  It is playing Darkwing Duck.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1324"></child>
+        </children>
+    </item>
+    <item nodeId="node-1324">
+        <command xml:space="preserve">x tv</command>
+        <result xml:space="preserve">An early 35" flatscreen.  Bulky, black, and plastic.  It lived in your den for way too long, just because no one wanted to lift it.  It's odd to see it here, in The Land of Unrealized Possibilities.  It is playing Gorgon: The Magnificent.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1325"></child>
+        </children>
+    </item>
+    <item nodeId="node-1325">
+        <command xml:space="preserve">x tv</command>
+        <result xml:space="preserve">An early 35" flatscreen.  Bulky, black, and plastic.  It lived in your den for way too long, just because no one wanted to lift it.  It's odd to see it here, in The Land of Unrealized Possibilities.  It is playing The Beige Man Group.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1326"></child>
+        </children>
+    </item>
+    <item nodeId="node-1326">
+        <command xml:space="preserve">x tv</command>
+        <result xml:space="preserve">An early 35" flatscreen.  Bulky, black, and plastic.  It lived in your den for way too long, just because no one wanted to lift it.  It's odd to see it here, in The Land of Unrealized Possibilities.  It is playing Botswana (1992).
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1327"></child>
+        </children>
+    </item>
+    <item nodeId="node-1327">
+        <command xml:space="preserve">x tv</command>
+        <result xml:space="preserve">An early 35" flatscreen.  Bulky, black, and plastic.  It lived in your den for way too long, just because no one wanted to lift it.  It's odd to see it here, in The Land of Unrealized Possibilities.  It is playing Buck Rogers.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -1741,8 +1967,95 @@ You can see a toy box (closed), a couch (on which is your brother), and a TV her
     </item>
     <item nodeId="node-1078">
         <command xml:space="preserve">look tv</command>
-        <result xml:space="preserve">It's a TV
-
+        <result xml:space="preserve">The TV is there and playing Blue Planet IV
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1276"></child>
+        </children>
+    </item>
+    <item nodeId="node-1276">
+        <command xml:space="preserve">look tv</command>
+        <result xml:space="preserve">The TV is there and playing Blue Planet IV
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1277"></child>
+        </children>
+    </item>
+    <item nodeId="node-1277">
+        <command xml:space="preserve">look tv</command>
+        <result xml:space="preserve">The TV is there and playing Buck Rogers
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1278"></child>
+        </children>
+    </item>
+    <item nodeId="node-1278">
+        <command xml:space="preserve">look tv</command>
+        <result xml:space="preserve">The TV is there and playing Blue Planet IV
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1279"></child>
+        </children>
+    </item>
+    <item nodeId="node-1279">
+        <command xml:space="preserve">look tv</command>
+        <result xml:space="preserve">The TV is there and playing Buck Rogers
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1280"></child>
+        </children>
+    </item>
+    <item nodeId="node-1280">
+        <command xml:space="preserve">look tv</command>
+        <result xml:space="preserve">The TV is there and playing Darkwing Duck
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1281"></child>
+        </children>
+    </item>
+    <item nodeId="node-1281">
+        <command xml:space="preserve">look tv</command>
+        <result xml:space="preserve">The TV is there and playing Buck Rogers
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1282"></child>
+        </children>
+    </item>
+    <item nodeId="node-1282">
+        <command xml:space="preserve">look tv</command>
+        <result xml:space="preserve">The TV is there and playing Darkwing Duck
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1283"></child>
+        </children>
+    </item>
+    <item nodeId="node-1283">
+        <command xml:space="preserve">look tv</command>
+        <result xml:space="preserve">The TV is there and playing Buck Rogers
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1284"></child>
+        </children>
+    </item>
+    <item nodeId="node-1284">
+        <command xml:space="preserve">look tv</command>
+        <result xml:space="preserve">The TV is there and playing Buck Rogers
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1285"></child>
+        </children>
+    </item>
+    <item nodeId="node-1285">
+        <command xml:space="preserve">look tv</command>
+        <result xml:space="preserve">The TV is there and playing Buck Rogers
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1286"></child>
+        </children>
+    </item>
+    <item nodeId="node-1286">
+        <command xml:space="preserve">look tv</command>
+        <result xml:space="preserve">The TV is there and playing Enraged Juggalos
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
@@ -2017,8 +2330,9 @@ On the couch is your brother.
     </item>
     <item nodeId="node-1080">
         <command xml:space="preserve">f</command>
-        <result xml:space="preserve">Seaside Path
-You are on the the seaside path.  Backwards from here is The Land of Unrealized Possibilities.  Forward is The Land of Launching and Mooring.
+        <result xml:space="preserve">
+Seaside Path
+You are on the the seaside path.  Backwards from here is The Land of Unlaunched Vessels.  Forward is The Land of Unlaunched Vessels.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -2027,13 +2341,74 @@ You are on the the seaside path.  Backwards from here is The Land of Unrealized 
     </item>
     <item nodeId="node-1081">
         <command xml:space="preserve">f</command>
-        <result xml:space="preserve">The Land of Launching and Mooring
-You are in the The Land of Launching and Mooring.  Sometimes a vessel is moored here, and sometimes it isn't.  Currently there is a vessel.  The Hopeful Path leads backward towards The Land of Breakfast and Lunch, a place with a much clearer sense of purpose.
+        <result xml:space="preserve">
+The Land of Unlaunched Vessels
+You are in the The Land of Unlaunched Vessels.  You stand near the edge of the bay, and there is a vessel moored here with thick and aged ropes.  The Hopeful Path leads backward towards The Land of Unrealized Possibilities, a place you'd rather not visit.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1082"></child>
+            <child nodeId="node-1368"></child>
+            <child nodeId="node-1341"></child>
+            <child nodeId="node-1333"></child>
         </children>
+    </item>
+    <item nodeId="node-1333">
+        <command xml:space="preserve">look vessel</command>
+        <result xml:space="preserve">It's perhaps a trireme, and it's clearly under construction.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1341">
+        <command xml:space="preserve">look ropes</command>
+        <result xml:space="preserve">The ropes are weathered but sturdy, with crusty barnacles aplenty.  They are tied with odd-looking knots to a giant metal bollard bolted to a cement retaining wall.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1342"></child>
+        </children>
+    </item>
+    <item nodeId="node-1342">
+        <command xml:space="preserve">look bollard</command>
+        <result xml:space="preserve">It's an incredibly sturdy metal tie-down bolted to a cement retaining wall.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1343"></child>
+        </children>
+    </item>
+    <item nodeId="node-1343">
+        <command xml:space="preserve">look wall</command>
+        <result xml:space="preserve">A cement retaining wall keeping the land seperate from the bay.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1344"></child>
+        </children>
+    </item>
+    <item nodeId="node-1344">
+        <command xml:space="preserve">look vessel</command>
+        <result xml:space="preserve">It's perhaps a trireme, and it's clearly under construction.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1345"></child>
+        </children>
+    </item>
+    <item nodeId="node-1345">
+        <command xml:space="preserve">swim</command>
+        <result xml:space="preserve">That's not a verb I recognize.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1368">
+        <command xml:space="preserve">look bay</command>
+        <result xml:space="preserve">You stand at the edge of the bay.  It could be any kind of inlet, possibly a fjord, but it's too calm to be the sea itself, and you can't see land on the other side.  Let's call it a bay.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1082">
         <command xml:space="preserve">f</command>
@@ -2041,8 +2416,35 @@ You are in the The Land of Launching and Mooring.  Sometimes a vessel is moored 
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1083"></child>
+        <children><child nodeId="node-1361"></child>
+            <child nodeId="node-1083"></child>
+            <child nodeId="node-1352"></child>
         </children>
+    </item>
+    <item nodeId="node-1352">
+        <command xml:space="preserve">swim</command>
+        <result xml:space="preserve">You don't want to get wet, and you don't think you'd be able to get on the vessel that way, or really be able to do much of anything.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1353"></child>
+        </children>
+    </item>
+    <item nodeId="node-1353">
+        <command xml:space="preserve">swim bay</command>
+        <result xml:space="preserve">You don't want to get wet, and you don't think you'd be able to get on the vessel that way, or really be able to do much of anything.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1354"></child>
+        </children>
+    </item>
+    <item nodeId="node-1354">
+        <command xml:space="preserve">swim in the bay</command>
+        <result xml:space="preserve">You don't want to get wet, and you don't think you'd be able to get on the vessel that way, or really be able to do much of anything.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1083">
         <command xml:space="preserve">s</command>
@@ -2137,6 +2539,57 @@ You were pretty sure it was going to be awkward to do this, and it sure is.  You
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
+    <item nodeId="node-1361">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1362"></child>
+            <child nodeId="node-1392"></child>
+        </children>
+    </item>
+    <item nodeId="node-1392">
+        <command xml:space="preserve">look sea</command>
+        <result xml:space="preserve">You stand at the edge of the bay.  It could be any kind of inlet, possibly a fjord, but it's too calm to be the sea itself, and you can't see land on the other side.  Let's call it a bay.  A concrete retaining wall allows you to stand right at the edge of it.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1393"></child>
+        </children>
+    </item>
+    <item nodeId="node-1393">
+        <command xml:space="preserve">look wall</command>
+        <result xml:space="preserve">A cement retaining wall keeping the land seperate from the bay.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1394"></child>
+        </children>
+    </item>
+    <item nodeId="node-1394">
+        <command xml:space="preserve">swim</command>
+        <result xml:space="preserve">You don't want to get wet, and you don't think you'd be able to get on the vessel that way, or really be able to do much of anything.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1395"></child>
+        </children>
+    </item>
+    <item nodeId="node-1395">
+        <command xml:space="preserve">swim in bay</command>
+        <result xml:space="preserve">I only understood you as far as wanting to swim.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1362">
+        <command xml:space="preserve">go swimming</command>
+        <result xml:space="preserve">You don't want to get wet, and you don't think you'd be able to get on the vessel that way, or really be able to do much of anything.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
     <item nodeId="node-1093">
         <command xml:space="preserve">attack brother</command>
         <result xml:space="preserve">Violence isn't the answer to this one.
@@ -2156,6 +2609,22 @@ You were pretty sure it was going to be awkward to do this, and it sure is.  You
     <item nodeId="node-1095">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">You don't see anywhere to go except backwards and forwards.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1334">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1335"></child>
+        </children>
+    </item>
+    <item nodeId="node-1335">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
