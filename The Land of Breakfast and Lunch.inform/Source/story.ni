@@ -2,6 +2,8 @@
 
 The story headline is "~ a land can contain both ~"
 
+The release number is 2
+
 ["Lunchy" Website Theme"]
 Release along with a website and a "Lunchy" website.  Release along with an interpreter.  Release along with cover art.  Release along with the source text.
 
@@ -41,7 +43,7 @@ The print empty inventory rule response (A) is "You examine what you'd normally 
 
 Section 2 - The Land of Breakfast and Lunch
 
-The Path is a room.  "You are at the beginning of a path.  It is plain, even homely.  It leads forward towards The Land of Breakfast and Lunch.  If you 'walk forward' you will follow the path."
+The Path is a room.  "You are at the beginning of a path.  It is plain, even homely.  It leads forward towards The Land of Breakfast and Lunch.  If you 'walk forward' you will follow the path."  The printed name of the path is "A Path"
 
 Southmostpath is in The Path.  It is scenery.  The description of southmostpath is "It's a scrubby little path that just kind of tapers off behind you and leads forward towards The Land of Breakfast and Lunch.  If you 'walk forward' you'll be following it." Understand "path" as southmostpath.
 
@@ -56,7 +58,7 @@ The printed name of TLoBL is "The Land of Breakfast and Lunch"
 A clearing is in TLoBL.  The clearing is scenery.  The description is "The clearing is a small picnic area, intentionally cleared and maintained to allow a person or family to stop by the side of the path and dine."
 
 A painted picnic table is in TLoBL. The table is a supporter. The table is enterable.  The description is "It's a well-maintained picnic table painted in a bright, childish, civic style, depicting a crude sun with huge yellow beams bathing jagged pine trees in their light.".  
-Understand "table/sun/beams/trees" as the painted picnic table.
+Understand "table/sun/beams/trees" or "pine trees" as the painted picnic table.
 Instead of looking under the table, say "The grass underneath is getting a bit brown."
 Instead of entering the table:
 	say "You ease onto one of the table's benches.";
@@ -69,9 +71,10 @@ Instead of taking the breakfast: say "The breakfast has several items and is a l
 
 Instead of eating the breakfast:
 	say "You sit down for a moment and eat breakfast.  It is delicious but you still don't quite feel satisfied.";
-	now the description of TLoBL is "The Land of Breakfast and Lunch is a lot smaller than you were expecting.  It's actually just a small clearing near the road, like a roadside stop, with a painted picnic table containing a the empty dishes from a simple but nourishing breakfast on one end, and the a simple but nourishing lunch on the other end.  A stubby little path leads backwards, and the path continues forward, towards The Land of Unrealized Possibilities.  If you 'walk forward' or just 'forward' or even just 'f' you will be walking towards it.";
+	now the description of TLoBL is "The Land of Breakfast and Lunch is a lot smaller than you were expecting.  It's actually just a small clearing near the road, like a roadside stop, with a painted picnic table containing a the empty dishes from a simple but nourishing breakfast on one end, and a simple but nourishing lunch on the other end.  A stubby little path leads backwards, and the path continues forward, towards The Land of Unrealized Possibilities.  If you 'walk forward' or just 'forward' or even just 'f' you will be walking towards it.";
 	now the description of the breakfast dishes is "You've politely stacked the breakfast dishes, so the table doesn't look too messy.";
 	remove the breakfast from play;
+	now all part-of-a-complete-breakfast are nowhere;
 
 A part-of-a-complete-breakfast is a kind of thing. A part-of-a-complete-breakfast is always scenery.  
 Instead of eating or taking or tasting a part-of-a-complete-breakfast, say "Breakfast is kind of an all-or-nothing affair.  One really needs to sit down and tuck into it, rather than simply nibbling at one thing or another and leaving the rest of it to repel and disgust another traveller.".
@@ -99,6 +102,7 @@ Instead of eating the lunch:
 		now the description of TLoBL is "The Land of Breakfast and Lunch is a lot smaller than you were expecting.  It's actually just a small clearing near the road, like a roadside stop, with a painted picnic table containing a the empty dishes from a simple but nourishing breakfast on one end, and the dishes of a simple but nourishing lunch on the other end.  A stubby little path leads backwards, and the path continues forward, towards The Land of Unrealized Possibilities.  If you 'walk forward' or just 'forward' or even just 'f' you will be walking towards it.";
 		now the description of the lunch dishes is "You've politely stacked the lunch dishes, so the table doesn't look too messy.";
 		remove the lunch from play;
+		now all part-of-a-complete-lunch are nowhere;
 
 A part-of-a-complete-lunch is a kind of thing. A part-of-a-complete-lunch is always scenery.  
 Instead of eating or taking or tasting a part-of-a-complete-lunch, say "Lunch is kind of an all-or-nothing affair.  One really needs to sit down and tuck into it, rather than simply nibbling at one thing or another and leaving the rest of it to repel and disgust another traveller.".
@@ -116,10 +120,10 @@ The lunch dishes are on the table.  The lunch dishes are scenery.  The descripti
 
 Section 3 - The Land of Unrealized Possibilities
 
-The Hopeful Path is a room.  "You are on the hopeful path.  Backwards from here is The Land of Breakfast and Lunch.  Forward is The Land of Unrealized Possiblities."  The Hopeful Path is north of TLoBL.
+The Hopeful Path is a room.  "You are on the hopeful path.  Backwards from here is The Land of Breakfast and Lunch.  Forward is The Land of Unrealized Possibilities."  The Hopeful Path is north of TLoBL.
 
 TLoUP is a room. "You are in the Land of Unrealized Possibilities.  Just being here gives you a sense of all that could be accomplished if enough time, effort, and focus were pointed in a specific direction.  There is an sense of both excitement and disappointment here that is almost palpable.  The Hopeful Path leads backward towards The Land of Breakfast and Lunch, a place with a much clearer sense of purpose."   TLoUP is north of the hopeful path.
-The printed name of TLoUP is "The Land of Unrealized Possiblities"
+The printed name of TLoUP is "The Land of Unrealized Possibilities"
 
 There is a toy box in TLoUP.  It is an openable closed container.  It is fixed in place.  The description of the toy box is "It is a large simple wooden toy box stained with a nice hand-painted varnish.  It has a hinged lid on top."
 
@@ -141,24 +145,43 @@ channel	show
 11	"Thundercats"
 12 	"Buck Rogers"
 13	"Enraged Juggalos"
-14	"Blue Planet IV"
+14	"Wet Planet IV"
 15	"Botswana (1992)"
 16	"Gorgon: The Magnificent"
 17	"The Beige Man Group"
 18	"The Great Snafu (1956)"
 19	"Borderline Personality Island"
 20	"Access Hollywoo"
+21	"How I Got in a Non-Hierarchical Triad with your Mother"
+22	"Rad Fights VII (1984)"
+23	"Apartheid Bunnies"
+24	"Samual McSamualson Rides Again"
+25	"Beauty and the Embolism"
+26	"Dangerous Food of the Ganges"
+27	"ABRAXIS Live"
+28	"Brad!"
+29	"Speed Burners (1975)"
+30	"Delta Farce (2001)"
+31	"Punky Brewster"
+32	"Bills and Bennies"
+33	"Trial of Jetsy Watson"
+35	"Bedside (1997)"
+36	"+/- (2006)"
+37	"The Walter Dormouse Chronicles"
+38	"Song of Ire and Spice"
+39	"The Treinta y Ocho"
 
-
-There is a TV in TLOUP. It is fixed in place.  
+There is a TV in TLOUP.  It is fixed in place.  It is a switched on device.
 Instead of examining the TV:
 	choose a random row in the Table of TV Shows;
-	say "An early 35' flatscreen.  Bulky, black, and plastic.  It lived in your den for way too long, just because no one wanted to lift it.  It's odd to see it here, in The Land of Unrealized Possibilities.  It is playing [show entry]."
+	say "An early 35' flatscreen.  Bulky, black, and plastic.  It lived in your den for way too long, just because no one wanted to lift it.  It's odd to see it here, in The Land of Unrealized Possibilities.  It is playing '[show entry]' on channel [channel entry]."
 
 Understand "channel/knob/television" as TV.
 
-[Instead of using the TV:
-	say "C'mon, Farts McJohnson, I'm watching this."]
+Instead of switching off the TV:
+	say "'C'mon, Farts McJohnson,' your brother says, wearily, 'I'm watching this.'";
+	
+[Understand "change the channel" or "change the TV channel" or "switch the channel" as switching off the TV.]
 
 Brother is a man.  The printed name of brother is "your brother". Brother is on the couch. The description of brother is "Your brother is a lean masterpiece of laziness and force.  He is devoted to his wasting of time right now and has himself wedged into the couch like a part of it. He is watching TV."
 
@@ -188,29 +211,29 @@ Instead of riding the horse:
 		say "You were pretty sure it was going to be awkward to do this, and it sure is.  Your legs are splayed way out and the hobby horse creaks dangerously under your weight.  It holds solid though, and you creak your way back and forward a few times.  You can say you did it.";
 		
 Instead of riding brother, say "The mental picture is pretty funny, but you are 100% certain your brother is not going to find it funny."
-Instead of entering or riding the couch, say "Your brother gives you a quick, dirty look that reminds you he's ready to back it up with the kind of painful violence that will not leave a mark."
+Instead of entering or riding the couch, say "Your brother is utilizing so much of the couch, you don't see a good place to sit without pissing him off."
 
 
 Section 4 - The Land of Unlaunched Vessels
 
-The Seaside Path is a room.  "You are on the the seaside path.  Backwards from here is The Land of Unlaunched Vessels.  Forward is The Land of Unlaunched Vessels."  The Seaside Path is north of TLoUP.
+The Seaside Path is a room.  "You are on the the seaside path.  Backwards from here is The Land of Unlaunched Vessels.  Forward is The Land of Unlaunched Vessels."  The Seaside Path is north of TLOUP.
 
 The sea is in the seaside path.  The sea is scenery.  The description is "The sea is quite a ways away for a path to be called The Seaside Path, but you didn't name it, did you?  Even from here you can see it's not really a sea but some kind of sound or bay."
 
-TLOLUV is a room. "You are in the The Land of Unlaunched Vessels.  You stand near the edge of the bay, and there is a vessel moored here with thick and aged ropes.  The Hopeful Path leads backward towards The Land of Unrealized Possibilities, a place you'd rather not visit."   TLOLUV is north of the seaside path.
-The printed name of TLOLUV is "The Land of Unlaunched Vessels"
+TLOUV is a room. "You are in the The Land of Unlaunched Vessels.  You stand near the edge of the bay, and there is a vessel moored here with thick and aged ropes.  The Hopeful Path leads backward towards The Land of Unrealized Possibilities, a place you're not sure you want to be."   TLOUV is north of the seaside path.
+The printed name of TLOUV is "The Land of Unlaunched Vessels"
 
-The ropes are in TLOLUV.  The ropes are scenery.  The description is "The ropes are weathered but sturdy, with crusty barnacles aplenty.  They are tied with odd-looking knots to a giant metal bollard bolted to a cement retaining wall."
+The ropes are in TLOUV.  The ropes are scenery.  The description is "The ropes are weathered but sturdy, with crusty barnacles aplenty.  They are tied with odd-looking knots to a giant metal bollard bolted to a cement retaining wall."
 
-The barnacles are in TLOLUV.  The barnacles are scenery.  The description is "Those damn things will grow on anything that touches the water a lot."
+The barnacles are in TLOUV.  The barnacles are scenery.  The description is "Those damn things will grow on anything that touches the water a lot."
 
-The bollard is in TLOLUV.  The bollard is scenery.  The description is "It's an incredibly sturdy metal tie-down bolted to a cement retaining wall."
+The bollard is in TLOUV.  The bollard is scenery.  The description is "It's an incredibly sturdy metal tie-down bolted to a cement retaining wall."
 
-The cement retaining wall is in TLOLUV.  The wall is scenery.  The description is "A cement retaining wall keeping the land seperate from the bay."
+The cement retaining wall is in TLOUV.  The wall is scenery.  The description is "A cement retaining wall keeping the land separate from the bay."
 
-The vessel is in TLOLUV.  The vessel is scenery.  The description is "It's perhaps a trireme, and it's clearly under construction."
+The vessel is in TLOUV.  The vessel is scenery.  The description is "It's perhaps a trireme, and it's clearly under construction."
 
-The bay is in TLOLUV. The bay is scenery.  The description is "You stand at the edge of the bay.  It could be any kind of inlet, possibly a fjord, but it's too calm to be the sea itself, and you can't see land on the other side.  Let's call it a bay.  A cement retaining wall allows you to stand right at the edge of it."
+The bay is in TLOUV. The bay is scenery.  The description is "You stand at the edge of the bay.  It could be any kind of inlet, possibly a fjord, but it's too calm to be the sea itself, and you can't see land on the other side.  Let's call it a bay.  A cement retaining wall allows you to stand right at the edge of it."
 Understand "the water" or "sea" or "the sea" or "water" or "ocean" or "inlet" or "fjord" as the bay.
 
 Instead of entering the vessel:
@@ -219,5 +242,27 @@ Instead of entering the vessel:
 Understand "swim" or "swim in the water" or "swim bay" or "swim in bay" or "swim in the bay" or "go swimming" as swimming.
 Swimming is an action applying to nothing.
 Check swimming:
-	say "You don't want to get wet, and you don't think you'd be able to get on the vessel that way, or really be able to do much of anything."
+	say "You don't want to get wet, and you don't think you'd be able to get on the vessel that way, or really be able to do much of anything all wet and swimming around."
+
+
+[The Hippie Seaperson]
 	
+The swarthy hippie seaperson is a woman in the TLOUV.  The printed name of the seaperson is "a swarthy hippie seaperson".  The description of the hippie seaperson is "She has thick blonde dreds, and all her eyes and limbs.  You can't tell if she's the piratey kind of seaperson or not."
+
+Instead of kissing the hippie seaperson, say "She pulls her head way back and eyes you with suspicion.  When you think about it, you realize you just kind of embarrassed yourself."
+
+[Instead of saying hello to the the hippie seaperson:
+	say "[one of]'Hi!', she says.[or]She nods in a wise seapersonlike way.[stopping]".]
+
+Instead of taking or attacking the hippie seaperson, say "The hippie seaperson actually looks kind of tough."
+
+Instead of going north from TLOUV:
+	say "You don't know to a certainty how to go forward in this situation.";
+
+
+Section 5 - Vessel Deck
+
+Vessel Deck is a room.  Vessel Deck is north of TLOUV.
+
+
+
