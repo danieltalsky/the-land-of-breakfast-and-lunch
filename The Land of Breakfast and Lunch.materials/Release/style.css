@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Trade+Winds&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quattrocento:400,700|Trade+Winds&display=swap');
 /*
 
 Standard CSS file for use with Standard.html and Standard-Source.html. 
@@ -8,7 +8,7 @@ Standard CSS file for use with Standard.html and Standard-Source.html.
 
 body
 {
-	font-family: Georgia, Palatino, "Times New Roman", Times, serif;
+	font-family: "Quattrocento", Palatino, "Times New Roman", Times, serif;
 	font-size: 100%;
 	-webkit-text-size-adjust: none;
 }
@@ -443,6 +443,16 @@ Styles for play.html
 	position: absolute;
 	right: 0px;
 	top: 0px;
+}
+
+
+.BufferWindow {
+  overflow: scroll;   /* vertical scrollbar is mandatory */
+  overflow-x: hidden; /* but horizontal scrollbar is forbidden */
+	font-family: "Quattrocento", Palatino, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 1.4;
+  padding: 6px 10px 6px 10px;
 }
 
 /*

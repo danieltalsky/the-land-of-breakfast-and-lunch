@@ -22,7 +22,7 @@ You are wearing a shirt.
 Section 1 - General World Rules and Messages
 
 [There are only two directions.]
-Understand "forward/forwards/f" as north.
+Understand "forward/forwards/f" or "follow path" or "follow the path" as north.
 Understand "back/return/retreat/backward/backwards/b" as south.
 Understand "go back" as south. 
 Instead of going east:
@@ -43,9 +43,11 @@ The print empty inventory rule response (A) is "You examine what you'd normally 
 
 Section 2 - The Land of Breakfast and Lunch
 
-The Path is a room.  "You are at the beginning of a path.  It is plain, even homely.  It leads forward towards The Land of Breakfast and Lunch.  If you 'walk forward' you will follow the path."  The printed name of the path is "A Path"
+The Path is a room.  "You are at the beginning of a path.  It is plain, even homely.  It leads forward towards The Land of Breakfast and Lunch.  If you 'walk forward' you will follow the path."  The printed name of the path is "The Path"
 
 Southmostpath is in The Path.  It is scenery.  The description of southmostpath is "It's a scrubby little path that just kind of tapers off behind you and leads forward towards The Land of Breakfast and Lunch.  If you 'walk forward' you'll be following it." Understand "path" as southmostpath.
+
+Scrub brush is in The Path.  It is scenery. The description is "Clusters of scrubby, wild, low shrubbery.  It's the kind of plant that grows where very little else wants to grow.  Like here, at the terminus of this plain path, which is less interesting than the places it leads."
 
 Check going south:
 	If the player is in The Path:
@@ -60,6 +62,7 @@ A clearing is in TLoBL.  The clearing is scenery.  The description is "The clear
 A painted picnic table is in TLoBL. The table is a supporter. The table is enterable.  The description is "It's a well-maintained picnic table painted in a bright, childish, civic style, depicting a crude sun with huge yellow beams bathing jagged pine trees in their light.".  
 Understand "table/sun/beams/trees" or "pine trees" as the painted picnic table.
 Instead of looking under the table, say "The grass underneath is getting a bit brown."
+Grass is scenery in TLoBL.  The description of the grass is "It's grassy.  And brownish."
 Instead of entering the table:
 	say "You ease onto one of the table's benches.";
 	now the player is in the table;
@@ -67,13 +70,13 @@ Instead of entering the table:
 [breakfast]
 Breakfast is on the table.  It is edible.  The description of breakfast is "Breakfast consists of a halved grapefruit with the membranes cut for easier eating, a soft-boiled egg in a specially designed holder, and a bowl of Lieutenant Chomp with a small pitcher of milk next to it.". 
 
-Instead of taking the breakfast: say "The breakfast has several items and is a little unweildy.  You can take a moment and eat the breakfast if you'd like.  It seems to have been put here for that purpose, but gathering all the breakfast items in your shirt just seems odd.".
+Instead of taking the breakfast: say "The breakfast has several items and is a little unwieldy.  You can take a moment and eat the breakfast if you'd like.  It seems to have been put here for that purpose, but gathering all the breakfast items in your shirt just seems odd.".
 
 Instead of eating the breakfast:
 	say "You sit down for a moment and eat breakfast.  It is delicious but you still don't quite feel satisfied.";
-	now the description of TLoBL is "The Land of Breakfast and Lunch is a lot smaller than you were expecting.  It's actually just a small clearing near the road, like a roadside stop, with a painted picnic table containing a the empty dishes from a simple but nourishing breakfast on one end, and a simple but nourishing lunch on the other end.  A stubby little path leads backwards, and the path continues forward, towards The Land of Unrealized Possibilities.  If you 'walk forward' or just 'forward' or even just 'f' you will be walking towards it.";
+	now the description of TLoBL is "The Land of Breakfast and Lunch is a lot smaller than you were expecting.  It's actually just a small clearing near the road, like a roadside stop, with a painted picnic table containing the empty dishes from a simple but nourishing breakfast on one end, and a simple but nourishing lunch on the other end.  A stubby little path leads backwards, and the path continues forward, towards The Land of Unrealized Possibilities.  If you 'walk forward' or just 'forward' or even just 'f' you will be walking towards it.";
 	now the description of the breakfast dishes is "You've politely stacked the breakfast dishes, so the table doesn't look too messy.";
-	remove the breakfast from play;
+	now breakfast is nowhere;
 	now all part-of-a-complete-breakfast are nowhere;
 
 A part-of-a-complete-breakfast is a kind of thing. A part-of-a-complete-breakfast is always scenery.  
@@ -87,6 +90,7 @@ Instead of smelling the halved grapefruit, say "You can tell the grapefruit was 
 The soft-boiled egg is a part-of-a-complete-breakfast on the table. Understand "spoon" or "little spoon" or "holder" as the egg.  The description is "The soft-boiled egg is a prim and underappreciated breakfast item.  Sure, it's a lot of work to get to all the egg, but it's a very delicate experience.  You would take the nearby small spoon and gently crack the top of the egg off, exposing the soft and rich partially-cooked egg inside."
 Instead of smelling the soft-boiled egg, say "A soft-boiled egg doesn't smell like much but you can feel the warmth of it on your nose."
 The breakfast dishes are on the table.  The breakfast dishes are scenery.  The description is "They are keeping the breakfast from just sitting on the table."
+Instead of eating the breakfast dishes, say "You have gotten everything you wanted from the breakfast dishes."
 
 [lunch]
 Lunch is on the table.  It is edible.  The description of lunch is "Lunch is made up of a grilled cheese sandwich, a bowl of tomato soup, a small tray of antipasto, and a ramekin filled with a very enticing potato salad.".
@@ -95,13 +99,12 @@ Instead of taking the lunch: say "The lunch has several items and is a little un
 
 Instead of eating the lunch:
 	if the breakfast is on the table:
-		say "It doesn't really seem appropriate to just start eating lunch with a perfectly good breakfast sitting there at the same table.  Besides, you're really more in the mood for breakfast.		
-		";
+		say "It doesn't really seem appropriate to just start eating lunch with a perfectly good breakfast sitting there at the same table.  Besides, you're really more in the mood for breakfast.";
 	else:
 		say "Lunch was wonderful.  Your stomach feels like a puzzle, where the final piece has finally been snapped into place.  You now feel as if you could take on the world.";
-		now the description of TLoBL is "The Land of Breakfast and Lunch is a lot smaller than you were expecting.  It's actually just a small clearing near the road, like a roadside stop, with a painted picnic table containing a the empty dishes from a simple but nourishing breakfast on one end, and the dishes of a simple but nourishing lunch on the other end.  A stubby little path leads backwards, and the path continues forward, towards The Land of Unrealized Possibilities.  If you 'walk forward' or just 'forward' or even just 'f' you will be walking towards it.";
+		now the description of TLoBL is "The Land of Breakfast and Lunch is a lot smaller than you were expecting.  It's actually just a small clearing near the road, like a roadside stop, with a painted picnic table containing the empty dishes from a simple but nourishing breakfast on one end, and the dishes of a simple but nourishing lunch on the other end.  A stubby little path leads backwards, and the path continues forward, towards The Land of Unrealized Possibilities.  If you 'walk forward' or just 'forward' or even just 'f' you will be walking towards it.";
 		now the description of the lunch dishes is "You've politely stacked the lunch dishes, so the table doesn't look too messy.";
-		remove the lunch from play;
+		now the lunch is nowhere;
 		now all part-of-a-complete-lunch are nowhere;
 
 A part-of-a-complete-lunch is a kind of thing. A part-of-a-complete-lunch is always scenery.  
@@ -110,12 +113,20 @@ The grilled cheese sandwich is a part-of-a-complete-lunch on the table.  Underst
 Instead of smelling the grilled cheese sandwich, say "You mostly smell butter, but perhaps a hint of cheddar."
 The bowl of tomato soup is a part-of-a-complete-lunch on the table.  Understand "pepper" as the soup.  The description of the bowl of tomato soup is "Warm, creamy, and comforting, about two thirds the way to filling a fiestaware bowl.  There is a bit of coarsely cracked pepper at the top."
 Instead of smelling the bowl of tomato soup, say "You mostly smell the pepper, but with a warm tomato-ey bottom note."
-The tray of antipasto is a part-of-a-complete-lunch on the table.  Understand "figs" or "fresh figs" or "vegetables" or "grilled vegetable slices" or "olives" or "cornichon" as the tray of antipasto.  The description of the tray of antipasto is "This is an antique bakelite tray containing an assortment of little foods: several different kinds of olives, marinated artichoke hearts, fresh figs, grilled vegetable slices, and cornichon."
+The description of the tray of antipasto is "This is an antique bakelite tray containing an assortment of little foods: several different kinds of olives, marinated artichoke hearts, fresh figs, grilled vegetable slices, and cornichon."
 Instead of smelling the tray of antipasto, say "You mostly smell the tartness of the artichoke hearts, but if you lean closely you can smell the cornichon."
+
+The olives are a part-of-a-complete-lunch on the table.  The description of the olives is "The olives are plain black olives from a can, and green olives with pimentos from a jar."
+The fresh figs are a part-of-a-complete-lunch on the table.  The description of the figs is "The figs look plump and full.  They are greenish-purple."
+The grilled vegetable slices are a part-of-a-complete-lunch on the table.  The description of the slices is "Grilled expertly, with neat grill lines on each side, they've been seared briefly but look as if they still have a little bit of crunch."  Understand "vegetables" as the vegetable slices.
+The marinated artichoke hearts are a part-of-a-complete-lunch on the table.  The description of the hearts is "The artichoke hearts sit in a small pool of their own marinade."  
+The cornichon is a part-of-a-complete-lunch on the table.  The description of the cornichon is "They are tiny french pickles, sweet, like gherkins.  They go well with mustard, but there isn't any."
+
+
 The ramekin of potato salad is a part-of-a-complete-lunch on the table.  Understand "potato salad", "salad/ramekin/potato/potatoes/potatos/paprika" as the ramekin of potato salad.  The description of the ramekin of potato salad is "It looks like a well-made potato salad, filled with richness and zing.  You can see flecks of red onion and a light dusting of paprika.  In case you don't know what a ramekin is, it's a small straight-walled bowl with scalloped outside walls. Perfect for an attractive presentation of a small potato salad serving."
 Instead of smelling the ramekin of potato salad, say "Smells like smoked paprika and mustard."
 The lunch dishes are on the table.  The lunch dishes are scenery.  The description is "They are keeping the lunch from just sitting on the table."
-
+Instead of eating the lunch dishes, say "You have gotten everything you wanted from the lunch dishes."
 
 
 Section 3 - The Land of Unrealized Possibilities
@@ -126,18 +137,30 @@ TLoUP is a room. "You are in the Land of Unrealized Possibilities.  Just being h
 The printed name of TLoUP is "The Land of Unrealized Possibilities"
 
 There is a toy box in TLoUP.  It is an openable closed container.  It is fixed in place.  The description of the toy box is "It is a large simple wooden toy box stained with a nice hand-painted varnish.  It has a hinged lid on top."
+Understand "lid" as the toy box.
 
 There is a wooden block in the toy box.  The description of the wooden block is "It is a simple block made out of wood.  It is unpainted.  It's the kind of thing you would find at a Montessouri school, usually in the company of many of its compatriots."
 
-There is a small heart shaped locket in the toy box.  It is an openable closed container.  The description of the locket is "It is a small pewter locket.  It looks a bit old fashioned.  It has a small clasp on the side and looks like you could easily open it."  Understand "clasp" as the locket.
+There is a small heart shaped locket in the toy box.  It is an openable closed container.  It is wearable.  The description is "It is a small pewter locket.  It looks a bit old fashioned.  It has a small clasp on the side and looks like you could easily open it."  Understand "clasp" as the locket.
+Instead of inserting something (called the item) into the locket:
+	if the item is not the picture:
+		say "The locket is quite small." instead;
+	otherwise:
+		continue the action.
 
 There is a faded picture of a child who looks a lot like you in the locket.    The description of the picture is "You don't remember ever seeing any picture of you like this photo, but this one looks almost exactly other pictures of you at about three.  There is a smile that's a mix of sadness and joy on the child's face.  When you look at it, you can almost feel the feeling."
+Understand "photo/photograph/smile" as the picture.
 
 There is a small hobby horse in the toy box.   The description of the horse is "It is a small, wooden hobby horse.  It's very sturdily built, but made to entertain a three-year old.  It has yarn for a mane."  Understand "yarn" or "mane" as the horse.
 
 [Your Brother]
 There is a couch in TLoUP.  It is a supporter. It is fixed in place. The description of the couch is "This is the blue corduroy couch of your youth.  You have rolled over on it many times and sat up to read it's wrinkled poem on your arm.  Why would anyone get a corduroy couch?"
-There is a small, grimy penny under the couch.
+There is a small, grimy penny under the couch.  The description of the penny is "It's a single penny, so grimy you can't read the date.  It looks older than 1982, which means it's made of solid copper, but coated in rust and grime."
+There is a small, grimy penny. The penny can be found or lost. The penny is lost.
+Instead of looking under the couch when the penny is lost:
+	move the penny to TLoUP;
+	now the penny is found;
+	say "There's nothing under there except a small, grimy penny."
 
 Table 1 - TV Shows
 channel	show
@@ -174,7 +197,7 @@ channel	show
 There is a TV in TLOUP.  It is fixed in place.  It is a switched on device.
 Instead of examining the TV:
 	choose a random row in the Table of TV Shows;
-	say "An early 35' flatscreen.  Bulky, black, and plastic.  It lived in your den for way too long, just because no one wanted to lift it.  It's odd to see it here, in The Land of Unrealized Possibilities.  It is playing '[show entry]' on channel [channel entry]."
+	say "An early 35' flatscreen.  Bulky, black, and plastic.  It lived in your den for way too long, just because no one wanted to lift it.  It's odd to see it here, in The Land of Unrealized Possibilities.  It is showing '[show entry]' on channel [channel entry]."
 
 Understand "channel/knob/television" as TV.
 
@@ -183,7 +206,8 @@ Instead of switching off the TV:
 	
 [Understand "change the channel" or "change the TV channel" or "switch the channel" as switching off the TV.]
 
-Brother is a man.  The printed name of brother is "your brother". Brother is on the couch. The description of brother is "Your brother is a lean masterpiece of laziness and force.  He is devoted to his wasting of time right now and has himself wedged into the couch like a part of it. He is watching TV."
+Brother is a man.  The printed name of brother is "your brother". Brother is on the couch. The description of brother is "Your brother is a lean masterpiece of laziness and force.  He is devoted to his wasting of time right now and has himself wedged into the couch like a part of it. He is watching TV, and frequently changing the channel."
+The remote control is scenery in TLOUP.  The description of the remote control is "Your brother is holding it, and, almost rhythmically, changing the channel."
 
 [Understand "talk to [someone]" as asking.]
 
@@ -220,10 +244,14 @@ The Seaside Path is a room.  "You are on the the seaside path.  Backwards from h
 
 The sea is in the seaside path.  The sea is scenery.  The description is "The sea is quite a ways away for a path to be called The Seaside Path, but you didn't name it, did you?  Even from here you can see it's not really a sea but some kind of sound or bay."
 
-TLOUV is a room. "You are in the The Land of Unlaunched Vessels.  You stand near the edge of the bay, and there is a vessel moored here with thick and aged ropes.  The Hopeful Path leads backward towards The Land of Unrealized Possibilities, a place you're not sure you want to be."   TLOUV is north of the seaside path.
+TLOUV is a room. "You are in the The Land of Unlaunched Vessels.  You stand near the edge of the bay, and there is a vessel moored here with thick and aged ropes tied to a bollard.  The Hopeful Path leads backward towards The Land of Unrealized Possibilities, a place you're not sure you want to be."   TLOUV is north of the seaside path.
 The printed name of TLOUV is "The Land of Unlaunched Vessels"
 
 The ropes are in TLOUV.  The ropes are scenery.  The description is "The ropes are weathered but sturdy, with crusty barnacles aplenty.  They are tied with odd-looking knots to a giant metal bollard bolted to a cement retaining wall."
+The knots are in TLOUV.  The knots are scenery.  The knots are a closed container.  The description is "They're not knots you'd recognize.  They seem needlessly complicated."
+Understand "knot" as the knots.
+Understand "untie [something]" as opening.
+Instead of opening the knots, say "As you begin to work on the knots, the hippie seaperson looks quizzically at you for a moment, to see if you know the art of deciphering such a thing.  After watching you pull at them ineffectually for a few minutes, she loses interest.  You can barely move the heavy rope."
 
 The barnacles are in TLOUV.  The barnacles are scenery.  The description is "Those damn things will grow on anything that touches the water a lot."
 
@@ -232,6 +260,8 @@ The bollard is in TLOUV.  The bollard is scenery.  The description is "It's an i
 The cement retaining wall is in TLOUV.  The wall is scenery.  The description is "A cement retaining wall keeping the land separate from the bay."
 
 The vessel is in TLOUV.  The vessel is scenery.  The description is "It's perhaps a trireme, and it's clearly under construction."
+Understand "launch [something]" as pushing.
+Instead of pushing the vessel, say "You'd need to be on the vessel."
 
 The bay is in TLOUV. The bay is scenery.  The description is "You stand at the edge of the bay.  It could be any kind of inlet, possibly a fjord, but it's too calm to be the sea itself, and you can't see land on the other side.  Let's call it a bay.  A cement retaining wall allows you to stand right at the edge of it."
 Understand "the water" or "sea" or "the sea" or "water" or "ocean" or "inlet" or "fjord" as the bay.
@@ -263,6 +293,19 @@ Instead of going north from TLOUV:
 Section 5 - Vessel Deck
 
 Vessel Deck is a room.  Vessel Deck is north of TLOUV.
+[
+"The Land of Unlaunched Vessels II: The Launchening"
+
+Launchpad
+
+The Stylized 1950's Rocket
+
+Deep Dark Void of Space Scenery Table
+
+"The Deep, Dark Void of Space"
+
+]
+
 
 
 
