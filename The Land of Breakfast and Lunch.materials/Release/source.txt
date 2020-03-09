@@ -2,7 +2,7 @@
 
 The story headline is "~ a land can contain both ~"
 
-The release number is 2
+The release number is 3
 
 ["Lunchy" Website Theme"]
 Release along with a website and a "Lunchy" website.  Release along with an interpreter.  Release along with cover art.  Release along with the source text.
@@ -28,8 +28,21 @@ Understand "go back" as south.
 Instead of going east:
 	say "Around these parts, folks mostly go backwards or forwards."
 Instead of going west:
-	say "You don't see anywhere to go except backwards and forwards."
-	
+	say "You don't see anywhere to go except backwards and forwards.".
+
+[praying]
+Praying is an action applying to nothing. Understand "pray" as praying.
+Report praying: say "You decide to pray in the Tibetan Dzogchen style; you stare at the sky and think of 'The Great Perfection'.  For one moment, you really feel the great perfection of the moment, of the universe, but then you realize you felt it and it's over.  Still, you feel calmed.".
+
+[singing]
+Singing is an action applying to nothing. Understand "sing" as singing.
+Report singing: say "I'm not sure what you like to sing in a private moment.  Maybe it's Beyoncé, maybe it's a little Sinatra, maybe it's Neutral Milk Hotel, and maybe it's the worms song.  You sing it, whatever it is, and you feel slightly better.".
+
+[about]
+Displaying the about text is an action out of world. Understand "about" as displaying the about text. Carry out displaying the about text: say "[abouttext]". To say abouttext: say "You're playing The Land of Breakfast and Lunch, a kind of game or more accurately, a fictional world where you can walk around and waste your time.  There is not a lot of point to it, so just look around and poke around and enjoy yourself, if you like that kind of thing.[paragraph break]All versions of The Land of Breakfast and Lunch are released under the Creative Commons Attribution-Noncommercial-Share Alike 3.0 license. In summary, you may freely distribute, perform, or create derivative works, but not for commercial purposes without permission from the author. More information is available at http://creativecommons.org/licenses/by-nc-sa/3.0/us/.".
+
+[credits]
+Displaying the credit text is an action out of world. Understand "credits" as displaying the credit text. Carry out displaying the credit text: say "[credittext]". To say credittext: say "The Land of Breakfast and Lunch was written by Daniel Talsky.[paragraph break]Inspiration and discussion by Hypothesis Archer | http://reptilemind.com[paragraph break]The game's generous and thorough beta testers include:[paragraph break]- Jason 'Always Be Testing' Dockins[line break]- Matthew George[line break]- Mike Tarbert[line break]- Caleb 'No Stone Unturned' Wilson[paragraph break]Last, but not least, I'd like to thank you, the player, personally.  You could be watching Better Call Saul or reading Fyodor Dostoevsky or be playing pinball.  Instead, you're taking the time to explore something I made and I really appreciate it.  I had fun making this, but most of the fun was imaginging you doing what you're doing right now.  Ok, I'll quit, I'm gushing.".
 
 [Nicer default description of things with no description.]
 The description of a thing is usually "You look at [the noun] very closely indeed, and to be completely honest, it looks about how you'd expect.  You think for a moment that there might be something slightly special about it but then, upon looking just a little closer, you see that there isn't."
@@ -155,8 +168,8 @@ There is a small hobby horse in the toy box.   The description of the horse is "
 
 [Your Brother]
 There is a couch in TLoUP.  It is a supporter. It is fixed in place. The description of the couch is "This is the blue corduroy couch of your youth.  You have rolled over on it many times and sat up to read it's wrinkled poem on your arm.  Why would anyone get a corduroy couch?"
-There is a small, grimy penny under the couch.  The description of the penny is "It's a single penny, so grimy you can't read the date.  It looks older than 1982, which means it's made of solid copper, but coated in rust and grime."
-There is a small, grimy penny. The penny can be found or lost. The penny is lost.
+There is a penny. The penny can be found or lost. The penny is lost. The description of the penny is "It's a single penny, so grimy you can't read the date.  It looks older than 1982, which means it's made of solid copper, but coated in rust and grime."
+The printed name of the penny is "small, grimy penny from under the couch".
 Instead of looking under the couch when the penny is lost:
 	move the penny to TLoUP;
 	now the penny is found;
@@ -193,6 +206,8 @@ channel	show
 37	"The Walter Dormouse Chronicles"
 38	"Song of Ire and Spice"
 39	"The Treinta y Ocho"
+40	"That 20's Show"
+41	"Stupid, Stupid Baby (1998)"
 
 There is a TV in TLOUP.  It is fixed in place.  It is a switched on device.
 Instead of examining the TV:
@@ -208,8 +223,8 @@ Instead of switching off the TV:
 
 Brother is a man.  The printed name of brother is "your brother". Brother is on the couch. The description of brother is "Your brother is a lean masterpiece of laziness and force.  He is devoted to his wasting of time right now and has himself wedged into the couch like a part of it. He is watching TV, and frequently changing the channel."
 The remote control is scenery in TLOUP.  The description of the remote control is "Your brother is holding it, and, almost rhythmically, changing the channel."
-
-[Understand "talk to [someone]" as asking.]
+Understand "remote/clicker" as the remote control.
+Instead of taking the remote control, say "Your brother snatches the remote away from you and gives you a quick, dirty look that reminds you he's ready to back it up with the kind of painful violence that will not leave a mark."
 
 Instead of smelling brother:
 	say "Weirdly, he smells fine."
@@ -237,14 +252,40 @@ Instead of riding the horse:
 Instead of riding brother, say "The mental picture is pretty funny, but you are 100% certain your brother is not going to find it funny."
 Instead of entering or riding the couch, say "Your brother is utilizing so much of the couch, you don't see a good place to sit without pissing him off."
 
+There is a kiddie ride in TLOUP.  It is a switched off device.  It is fixed in place.  The description is "Off to the side a little ways is a mechanical kiddie ride.  It's a big (to a child) yellow humvee with cartoon human eyes where the headlights should be.  It's anchored to a diamond plate platform and looks to have stopped mid-tilt.[paragraph break]Mounted on a post next to it is a coin box showing the coin denomination necessary to make it run: 25¢, or one U.S. quarter dollar piece.[paragraph break]There were once two of these rides outside every grocery store in America.  Whether they died out because kids collectively realized they weren't fun, or just liability, you're surprised to see this one here."
+Understand "car/humvee" as the kiddie ride.
+Check examining the ride:
+	if the ride is switched on, say "It's on @TODO" instead.
+The human eyes are a part of the kiddie ride. The description is "On the yellow humvee areThey're meant to look excited and friendly, but they're straight-up creepy."
+The coin box is a part of the kiddie ride.  The description is "The coin box is a sturdy steel box with a coin slot in one end (25¢) and a coin return on the other.  Next to the coin box is a small, cylindrical coin-release button."
+The coin slot is a part of the coin box.  The description is "It's a chrome slot to put a coin in."
+The coin return tray is a part of the coin box.  It is a container.  The description is "The coin return tray is a shallow metal tray designed to let a coin of any size strike the bottom, convulse in a spasm of physics and metallurgy, and safely come to a rest, waiting for a person to collect it."
+The coin release button is a part of the coin box.  The description is "The coin release button is a small chrome cylinder that can be depressed all the way down into the coin box."
+Instead of pushing the coin release button:
+	say "you did @TODO".
+Check inserting something into the coin slot:
+	if the noun is a penny and the player has the penny:
+		now the penny is in the tray;
+		say "The penny slides down the chute, briefly contacts some mechanism inside, and clanks out the coin return tray." instead;
+	else:
+		say "It won't fit.  It's not a coin." instead;
+Check inserting something into the tray:
+	if the noun is a penny and the player has the penny:
+		now the penny is in the tray;
+		say "Normally you'd put the coin in the coin slot, but you lay the penny in the coin return anyway, perhaps to frustrate someone who comes along and thinks it might be a quarter, but then realizes it isn't." instead;
+	else:
+		say "It won't fit.  It's not a coin." instead.		
+
+Test ride with "f / f / f / x ride / press coin release button / look under couch / get penny / put penny in slot"
+
 
 Section 4 - The Land of Unlaunched Vessels
 
-The Seaside Path is a room.  "You are on the the seaside path.  Backwards from here is The Land of Unlaunched Vessels.  Forward is The Land of Unlaunched Vessels."  The Seaside Path is north of TLOUP.
+The Seaside Path is a room.  "You are on the the seaside path.  Backwards from here is The Land of Unrealized Possibilities.  Forward is The Land of Unlaunched Vessels."  The Seaside Path is north of TLOUP.
 
 The sea is in the seaside path.  The sea is scenery.  The description is "The sea is quite a ways away for a path to be called The Seaside Path, but you didn't name it, did you?  Even from here you can see it's not really a sea but some kind of sound or bay."
 
-TLOUV is a room. "You are in the The Land of Unlaunched Vessels.  You stand near the edge of the bay, and there is a vessel moored here with thick and aged ropes tied to a bollard.  The Hopeful Path leads backward towards The Land of Unrealized Possibilities, a place you're not sure you want to be."   TLOUV is north of the seaside path.
+TLOUV is a room. "You are in the The Land of Unlaunched Vessels.  You stand near the edge of the bay, and there is a vessel moored here with thick and aged ropes tied to a bollard.  The Hopeful Path leads backward towards The Land of Unrealized Possibilities, a place you're not sure you want to be.  Forward, [printed name of The Sequel Path] leads to [printed name of TLOUV2]."   TLOUV is north of the seaside path.
 The printed name of TLOUV is "The Land of Unlaunched Vessels"
 
 The ropes are in TLOUV.  The ropes are scenery.  The description is "The ropes are weathered but sturdy, with crusty barnacles aplenty.  They are tied with odd-looking knots to a giant metal bollard bolted to a cement retaining wall."
@@ -286,16 +327,27 @@ Instead of kissing the hippie seaperson, say "She pulls her head way back and ey
 
 Instead of taking or attacking the hippie seaperson, say "The hippie seaperson actually looks kind of tough."
 
-Instead of going north from TLOUV:
+Section 5 - The 1950's Rocket
+
+The Sequel Path is a room.  "You are on the the sequel path.  Backwards from here is The Land of Unlaunched Vessels.  Forward is [printed name of TLOUV2]."  The Sequel Path is north of TLOUV.
+
+TLOUV2 is a room. "You are in the [printed name of TLOUV2].  You stand near the edge of the bay, and there is a vessel moored here with thick and aged ropes tied to a bollard.  [printed name of The Sequel Path] leads backwards towards The Land of Unlaunched Vessels".  TLOUV2 is north of the sequel path.
+The printed name of TLOUV2 is "The Land of Unlaunched Vessels II: The Launchening"
+
+Instead of going north from TLOUV2:
 	say "You don't know to a certainty how to go forward in this situation.";
 
+There is a shiny red button in TLOUV2.  It is fixed in place.  It is a device.
 
-Section 5 - Vessel Deck
+[Understand pushing the red button as switching it on.]
+Instead of switching on the button:
+	say "The rocket launches and then takes off.";
+	now the printed name of TLOUV2 is "The Land of Once Launched Vessels";
+	now the printed name of The Sequel Path is "The Spiritual Sequel Path".
 
-Vessel Deck is a room.  Vessel Deck is north of TLOUV.
+Test button with "f / f / f / f / f / f / f / turn on button button"
+
 [
-"The Land of Unlaunched Vessels II: The Launchening"
-
 Launchpad
 
 The Stylized 1950's Rocket
@@ -305,7 +357,5 @@ Deep Dark Void of Space Scenery Table
 "The Deep, Dark Void of Space"
 
 ]
-
-
 
 

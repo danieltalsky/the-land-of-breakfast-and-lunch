@@ -445,7 +445,6 @@ Styles for play.html
 	top: 0px;
 }
 
-
 .BufferWindow {
   overflow: scroll;   /* vertical scrollbar is mandatory */
   overflow-x: hidden; /* but horizontal scrollbar is forbidden */
@@ -454,6 +453,7 @@ Styles for play.html
   line-height: 1.4;
   padding: 6px 10px 6px 10px;
 }
+
 
 /*
 Styles for mobile browsers: change to a one-column layout.
