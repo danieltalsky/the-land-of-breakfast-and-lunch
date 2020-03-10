@@ -30,6 +30,17 @@ Instead of going east:
 Instead of going west:
 	say "You don't see anywhere to go except backwards and forwards.".
 
+[using]
+Understand "use [a closed openable thing]" as opening.
+Understand "use [a open openable thing]" as closing.
+Understand "use [a switched off device]" as switching on.
+Understand "use [a switched on device]" as switching off.
+Understand "use [an edible thing]" as eating.
+
+[pushing and pressing (for buttons))]
+Understand "push [a switched off device]" as switching on.
+Understand "push [a switched on device]" as switching off.
+
 [praying]
 Praying is an action applying to nothing. Understand "pray" as praying.
 Report praying: say "You decide to pray in the Tibetan Dzogchen style; you stare at the sky and think of 'The Great Perfection'.  For one moment, you really feel the great perfection of the moment, of the universe, but then you realize you felt it and it's over.  Still, you feel calmed.".
@@ -204,23 +215,27 @@ channel	show
 35	"Bedside (1997)"
 36	"+/- (2006)"
 37	"The Walter Dormouse Chronicles"
-38	"Song of Ire and Spice"
-39	"The Treinta y Ocho"
-40	"That 20's Show"
+38	"The Treinta y Ocho"
+39	"Song of Ire and Spice"
+40	"That 20[apostrophe]s Show"
 41	"Stupid, Stupid Baby (1998)"
 
 There is a TV in TLOUP.  It is fixed in place.  It is a switched on device.
 Instead of examining the TV:
 	choose a random row in the Table of TV Shows;
 	say "An early 35' flatscreen.  Bulky, black, and plastic.  It lived in your den for way too long, just because no one wanted to lift it.  It's odd to see it here, in The Land of Unrealized Possibilities.  It is showing '[show entry]' on channel [channel entry]."
-
 Understand "channel/knob/television" as TV.
-
+Understand "change [something]" as changing.  Changing is an action applying to one visible thing.
+Instead of changing a thing:
+	if the noun is the TV:
+		say "C'mon, Farts McJohnson,' your brother says, wearily, 'I'm watching this.";
+	else if the noun is the player:
+		say "You can only change when you're ready.";
+	otherwise:
+		say "True change comes from within.".
 Instead of switching off the TV:
-	say "'C'mon, Farts McJohnson,' your brother says, wearily, 'I'm watching this.'";
+	say "'C'mon, Farts McJohnson,' your brother says, wearily, 'I'm watching this.'".
 	
-[Understand "change the channel" or "change the TV channel" or "switch the channel" as switching off the TV.]
-
 Brother is a man.  The printed name of brother is "your brother". Brother is on the couch. The description of brother is "Your brother is a lean masterpiece of laziness and force.  He is devoted to his wasting of time right now and has himself wedged into the couch like a part of it. He is watching TV, and frequently changing the channel."
 The remote control is scenery in TLOUP.  The description of the remote control is "Your brother is holding it, and, almost rhythmically, changing the channel."
 Understand "remote/clicker" as the remote control.
@@ -250,7 +265,16 @@ Instead of riding the horse:
 		say "You were pretty sure it was going to be awkward to do this, and it sure is.  Your legs are splayed way out and the hobby horse creaks dangerously under your weight.  It holds solid though, and you creak your way back and forward a few times.  You can say you did it.";
 		
 Instead of riding brother, say "The mental picture is pretty funny, but you are 100% certain your brother is not going to find it funny."
-Instead of entering or riding the couch, say "Your brother is utilizing so much of the couch, you don't see a good place to sit without pissing him off."
+Instead of entering or riding the couch, say "Your brother is utilizing so much of the couch, you don't see a good place to sit without pissing him off.".
+
+[ The Kiddie Ride]
+
+
+Table of Kiddie Text
+slug	text
+"sad ride text"	"You climb up on the molded fiberglass seat of the humvee but it feels cold, joyless, and dead underneath you.  You distinctly feel the feeling of being so unloved that no one would put a quarter in the slot, not understanding how such a simple thing could make all the difference.  You slide slowly off."
+"quarter drop text"	"Gravity pulls the quarter down into the slot, and then there is an agonizing pause before the weight of the quarter trips an internal lever in the machine and its song comes to life.  50% speed in one second, full speed at two seconds.  The song is 'In my merry Oldsmobile' and the dance of the humvee is drunken yet tame as it rolls and lists in a pattern potentially thrilling to a 3-year old but usually not really.  If you want to, you can ride the humvee now."
+"yay ride text"	"You climb up on the molded fiberglass seat of the humvee like a pro and right yourself against its tame rollicking.  At first you find it boring, but you quickly get in the spirit, facetiously adjusting your imaginary cowboy hat and making a quick lasso motion with your wrist to show the yellow humvee you're in full control, despite its raucous bucking"
 
 There is a kiddie ride in TLOUP.  It is a switched off device.  It is fixed in place.  The description is "Off to the side a little ways is a mechanical kiddie ride.  It's a big (to a child) yellow humvee with cartoon human eyes where the headlights should be.  It's anchored to a diamond plate platform and looks to have stopped mid-tilt.[paragraph break]Mounted on a post next to it is a coin box showing the coin denomination necessary to make it run: 25¢, or one U.S. quarter dollar piece.[paragraph break]There were once two of these rides outside every grocery store in America.  Whether they died out because kids collectively realized they weren't fun, or just liability, you're surprised to see this one here."
 Understand "car/humvee" as the kiddie ride.
@@ -331,21 +355,70 @@ Section 5 - The 1950's Rocket
 
 The Sequel Path is a room.  "You are on the the sequel path.  Backwards from here is The Land of Unlaunched Vessels.  Forward is [printed name of TLOUV2]."  The Sequel Path is north of TLOUV.
 
-TLOUV2 is a room. "You are in the [printed name of TLOUV2].  You stand near the edge of the bay, and there is a vessel moored here with thick and aged ropes tied to a bollard.  [printed name of The Sequel Path] leads backwards towards The Land of Unlaunched Vessels".  TLOUV2 is north of the sequel path.
+TLOUV2 is a room. "You are in [printed name of TLOUV2].  There is a launchpad here, on which sits a large, 1950[apostrophe]s era rocket in galaxy white and candy-apple red. [printed name of The Sequel Path] leads backwards towards The Land of Unlaunched Vessels".  TLOUV2 is north of the sequel path.
 The printed name of TLOUV2 is "The Land of Unlaunched Vessels II: The Launchening"
+
+The launchpad is in TLOUV2.
+The Rocket is in TLOUV2. The description is "On the launchpad sits a 1950[apostrophe]s era rocket in galaxy white and candy-apple red.  Close your eyes and imagine the idea of a cartoon rocket (ok, now open them again) and that's what you've got here.  It's got a bubble of a porthole, curvy fins, and an incredibly phallic body, coming to a point with an extra couple of spheres on the tip of the nose cone.  There is a small, retractable ladder that leads to the hatch."
+Before entering the rocket:
+	if the hatch is closed:
+		say "The hatch is closed." instead.
+Instead of entering the rocket:
+	say "You pull yourself into the rocket.";
+	now the player is in parked-rocket-innards.
+
+The porthole is a part of the rocket.  The description is "The porthole is the single window of the rocket, and it bubbles out from the body of the rocket so when you're inside, you can see a wider vista.  It has a pleasant curve to it."
+The bubble is a part of the rocket.  The description is "It's not literally a bubble, it's just a bubble-like window attached to the rocket."
+The body is a part of the rocket.  The description is "It is a smooth, curved shape like an old-timey cigar."
+The fins are a part of the rocket.  The description is "There are three fins, evenly spaced around the rocket.  At first it looks like the rocket rests on them, but really they're just inches above the launchpad.  They have a pleasing curve to them and come almost to a sharp point."
+The hatch is a part of the rocket.   The hatch can be openable. The hatch can be open. The hatch is openable and closed.  The description is "The hatch is a small door in the rocket.  It has a hinge on the side, and a handle that looks like the locking handle on the door of a 1950[apostrophe]s refrigerator.".
+Understand "handle" as the hatch.
+The hinge is a part of the hatch.
+The retractable ladder is a part of the rocket.  The ladder is a supporter.  "The ladder is made out of steel and has seven rungs, and is attached to the rocket.  Climbing it leads you to the hatch.  When the hatch is open, it allows you to climb right inside."
+The rungs are a part of the ladder.  The description is "Sturdy, steel rungs.  There are seven of them."
+Retracting is an action applying to one visible thing.
+Understand "retract [something]" as retracting.
+Instead of retracting a thing:
+	if the noun is the ladder:
+		say "The ladder retracts automatically when the rocket is getting ready to launch.";
+	otherwise:
+		say "That's not retractable.".
+The nose cone is a part of the rocket.  The description is "The nose cone follows the natural curve of the body of the rocket, coming to a point, and sprouting a single pole antenna with little spheres on it.".
+The antenna is a part of the nose cone. The description is "The antenna sprouts directly up from the nose cone.  It is adorned with three spheres.  They must help with radio reception or something.".
+The spheres are a part of the antenna.  The description is "The middle sphere is the largest, the top sphere is the smallest, and the bottom sphere is halfway between the size of the two other spheres.  It looks pretty cool in a 1950[apostrophe]s sort of way.".
+
+parked-rocket-innards is a room.  The printed name is "The Inside of the Parked Rocket".  The description is "You are within the smooth walls of the rocket.  It is very plain here, out the portal you can see  [printed name of TLOUV2]."
+There is a shiny red button in parked-rocket-innards.  It is fixed in place.  It is a device.
+
+Test rocket with "f / f / f / f / f / f / f / x launchpad / x rocket / x porthole / x bubble / x fins / x hatch / x ladder / x cone / x spheres / retract ladder / climb ladder / enter rocket / open hatch / enter rocket"
 
 Instead of going north from TLOUV2:
 	say "You don't know to a certainty how to go forward in this situation.";
-
-There is a shiny red button in TLOUV2.  It is fixed in place.  It is a device.
-
+	
 [Understand pushing the red button as switching it on.]
 Instead of switching on the button:
 	say "The rocket launches and then takes off.";
 	now the printed name of TLOUV2 is "The Land of Once Launched Vessels";
-	now the printed name of The Sequel Path is "The Spiritual Sequel Path".
+	now the printed name of The Sequel Path is "The Spiritual Sequel Path";
+	move the player to a random spacey room.
 
-Test button with "f / f / f / f / f / f / f / turn on button button"
+Section 6 - The Deep, Dark Void of Space
+
+[Setup for all space locations]
+A room can be spacey.  A room is usually not spacey.
+Spaceland is a region.
+The stars are a backdrop.  The stars are in spaceland.  The description of stars is "There is a curtain of stars here.".
+
+
+SPACE1 is a spacey room in spaceland. "You are in space 1."
+SPACE2 is a spacey room in spaceland. "You are in space 2."
+SPACE3 is a spacey room in spaceland. "You are in space 3."
+SPACE4 is a spacey room in spaceland. "You are in space 4."
+SPACE5 is a spacey room in spaceland. "You are in space 5."
+SPACE6 is a spacey room in spaceland. "You are in space 6."
+SPACE7 is a spacey room in spaceland. "You are in space 7."
+
+Test button with "f / f / f / f / f / f / f / turn on button"
 
 [
 Launchpad
