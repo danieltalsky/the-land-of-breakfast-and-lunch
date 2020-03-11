@@ -387,36 +387,47 @@ The nose cone is a part of the rocket.  The description is "The nose cone follow
 The antenna is a part of the nose cone. The description is "The antenna sprouts directly up from the nose cone.  It is adorned with three spheres.  They must help with radio reception or something.".
 The spheres are a part of the antenna.  The description is "The middle sphere is the largest, the top sphere is the smallest, and the bottom sphere is halfway between the size of the two other spheres.  It looks pretty cool in a 1950[apostrophe]s sort of way.".
 
-parked-rocket-innards is a room.  The printed name is "The Inside of the Parked Rocket".  The description is "You are within the smooth walls of the rocket.  It is very plain here, out the portal you can see  [printed name of TLOUV2]."
-There is a shiny red button in parked-rocket-innards.  It is fixed in place.  It is a device.
+[The Inside of the Parked Rocket]
+parked-rocket-innards is a room.  The printed name is "The Inside of the Parked Rocket".  The description is "You are within the smooth walls of the rocket.  It is very plain here, out the porthole window you can see [printed name of TLOUV2]."
+The cockpit is in parked-rocket-innards.  The description is "The cockpit, containing the captain[apostrophe]s chair and the control panel is firmly mounted to the inner wall of the rocket across from the porthole.  The captain's chair is angled so that you can sit in it when the rocket is vertical or horizontal."
+The captain's chair is a part of the cockpit.  It is a supporter.  The description is "The captain's chair is rightfully named.  It looks fit for a captain.  It's leather-clad, and the same galaxy white and candy-apple red as the exterior of the ship.".
+The control panel is a part of the cockpit.  The description of the control panel is "The control panel is an extremely austere, some might even say naive set of controls.  There is a large, shiny, red button labeled 'Launch', a smaller black button that labeled 'Return', and then off to your right, a medium-sized bright blue button labeled 'Forward'.  That's it.  Surely you should be able to operate a spacecraft with only those controls?  (You look on the front for a button marked 'Fire Laser' or 'Warp 7' but those buttons are not on the control panel or anywhere else inside the ship.)"
+The shiny red launch button is a part of the control panel.  It is a switched off device.
+The smaller black return button is a part of the control panel.  It is a switched off device.
+The medium-sized blue forward button is a part of the control panel.  It is a switched off device.
+Instead of switching on the launch button:
+	say "The rocket launches and then takes off.";
+	now the printed name of TLOUV2 is "The Land of Launched Vessels";
+	now the printed name of The Sequel Path is "The Spiritual Sequel Path";
+	move the player to a random spacey room;
+	move the control panel to the player.
+Instead of switching on the return button:
+	say "This would return you if you were launched, bro.".
+Instead of switching on the forward button:
+	say "If you're launched you'll go to the next location.".
 
 Test rocket with "f / f / f / f / f / f / f / x launchpad / x rocket / x porthole / x bubble / x fins / x hatch / x ladder / x cone / x spheres / retract ladder / climb ladder / enter rocket / open hatch / enter rocket"
 
 Instead of going north from TLOUV2:
 	say "You don't know to a certainty how to go forward in this situation.";
-	
-[Understand pushing the red button as switching it on.]
-Instead of switching on the button:
-	say "The rocket launches and then takes off.";
-	now the printed name of TLOUV2 is "The Land of Once Launched Vessels";
-	now the printed name of The Sequel Path is "The Spiritual Sequel Path";
-	move the player to a random spacey room.
 
 Section 6 - The Deep, Dark Void of Space
 
 [Setup for all space locations]
 A room can be spacey.  A room is usually not spacey.
 Spaceland is a region.
-The stars are a backdrop.  The stars are in spaceland.  The description of stars is "There is a curtain of stars here.".
+The walls of the spaceship are a backdrop.  The walls of the spaceship are in spaceland.  The description is "The walls are smooth and cool and curved.  The rocket is made extremely well, as there are no seams anywhere you can see."
+The stars are a backdrop.  The stars are in spaceland.  The description is "The curtain of stars is majestic @TODO".
+inside-space-rocket is a backdrop.  inside-space-rocket is in spaceland.  The description of inside-space-rocket is "You are inside the rocket as it cruises very slowly through the deep, dark, void of space.  Outside the porthole window you see the deep, dark void of space covered over with a curtain of stars.  Here, in the rocket, is the captain's chair, the smooth walls of the spaceship."
 
-
-SPACE1 is a spacey room in spaceland. "You are in space 1."
-SPACE2 is a spacey room in spaceland. "You are in space 2."
-SPACE3 is a spacey room in spaceland. "You are in space 3."
-SPACE4 is a spacey room in spaceland. "You are in space 4."
-SPACE5 is a spacey room in spaceland. "You are in space 5."
-SPACE6 is a spacey room in spaceland. "You are in space 6."
-SPACE7 is a spacey room in spaceland. "You are in space 7."
+The void of space is a room in spaceland. "[description of inside-space-rocket]". The printed name is "The Deep, Dark Void of Space".
+SPACE1 is a spacey room in spaceland. "[description of inside-space-rocket] You are in space 1."
+SPACE2 is a spacey room in spaceland. "[description of inside-space-rocket] You are in space 2."
+SPACE3 is a spacey room in spaceland. "[description of inside-space-rocket] You are in space 3."
+SPACE4 is a spacey room in spaceland. "[description of inside-space-rocket] You are in space 4."
+SPACE5 is a spacey room in spaceland. "[description of inside-space-rocket] You are in space 5."
+SPACE6 is a spacey room in spaceland. "[description of inside-space-rocket] You are in space 6."
+SPACE7 is a spacey room in spaceland. "[description of inside-space-rocket] You are in space 7."
 
 Test button with "f / f / f / f / f / f / f / turn on button"
 

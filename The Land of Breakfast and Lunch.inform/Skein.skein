@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Skein rootNode="node-1">
   <generator>Windows Inform 7 6M62</generator>
-  <activeNode nodeId="node-626"/>
+  <activeNode nodeId="node-662"/>
   <item nodeId="node-1">
     <command xml:space="preserve">The Land of Breakfast and Lunch</command>
-    <result xml:space="preserve">Some would say that life is like a box of metaphors.  I would not say that.  I would say life is a land of metaphors.  You come to this land perhaps from a hidden door in the back of a piece of furniture, perhaps from a door in a dream.  Either way, you find yourself here.&#x000A;&#x000A;The Land of Breakfast and Lunch&#x000A;~ a land can contain both ~ by Daniel Talsky&#x000A;Release 3 / Serial number 200310 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;The Path&#x000A;You are at the beginning of a path.  It is plain, even homely.  It leads forward towards The Land of Breakfast and Lunch.  If you "walk forward" you will follow the path.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">Some would say that life is like a box of metaphors.  I would not say that.  I would say life is a land of metaphors.  You come to this land perhaps from a hidden door in the back of a piece of furniture, perhaps from a door in a dream.  Either way, you find yourself here.&#x000A;&#x000A;The Land of Breakfast and Lunch&#x000A;~ a land can contain both ~ by Daniel Talsky&#x000A;Release 3 / Serial number 200311 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;The Path&#x000A;You are at the beginning of a path.  It is plain, even homely.  It leads forward towards The Land of Breakfast and Lunch.  If you "walk forward" you will follow the path.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
+    <changed>YES</changed>
     <children>
       <child nodeId="node-2"/>
       <child nodeId="node-4"/>
@@ -5217,7 +5217,7 @@
   </item>
   <item nodeId="node-517">
     <command xml:space="preserve">test rocket</command>
-    <result xml:space="preserve">(Testing.)&#x000A;&#x000A;&gt;[1] f&#x000A;&#x000A;The Land of Breakfast and Lunch&#x000A;The Land of Breakfast and Lunch is a lot smaller than you were expecting.  It's actually just a small clearing near the road, like a roadside stop, with a painted picnic table containing a simple but nourishing breakfast on one end, and a simple but nourishing lunch on the other end.  A stubby little path leads backwards, and the path continues forward, towards The Land of Unrealized Possibilities.  If you "walk forward" or just "forward" or even just "f" you will be walking towards it.&#x000A;&#x000A;You can see a painted picnic table (on which are Breakfast and Lunch) here.&#x000A;&#x000A;&gt;[2] f&#x000A;&#x000A;Hopeful Path&#x000A;You are on the hopeful path.  Backwards from here is The Land of Breakfast and Lunch.  Forward is The Land of Unrealized Possibilities.&#x000A;&#x000A;&gt;[3] f&#x000A;&#x000A;The Land of Unrealized Possibilities&#x000A;You are in the Land of Unrealized Possibilities.  Just being here gives you a sense of all that could be accomplished if enough time, effort, and focus were pointed in a specific direction.  There is an sense of both excitement and disappointment here that is almost palpable.  The Hopeful Path leads backward towards The Land of Breakfast and Lunch, a place with a much clearer sense of purpose.&#x000A;&#x000A;You can see a toy box (closed), a couch (on which is your brother), a TV, and a kiddie ride here.&#x000A;&#x000A;&gt;[4] f&#x000A;&#x000A;Seaside Path&#x000A;You are on the the seaside path.  Backwards from here is The Land of Unrealized Possibilities.  Forward is The Land of Unlaunched Vessels.&#x000A;&#x000A;&gt;[5] f&#x000A;&#x000A;The Land of Unlaunched Vessels&#x000A;You are in the The Land of Unlaunched Vessels.  You stand near the edge of the bay, and there is a vessel moored here with thick and aged ropes tied to a bollard.  The Hopeful Path leads backward towards The Land of Unrealized Possibilities, a place you're not sure you want to be.  Forward, Sequel Path leads to The Land of Unlaunched Vessels II: The Launchening.&#x000A;&#x000A;You can see an a swarthy hippie seaperson here.&#x000A;&#x000A;&gt;[6] f&#x000A;&#x000A;Sequel Path&#x000A;You are on the the sequel path.  Backwards from here is The Land of Unlaunched Vessels.  Forward is The Land of Unlaunched Vessels II: The Launchening.&#x000A;&#x000A;&gt;[7] f&#x000A;&#x000A;The Land of Unlaunched Vessels II: The Launchening&#x000A;You are in The Land of Unlaunched Vessels II: The Launchening.  There is a launchpad here, on which sits a large, 1950's era rocket in galaxy white and candy-apple red. Sequel Path leads backwards towards The Land of Unlaunched Vessels&#x000A;&#x000A;You can see a launchpad and a Rocket here.&#x000A;&#x000A;&gt;[8] x launchpad&#x000A;You look at the launchpad very closely indeed, and to be completely honest, it looks about how you'd expect.  You think for a moment that there might be something slightly special about it but then, upon looking just a little closer, you see that there isn't.&#x000A;&#x000A;&gt;[9] x rocket&#x000A;On the launchpad sits a 1950's era rocket in galaxy white and candy-apple red.  Close your eyes and imagine the idea of a cartoon rocket (ok, now open them again) and that's what you've got here.  It's got a bubble of a porthole, curvy fins, and an incredibly phallic body, coming to a point with an extra couple of spheres on the tip of the nose cone.  There is a small, retractable ladder that leads to the hatch.&#x000A;&#x000A;&gt;[10] x porthole&#x000A;The porthole is the single window of the rocket, and it bubbles out from the body of the rocket so when you're inside, you can see a wider vista.  It has a pleasant curve to it.&#x000A;&#x000A;&gt;[11] x bubble&#x000A;It's not literally a bubble, it's just a bubble-like window attached to the rocket.&#x000A;&#x000A;&gt;[12] x fins&#x000A;There are three fins, evenly spaced around the rocket.  At first it looks like the rocket rests on them, but really they're just inches above the launchpad.  They have a pleasing curve to them and come almost to a sharp point.&#x000A;&#x000A;&gt;[13] x hatch&#x000A;The hatch is a small door in the rocket.  It has a hinge on the side, and a handle that looks like the locking handle on the door of a 1950's refrigerator.&#x000A;&#x000A;&gt;[14] x ladder&#x000A;You look at the retractable ladder very closely indeed, and to be completely honest, it looks about how you'd expect.  You think for a moment that there might be something slightly special about it but then, upon looking just a little closer, you see that there isn't.&#x000A;&#x000A;&gt;[15] x cone&#x000A;The nose cone follows the natural curve of the body of the rocket, coming to a point, and sprouting a single pole antenna with little spheres on it.&#x000A;&#x000A;&gt;[16] x spheres&#x000A;The middle sphere is the largest, the top sphere is the smallest, and the bottom sphere is halfway between the size of the two other spheres.  It looks pretty cool in a 1950's sort of way.&#x000A;&#x000A;&gt;[17] retract ladder&#x000A;The ladder retracts automatically when the rocket is getting ready to launch.&#x000A;&#x000A;&gt;[18] climb ladder&#x000A;Little is to be achieved by that.&#x000A;&#x000A;&gt;[19] enter rocket&#x000A;The hatch is closed.&#x000A;&#x000A;&gt;[20] open hatch&#x000A;You open the hatch.&#x000A;&#x000A;&gt;[21] enter rocket&#x000A;You pull yourself into the rocket.&#x000A;&#x000A;The Inside of the Parked Rocket&#x000A;You are within the smooth walls of the rocket.  It is very plain here, out the portal you can see  The Land of Unlaunched Vessels II: The Launchening.&#x000A;&#x000A;You can see a shiny red button here.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">(Testing.)&#x000A;&#x000A;&gt;[1] f&#x000A;&#x000A;The Land of Breakfast and Lunch&#x000A;The Land of Breakfast and Lunch is a lot smaller than you were expecting.  It's actually just a small clearing near the road, like a roadside stop, with a painted picnic table containing a simple but nourishing breakfast on one end, and a simple but nourishing lunch on the other end.  A stubby little path leads backwards, and the path continues forward, towards The Land of Unrealized Possibilities.  If you "walk forward" or just "forward" or even just "f" you will be walking towards it.&#x000A;&#x000A;You can see a painted picnic table (on which are Breakfast and Lunch) here.&#x000A;&#x000A;&gt;[2] f&#x000A;&#x000A;Hopeful Path&#x000A;You are on the hopeful path.  Backwards from here is The Land of Breakfast and Lunch.  Forward is The Land of Unrealized Possibilities.&#x000A;&#x000A;&gt;[3] f&#x000A;&#x000A;The Land of Unrealized Possibilities&#x000A;You are in the Land of Unrealized Possibilities.  Just being here gives you a sense of all that could be accomplished if enough time, effort, and focus were pointed in a specific direction.  There is an sense of both excitement and disappointment here that is almost palpable.  The Hopeful Path leads backward towards The Land of Breakfast and Lunch, a place with a much clearer sense of purpose.&#x000A;&#x000A;You can see a toy box (closed), a couch (on which is your brother), a TV, and a kiddie ride here.&#x000A;&#x000A;&gt;[4] f&#x000A;&#x000A;Seaside Path&#x000A;You are on the the seaside path.  Backwards from here is The Land of Unrealized Possibilities.  Forward is The Land of Unlaunched Vessels.&#x000A;&#x000A;&gt;[5] f&#x000A;&#x000A;The Land of Unlaunched Vessels&#x000A;You are in the The Land of Unlaunched Vessels.  You stand near the edge of the bay, and there is a vessel moored here with thick and aged ropes tied to a bollard.  The Hopeful Path leads backward towards The Land of Unrealized Possibilities, a place you're not sure you want to be.  Forward, Sequel Path leads to The Land of Unlaunched Vessels II: The Launchening.&#x000A;&#x000A;You can see an a swarthy hippie seaperson here.&#x000A;&#x000A;&gt;[6] f&#x000A;&#x000A;Sequel Path&#x000A;You are on the the sequel path.  Backwards from here is The Land of Unlaunched Vessels.  Forward is The Land of Unlaunched Vessels II: The Launchening.&#x000A;&#x000A;&gt;[7] f&#x000A;&#x000A;The Land of Unlaunched Vessels II: The Launchening&#x000A;You are in The Land of Unlaunched Vessels II: The Launchening.  There is a launchpad here, on which sits a large, 1950's era rocket in galaxy white and candy-apple red. Sequel Path leads backwards towards The Land of Unlaunched Vessels&#x000A;&#x000A;You can see a launchpad and a Rocket here.&#x000A;&#x000A;&gt;[8] x launchpad&#x000A;You look at the launchpad very closely indeed, and to be completely honest, it looks about how you'd expect.  You think for a moment that there might be something slightly special about it but then, upon looking just a little closer, you see that there isn't.&#x000A;&#x000A;&gt;[9] x rocket&#x000A;On the launchpad sits a 1950's era rocket in galaxy white and candy-apple red.  Close your eyes and imagine the idea of a cartoon rocket (ok, now open them again) and that's what you've got here.  It's got a bubble of a porthole, curvy fins, and an incredibly phallic body, coming to a point with an extra couple of spheres on the tip of the nose cone.  There is a small, retractable ladder that leads to the hatch.&#x000A;&#x000A;&gt;[10] x porthole&#x000A;The porthole is the single window of the rocket, and it bubbles out from the body of the rocket so when you're inside, you can see a wider vista.  It has a pleasant curve to it.&#x000A;&#x000A;&gt;[11] x bubble&#x000A;It's not literally a bubble, it's just a bubble-like window attached to the rocket.&#x000A;&#x000A;&gt;[12] x fins&#x000A;There are three fins, evenly spaced around the rocket.  At first it looks like the rocket rests on them, but really they're just inches above the launchpad.  They have a pleasing curve to them and come almost to a sharp point.&#x000A;&#x000A;&gt;[13] x hatch&#x000A;The hatch is a small door in the rocket.  It has a hinge on the side, and a handle that looks like the locking handle on the door of a 1950's refrigerator.&#x000A;&#x000A;&gt;[14] x ladder&#x000A;You look at the retractable ladder very closely indeed, and to be completely honest, it looks about how you'd expect.  You think for a moment that there might be something slightly special about it but then, upon looking just a little closer, you see that there isn't.&#x000A;&#x000A;&gt;[15] x cone&#x000A;The nose cone follows the natural curve of the body of the rocket, coming to a point, and sprouting a single pole antenna with little spheres on it.&#x000A;&#x000A;&gt;[16] x spheres&#x000A;The middle sphere is the largest, the top sphere is the smallest, and the bottom sphere is halfway between the size of the two other spheres.  It looks pretty cool in a 1950's sort of way.&#x000A;&#x000A;&gt;[17] retract ladder&#x000A;The ladder retracts automatically when the rocket is getting ready to launch.&#x000A;&#x000A;&gt;[18] climb ladder&#x000A;Little is to be achieved by that.&#x000A;&#x000A;&gt;[19] enter rocket&#x000A;The hatch is closed.&#x000A;&#x000A;&gt;[20] open hatch&#x000A;You open the hatch.&#x000A;&#x000A;&gt;[21] enter rocket&#x000A;You pull yourself into the rocket.&#x000A;&#x000A;The Inside of the Parked Rocket&#x000A;You are within the smooth walls of the rocket.  It is very plain here, out the porthole window you can see The Land of Unlaunched Vessels II: The Launchening.&#x000A;&#x000A;You can see a cockpit here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -5227,6 +5227,9 @@
       <child nodeId="node-621"/>
       <child nodeId="node-624"/>
       <child nodeId="node-626"/>
+      <child nodeId="node-629"/>
+      <child nodeId="node-631"/>
+      <child nodeId="node-645"/>
     </children>
   </item>
   <item nodeId="node-518">
@@ -5319,7 +5322,88 @@
   </item>
   <item nodeId="node-621">
     <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Inside of the Parked Rocket&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">The Inside of the Parked Rocket&#x000A;You are within the smooth walls of the rocket.  It is very plain here, out the porthole window you can see The Land of Unlaunched Vessels II: The Launchening.&#x000A;&#x000A;You can see a cockpit here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-636"/>
+    </children>
+  </item>
+  <item nodeId="node-636">
+    <command xml:space="preserve">look cockpit</command>
+    <result xml:space="preserve">The cockpit, containing the captain's chair and the control panel is firmly mounted to the inner wall of the rocket across from the porthole.  The captain's chair is angled so that you can sit in it when the rocket is vertical or horizontal.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-637"/>
+    </children>
+  </item>
+  <item nodeId="node-637">
+    <command xml:space="preserve">look chair</command>
+    <result xml:space="preserve">The captain's chair is rightfully named.  It looks fit for a captain.  It's leather-clad, and the same galaxy white and candy-apple red as the exterior of the ship.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-638"/>
+    </children>
+  </item>
+  <item nodeId="node-638">
+    <command xml:space="preserve">sit in chair</command>
+    <result xml:space="preserve">That's not something you can sit down on.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-639"/>
+    </children>
+  </item>
+  <item nodeId="node-639">
+    <command xml:space="preserve">look button</command>
+    <result xml:space="preserve">Which do you mean, the shiny red launch button, the smaller black return button, or the medium-sized blue forward button?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-640"/>
+    </children>
+  </item>
+  <item nodeId="node-640">
+    <command xml:space="preserve">look launch button</command>
+    <result xml:space="preserve">You look at the shiny red launch button very closely indeed, and to be completely honest, it looks about how you'd expect.  You think for a moment that there might be something slightly special about it but then, upon looking just a little closer, you see that there isn't.&#x000A;&#x000A;The shiny red launch button is currently switched off.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-641"/>
+    </children>
+  </item>
+  <item nodeId="node-641">
+    <command xml:space="preserve">press launch button</command>
+    <result xml:space="preserve">The rocket launches and then takes off.&#x000A;&#x000A;SPACE7&#x000A;You are inside the rocket. You are in space 7.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-642"/>
+    </children>
+  </item>
+  <item nodeId="node-642">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">SPACE7&#x000A;You are inside the rocket. You are in space 7.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-643"/>
+    </children>
+  </item>
+  <item nodeId="node-643">
+    <command xml:space="preserve">look button</command>
+    <result xml:space="preserve">Which do you mean, the shiny red launch button, the smaller black return button, or the medium-sized blue forward button?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-644"/>
+    </children>
+  </item>
+  <item nodeId="node-644">
+    <command xml:space="preserve">look control panel</command>
+    <result xml:space="preserve">The control panel is an extremely austere, some might even say naive set of controls.  There is a large, shiny, red button labeled "Launch", a smaller black button that labeled "Return", and then off to your right, a medium-sized bright blue button labeled "Forward".  That's it.  Surely you should be able to operate a spacecraft with only those controls?  You look on the front for a button marked "Laser" or "Warp" but those buttons are not on the control panel or anywhere else inside the ship.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
@@ -5340,7 +5424,241 @@
   </item>
   <item nodeId="node-626">
     <command xml:space="preserve">press button</command>
-    <result xml:space="preserve">The rocket launches and then takes off.&#x000A;&#x000A;SPACE4&#x000A;You are in space 4.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">The rocket launches and then takes off.&#x000A;&#x000A;SPACE2&#x000A;You are in space 2.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-627"/>
+    </children>
+  </item>
+  <item nodeId="node-627">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">SPACE2&#x000A;You are in space 2.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-628"/>
+    </children>
+  </item>
+  <item nodeId="node-628">
+    <command xml:space="preserve">look stars</command>
+    <result xml:space="preserve">There is a curtain of stars here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-629">
+    <command xml:space="preserve">test rocket</command>
+    <result xml:space="preserve">(Testing.)&#x000A;&#x000A;&gt;[1] f&#x000A;You can't go that way.&#x000A;&#x000A;&gt;[2] f&#x000A;You can't go that way.&#x000A;&#x000A;&gt;[3] f&#x000A;You can't go that way.&#x000A;&#x000A;&gt;[4] f&#x000A;You can't go that way.&#x000A;&#x000A;&gt;[5] f&#x000A;You can't go that way.&#x000A;&#x000A;&gt;[6] f&#x000A;You can't go that way.&#x000A;&#x000A;&gt;[7] f&#x000A;You can't go that way.&#x000A;&#x000A;&gt;[8] x launchpad&#x000A;You can't see any such thing.&#x000A;&#x000A;&gt;[9] x rocket&#x000A;You can't see any such thing.&#x000A;&#x000A;&gt;[10] x porthole&#x000A;You can't see any such thing.&#x000A;&#x000A;&gt;[11] x bubble&#x000A;You can't see any such thing.&#x000A;&#x000A;&gt;[12] x fins&#x000A;You can't see any such thing.&#x000A;&#x000A;&gt;[13] x hatch&#x000A;You can't see any such thing.&#x000A;&#x000A;&gt;[14] x ladder&#x000A;You can't see any such thing.&#x000A;&#x000A;&gt;[15] x cone&#x000A;You can't see any such thing.&#x000A;&#x000A;&gt;[16] x spheres&#x000A;You can't see any such thing.&#x000A;&#x000A;&gt;[17] retract ladder&#x000A;You can't see any such thing.&#x000A;&#x000A;&gt;[18] climb ladder&#x000A;You can't see any such thing.&#x000A;&#x000A;&gt;[19] enter rocket&#x000A;You can't see any such thing.&#x000A;&#x000A;&gt;[20] open hatch&#x000A;You can't see any such thing.&#x000A;&#x000A;&gt;[21] enter rocket&#x000A;You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-630"/>
+    </children>
+  </item>
+  <item nodeId="node-630">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">The Inside of the Parked Rocket&#x000A;You are within the smooth walls of the rocket.  It is very plain here, out the portal you can see  The Land of Unlaunched Vessels II: The Launchening.&#x000A;&#x000A;You can see a The cockpit, containing the captain's chair and the control panel is across from the porthole. here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-631">
+    <command xml:space="preserve">enter chair</command>
+    <result xml:space="preserve">That's not something you can enter.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-632"/>
+    </children>
+  </item>
+  <item nodeId="node-632">
+    <command xml:space="preserve">enter cockpit</command>
+    <result xml:space="preserve">That's not something you can enter.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-633"/>
+    </children>
+  </item>
+  <item nodeId="node-633">
+    <command xml:space="preserve">sit on chair</command>
+    <result xml:space="preserve">That's not something you can sit down on.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-634"/>
+    </children>
+  </item>
+  <item nodeId="node-634">
+    <command xml:space="preserve">look chir</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-635"/>
+    </children>
+  </item>
+  <item nodeId="node-635">
+    <command xml:space="preserve">look chair</command>
+    <result xml:space="preserve">You look at the captain's chair very closely indeed, and to be completely honest, it looks about how you'd expect.  You think for a moment that there might be something slightly special about it but then, upon looking just a little closer, you see that there isn't.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-645">
+    <command xml:space="preserve">push red button</command>
+    <result xml:space="preserve">The rocket launches and then takes off.&#x000A;&#x000A;SPACE6&#x000A;You are inside the rocket as it cruises very slowly through the deep, dark, void of space.  Outside the porthole window you see the deep, dark void of space covered over with a curtain of stars.  Here, in the rocket, is the captain's chair, the smooth walls of the spaceship You are in space 6.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-646"/>
+    </children>
+  </item>
+  <item nodeId="node-646">
+    <command xml:space="preserve">push red button</command>
+    <result xml:space="preserve">The rocket launches and then takes off.&#x000A;&#x000A;SPACE1&#x000A;You are inside the rocket as it cruises very slowly through the deep, dark, void of space.  Outside the porthole window you see the deep, dark void of space covered over with a curtain of stars.  Here, in the rocket, is the captain's chair, the smooth walls of the spaceship You are in space 1.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-647"/>
+    </children>
+  </item>
+  <item nodeId="node-647">
+    <command xml:space="preserve">push red button</command>
+    <result xml:space="preserve">The rocket launches and then takes off.&#x000A;&#x000A;SPACE1&#x000A;You are inside the rocket as it cruises very slowly through the deep, dark, void of space.  Outside the porthole window you see the deep, dark void of space covered over with a curtain of stars.  Here, in the rocket, is the captain's chair, the smooth walls of the spaceship You are in space 1.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-648"/>
+    </children>
+  </item>
+  <item nodeId="node-648">
+    <command xml:space="preserve">push red button</command>
+    <result xml:space="preserve">The rocket launches and then takes off.&#x000A;&#x000A;SPACE6&#x000A;You are inside the rocket as it cruises very slowly through the deep, dark, void of space.  Outside the porthole window you see the deep, dark void of space covered over with a curtain of stars.  Here, in the rocket, is the captain's chair, the smooth walls of the spaceship You are in space 6.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-649"/>
+    </children>
+  </item>
+  <item nodeId="node-649">
+    <command xml:space="preserve">push red button</command>
+    <result xml:space="preserve">The rocket launches and then takes off.&#x000A;&#x000A;SPACE5&#x000A;You are inside the rocket as it cruises very slowly through the deep, dark, void of space.  Outside the porthole window you see the deep, dark void of space covered over with a curtain of stars.  Here, in the rocket, is the captain's chair, the smooth walls of the spaceship You are in space 5.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-650"/>
+    </children>
+  </item>
+  <item nodeId="node-650">
+    <command xml:space="preserve">push red button</command>
+    <result xml:space="preserve">The rocket launches and then takes off.&#x000A;&#x000A;SPACE5&#x000A;You are inside the rocket as it cruises very slowly through the deep, dark, void of space.  Outside the porthole window you see the deep, dark void of space covered over with a curtain of stars.  Here, in the rocket, is the captain's chair, the smooth walls of the spaceship You are in space 5.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-651"/>
+    </children>
+  </item>
+  <item nodeId="node-651">
+    <command xml:space="preserve">push red button</command>
+    <result xml:space="preserve">The rocket launches and then takes off.&#x000A;&#x000A;SPACE2&#x000A;You are inside the rocket as it cruises very slowly through the deep, dark, void of space.  Outside the porthole window you see the deep, dark void of space covered over with a curtain of stars.  Here, in the rocket, is the captain's chair, the smooth walls of the spaceship You are in space 2.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-652"/>
+    </children>
+  </item>
+  <item nodeId="node-652">
+    <command xml:space="preserve">push red button</command>
+    <result xml:space="preserve">The rocket launches and then takes off.&#x000A;&#x000A;SPACE7&#x000A;You are inside the rocket as it cruises very slowly through the deep, dark, void of space.  Outside the porthole window you see the deep, dark void of space covered over with a curtain of stars.  Here, in the rocket, is the captain's chair, the smooth walls of the spaceship You are in space 7.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-653"/>
+    </children>
+  </item>
+  <item nodeId="node-653">
+    <command xml:space="preserve">push red button</command>
+    <result xml:space="preserve">The rocket launches and then takes off.&#x000A;&#x000A;SPACE2&#x000A;You are inside the rocket as it cruises very slowly through the deep, dark, void of space.  Outside the porthole window you see the deep, dark void of space covered over with a curtain of stars.  Here, in the rocket, is the captain's chair, the smooth walls of the spaceship You are in space 2.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-654"/>
+    </children>
+  </item>
+  <item nodeId="node-654">
+    <command xml:space="preserve">push red button</command>
+    <result xml:space="preserve">The rocket launches and then takes off.&#x000A;&#x000A;SPACE4&#x000A;You are inside the rocket as it cruises very slowly through the deep, dark, void of space.  Outside the porthole window you see the deep, dark void of space covered over with a curtain of stars.  Here, in the rocket, is the captain's chair, the smooth walls of the spaceship You are in space 4.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-655"/>
+    </children>
+  </item>
+  <item nodeId="node-655">
+    <command xml:space="preserve">push red button</command>
+    <result xml:space="preserve">The rocket launches and then takes off.&#x000A;&#x000A;SPACE7&#x000A;You are inside the rocket as it cruises very slowly through the deep, dark, void of space.  Outside the porthole window you see the deep, dark void of space covered over with a curtain of stars.  Here, in the rocket, is the captain's chair, the smooth walls of the spaceship You are in space 7.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-656"/>
+    </children>
+  </item>
+  <item nodeId="node-656">
+    <command xml:space="preserve">push red button</command>
+    <result xml:space="preserve">The rocket launches and then takes off.&#x000A;&#x000A;SPACE2&#x000A;You are inside the rocket as it cruises very slowly through the deep, dark, void of space.  Outside the porthole window you see the deep, dark void of space covered over with a curtain of stars.  Here, in the rocket, is the captain's chair, the smooth walls of the spaceship You are in space 2.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-657"/>
+    </children>
+  </item>
+  <item nodeId="node-657">
+    <command xml:space="preserve">push red button</command>
+    <result xml:space="preserve">The rocket launches and then takes off.&#x000A;&#x000A;SPACE7&#x000A;You are inside the rocket as it cruises very slowly through the deep, dark, void of space.  Outside the porthole window you see the deep, dark void of space covered over with a curtain of stars.  Here, in the rocket, is the captain's chair, the smooth walls of the spaceship You are in space 7.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-658"/>
+    </children>
+  </item>
+  <item nodeId="node-658">
+    <command xml:space="preserve">push red button</command>
+    <result xml:space="preserve">The rocket launches and then takes off.&#x000A;&#x000A;SPACE1&#x000A;You are inside the rocket as it cruises very slowly through the deep, dark, void of space.  Outside the porthole window you see the deep, dark void of space covered over with a curtain of stars.  Here, in the rocket, is the captain's chair, the smooth walls of the spaceship You are in space 1.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-659"/>
+    </children>
+  </item>
+  <item nodeId="node-659">
+    <command xml:space="preserve">push red button</command>
+    <result xml:space="preserve">The rocket launches and then takes off.&#x000A;&#x000A;SPACE4&#x000A;You are inside the rocket as it cruises very slowly through the deep, dark, void of space.  Outside the porthole window you see the deep, dark void of space covered over with a curtain of stars.  Here, in the rocket, is the captain's chair, the smooth walls of the spaceship You are in space 4.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-660"/>
+    </children>
+  </item>
+  <item nodeId="node-660">
+    <command xml:space="preserve">push red button</command>
+    <result xml:space="preserve">The rocket launches and then takes off.&#x000A;&#x000A;SPACE6&#x000A;You are inside the rocket as it cruises very slowly through the deep, dark, void of space.  Outside the porthole window you see the deep, dark void of space covered over with a curtain of stars.  Here, in the rocket, is the captain's chair, the smooth walls of the spaceship You are in space 6.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-661"/>
+    </children>
+  </item>
+  <item nodeId="node-661">
+    <command xml:space="preserve">push red button</command>
+    <result xml:space="preserve">The rocket launches and then takes off.&#x000A;&#x000A;SPACE7&#x000A;You are inside the rocket as it cruises very slowly through the deep, dark, void of space.  Outside the porthole window you see the deep, dark void of space covered over with a curtain of stars.  Here, in the rocket, is the captain's chair, the smooth walls of the spaceship You are in space 7.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-662"/>
+    </children>
+  </item>
+  <item nodeId="node-662">
+    <command xml:space="preserve">push red button</command>
+    <result xml:space="preserve">The rocket launches and then takes off.&#x000A;&#x000A;SPACE7&#x000A;You are inside the rocket as it cruises very slowly through the deep, dark, void of space.  Outside the porthole window you see the deep, dark void of space covered over with a curtain of stars.  Here, in the rocket, is the captain's chair, the smooth walls of the spaceship You are in space 7.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>

@@ -14,7 +14,7 @@ Reading language definition from <C:\Program Files (x86)\Inform 7\Internal\Langu
 Phase I ... Lexical analysis
 -----------------------------------------------------
 
-I've now read your source text, which is 6675 words long.
+I've now read your source text, which is 7099 words long.
 
 
 -----------------------------------------------------
@@ -53,19 +53,21 @@ Phase VI ... Semantic analysis III
 Phase VII ... First pass through assertions
 -----------------------------------------------------
 
-    Regional: CONSTANT_VNT'spaceland'-region()(I134'spaceland')
+    Regional: CONSTANT_VNT'spaceland'-region()(I139'spaceland')
      == region
-    Regional: CONSTANT_VNT'spaceland'-region()(I134'spaceland')
+    Regional: CONSTANT_VNT'spaceland'-region()(I139'spaceland')
      == region
-    Regional: CONSTANT_VNT'spaceland'-region()(I134'spaceland')
+    Regional: CONSTANT_VNT'spaceland'-region()(I139'spaceland')
      == region
-    Regional: CONSTANT_VNT'spaceland'-region()(I134'spaceland')
+    Regional: CONSTANT_VNT'spaceland'-region()(I139'spaceland')
      == region
-    Regional: CONSTANT_VNT'spaceland'-region()(I134'spaceland')
+    Regional: CONSTANT_VNT'spaceland'-region()(I139'spaceland')
      == region
-    Regional: CONSTANT_VNT'spaceland'-region()(I134'spaceland')
+    Regional: CONSTANT_VNT'spaceland'-region()(I139'spaceland')
      == region
-    Regional: CONSTANT_VNT'spaceland'-region()(I134'spaceland')
+    Regional: CONSTANT_VNT'spaceland'-region()(I139'spaceland')
+     == region
+    Regional: CONSTANT_VNT'spaceland'-region()(I139'spaceland')
      == region
 
 
@@ -189,7 +191,7 @@ Phase XIII ... Compilation now complete
 -----------------------------------------------------
 
 Total of 113 files written as streams.
-CPU time: 107 centiseconds
+CPU time: 118 centiseconds
 
 
 That concludes the debugging log from this run of Inform.
