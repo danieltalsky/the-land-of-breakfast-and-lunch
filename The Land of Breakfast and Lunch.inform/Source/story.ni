@@ -135,7 +135,7 @@ A part-of-a-complete-lunch is a kind of thing. A part-of-a-complete-lunch is alw
 Instead of eating or taking or tasting a part-of-a-complete-lunch, say "Lunch is kind of an all-or-nothing affair.  One really needs to sit down and tuck into it, rather than simply nibbling at one thing or another and leaving the rest of it to repel and disgust another traveller.".
 The grilled cheese sandwich is a part-of-a-complete-lunch on the table.  Understand "bread" or "butter" as the sandwich.  The description of the grilled cheese sandwich is "It's a grilled cheese sandwich in the classic sense, in that there's nothing in it but cheese.  The sandwich has been cut in half diagonally and the tiniest bit of cheese has oozed out towards the table.  It looks like a combination of cheeses.  The bread is toasted to a perfect golden brown and glistens with its thin layer of butter."
 Instead of smelling the grilled cheese sandwich, say "You mostly smell butter, but perhaps a hint of cheddar."
-The bowl of tomato soup is a part-of-a-complete-lunch on the table.  Understand "pepper" as the soup.  The description of the bowl of tomato soup is "Warm, creamy, and comforting, about two thirds the way to filling a fiestaware bowl.  There is a bit of coarsely cracked pepper at the top."
+The bowl of tomato soup is a part-of-a-complete-lunch on the table.  Understand "pepper" as the soup.  The description of the bowl of tomato soup is "Warm, creamy, and comforting, and about two thirds the way to filling a fiestaware bowl.  There is a bit of coarsely cracked pepper at the top."
 Instead of smelling the bowl of tomato soup, say "You mostly smell the pepper, but with a warm tomato-ey bottom note."
 The description of the tray of antipasto is "This is an antique bakelite tray containing an assortment of little foods: several different kinds of olives, marinated artichoke hearts, fresh figs, grilled vegetable slices, and cornichon."
 Instead of smelling the tray of antipasto, say "You mostly smell the tartness of the artichoke hearts, but if you lean closely you can smell the cornichon."
@@ -160,10 +160,53 @@ The Hopeful Path is a room.  "You are on the hopeful path.  Backwards from here 
 TLoUP is a room. "You are in the Land of Unrealized Possibilities.  Just being here gives you a sense of all that could be accomplished if enough time, effort, and focus were pointed in a specific direction.  There is an sense of both excitement and disappointment here that is almost palpable.  The Hopeful Path leads backward towards The Land of Breakfast and Lunch, a place with a much clearer sense of purpose."   TLoUP is north of the hopeful path.
 The printed name of TLoUP is "The Land of Unrealized Possibilities"
 
+[The Toy Box]
 There is a toy box in TLoUP.  It is an openable closed container.  It is fixed in place.  The description of the toy box is "It is a large simple wooden toy box stained with a nice hand-painted varnish.  It has a hinged lid on top."
-Understand "lid" as the toy box.
+The hinged wooden lid is a part of the toy box.
 
-There is a wooden block in the toy box.  The description of the wooden block is "It is a simple block made out of wood.  It is unpainted.  It's the kind of thing you would find at a Montessouri school, usually in the company of many of its compatriots."
+There is a wooden block in the toy box.  The description of the wooden block is "It is a simple block made out of wood.  It is an unpainted cube, with very slightly rounded corners.  It's the kind of thing you would find at a Montessouri school, usually in the company of many of its compatriots.  This one is alone."
+
+There is a skinny naked plastic doll in the toy box.  The description is "The face of the skinny plastic doll is forever frozen in an expression of bored self-satisfaction.  Its long naked arms and legs bend and articulate, but not much.  Its breasts are idealized, yet awkwardly shaped, like rounded pyramids.  It has nylon synthetic hair that cascades stiffly around its shoulders.".  The nylon hair is a part of the doll.  The description is "The hair is really tiny tufts of nylon that poke out of holes in the doll's head.".  The breasts are a part of the plastic doll.  The description is "They are merely designed to fill out a miniature blouse, and look very unnatural unclothed.".  Understand "arms/legs" as the doll.
+Understand "bend [the plastic doll]" as bending.  Bending is an action applying to one visible thing.
+Instead of bending the plastic doll:
+	try taking the plastic doll;
+	say "You twist the doll into a few unlikely positions, as if getting ready to horrify an imaginary younger sister.  Then, you are bored and bend her back to her awkwardly stiff standing pose.".
+	
+[The jack-in-the-box]
+There is a closed jack-in-the-box in the toy box. 
+The description of the closed jack-in-the-box is "The jack-in-the-box is a brightly painted tin cube, and actually looks to be some sort of antique.  It is detailed with flames, and written on the back and front are the words 'diable en boîte'.  It has a tightly fitted lid on top, and a small wire and wood hand crank on one side.".  The usable hand crank is a part of the closed jack-in-the-box.  The description is "A wire hand crank with a small wooden ball as a handle on the end.".  The closed tin lid is a part of the closed jack-in-the-box.
+
+Understand "turn [the usable hand crank]" as opening.
+Understand "twist [the usable hand crank]" as opening.
+Instead of opening the usable hand crank:
+	try opening the closed jack-in-the-box.
+Instead of closing the closed tin lid, say "It's already tightly closed."
+Instead of opening the closed tin lid, say "It's tightly closed.  You'd open it by turning the crank."
+Instead of closing the closed jack-in-the-box:
+ say "It's closed."
+Instead of opening the closed jack-in-the-box:
+	say "You grasp the little wooden ball and begin to turn the crank as you hold the jack-in-the-box steady.  A dark little tune plinks its way out, echoing forth from the little tin box.  It's not 'all around the mulberry bush' or any song you recognize, so you don[apostrophe]t quite expect it when its last note ends, and the spring-loaded doll within leaps out with surprising agility.  You jump a tiny bit, in spite of yourself.  The devil doll looks pleased.";
+	move the open jack-in-the-box to the player;
+	now the closed jack-in-the-box is nowhere.
+
+There is an open jack-in-the-box. The description of the open jack-in-the-box is "The jack-in-the-box is a brightly painted tin cube, and actually looks to be some sort of antique.  It is detailed with flames, and written on the back and front are the words 'diable en boîte'.  Its tin lid is popped open, revealing a small fabric devil puppet.".  The devil doll is a part of the open jack-in-the-box.  The description of the devil doll is "The devil doll looks handmade, from fabric and wood.  It has bright, black beads for eyes and a grinning face.  It looks delighted at its recent opportunity to surprise you with its cartoonish evil.".  Understand "puppet/spring/horns" as the devil doll.  The spent hand crank is a part of the open jack-in-the-box.  The description is "A wire hand crank with a small wooden ball as a handle on the end.  You can turn the crank, but the jack-in-the-box is already out-of-the-box.". The open lid of the jack-in-the-box is a part of the open jack-in-the-box.
+
+Understand "turn [the spent hand crank]" as opening.
+Understand "twist [the spent hand crank]" as opening.
+Instead of closing the open lid of the jack-in-the-box:
+	try closing the open jack-in-the-box.
+Instead of opening the spent hand crank, say "You can turn the crank, but the jack-in-the-box is already out-of-the-box."
+Instead of opening the open jack-in-the-box:
+ say "You can turn the crank, but the jack-in-the-box is already out-of-the-box."
+Instead of closing the open jack-in-the-box:
+	say "You shove the devil doll into the body of the box, and shut the lid with a satisfying snap.";
+	move the closed jack-in-the-box to the player;
+	now the open jack-in-the-box is nowhere.
+
+test jack-in-the-box with "f / f / f / open toy box / x jack-in-the-box / turn crank / x jack-in-the-box / close jack-in-the-box / twist crank / twist crank"
+
+There is a lite-brite in the toy box.  The description of the lite-brite is "yo".
+There is a coloring book in the toy box.  The description of the coloring book is "yo".
 
 There is a small heart shaped locket in the toy box.  It is an openable closed container.  It is wearable.  The description is "It is a small pewter locket.  It looks a bit old fashioned.  It has a small clasp on the side and looks like you could easily open it."  Understand "clasp" as the locket.
 Instead of inserting something (called the item) into the locket:
@@ -176,6 +219,8 @@ There is a faded picture of a child who looks a lot like you in the locket.    T
 Understand "photo/photograph/smile" as the picture.
 
 There is a small hobby horse in the toy box.   The description of the horse is "It is a small, wooden hobby horse.  It's very sturdily built, but made to entertain a three-year old.  It has yarn for a mane."  Understand "yarn" or "mane" as the horse.
+
+test toybox with "f / f / f / open box / x doll / x hair / x breasts / bend doll / x jack-in-the-box / x lite-brite / x coloring book"
 
 [Your Brother]
 There is a couch in TLoUP.  It is a supporter. It is fixed in place. The description of the couch is "This is the blue corduroy couch of your youth.  You have rolled over on it many times and sat up to read it's wrinkled poem on your arm.  Why would anyone get a corduroy couch?"
@@ -358,7 +403,7 @@ The Sequel Path is a room.  "You are on the the sequel path.  Backwards from her
 TLOUV2 is a room. "You are in [printed name of TLOUV2].  There is a launchpad here, on which sits a large, 1950[apostrophe]s era rocket in galaxy white and candy-apple red. [printed name of The Sequel Path] leads backwards towards The Land of Unlaunched Vessels".  TLOUV2 is north of the sequel path.
 The printed name of TLOUV2 is "The Land of Unlaunched Vessels II: The Launchening"
 
-The launchpad is in TLOUV2.
+The launchpad is in TLOUV2.  The description is "The launchpad appears to be just a featureless steel box set into the ground.  Only a few inches of it protrude up to support the rocket.  It has a mirrory shine, as if the rocket had never been launched."
 The Rocket is in TLOUV2. The description is "On the launchpad sits a 1950[apostrophe]s era rocket in galaxy white and candy-apple red.  Close your eyes and imagine the idea of a cartoon rocket (ok, now open them again) and that's what you've got here.  It's got a bubble of a porthole, curvy fins, and an incredibly phallic body, coming to a point with an extra couple of spheres on the tip of the nose cone.  There is a small, retractable ladder that leads to the hatch."
 Before entering the rocket:
 	if the hatch is closed:
@@ -368,12 +413,22 @@ Instead of entering the rocket:
 	now the player is in parked-rocket-innards.
 
 The porthole is a part of the rocket.  The description is "The porthole is the single window of the rocket, and it bubbles out from the body of the rocket so when you're inside, you can see a wider vista.  It has a pleasant curve to it."
-The bubble is a part of the rocket.  The description is "It's not literally a bubble, it's just a bubble-like window attached to the rocket."
-The body is a part of the rocket.  The description is "It is a smooth, curved shape like an old-timey cigar."
-The fins are a part of the rocket.  The description is "There are three fins, evenly spaced around the rocket.  At first it looks like the rocket rests on them, but really they're just inches above the launchpad.  They have a pleasing curve to them and come almost to a sharp point."
+Instead of searching the porthole, say "From outside the rocket, the rounded curve of the porthole looks almost metallic.  You assume it's transparent from the inside.".
+The nose cone is a part of the rocket.  The description is "The nose cone follows the natural curve of the body of the rocket, coming to a point, and sprouting a single pole antenna with little spheres on it.".
+The antenna is a part of the nose cone. The description is "The antenna sprouts directly up from the nose cone.  It is adorned with three spheres.  They must help with radio reception or something.".
+The spheres are a part of the antenna.  The description is "The middle sphere is the largest, the top sphere is the smallest, and the bottom sphere is halfway between the size of the two other spheres.  It looks pretty cool in a 1950[apostrophe]s sort of way.".
+The bubble is a part of the rocket.  The description is "It's not literally a bubble, it's just a bubble-like window attached to the rocket.".
+The body is a part of the rocket.  The description is "It is a smooth, curved shape like a cigar."
+The fins are a part of the rocket.  The description is "There are two fins opposite each other, evenly spaced around the rocket.  At first it looks like the rocket rests on them, but really they're just inches above the launchpad.  They each have a pleasing curve to them and terminate in what looks like a jet engine."
+The jet engines are a part of the rocket.  The description is "You're not sure if they could lift this massive thing into space, but it seems possible."
 The hatch is a part of the rocket.   The hatch can be openable. The hatch can be open. The hatch is openable and closed.  The description is "The hatch is a small door in the rocket.  It has a hinge on the side, and a handle that looks like the locking handle on the door of a 1950[apostrophe]s refrigerator.".
 Understand "handle" as the hatch.
 The hinge is a part of the hatch.
+Instead of searching the hatch:
+	if the hatch is open:
+		say "You can tell there's not much inside the rocket but smooth walls and some sort of cockpit.";
+	else:
+		say "The hatch is closed, and you're not able to see through it.  It looks like you could open it, however.".
 The retractable ladder is a part of the rocket.  The ladder is a supporter.  "The ladder is made out of steel and has seven rungs, and is attached to the rocket.  Climbing it leads you to the hatch.  When the hatch is open, it allows you to climb right inside."
 The rungs are a part of the ladder.  The description is "Sturdy, steel rungs.  There are seven of them."
 Retracting is an action applying to one visible thing.
@@ -383,30 +438,51 @@ Instead of retracting a thing:
 		say "The ladder retracts automatically when the rocket is getting ready to launch.";
 	otherwise:
 		say "That's not retractable.".
-The nose cone is a part of the rocket.  The description is "The nose cone follows the natural curve of the body of the rocket, coming to a point, and sprouting a single pole antenna with little spheres on it.".
-The antenna is a part of the nose cone. The description is "The antenna sprouts directly up from the nose cone.  It is adorned with three spheres.  They must help with radio reception or something.".
-The spheres are a part of the antenna.  The description is "The middle sphere is the largest, the top sphere is the smallest, and the bottom sphere is halfway between the size of the two other spheres.  It looks pretty cool in a 1950[apostrophe]s sort of way.".
+Understand "climb [the ladder]" as entering.
+Instead of entering the ladder:
+	try entering the rocket.	
+
+
 
 [The Inside of the Parked Rocket]
 parked-rocket-innards is a room.  The printed name is "The Inside of the Parked Rocket".  The description is "You are within the smooth walls of the rocket.  It is very plain here, out the porthole window you can see [printed name of TLOUV2]."
-The cockpit is in parked-rocket-innards.  The description is "The cockpit, containing the captain[apostrophe]s chair and the control panel is firmly mounted to the inner wall of the rocket across from the porthole.  The captain's chair is angled so that you can sit in it when the rocket is vertical or horizontal."
+The cockpit is in parked-rocket-innards.  The description is "The cockpit, containing the captain[apostrophe]s chair and the control panel is firmly mounted to the inner wall of the rocket across from the porthole.  The captain's chair is angled so that you can sit in it when the rocket is vertical or horizontal."  The printed name is "the cockpit, a big metal unit containing a captain[apostrophe]s chair and a control panel".
 The captain's chair is a part of the cockpit.  It is a supporter.  The description is "The captain's chair is rightfully named.  It looks fit for a captain.  It's leather-clad, and the same galaxy white and candy-apple red as the exterior of the ship.".
-The control panel is a part of the cockpit.  The description of the control panel is "The control panel is an extremely austere, some might even say naive set of controls.  There is a large, shiny, red button labeled 'Launch', a smaller black button that labeled 'Return', and then off to your right, a medium-sized bright blue button labeled 'Forward'.  That's it.  Surely you should be able to operate a spacecraft with only those controls?  (You look on the front for a button marked 'Fire Laser' or 'Warp 7' but those buttons are not on the control panel or anywhere else inside the ship.)"
+
+[The Control Panel]
+The control panel is a part of the cockpit.  The description of the control panel is "The control panel is an extremely austere, some might even say naive set of controls.  There is a large, shiny, red button labeled 'Launch', a smaller black button that labeled 'Return', and then off to your right, a medium-sized bright blue button labeled 'Forward'.  Finally, along the top is a small LED readout display that says [description of readout-location-name ].[paragraph break]That's it.  Surely you should be able to operate a spacecraft with only those controls?  (You look on the front for a button marked 'Fire Laser' or 'Warp 7' but those buttons are not on the control panel or anywhere else inside the ship.)".
+The small LED readout display is a part of the control panel.  The description is "The LED readout display is a small, crude screen made of LED lights that looks like it could display about 50 letters in a pinch.  It currently says: [bold type][description of readout-location-name][roman type].".
+The readout-location-name is a part of the LED readout display.  The description is "[printed name of TLOUV2]".
 The shiny red launch button is a part of the control panel.  It is a switched off device.
 The smaller black return button is a part of the control panel.  It is a switched off device.
 The medium-sized blue forward button is a part of the control panel.  It is a switched off device.
-Instead of switching on the launch button:
-	say "The rocket launches and then takes off.";
-	now the printed name of TLOUV2 is "The Land of Launched Vessels";
-	now the printed name of The Sequel Path is "The Spiritual Sequel Path";
-	move the player to a random spacey room;
-	move the control panel to the player.
-Instead of switching on the return button:
-	say "This would return you if you were launched, bro.".
-Instead of switching on the forward button:
-	say "If you're launched you'll go to the next location.".
 
-Test rocket with "f / f / f / f / f / f / f / x launchpad / x rocket / x porthole / x bubble / x fins / x hatch / x ladder / x cone / x spheres / retract ladder / climb ladder / enter rocket / open hatch / enter rocket"
+Before switching on the launch button:
+	say "You're too hungry to go to space." instead.
+	
+Instead of switching on the launch button:
+	if the lunch is in TLoBL:
+		say "You're too hungry to go to space.";
+	else:
+		say "The rocket launches and then takes off. @TODO";
+		now the description of the launchpad is "The launchpad appears to be just a featureless steel box set into the ground.  Only a few inches of it protrude up to support the rocket.  Its surface is blackened in big circles under the rockets.";
+		now the printed name of TLOUV2 is "The Land of Launched Vessels";
+		now the printed name of The Sequel Path is "The Spiritual Sequel Path";
+		move the player to the void of space;
+		now the description of readout-location-name is "[the player's surroundings]";
+		move the cockpit to the player.
+Instead of switching on the return button:
+	say "The rocket shifts through space, and returns home to the launchpad. @TODO";
+	move the player to parked-rocket-innards;
+	now the description of readout-location-name is "[the player's surroundings]";
+	move the cockpit to the player.
+Instead of switching on the forward button:
+	say "Whoosh. @TODO";
+	move the player to a random spacey room;
+	move the cockpit to the player;
+	now the description of readout-location-name is "[the player's surroundings]".
+
+Test rocket with "f / f / f / f / f / f / f / x launchpad / x rocket / x porthole / x bubble / x fins / x hatch / x ladder / x cone / x spheres / retract ladder / climb ladder / climb ladder / open hatch / climb ladder"
 
 Instead of going north from TLOUV2:
 	say "You don't know to a certainty how to go forward in this situation.";
@@ -417,29 +493,23 @@ Section 6 - The Deep, Dark Void of Space
 A room can be spacey.  A room is usually not spacey.
 Spaceland is a region.
 The walls of the spaceship are a backdrop.  The walls of the spaceship are in spaceland.  The description is "The walls are smooth and cool and curved.  The rocket is made extremely well, as there are no seams anywhere you can see."
-The stars are a backdrop.  The stars are in spaceland.  The description is "The curtain of stars is majestic @TODO".
-inside-space-rocket is a backdrop.  inside-space-rocket is in spaceland.  The description of inside-space-rocket is "You are inside the rocket as it cruises very slowly through the deep, dark, void of space.  Outside the porthole window you see the deep, dark void of space covered over with a curtain of stars.  Here, in the rocket, is the captain's chair, the smooth walls of the spaceship."
+The porthole of the spaceship is a backdrop.  The porthole of the spaceship is in spaceland.
+The stars are a backdrop.  The stars are in spaceland.  The description is "The curtain of stars is laid majestically over the black cloud of forever.  There are an infinite number of constellations you can make just by drawing pictures between different bright points, but out here there's too much to connect, and it almost looks like a continuous fabric.  Clusters, galaxies, pulsars, gas giants, form a vast, curtain covering the outside of the porthole window, that almost appears to undulate before your eyes.".
+inside-space-rocket is a backdrop.  inside-space-rocket is in spaceland.  The description of inside-space-rocket is "You are inside the rocket as it cruises very slowly through the deep, dark void of space.  Outside the porthole window you see the deep, dark void of space covered over with a curtain of stars.[paragraph break]The [printed name of cockpit] is here."
 
 The void of space is a room in spaceland. "[description of inside-space-rocket]". The printed name is "The Deep, Dark Void of Space".
-SPACE1 is a spacey room in spaceland. "[description of inside-space-rocket] You are in space 1."
-SPACE2 is a spacey room in spaceland. "[description of inside-space-rocket] You are in space 2."
-SPACE3 is a spacey room in spaceland. "[description of inside-space-rocket] You are in space 3."
-SPACE4 is a spacey room in spaceland. "[description of inside-space-rocket] You are in space 4."
-SPACE5 is a spacey room in spaceland. "[description of inside-space-rocket] You are in space 5."
-SPACE6 is a spacey room in spaceland. "[description of inside-space-rocket] You are in space 6."
-SPACE7 is a spacey room in spaceland. "[description of inside-space-rocket] You are in space 7."
+The Kamiro Quadrant is a spacey room in spaceland.  "[description of inside-space-rocket][paragraph break]You notice something unusual outside the porthole window."
+The Elbow Nebula is a spacey room in spaceland. "[description of inside-space-rocket][paragraph break]You notice something unusual outside the porthole window."
+The Graphene Quadrant is a spacey room in spaceland. "[description of inside-space-rocket][paragraph break]You notice something unusual outside the porthole window."
+The Porcine Solar System is a spacey room in spaceland. "[description of inside-space-rocket][paragraph break]You notice something unusual outside the porthole window."
+The Princely Corridor is a spacey room in spaceland. "[description of inside-space-rocket][paragraph break]You notice something unusual outside the porthole window."
+The Undercoat Galaxy is a spacey room in spaceland. "[description of inside-space-rocket][paragraph break]You notice something unusual outside the porthole window."
+The Quick Nebula is a spacey room in spaceland. "[description of inside-space-rocket][paragraph break]You notice something unusual outside the porthole window."
+
+Understand "look out [something]" as searching.
+[Instead of searching the ]
 
 Test button with "f / f / f / f / f / f / f / turn on button"
 
-[
-Launchpad
-
-The Stylized 1950's Rocket
-
-Deep Dark Void of Space Scenery Table
-
-"The Deep, Dark Void of Space"
-
-]
 
 
