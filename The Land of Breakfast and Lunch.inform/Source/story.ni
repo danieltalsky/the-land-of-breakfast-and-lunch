@@ -92,7 +92,7 @@ Instead of entering the table:
 	now the player is in the table;
 
 [breakfast]
-Breakfast is on the table.  It is edible.  The description of breakfast is "Breakfast consists of a halved grapefruit with the membranes cut for easier eating, a soft-boiled egg in a specially designed holder, and a bowl of Lieutenant Chomp with a small pitcher of milk next to it.". 
+Breakfast is on the table.  It is edible.  The table can be meals-eaten or meals-uneaten.  The table is meals-uneaten.  The description of breakfast is "Breakfast consists of a halved grapefruit with the membranes cut for easier eating, a soft-boiled egg in a specially designed holder, and a bowl of Lieutenant Chomp with a small pitcher of milk next to it.". 
 
 Instead of taking the breakfast: say "The breakfast has several items and is a little unwieldy.  You can take a moment and eat the breakfast if you'd like.  It seems to have been put here for that purpose, but gathering all the breakfast items in your shirt just seems odd.".
 
@@ -109,7 +109,7 @@ The bowl of Lieutenant Chomp is a part-of-a-complete-breakfast on the table.  Un
 Instead of smelling the bowl of Lieutenant Chomp, say "It smells like sugar."
 The pitcher of milk is a part-of-a-complete-breakfast on the table.  The description of the pitcher of milk is "It's a simple, white pitcher of milk, like you'd find in a diner."
 Instead of smelling the pitcher of milk, say "Smells faintly of the sweetness of lactose."
-The halved grapefruit is a part-of-a-complete-breakfast on the table. Understand "membrane" or "sugar" as the grapefruit.  The description is "It's a traditional grapefruit.  It's not one of the slightly sweeter red varieties, and it's not an exotic pomelo.  It looks as if a very thin sprinkling of sugar has been applied.".
+The halved grapefruit is a part-of-a-complete-breakfast on the table. Understand "membrane" or "sugar" as the grapefruit.  The description is "It's a traditional grapefruit.  It's not one of the slightly sweeter red varieties, and it's not an exotic pomelo.  It looks as if a very thin sprinkling of sugar has been applied.".  Understand "fruit" as the grapefruit.
 Instead of smelling the halved grapefruit, say "You can tell the grapefruit was recently cut, since the oils of the peel almost burn your nose with their zinginess."
 The soft-boiled egg is a part-of-a-complete-breakfast on the table. Understand "spoon" or "little spoon" or "holder" as the egg.  The description is "The soft-boiled egg is a prim and underappreciated breakfast item.  Sure, it's a lot of work to get to all the egg, but it's a very delicate experience.  You would take the nearby small spoon and gently crack the top of the egg off, exposing the soft and rich partially-cooked egg inside."
 Instead of smelling the soft-boiled egg, say "A soft-boiled egg doesn't smell like much but you can feel the warmth of it on your nose."
@@ -123,13 +123,14 @@ Instead of taking the lunch: say "The lunch has several items and is a little un
 
 Instead of eating the lunch:
 	if the breakfast is on the table:
-		say "It doesn't really seem appropriate to just start eating lunch with a perfectly good breakfast sitting there at the same table.  Besides, you're really more in the mood for breakfast.";
+		say "It doesn't really seem appropriate to just start eating lunch with a perfectly good breakfast sitting there at the same table.  Besides, you're really more in the mood for breakfast." instead;
 	else:
 		say "Lunch was wonderful.  Your stomach feels like a puzzle, where the final piece has finally been snapped into place.  You now feel as if you could take on the world.";
 		now the description of TLoBL is "The Land of Breakfast and Lunch is a lot smaller than you were expecting.  It's actually just a small clearing near the road, like a roadside stop, with a painted picnic table containing the empty dishes from a simple but nourishing breakfast on one end, and the dishes of a simple but nourishing lunch on the other end.  A stubby little path leads backwards, and the path continues forward, towards The Land of Unrealized Possibilities.  If you 'walk forward' or just 'forward' or even just 'f' you will be walking towards it.";
 		now the description of the lunch dishes is "You've politely stacked the lunch dishes, so the table doesn't look too messy.";
 		now the lunch is nowhere;
 		now all part-of-a-complete-lunch are nowhere;
+		now the table is meals-eaten.
 
 A part-of-a-complete-lunch is a kind of thing. A part-of-a-complete-lunch is always scenery.  
 Instead of eating or taking or tasting a part-of-a-complete-lunch, say "Lunch is kind of an all-or-nothing affair.  One really needs to sit down and tuck into it, rather than simply nibbling at one thing or another and leaving the rest of it to repel and disgust another traveller.".
@@ -189,7 +190,7 @@ Instead of opening the closed jack-in-the-box:
 	move the open jack-in-the-box to the player;
 	now the closed jack-in-the-box is nowhere.
 
-There is an open jack-in-the-box. The description of the open jack-in-the-box is "The jack-in-the-box is a brightly painted tin cube, and actually looks to be some sort of antique.  It is detailed with flames, and written on the back and front are the words 'diable en boîte'.  Its tin lid is popped open, revealing a small fabric devil puppet.".  The devil doll is a part of the open jack-in-the-box.  The description of the devil doll is "The devil doll looks handmade, from fabric and wood.  It has bright, black beads for eyes and a grinning face.  It looks delighted at its recent opportunity to surprise you with its cartoonish evil.".  Understand "puppet/spring/horns" as the devil doll.  The spent hand crank is a part of the open jack-in-the-box.  The description is "A wire hand crank with a small wooden ball as a handle on the end.  You can turn the crank, but the jack-in-the-box is already out-of-the-box.". The open lid of the jack-in-the-box is a part of the open jack-in-the-box.
+There is an open jack-in-the-box. The description of the open jack-in-the-box is "The jack-in-the-box is a brightly painted tin cube, and actually looks to be some sort of antique.  It is detailed with flames, and written on the back and front are the words 'diable en boîte'.  Its tin lid is popped open, revealing a small fabric devil puppet.".  The devil doll is a part of the open jack-in-the-box.  The description of the devil doll is "The devil doll looks handmade, from fabric and wood.  It has bright, black beads for eyes and a grinning face.  It looks delighted at its recent opportunity to surprise you with its cartoonish evil.".  Understand "puppet/spring/horns" as the devil doll.  The black bead eyes are a part of the devil doll.  The description of the black bead eyes is "Glassy.".  The spent hand crank is a part of the open jack-in-the-box.  The description is "A wire hand crank with a small wooden ball as a handle on the end.  You can turn the crank, but the jack-in-the-box is already out-of-the-box.". The open lid of the jack-in-the-box is a part of the open jack-in-the-box.
 
 Understand "turn [the spent hand crank]" as opening.
 Understand "twist [the spent hand crank]" as opening.
@@ -205,8 +206,11 @@ Instead of closing the open jack-in-the-box:
 
 test jack-in-the-box with "f / f / f / open toy box / x jack-in-the-box / turn crank / x jack-in-the-box / close jack-in-the-box / twist crank / twist crank"
 
-There is a lite-brite in the toy box.  The description of the lite-brite is "yo".
-There is a coloring book in the toy box.  The description of the coloring book is "yo".
+There is a lite-brite in the toy box.  The description of the lite-brite is "You're looking at a white plastic case with a black plastic pegboard covering one side.   Attached to the back is a black power cord.  If you've seen one before, you know that it's got a little light inside, and usually comes with sheets of black construction paper to affix to the pegboard.  Usually comes with dozens of transparent, colored pegs too.  Push them into the pegboard to make little light-up pictures.  You don't see any of that stuff though.".
+
+There is a coloring book in the toy box.  The description of the coloring book is "The title of the coloring book reads 'Horse Party!'  Inside are drawings of horses in pastoral settings, but with festive party hats.  They are doing no discernable celebrating.  Seems a little demented, really.  A couple of the pictures are colored neatly, and one is very carefully colored, as if by an adult.".
+Understand "color [the coloring book]" as coloring.  Coloring is an action applying to one visible thing.
+Instead of coloring the coloring book, say "You don't have anything to color with, but you run your finger over one of the already-colored pages and pretend for a little while."
 
 There is a small heart shaped locket in the toy box.  It is an openable closed container.  It is wearable.  The description is "It is a small pewter locket.  It looks a bit old fashioned.  It has a small clasp on the side and looks like you could easily open it."  Understand "clasp" as the locket.
 Instead of inserting something (called the item) into the locket:
@@ -218,7 +222,7 @@ Instead of inserting something (called the item) into the locket:
 There is a faded picture of a child who looks a lot like you in the locket.    The description of the picture is "You don't remember ever seeing any picture of you like this photo, but this one looks almost exactly other pictures of you at about three.  There is a smile that's a mix of sadness and joy on the child's face.  When you look at it, you can almost feel the feeling."
 Understand "photo/photograph/smile" as the picture.
 
-There is a small hobby horse in the toy box.   The description of the horse is "It is a small, wooden hobby horse.  It's very sturdily built, but made to entertain a three-year old.  It has yarn for a mane."  Understand "yarn" or "mane" as the horse.
+There is a small hobby horse in the toy box.   The description of the horse is "It is a small, wooden hobby horse.  It's very sturdily built, but made to entertain a three-year old.  It has yarn for a mane."  The yarn mane is a part of the horse.  The description is "The mane is made from tight loops of yarn.".
 
 test toybox with "f / f / f / open box / x doll / x hair / x breasts / bend doll / x jack-in-the-box / x lite-brite / x coloring book"
 
@@ -312,41 +316,6 @@ Instead of riding the horse:
 Instead of riding brother, say "The mental picture is pretty funny, but you are 100% certain your brother is not going to find it funny."
 Instead of entering or riding the couch, say "Your brother is utilizing so much of the couch, you don't see a good place to sit without pissing him off.".
 
-[ The Kiddie Ride]
-
-
-Table of Kiddie Text
-slug	text
-"sad ride text"	"You climb up on the molded fiberglass seat of the humvee but it feels cold, joyless, and dead underneath you.  You distinctly feel the feeling of being so unloved that no one would put a quarter in the slot, not understanding how such a simple thing could make all the difference.  You slide slowly off."
-"quarter drop text"	"Gravity pulls the quarter down into the slot, and then there is an agonizing pause before the weight of the quarter trips an internal lever in the machine and its song comes to life.  50% speed in one second, full speed at two seconds.  The song is 'In my merry Oldsmobile' and the dance of the humvee is drunken yet tame as it rolls and lists in a pattern potentially thrilling to a 3-year old but usually not really.  If you want to, you can ride the humvee now."
-"yay ride text"	"You climb up on the molded fiberglass seat of the humvee like a pro and right yourself against its tame rollicking.  At first you find it boring, but you quickly get in the spirit, facetiously adjusting your imaginary cowboy hat and making a quick lasso motion with your wrist to show the yellow humvee you're in full control, despite its raucous bucking"
-
-There is a kiddie ride in TLOUP.  It is a switched off device.  It is fixed in place.  The description is "Off to the side a little ways is a mechanical kiddie ride.  It's a big (to a child) yellow humvee with cartoon human eyes where the headlights should be.  It's anchored to a diamond plate platform and looks to have stopped mid-tilt.[paragraph break]Mounted on a post next to it is a coin box showing the coin denomination necessary to make it run: 25¢, or one U.S. quarter dollar piece.[paragraph break]There were once two of these rides outside every grocery store in America.  Whether they died out because kids collectively realized they weren't fun, or just liability, you're surprised to see this one here."
-Understand "car/humvee" as the kiddie ride.
-Check examining the ride:
-	if the ride is switched on, say "It's on @TODO" instead.
-The human eyes are a part of the kiddie ride. The description is "On the yellow humvee areThey're meant to look excited and friendly, but they're straight-up creepy."
-The coin box is a part of the kiddie ride.  The description is "The coin box is a sturdy steel box with a coin slot in one end (25¢) and a coin return on the other.  Next to the coin box is a small, cylindrical coin-release button."
-The coin slot is a part of the coin box.  The description is "It's a chrome slot to put a coin in."
-The coin return tray is a part of the coin box.  It is a container.  The description is "The coin return tray is a shallow metal tray designed to let a coin of any size strike the bottom, convulse in a spasm of physics and metallurgy, and safely come to a rest, waiting for a person to collect it."
-The coin release button is a part of the coin box.  The description is "The coin release button is a small chrome cylinder that can be depressed all the way down into the coin box."
-Instead of pushing the coin release button:
-	say "you did @TODO".
-Check inserting something into the coin slot:
-	if the noun is a penny and the player has the penny:
-		now the penny is in the tray;
-		say "The penny slides down the chute, briefly contacts some mechanism inside, and clanks out the coin return tray." instead;
-	else:
-		say "It won't fit.  It's not a coin." instead;
-Check inserting something into the tray:
-	if the noun is a penny and the player has the penny:
-		now the penny is in the tray;
-		say "Normally you'd put the coin in the coin slot, but you lay the penny in the coin return anyway, perhaps to frustrate someone who comes along and thinks it might be a quarter, but then realizes it isn't." instead;
-	else:
-		say "It won't fit.  It's not a coin." instead.		
-
-Test ride with "f / f / f / x ride / press coin release button / look under couch / get penny / put penny in slot"
-
 
 Section 4 - The Land of Unlaunched Vessels
 
@@ -384,6 +353,47 @@ Swimming is an action applying to nothing.
 Check swimming:
 	say "You don't want to get wet, and you don't think you'd be able to get on the vessel that way, or really be able to do much of anything all wet and swimming around."
 
+[ The Kiddie Ride]
+There is a kiddie ride in TLOUV. The kiddie ride is a switched off device.  It is fixed in place.  The description is "Off to the side a little ways is a mechanical kiddie ride.  It's a big (to a child) yellow humvee with cartoon human eyes where the headlights should be.  It's anchored to a diamond plate platform and looks to have stopped mid-tilt.[paragraph break]Mounted on a post next to it is a coin box showing the coin denomination necessary to make it run: 25¢, or one U.S. quarter dollar piece.[paragraph break]There were once two of these rides outside every grocery store in America.  Whether they died out because kids collectively realized they weren't fun, or just liability, you're surprised to see this one here."
+Understand "car/humvee" as the kiddie ride.
+Check examining the ride:
+	if the ride is switched on, say "The kiddie ride has snapped to life, and the humvee is mechanically bucking like a very lazy bronco." instead.
+The human eyes are a part of the kiddie ride. The description is "On the yellow humvee attached to the kiddie ride are a fiberglass molded set of human-looking eyes.  They're meant to look excited and friendly, but they're straight-up creepy."
+
+[coin box]
+The coin box is a part of the kiddie ride.  The description is "The coin box is a sturdy steel box with a coin slot in one end (25¢) and a coin return on the other.  Next to the coin box is a small, cylindrical coin-release button."
+The coin slot is a part of the coin box.  The description is "It's a chrome slot to put a coin in."
+The coin return tray is a part of the coin box.  It is a container.  The description is "The coin return tray is a shallow metal tray designed to let a coin of any size strike the bottom, convulse in a spasm of physics and metallurgy, and safely come to a rest, waiting for a person to collect it."
+The coin release button is a part of the coin box.  The description is "The coin release button is a small chrome cylinder that can be depressed all the way down into the coin box."
+Instead of pushing the coin release button:
+	say "It smoothly depresses all the way down into the coin box.  If there were a coin stuck in the mechanism, this action would theoretically release it into the coin release tray.  There does not appear to be a coin and the coin release button depresses and releases noiselessly and frictionlessly.".
+Check inserting something into the coin slot:
+	if the noun is a penny and the player has the penny:
+		now the penny is in the tray;
+		say "The penny slides down the chute, briefly contacts some mechanism inside, and clanks out the coin return tray." instead;
+	if the noun is a quarter and the player has the quarter:
+		[ * 25¢ baby! * ]
+		now the kiddie ride is switched on;	
+		now the quarter is nowhere;	
+		say "Gravity pulls the quarter down into the slot, and then there is an agonizing pause before the weight of the quarter trips an internal lever in the machine and its song comes to life.  50% speed in one second, full speed at two seconds.  The song is 'In my merry Oldsmobile' and the dance of the humvee is drunken yet tame as it rolls and lists in a pattern potentially thrilling to a 3-year old but usually not really.  If you want to, you can ride the humvee now." instead;
+	else:
+		say "It won't fit.  It's not a coin." instead;
+Check inserting something into the tray:
+	if the noun is a penny and the player has the penny:
+		now the penny is in the tray;
+		say "Normally you'd put the coin in the coin slot, but you lay the penny in the coin return anyway, perhaps to frustrate someone who comes along and thinks it might be a quarter, but then realizes it isn't." instead;
+	else:
+		say "It won't fit.  It's not a coin." instead.		
+
+Understand "sit on [the kiddie ride]" as riding.
+Instead of riding the kiddie ride:
+	If the kiddie ride is switched on:
+		say "You climb up on the molded fiberglass seat of the humvee like a pro and right yourself against its tame rollicking.  At first you find it boring, but you quickly get in the spirit, facetiously adjusting your imaginary cowboy hat and making a quick lasso motion with your wrist to show the yellow humvee you're in full control, despite its raucous bucking.[paragraph break]If this was what you were trying to do, you pretty much won the game.  If you still have more to do, go ahead.";
+		now the kiddie ride is switched off;
+	otherwise:
+		say "You climb up on the molded fiberglass seat of the humvee but it feels cold, joyless, and dead underneath you.  You distinctly feel the feeling of being so unloved that no one would put a quarter in the slot, not understanding how such a simple thing could make all the difference.  You slide slowly off.".
+
+Test ride with "f / f / f / x ride / press coin release button / look under couch / get penny / put penny in slot"
 
 [The Hippie Seaperson]
 	
@@ -445,42 +455,71 @@ Instead of entering the ladder:
 
 
 [The Inside of the Parked Rocket]
-parked-rocket-innards is a room.  The printed name is "The Inside of the Parked Rocket".  The description is "You are within the smooth walls of the rocket.  It is very plain here, out the porthole window you can see [printed name of TLOUV2]."
-The cockpit is in parked-rocket-innards.  The description is "The cockpit, containing the captain[apostrophe]s chair and the control panel is firmly mounted to the inner wall of the rocket across from the porthole.  The captain's chair is angled so that you can sit in it when the rocket is vertical or horizontal."  The printed name is "the cockpit, a big metal unit containing a captain[apostrophe]s chair and a control panel".
+parked-rocket-innards is a room.  The printed name is "The Inside of the Parked Rocket".  The description is "You are within the smooth walls of the rocket.  It is very plain here, out the porthole window you can see the sky, and out the hatch you can see [printed name of TLOUV2]."
+The parked rocket walls are scenery in the parked-rocket-innards.  The description is "The walls are smooth and cool and curved.  The rocket is made extremely well, as there are no seams anywhere you can see.".
+[hack to make "exit rocket" work]
+Vamoosing is an action applying to one visible thing.
+Understand "exit [the parked rocket walls]" as vamoosing.
+Understand "leave [the parked rocket walls]" as vamoosing.
+Carry out vamoosing the parked rocket walls:
+	try exiting.
+Instead of exiting when the player is in parked-rocket-innards:
+	say "You exit the hatch opening and climb to the ground.";
+	move the player to TLOUV2.
+The out-of-reach inner hatch is in parked-rocket-innards.  It is scenery.  The description is "The hatch is wide open and the hatch door is out of reach.".
+Instead of closing the out-of-reach inner hatch, say "The hatch door is out of reach from where you're standing.  It doesn't seem possible to close it from inside the rocket.  There's probably some control inside the rocket that closes it.".
+The landed porthole window is scenery in parked-rocket-innards.  The description is "The porthole window, at the moment, allows you a good view of the featureless sky above [printed name of TLOUV2]."
+The cockpit is in parked-rocket-innards.  It is fixed in place.  The description is "The cockpit, containing the captain[apostrophe]s chair and the control panel is firmly mounted to the inner wall of the rocket across from the porthole.  The captain's chair is angled so that you can sit in it when the rocket is vertical or horizontal."  The printed name is "the cockpit, a big metal unit containing a captain[apostrophe]s chair and a control panel".
 The captain's chair is a part of the cockpit.  It is a supporter.  The description is "The captain's chair is rightfully named.  It looks fit for a captain.  It's leather-clad, and the same galaxy white and candy-apple red as the exterior of the ship.".
 
 [The Control Panel]
-The control panel is a part of the cockpit.  The description of the control panel is "The control panel is an extremely austere, some might even say naive set of controls.  There is a large, shiny, red button labeled 'Launch', a smaller black button that labeled 'Return', and then off to your right, a medium-sized bright blue button labeled 'Forward'.  Finally, along the top is a small LED readout display that says [description of readout-location-name ].[paragraph break]That's it.  Surely you should be able to operate a spacecraft with only those controls?  (You look on the front for a button marked 'Fire Laser' or 'Warp 7' but those buttons are not on the control panel or anywhere else inside the ship.)".
+The control panel is a part of the cockpit.  The description of the control panel is "The control panel is an extremely austere, some might even say naive set of controls.  There is a large, shiny, red button labeled 'Launch', a smaller black button that labeled 'Return', and then off to your right, a medium-sized bright blue button labeled 'Forward'.  Finally, along the top is a small LED readout display that says '[description of readout-location-name ]'.[paragraph break]That's it.  Surely you should be able to operate a spacecraft with only those controls?  (You look on the front for a button marked 'Fire Laser' or 'Warp 7' but those buttons are not on the control panel or anywhere else inside the ship.)".
 The small LED readout display is a part of the control panel.  The description is "The LED readout display is a small, crude screen made of LED lights that looks like it could display about 50 letters in a pinch.  It currently says: [bold type][description of readout-location-name][roman type].".
 The readout-location-name is a part of the LED readout display.  The description is "[printed name of TLOUV2]".
 The shiny red launch button is a part of the control panel.  It is a switched off device.
 The smaller black return button is a part of the control panel.  It is a switched off device.
-The medium-sized blue forward button is a part of the control panel.  It is a switched off device.
-
-Before switching on the launch button:
-	say "You're too hungry to go to space." instead.
+The bright medium-sized blue forward button is a part of the control panel.  It is a switched off device.
 	
+The launch count is a number that varies.  The launch count is 0.
 Instead of switching on the launch button:
-	if the lunch is in TLoBL:
+	if the table is meals-uneaten:
 		say "You're too hungry to go to space.";
+	otherwise if the player is in spaceland:
+		say "Launch has occurred and the button is in the fully activated position.";
 	else:
-		say "The rocket launches and then takes off. @TODO";
+		say "It's natural to expect blastoff immediately.  Instead, the hatch door whirrs slowly shut, coming to a solid clang.  You have just enough time to realize that you could buckle yourself into the captain[apostrophe]s chair and you do.  Just in time, as you feel a tremendous slow and steady thrust of force wrap itself around you as the sky begins to move in the porthole window.  For just one moment you swear you can see The Land of Breakfast and Lunch streak by the window.  Finally, the sky begins to darken, and all sound becomes only a vibration.  The deep, dark void of space is with you.  You absentmindedly unbuckle the webbing securing you to the seat, and you feel free to move about the interior.";
 		now the description of the launchpad is "The launchpad appears to be just a featureless steel box set into the ground.  Only a few inches of it protrude up to support the rocket.  Its surface is blackened in big circles under the rockets.";
-		now the printed name of TLOUV2 is "The Land of Launched Vessels";
-		now the printed name of The Sequel Path is "The Spiritual Sequel Path";
+		if the launch count is 0:
+			now the printed name of TLOUV2 is "The Land of Once Launched Vessels";
+			now the printed name of The Sequel Path is "The Spiritual Sequel Path";
+			now the launch count is 1;
+		otherwise if the launch count is 1:
+			now the printed name of TLOUV2 is "The Land of Twice Launched Vessels";
+			now the launch count is 2;
+		otherwise if the launch count is 2:
+			now the printed name of TLOUV2 is "The Land of Thrice Launched Vessels";
+			now the launch count is 3;
+		otherwise:
+			now the printed name of TLOUV2 is "The Land of Thoroughly-Launched Vessels";
+			now the launch count is 3;					
 		move the player to the void of space;
 		now the description of readout-location-name is "[the player's surroundings]";
-		move the cockpit to the player.
+		move the cockpit to the location of the player.
 Instead of switching on the return button:
-	say "The rocket shifts through space, and returns home to the launchpad. @TODO";
+	say "[bold type]Whoosh.[roman type] At the end of the rocket's soft whoosh, its mighty engines begin to engage, slowing its fall as it pillows down to the landing pad in [printed name of TLOUV2].";
 	move the player to parked-rocket-innards;
 	now the description of readout-location-name is "[the player's surroundings]";
-	move the cockpit to the player.
+	move the cockpit to the location of the player.
 Instead of switching on the forward button:
-	say "Whoosh. @TODO";
-	move the player to a random spacey room;
-	move the cockpit to the player;
-	now the description of readout-location-name is "[the player's surroundings]".
+	if the player is in spaceland:
+		say "[bold type]Whoosh.[roman type]  You thought maybe the engine engaged again, but something else already did.  It bent space softly around you, and, maybe the rocket moved a little.  Like with a soft whoosh.  It happened in less than a second.  Now, you think you're somewhere else.";
+		move the player to a random spacey room;
+		move the cockpit to the location of the player;
+		now the description of readout-location-name is "[the player's surroundings]";
+	otherwise:
+		say "There is only the soft click of the button's mechanism.  It might only work when the rocket has been launched."
+
+Test launchcount with  "f / eat breakfast / eat lunch / f / f / f / f / f / f / open hatch / climb ladder / press red button / press black button / x porthole / press red button / press black button / x porthole / press red / press black / x porthole / press red / press black / x porthole"
 
 Test rocket with "f / f / f / f / f / f / f / x launchpad / x rocket / x porthole / x bubble / x fins / x hatch / x ladder / x cone / x spheres / retract ladder / climb ladder / climb ladder / open hatch / climb ladder"
 
@@ -492,24 +531,65 @@ Section 6 - The Deep, Dark Void of Space
 [Setup for all space locations]
 A room can be spacey.  A room is usually not spacey.
 Spaceland is a region.
-The walls of the spaceship are a backdrop.  The walls of the spaceship are in spaceland.  The description is "The walls are smooth and cool and curved.  The rocket is made extremely well, as there are no seams anywhere you can see."
-The porthole of the spaceship is a backdrop.  The porthole of the spaceship is in spaceland.
-The stars are a backdrop.  The stars are in spaceland.  The description is "The curtain of stars is laid majestically over the black cloud of forever.  There are an infinite number of constellations you can make just by drawing pictures between different bright points, but out here there's too much to connect, and it almost looks like a continuous fabric.  Clusters, galaxies, pulsars, gas giants, form a vast, curtain covering the outside of the porthole window, that almost appears to undulate before your eyes.".
-inside-space-rocket is a backdrop.  inside-space-rocket is in spaceland.  The description of inside-space-rocket is "You are inside the rocket as it cruises very slowly through the deep, dark void of space.  Outside the porthole window you see the deep, dark void of space covered over with a curtain of stars.[paragraph break]The [printed name of cockpit] is here."
+The walls of the flying rocket are a backdrop.  The walls of the flying rocket are in spaceland.  The description is "[description of the parked rocket walls]".
+The curtain of stars is a backdrop.  The curtain of stars are in spaceland.  The description is "The curtain of stars is laid majestically over the black cloud of forever.  There are an infinite number of constellations you can make just by drawing pictures between different bright points, but out here there's too much to connect, and it almost looks like a continuous fabric.  Clusters, galaxies, pulsars, gas giants, form a vast, curtain covering the outside of the porthole window, that almost appears to undulate before your eyes.".
+The closed inner hatch is a backdrop.  The closed inner hatch is in spaceland.
+Instead of opening the closed inner hatch, say "The inner hatch is closed and magnetically locked.  You expect landing the rocket would unlock the hatch.".
+inside-space-rocket is a backdrop.  inside-space-rocket is in spaceland.  The description of inside-space-rocket is "You are inside the rocket as it cruises very slowly through the deep, dark void of space.  Outside the porthole window is the deep, dark void of space covered over with a curtain of stars."
 
-The void of space is a room in spaceland. "[description of inside-space-rocket]". The printed name is "The Deep, Dark Void of Space".
-The Kamiro Quadrant is a spacey room in spaceland.  "[description of inside-space-rocket][paragraph break]You notice something unusual outside the porthole window."
-The Elbow Nebula is a spacey room in spaceland. "[description of inside-space-rocket][paragraph break]You notice something unusual outside the porthole window."
-The Graphene Quadrant is a spacey room in spaceland. "[description of inside-space-rocket][paragraph break]You notice something unusual outside the porthole window."
-The Porcine Solar System is a spacey room in spaceland. "[description of inside-space-rocket][paragraph break]You notice something unusual outside the porthole window."
+
+[Oh, the spaces you'll go]
+[the void]
+The void of space is a room in spaceland. "[description of inside-space-rocket]". The printed name is "The Deep, Dark Void of Space".  The boring porthole window is scenery in the void of space.  The description of the boring porthole window is "If you push your head out a little past the walls of the ship into the bubble of the porthole window, you can see quite a vista.   It's hard to make out any specific detail here, just a ceaseless curtain of stars that extends forever.  All of it looks very far away."
+
+[Kamiro Quadrant]
+The Kamiro Quadrant is a spacey room in spaceland.  "[description of inside-space-rocket][paragraph break]You notice something unusual outside the porthole window."   The first porthole window is scenery in the kamiro quadrant.  The description of the first porthole window is "There is a space station here, as crisp and clean in the near distance as 1960's motion picture film.  It's a wheel with four little crossbars connecting its two tubular circles.  It's dotted with windows and tiny devices you can't see clearly from here.  A few lights pulse on the surface from time to time.  Its surface is almost blindingly white and clean.  It is very well lit.  Behind it is a curtain of stars."
+The space station is scenery in the kamiro quadrant.  
+The crossbars are a part of the space station.
+
+[Elbow Nebula]
+The Elbow Nebula is a spacey room in spaceland. "[description of inside-space-rocket][paragraph break]You notice something unusual outside the porthole window."  The second porthole window is scenery in the elbow nebula.  The description of the second porthole window is "There is a giant space jellyfish made of light here.  It's not an actual  jellyfish, but that's the closest thing you can think of to call it.  Behind it is a curtain of stars."
+The space jellyfish is scenery in the elbow nebula.  The description is "Just like a jellyfish is a being perfectly adapted to passively following the currents, with a bulbous body, and little tendrils of itself slowing and evening out its trajectory, so is this being of light (and...plasma(?)) seemingly perfectly adapted to the currents of the deep, dark void of space.  It pulses, shoving out the firmament of space behind it, either completely unaware of your rocket or maybe swimming in perfect tandem beside it.".
+The bulbous body is a part of the space jellyfish.  The description is "It pulses, ejecting whatever space is made of.".
+The tendrils are a part of the space jellyfish.  The description is "Long tendrils in rows of six cascade out from the space jellyfish.  In a real jellyfish they would be there to catch prey, and maybe these are, but they just seem to be creating drag and stabilizing the massive thing, or just making it look elegent and pretty; bits of light eddy out of the very edges of them." Understand "tentacles/tentacle/tendril" as the tendrils.
+The currents are scenery in the elbow nebula.  The description is "Well, [bold type]you[roman type] can't see whatever ripples and waves it's riding." Understand "current" as the currents.
+
+[Chrysocolla Cluster]
+The Chrysocolla Cluster is a spacey room in spaceland. "[description of inside-space-rocket][paragraph break]You notice something unusual outside the porthole window."  The jinky porthole window is scenery in the chrysocolla cluster.  The description of the jinky porthole window is "Just outside the window is a simian businessperson, with a tidy leather jetpack.  Behind them is a curtain of stars."
+The simain businessperson is scenery in the chrysocolla cluster.  The description is "The simian businessperson looks like they could be a human or monkey, but with elaborate stage makeup.  Their fur is a pale pink, and they have an oddly shaped skull.  You think 'businessperson', because of the exquisitely tailored suit of clothes.  The simian is just floating softly in space, as if killing time while waiting for a bus, fidgeting with eight-fingered, pink hands.  Paws.  You can't quite see what it is, but the simian is spinning some very small object in its fingers."  Understand "simian/monkey" as the businessperson.
+The skull is a part of the businessperson.  The description is "It is certainly oddly shaped."
+The suit of clothes is a part of the businessperson.  The description is "It's a tastefully flashy suit like a corporate attorney would wear."
+The fingers are a part of the businessperson.  The description is "The simian businessperson is swiftly flipping some small object in its long pink fingers, like someone flipping a pen or a coin.  The businessperson is barely paying attention to the object, and almost seems to be staring in your direction.".  The businessperson can be startled or unstartled.  The businessperson is unstartled.
+There is a shiny 1964 quarter.  The description of the quarter is "Before 1964, quarters were made almost entirely of silver, so the shine of this mint-condition coin is brilliant.  It is otherwise like a U.S. quarter dollar piece in general, with the date, 1964, and a small letter 'D', representing the Denver Mint, stamped into its surface."
+The jetpack is scenery in the chrysocolla cluster.  The description is "It's a really tasteful jetpack.  So well made, out of something like hand-tooled leather.  It doesn't shoot fire so much as tight concentric circles of light and force."
+Understand "tap [a visible thing]" or "knock [a visible thing]" or "knock on [a visible thing]" as attacking.
+Understand "glass" as the jinky porthole window.
+Instead of attacking the jinky porthole window:
+	if the businessperson is unstartled:
+		say "You startle the simian businessperson and they lose their concentration for one moment.  Their fingers whip forward towards you involuntarily, and you suddenly feel whatever they were holding in the palm of your own hand.  It is a shiny 1964 quarter.  The businessperson looks briefly dismayed but merely pulls something else out of its pocket.";
+		now the businessperson is startled;
+		move the quarter to the player;
+	otherwise:
+		say "The simian businessperson flicks an eye towards you, but otherwise doesn't pay any attention.";
+
+
+[
+The Graphene Solar System is a spacey room in spaceland. "[description of inside-space-rocket][paragraph break]You notice something unusual outside the porthole window."
+
 The Princely Corridor is a spacey room in spaceland. "[description of inside-space-rocket][paragraph break]You notice something unusual outside the porthole window."
+
 The Undercoat Galaxy is a spacey room in spaceland. "[description of inside-space-rocket][paragraph break]You notice something unusual outside the porthole window."
+
 The Quick Nebula is a spacey room in spaceland. "[description of inside-space-rocket][paragraph break]You notice something unusual outside the porthole window."
-
-Understand "look out [something]" as searching.
-[Instead of searching the ]
-
-Test button with "f / f / f / f / f / f / f / turn on button"
+]
 
 
+Test space with "f / eat breakfast / eat lunch / f / f / f / f / f / f / open hatch / climb ladder / press red button / press blue button"
 
+[The path to behind the liquor/grocery store]
+
+[behind the liquor/grocery store]
+
+[the path to the around the liquor/g store]
+
+[the front of the l/g store]
