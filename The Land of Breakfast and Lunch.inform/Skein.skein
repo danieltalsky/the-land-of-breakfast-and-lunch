@@ -11,7 +11,7 @@ Some would say that life is like a box of metaphors.  I would not say that.  I w
 
 The Land of Breakfast and Lunch
 ~ a land can contain both ~ by Daniel Talsky
-Release 3 / Serial number 200319 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
+Release 3 / Serial number 200320 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
 
 The Path
 You are at the beginning of a path.  It is plain, even homely.  It leads forward towards The Land of Breakfast and Lunch.  If you "walk forward" you will follow the path.
@@ -19466,12 +19466,272 @@ You are on the hopeful path.  Backwards from here is The Land of Breakfast and L
 The Land of Unrealized Possibilities
 You are in the Land of Unrealized Possibilities.  Just being here gives you a sense of all that could be accomplished if enough time, effort, and focus were pointed in a specific direction.  There is an sense of both excitement and disappointment here that is almost palpable.  The Hopeful Path leads backward towards The Land of Breakfast and Lunch, a place with a much clearer sense of purpose.
 
-You can see a toy box (closed), a couch (on which is your brother), a TV, and a kiddie ride here.
+You can see a toy box (closed), a couch (on which is your brother), and a TV here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-3512"></child>
+            <child nodeId="node-4770"></child>
         </children>
+    </item>
+    <item nodeId="node-4770">
+        <command xml:space="preserve">open box</command>
+        <result xml:space="preserve">You open the toy box, revealing a wooden block, a skinny naked plastic doll, a closed jack-in-the-box, a lite-brite, a coloring book, a small heart shaped locket, and a small hobby horse.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4771"></child>
+        </children>
+    </item>
+    <item nodeId="node-4771">
+        <command xml:space="preserve">get jack-in-the-box</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4772"></child>
+        </children>
+    </item>
+    <item nodeId="node-4772">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+Seaside Path
+You are on the the seaside path.  Backwards from here is The Land of Unrealized Possibilities.  Forward is The Land of Unlaunched Vessels.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4773"></child>
+        </children>
+    </item>
+    <item nodeId="node-4773">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+The Land of Unlaunched Vessels
+You are in the The Land of Unlaunched Vessels.  You stand near the edge of the bay, and there is a vessel moored here with thick and aged ropes tied to a bollard.  The Hopeful Path leads backward towards The Land of Unrealized Possibilities, a place you're not sure you want to be.  Forward, Sequel Path leads to The Land of Unlaunched Vessels II: The Launchening.
+
+You can see a kiddie ride and an a swarthy hippie seaperson here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4774"></child>
+        </children>
+    </item>
+    <item nodeId="node-4774">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+Sequel Path
+You are on the the sequel path.  Backwards from here is The Land of Unlaunched Vessels.  Forward is The Land of Unlaunched Vessels II: The Launchening.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4775"></child>
+        </children>
+    </item>
+    <item nodeId="node-4775">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+The Land of Unlaunched Vessels II: The Launchening
+You are in The Land of Unlaunched Vessels II: The Launchening.  There is a launchpad here, on which sits a large, 1950's era rocket in galaxy white and candy-apple red. Sequel Path leads backwards towards The Land of Unlaunched Vessels
+
+You can see a launchpad and a Rocket here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4776"></child>
+        </children>
+    </item>
+    <item nodeId="node-4776">
+        <command xml:space="preserve">open hatch</command>
+        <result xml:space="preserve">You open the hatch.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4777"></child>
+        </children>
+    </item>
+    <item nodeId="node-4777">
+        <command xml:space="preserve">climb ladder</command>
+        <result xml:space="preserve">You pull yourself into the rocket.
+
+The Inside of the Parked Rocket
+You are within the smooth walls of the rocket.  It is very plain here, out the porthole window you can see the sky, and out the hatch you can see The Land of Unlaunched Vessels II: The Launchening.
+
+You can see a the cockpit, a big metal unit containing a captain's chair and a control panel here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4778"></child>
+        </children>
+    </item>
+    <item nodeId="node-4778">
+        <command xml:space="preserve">press red</command>
+        <result xml:space="preserve">It's natural to expect blastoff immediately.  Instead, the hatch door whirrs slowly shut, coming to a solid clang.  You have just enough time to realize that you could buckle yourself into the captain's chair and you do.  Just in time, as you feel a tremendous slow and steady thrust of force wrap itself around you as the sky begins to move in the porthole window.  For just one moment you swear you can see The Land of Breakfast and Lunch streak by the window.  Finally, the sky begins to darken, and all sound becomes only a vibration.  The deep, dark void of space is with you.  You absentmindedly unbuckle the webbing securing you to the seat, and you feel free to move about the interior.
+
+The Deep, Dark Void of Space
+You are inside the rocket as it cruises very slowly through the deep, dark void of space.  Outside the porthole window is the deep, dark void of space covered over with a curtain of stars.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4779"></child>
+        </children>
+    </item>
+    <item nodeId="node-4779">
+        <command xml:space="preserve">press blue</command>
+        <result xml:space="preserve">Whoosh.  You thought maybe the engine engaged again, but something else already did.  It bent space softly around you, and, maybe the rocket moved a little.  Like with a soft whoosh.  It happened in less than a second.  Now, you think you're somewhere else.
+
+Kamiro Quadrant
+You are inside the rocket as it cruises very slowly through the deep, dark void of space.  Outside the porthole window is the deep, dark void of space covered over with a curtain of stars.
+
+You notice something unusual outside the porthole window.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4780"></child>
+        </children>
+    </item>
+    <item nodeId="node-4780">
+        <command xml:space="preserve">knock window</command>
+        <result xml:space="preserve">Violence isn't the answer to this one.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4781"></child>
+        </children>
+    </item>
+    <item nodeId="node-4781">
+        <command xml:space="preserve">hit window</command>
+        <result xml:space="preserve">Violence isn't the answer to this one.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4782"></child>
+        </children>
+    </item>
+    <item nodeId="node-4782">
+        <command xml:space="preserve">turn crank</command>
+        <result xml:space="preserve">You grasp the little wooden ball and begin to turn the crank as you hold the jack-in-the-box steady.  A dark little tune plinks its way out, echoing forth from the little tin box.  It's not "all around the mulberry bush" or any song you recognize, so you don't quite expect it when its last note ends, and the spring-loaded doll within leaps out with surprising agility.  You jump a tiny bit, in spite of yourself.  The devil doll looks pleased.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4803"></child>
+        </children>
+    </item>
+    <item nodeId="node-4803">
+        <command xml:space="preserve">press blue</command>
+        <result xml:space="preserve">Whoosh.  You thought maybe the engine engaged again, but something else already did.  It bent space softly around you, and, maybe the rocket moved a little.  Like with a soft whoosh.  It happened in less than a second.  Now, you think you're somewhere else.
+
+Kamiro Quadrant
+You are inside the rocket as it cruises very slowly through the deep, dark void of space.  Outside the porthole window is the deep, dark void of space covered over with a curtain of stars.
+
+You notice something unusual outside the porthole window.
+
+You can see a the cockpit, a big metal unit containing a captain's chair and a control panel here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4804"></child>
+        </children>
+    </item>
+    <item nodeId="node-4804">
+        <command xml:space="preserve">turn crank</command>
+        <result xml:space="preserve">You can turn the crank, but the jack-in-the-box is already out-of-the-box.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4805"></child>
+        </children>
+    </item>
+    <item nodeId="node-4805">
+        <command xml:space="preserve">close jack-in-the-box</command>
+        <result xml:space="preserve">(the open jack-in-the-box)
+You shove the devil doll into the body of the box, and shut the lid with a satisfying snap.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4806"></child>
+        </children>
+    </item>
+    <item nodeId="node-4806">
+        <command xml:space="preserve">turn crank</command>
+        <result xml:space="preserve">You grasp the little wooden ball and begin to turn the crank as you hold the jack-in-the-box steady.  A dark little tune plinks its way out, echoing forth from the little tin box.  It's not "all around the mulberry bush" or any song you recognize, so you don't quite expect it when its last note ends, and the spring-loaded doll within leaps out with surprising agility.  You jump a tiny bit, in spite of yourself.  The devil doll looks pleased.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4831"></child>
+        </children>
+    </item>
+    <item nodeId="node-4831">
+        <command xml:space="preserve">press blue</command>
+        <result xml:space="preserve">Whoosh.  You thought maybe the engine engaged again, but something else already did.  It bent space softly around you, and, maybe the rocket moved a little.  Like with a soft whoosh.  It happened in less than a second.  Now, you think you're somewhere else.
+
+Chrysocolla Cluster
+You are inside the rocket as it cruises very slowly through the deep, dark void of space.  Outside the porthole window is the deep, dark void of space covered over with a curtain of stars.
+
+You notice something unusual outside the porthole window.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4832"></child>
+        </children>
+    </item>
+    <item nodeId="node-4832">
+        <command xml:space="preserve">turn crank</command>
+        <result xml:space="preserve">You can turn the crank, but the jack-in-the-box is already out-of-the-box.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4833"></child>
+        </children>
+    </item>
+    <item nodeId="node-4833">
+        <command xml:space="preserve">close jack-in-the-box</command>
+        <result xml:space="preserve">(the open jack-in-the-box)
+You shove the devil doll into the body of the box, and shut the lid with a satisfying snap.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4834"></child>
+        </children>
+    </item>
+    <item nodeId="node-4834">
+        <command xml:space="preserve">turn crank</command>
+        <result xml:space="preserve">You grasp the little wooden ball and begin to turn the crank as you hold the jack-in-the-box steady.  A dark little tune plinks its way out, echoing forth from the little tin box.  It's not "all around the mulberry bush" or any song you recognize, so you don't quite expect it when its last note ends, and the spring-loaded doll within leaps out with surprising agility.  You jump a tiny bit, in spite of yourself.  The devil doll looks pleased.
+
+You startle the simian businessperson and they lose their concentration for one moment.  Their fingers whip forward towards you involuntarily, and you suddenly feel whatever they were holding in the palm of your own hand.  It is a shiny 1964 quarter.  The businessperson looks briefly dismayed but merely pulls something else out of its pocket.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4835"></child>
+        </children>
+    </item>
+    <item nodeId="node-4835">
+        <command xml:space="preserve">close jack-in-the-box</command>
+        <result xml:space="preserve">(the open jack-in-the-box)
+You shove the devil doll into the body of the box, and shut the lid with a satisfying snap.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4836"></child>
+        </children>
+    </item>
+    <item nodeId="node-4836">
+        <command xml:space="preserve">turn crank</command>
+        <result xml:space="preserve">You grasp the little wooden ball and begin to turn the crank as you hold the jack-in-the-box steady.  A dark little tune plinks its way out, echoing forth from the little tin box.  It's not "all around the mulberry bush" or any song you recognize, so you don't quite expect it when its last note ends, and the spring-loaded doll within leaps out with surprising agility.  You jump a tiny bit, in spite of yourself.  The devil doll looks pleased.
+The simian businessperson's eyes widen in fear, but otherwise he keeps his cool.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4837"></child>
+        </children>
+    </item>
+    <item nodeId="node-4837">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  an open jack-in-the-box
+  a shiny 1964 quarter
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-3512">
         <command xml:space="preserve">f</command>

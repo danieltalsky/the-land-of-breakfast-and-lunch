@@ -2,7 +2,7 @@
 
 The story headline is "~ a land can contain both ~"
 
-The release number is 3
+The release number is 4
 
 ["Lunchy" Website Theme"]
 Release along with a website and a "Lunchy" website.  Release along with an interpreter.  Release along with cover art.  Release along with the source text.
@@ -188,8 +188,26 @@ Instead of closing the closed jack-in-the-box:
 Instead of opening the closed jack-in-the-box:
 	say "You grasp the little wooden ball and begin to turn the crank as you hold the jack-in-the-box steady.  A dark little tune plinks its way out, echoing forth from the little tin box.  It's not 'all around the mulberry bush' or any song you recognize, so you don[apostrophe]t quite expect it when its last note ends, and the spring-loaded doll within leaps out with surprising agility.  You jump a tiny bit, in spite of yourself.  The devil doll looks pleased.";
 	move the open jack-in-the-box to the player;
-	now the closed jack-in-the-box is nowhere.
+	now the closed jack-in-the-box is nowhere;
+[
 
+***************************************************************************	
+
+]
+	[Special jack-in-the-box locations:]
+	if the player is in TLoUP:
+		say "[line break]For some reason, the crack of the jack-in-the-box opening unnerves your brother.  He leaps up from the couch for a moment. 'Quit it, you craphead,' your brother snarls.  He gives you an extremely intense look and lays back on the couch.";
+	otherwise if the player is in TLOUV:
+		say "[line break]'AAAAAAAGH,' the seaperson screams, leaping fully into the air, a wide, scratchy bellow.  'Goddamnit.  Get that creepy thing away from me,' she requests sincerely, 'What the hell is that, a little devil-in-a-box?  What's wrong with you?'.";
+	otherwise if the player is in The Chrysocolla Cluster:
+		if the businessperson is unstartled:
+			say "[line break]The simian businessperson's eyes whip suddenly to the face of the devil doll.  Its eyes widen and turn shockingly pale blue in a clearly recognizable look of total terror.  Their fingers whip forward towards you involuntarily, and you suddenly feel whatever they were holding in the palm of your own hand.  It is a shiny 1964 quarter.  The businessperson looks briefly dismayed but merely pulls something else out of its pocket.";
+			now the businessperson is startled;
+			move the shiny 1964 quarter to the player;
+		otherwise:
+			say "[line break]The simian businessperson's eyes widen in fear for a moment, but otherwise he keeps his cool.".
+
+[open jack in the box is a totally different object, presto]
 There is an open jack-in-the-box. The description of the open jack-in-the-box is "The jack-in-the-box is a brightly painted tin cube, and actually looks to be some sort of antique.  It is detailed with flames, and written on the back and front are the words 'diable en boîte'.  Its tin lid is popped open, revealing a small fabric devil puppet.".  The devil doll is a part of the open jack-in-the-box.  The description of the devil doll is "The devil doll looks handmade, from fabric and wood.  It has bright, black beads for eyes and a grinning face.  It looks delighted at its recent opportunity to surprise you with its cartoonish evil.".  Understand "puppet/spring/horns" as the devil doll.  The black bead eyes are a part of the devil doll.  The description of the black bead eyes is "Glassy.".  The spent hand crank is a part of the open jack-in-the-box.  The description is "A wire hand crank with a small wooden ball as a handle on the end.  You can turn the crank, but the jack-in-the-box is already out-of-the-box.". The open lid of the jack-in-the-box is a part of the open jack-in-the-box.
 
 Understand "turn [the spent hand crank]" as opening.
@@ -323,7 +341,7 @@ The Seaside Path is a room.  "You are on the the seaside path.  Backwards from h
 
 The sea is in the seaside path.  The sea is scenery.  The description is "The sea is quite a ways away for a path to be called The Seaside Path, but you didn't name it, did you?  Even from here you can see it's not really a sea but some kind of sound or bay."
 
-TLOUV is a room. "You are in the The Land of Unlaunched Vessels.  You stand near the edge of the bay, and there is a vessel moored here with thick and aged ropes tied to a bollard.  The Hopeful Path leads backward towards The Land of Unrealized Possibilities, a place you're not sure you want to be.  Forward, [printed name of The Sequel Path] leads to [printed name of TLOUV2]."   TLOUV is north of the seaside path.
+TLOUV is a room. "You are in the The Land of Unlaunched Vessels.  You stand near the edge of the bay, and there is a sailing ship moored here with thick and aged ropes tied to a bollard.  The Hopeful Path leads backward towards The Land of Unrealized Possibilities, a place you're not sure you want to be.  Forward, [printed name of The Sequel Path] leads to [printed name of TLOUV2]."   TLOUV is north of the seaside path.
 The printed name of TLOUV is "The Land of Unlaunched Vessels"
 
 The ropes are in TLOUV.  The ropes are scenery.  The description is "The ropes are weathered but sturdy, with crusty barnacles aplenty.  They are tied with odd-looking knots to a giant metal bollard bolted to a cement retaining wall."
@@ -338,73 +356,37 @@ The bollard is in TLOUV.  The bollard is scenery.  The description is "It's an i
 
 The cement retaining wall is in TLOUV.  The wall is scenery.  The description is "A cement retaining wall keeping the land separate from the bay."
 
-The vessel is in TLOUV.  The vessel is scenery.  The description is "It's perhaps a trireme, and it's clearly under construction."
+Understand "ship/vessel" or "sailing ship" as the fluyt.
+The Dutch fluyt is in TLOUV.  The Dutch fluyt is scenery.  The description is "Close your eyes and imagine a big sailing ship and what you're seeing is a Dutch fluyt.  The Mayflower was a fluyt.  It has multiple masts with big, square sails.  Its anchor is lowered and it is tied to the mast with giant ropes attached securely to a bollard bolted to the retaining wall."
 Understand "launch [something]" as pushing.
-Instead of pushing the vessel, say "You'd need to be on the vessel."
+Instead of pushing the fluyt, say "You'd need to be on the fluyt."
 
 The bay is in TLOUV. The bay is scenery.  The description is "You stand at the edge of the bay.  It could be any kind of inlet, possibly a fjord, but it's too calm to be the sea itself, and you can't see land on the other side.  Let's call it a bay.  A cement retaining wall allows you to stand right at the edge of it."
 Understand "the water" or "sea" or "the sea" or "water" or "ocean" or "inlet" or "fjord" as the bay.
 
-Instead of entering the vessel:
-	say "You can't figure out a way to get on the vessel.";
+Instead of entering the fluyt:
+	say "You can't figure out a way to get on the fluyt.";
 	
 Understand "swim" or "swim in the water" or "swim bay" or "swim in bay" or "swim in the bay" or "go swimming" as swimming.
 Swimming is an action applying to nothing.
 Check swimming:
-	say "You don't want to get wet, and you don't think you'd be able to get on the vessel that way, or really be able to do much of anything all wet and swimming around."
-
-[ The Kiddie Ride]
-There is a kiddie ride in TLOUV. The kiddie ride is a switched off device.  It is fixed in place.  The description is "Off to the side a little ways is a mechanical kiddie ride.  It's a big (to a child) yellow humvee with cartoon human eyes where the headlights should be.  It's anchored to a diamond plate platform and looks to have stopped mid-tilt.[paragraph break]Mounted on a post next to it is a coin box showing the coin denomination necessary to make it run: 25¢, or one U.S. quarter dollar piece.[paragraph break]There were once two of these rides outside every grocery store in America.  Whether they died out because kids collectively realized they weren't fun, or just liability, you're surprised to see this one here."
-Understand "car/humvee" as the kiddie ride.
-Check examining the ride:
-	if the ride is switched on, say "The kiddie ride has snapped to life, and the humvee is mechanically bucking like a very lazy bronco." instead.
-The human eyes are a part of the kiddie ride. The description is "On the yellow humvee attached to the kiddie ride are a fiberglass molded set of human-looking eyes.  They're meant to look excited and friendly, but they're straight-up creepy."
-
-[coin box]
-The coin box is a part of the kiddie ride.  The description is "The coin box is a sturdy steel box with a coin slot in one end (25¢) and a coin return on the other.  Next to the coin box is a small, cylindrical coin-release button."
-The coin slot is a part of the coin box.  The description is "It's a chrome slot to put a coin in."
-The coin return tray is a part of the coin box.  It is a container.  The description is "The coin return tray is a shallow metal tray designed to let a coin of any size strike the bottom, convulse in a spasm of physics and metallurgy, and safely come to a rest, waiting for a person to collect it."
-The coin release button is a part of the coin box.  The description is "The coin release button is a small chrome cylinder that can be depressed all the way down into the coin box."
-Instead of pushing the coin release button:
-	say "It smoothly depresses all the way down into the coin box.  If there were a coin stuck in the mechanism, this action would theoretically release it into the coin release tray.  There does not appear to be a coin and the coin release button depresses and releases noiselessly and frictionlessly.".
-Check inserting something into the coin slot:
-	if the noun is a penny and the player has the penny:
-		now the penny is in the tray;
-		say "The penny slides down the chute, briefly contacts some mechanism inside, and clanks out the coin return tray." instead;
-	if the noun is a quarter and the player has the quarter:
-		[ * 25¢ baby! * ]
-		now the kiddie ride is switched on;	
-		now the quarter is nowhere;	
-		say "Gravity pulls the quarter down into the slot, and then there is an agonizing pause before the weight of the quarter trips an internal lever in the machine and its song comes to life.  50% speed in one second, full speed at two seconds.  The song is 'In my merry Oldsmobile' and the dance of the humvee is drunken yet tame as it rolls and lists in a pattern potentially thrilling to a 3-year old but usually not really.  If you want to, you can ride the humvee now." instead;
-	else:
-		say "It won't fit.  It's not a coin." instead;
-Check inserting something into the tray:
-	if the noun is a penny and the player has the penny:
-		now the penny is in the tray;
-		say "Normally you'd put the coin in the coin slot, but you lay the penny in the coin return anyway, perhaps to frustrate someone who comes along and thinks it might be a quarter, but then realizes it isn't." instead;
-	else:
-		say "It won't fit.  It's not a coin." instead.		
-
-Understand "sit on [the kiddie ride]" as riding.
-Instead of riding the kiddie ride:
-	If the kiddie ride is switched on:
-		say "You climb up on the molded fiberglass seat of the humvee like a pro and right yourself against its tame rollicking.  At first you find it boring, but you quickly get in the spirit, facetiously adjusting your imaginary cowboy hat and making a quick lasso motion with your wrist to show the yellow humvee you're in full control, despite its raucous bucking.[paragraph break]If this was what you were trying to do, you pretty much won the game.  If you still have more to do, go ahead.";
-		now the kiddie ride is switched off;
-	otherwise:
-		say "You climb up on the molded fiberglass seat of the humvee but it feels cold, joyless, and dead underneath you.  You distinctly feel the feeling of being so unloved that no one would put a quarter in the slot, not understanding how such a simple thing could make all the difference.  You slide slowly off.".
-
-Test ride with "f / f / f / x ride / press coin release button / look under couch / get penny / put penny in slot"
+	say "You don't want to get wet, and you don't think you'd be able to get on the fluyt that way, or really be able to do much of anything all wet and swimming around."
 
 [The Hippie Seaperson]
 	
-The swarthy hippie seaperson is a woman in the TLOUV.  The printed name of the seaperson is "a swarthy hippie seaperson".  The description of the hippie seaperson is "She has thick blonde dreds, and all her eyes and limbs.  You can't tell if she's the piratey kind of seaperson or not."
+The swarthy hippie seaperson is a woman in the TLOUV.  The printed name of the seaperson is "a swarthy hippie seaperson".  The description of the hippie seaperson is "She has thick blonde dreds, and all her eyes and limbs.  You can't tell if she's the piratey kind of seaperson or not.  Honestly, you can't even tell if she's a hippie or not, but her dreds do have little brass bands on them."
+The dreds are a part of the seaperson.  The description is "They're mostly neat and even with a few chunky, misshapen ones.  A few have little brass bands wrapped around them as jewelry."
+The little brass bands are a part of the dreds.  The description is "The little brass bands secure or adorn a few of the dreds.  One, you can see, has a celtic knot engraved in it.".
+The both eyes are a part of the seaperson.  The description is "She has both of them."
+The arms are a part of the seaperson.  The description is "Neither of them look like a hook."
+The legs are a part of the seaperson.  The description is "Neither of them look like pegs."
 
 Instead of kissing the hippie seaperson, say "She pulls her head way back and eyes you with suspicion.  When you think about it, you realize you just kind of embarrassed yourself."
 
-[Instead of saying hello to the the hippie seaperson:
-	say "[one of]'Hi!', she says.[or]She nods in a wise seapersonlike way.[stopping]".]
-
 Instead of taking or attacking the hippie seaperson, say "The hippie seaperson actually looks kind of tough."
+
+[Instead of talking to the the hippie seaperson:
+	say "[one of]'Hi!', she says.[or]She nods in a wise, seapersonlike way.[stopping]".]
 
 Section 5 - The 1950's Rocket
 
@@ -543,9 +525,9 @@ inside-space-rocket is a backdrop.  inside-space-rocket is in spaceland.  The de
 The void of space is a room in spaceland. "[description of inside-space-rocket]". The printed name is "The Deep, Dark Void of Space".  The boring porthole window is scenery in the void of space.  The description of the boring porthole window is "If you push your head out a little past the walls of the ship into the bubble of the porthole window, you can see quite a vista.   It's hard to make out any specific detail here, just a ceaseless curtain of stars that extends forever.  All of it looks very far away."
 
 [Kamiro Quadrant]
-The Kamiro Quadrant is a spacey room in spaceland.  "[description of inside-space-rocket][paragraph break]You notice something unusual outside the porthole window."   The first porthole window is scenery in the kamiro quadrant.  The description of the first porthole window is "There is a space station here, as crisp and clean in the near distance as 1960's motion picture film.  It's a wheel with four little crossbars connecting its two tubular circles.  It's dotted with windows and tiny devices you can't see clearly from here.  A few lights pulse on the surface from time to time.  Its surface is almost blindingly white and clean.  It is very well lit.  Behind it is a curtain of stars."
-The space station is scenery in the kamiro quadrant.  
-The crossbars are a part of the space station.
+The Kamiro Quadrant is a spacey room in spaceland.  "[description of inside-space-rocket][paragraph break]You notice something unusual outside the porthole window."   The first porthole window is scenery in the kamiro quadrant.  The description of the first porthole window is "There is a space station here, as crisp and clean in the near distance as 1960's motion picture film.  It's a wheel with four little crossbars connecting its two tubular circles.  It's dotted with windows and tiny devices you can't see clearly from here.  A few lights pulse on the surface from time to time.  Its surface is almost blindingly white and clean.  It is very well lit.  Behind it is a curtain of stars.".
+The space station is scenery in the kamiro quadrant.  The description is "@TODO".
+The crossbars are a part of the space station. The description is "@TODO".
 
 [Elbow Nebula]
 The Elbow Nebula is a spacey room in spaceland. "[description of inside-space-rocket][paragraph break]You notice something unusual outside the porthole window."  The second porthole window is scenery in the elbow nebula.  The description of the second porthole window is "There is a giant space jellyfish made of light here.  It's not an actual  jellyfish, but that's the closest thing you can think of to call it.  Behind it is a curtain of stars."
@@ -565,17 +547,13 @@ The jetpack is scenery in the chrysocolla cluster.  The description is "It's a r
 Understand "tap [a visible thing]" or "knock [a visible thing]" or "knock on [a visible thing]" as attacking.
 Understand "glass" as the jinky porthole window.
 Instead of attacking the jinky porthole window:
-	if the businessperson is unstartled:
-		say "You startle the simian businessperson and they lose their concentration for one moment.  Their fingers whip forward towards you involuntarily, and you suddenly feel whatever they were holding in the palm of your own hand.  It is a shiny 1964 quarter.  The businessperson looks briefly dismayed but merely pulls something else out of its pocket.";
-		now the businessperson is startled;
-		move the quarter to the player;
-	otherwise:
-		say "The simian businessperson flicks an eye towards you, but otherwise doesn't pay any attention.";
+	say "The simian businessperson flicks an eye towards you, but otherwise doesn't pay any attention.";
 
+[Graphene Solar System]
+The Graphene Solar System is a spacey room in spaceland.  "[description of inside-space-rocket][paragraph break]You notice something unusual outside the porthole window."   The damp porthole window is scenery in the kamiro quadrant.  The description of the damp porthole window is "The graphene solar system hangs like a jewel in the distance.  It is partially obscured by several deep orbits worth of space junk.  Bands of the junk thousands of miles wide wrap in orbit around some planets, as well as the entire solar system.  It is, in its own way, breathtaking.  Behind it is a curtain of stars.".
+The space junk is scenery in the The Graphene Solar System.  The description is "@TODO".
 
 [
-The Graphene Solar System is a spacey room in spaceland. "[description of inside-space-rocket][paragraph break]You notice something unusual outside the porthole window."
-
 The Princely Corridor is a spacey room in spaceland. "[description of inside-space-rocket][paragraph break]You notice something unusual outside the porthole window."
 
 The Undercoat Galaxy is a spacey room in spaceland. "[description of inside-space-rocket][paragraph break]You notice something unusual outside the porthole window."
@@ -592,4 +570,46 @@ Test space with "f / eat breakfast / eat lunch / f / f / f / f / f / f / open ha
 
 [the path to the around the liquor/g store]
 
-[the front of the l/g store]
+The front of the drug store is a room.
+
+[ The Kiddie Ride]
+There is a kiddie ride in the front of the drug store. The kiddie ride is a switched off device.  It is fixed in place.  The description is "Off to the side a little ways is a mechanical kiddie ride.  It's a big (to a child) yellow humvee with cartoon human eyes where the headlights should be.  It's anchored to a diamond plate platform and looks to have stopped mid-tilt.[paragraph break]Mounted on a post next to it is a coin box showing the coin denomination necessary to make it run: 25¢, or one U.S. quarter dollar piece.[paragraph break]There were once two of these rides outside every grocery store in America.  Whether they died out because kids collectively realized they weren't fun, or just liability, you're surprised to see this one here."
+Understand "car/humvee" as the kiddie ride.
+Check examining the ride:
+	if the ride is switched on, say "The kiddie ride has snapped to life, and the humvee is mechanically bucking like a very lazy bronco." instead.
+The human eyes are a part of the kiddie ride. The description is "On the yellow humvee attached to the kiddie ride are a fiberglass molded set of human-looking eyes.  They're meant to look excited and friendly, but they're straight-up creepy."
+
+[coin box]
+The coin box is a part of the kiddie ride.  The description is "The coin box is a sturdy steel box with a coin slot in one end (25¢) and a coin return on the other.  Next to the coin box is a small, cylindrical coin-release button."
+The coin slot is a part of the coin box.  The description is "It's a chrome slot to put a coin in."
+The coin return tray is a part of the coin box.  It is a container.  The description is "The coin return tray is a shallow metal tray designed to let a coin of any size strike the bottom, convulse in a spasm of physics and metallurgy, and safely come to a rest, waiting for a person to collect it."
+The coin release button is a part of the coin box.  The description is "The coin release button is a small chrome cylinder that can be depressed all the way down into the coin box."
+Instead of pushing the coin release button:
+	say "It smoothly depresses all the way down into the coin box.  If there were a coin stuck in the mechanism, this action would theoretically release it into the coin release tray.  There does not appear to be a coin and the coin release button depresses and releases noiselessly and frictionlessly.".
+Check inserting something into the coin slot:
+	if the noun is a penny and the player has the penny:
+		now the penny is in the tray;
+		say "The penny slides down the chute, briefly contacts some mechanism inside, and clanks out the coin return tray." instead;
+	if the noun is a quarter and the player has the quarter:
+		[ * 25¢ baby! * ]
+		now the kiddie ride is switched on;	
+		now the quarter is nowhere;	
+		say "Gravity pulls the quarter down into the slot, and then there is an agonizing pause before the weight of the quarter trips an internal lever in the machine and its song comes to life.  50% speed in one second, full speed at two seconds.  The song is 'In my merry Oldsmobile' and the dance of the humvee is drunken yet tame as it rolls and lists in a pattern potentially thrilling to a 3-year old but usually not really.  If you want to, you can ride the humvee now." instead;
+	else:
+		say "It won't fit.  It's not a coin." instead;
+Check inserting something into the tray:
+	if the noun is a penny and the player has the penny:
+		now the penny is in the tray;
+		say "Normally you'd put the coin in the coin slot, but you lay the penny in the coin return anyway, perhaps to frustrate someone who comes along and thinks it might be a quarter, but then realizes it isn't." instead;
+	else:
+		say "It won't fit.  It's not a coin." instead.		
+
+Understand "sit on [the kiddie ride]" as riding.
+Instead of riding the kiddie ride:
+	If the kiddie ride is switched on:
+		say "You climb up on the molded fiberglass seat of the humvee like a pro and right yourself against its tame rollicking.  At first you find it boring, but you quickly get in the spirit, facetiously adjusting your imaginary cowboy hat and making a quick lasso motion with your wrist to show the yellow humvee you're in full control, despite its raucous bucking.[paragraph break]If this was what you were trying to do, you pretty much won the game.  If you still have more to do, go ahead.";
+		now the kiddie ride is switched off;
+	otherwise:
+		say "You climb up on the molded fiberglass seat of the humvee but it feels cold, joyless, and dead underneath you.  You distinctly feel the feeling of being so unloved that no one would put a quarter in the slot, not understanding how such a simple thing could make all the difference.  You slide slowly off.".
+
+Test ride with "f / f / f / x ride / press coin release button / look under couch / get penny / put penny in slot"

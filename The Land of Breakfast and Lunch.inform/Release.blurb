@@ -19,7 +19,7 @@ picture 1 "/Users/daniel/_git/the-land-of-breakfast-and-lunch/The Land of Breakf
 ! Placeholder variables
 
 placeholder [IFID] = "4E7D8B5D-ABD4-4675-BBD2-31E9CCC2B2CC"
-placeholder [RELEASE] = "3"
+placeholder [RELEASE] = "4"
 placeholder [YEAR] = "2020"
 placeholder [TITLE] = "The Land of Breakfast and Lunch"
 placeholder [AUTHOR] = "Daniel Talsky"

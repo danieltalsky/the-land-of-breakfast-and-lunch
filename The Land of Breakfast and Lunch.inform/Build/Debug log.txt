@@ -14,7 +14,7 @@ Reading language definition from </Applications/Inform.app/Contents/Resources/In
 Phase I ... Lexical analysis
 -----------------------------------------------------
 
-I've now read your source text, which is 10252 words long.
+I've now read your source text, which is 10724 words long.
 
 
 -----------------------------------------------------
@@ -53,13 +53,15 @@ Phase VI ... Semantic analysis III
 Phase VII ... First pass through assertions
 -----------------------------------------------------
 
-    Regional: CONSTANT_VNT'spaceland'-region()(I160'spaceland')
+    Regional: CONSTANT_VNT'spaceland'-region()(I159'spaceland')
      == region
-    Regional: CONSTANT_VNT'spaceland'-region()(I160'spaceland')
+    Regional: CONSTANT_VNT'spaceland'-region()(I159'spaceland')
      == region
-    Regional: CONSTANT_VNT'spaceland'-region()(I160'spaceland')
+    Regional: CONSTANT_VNT'spaceland'-region()(I159'spaceland')
      == region
-    Regional: CONSTANT_VNT'spaceland'-region()(I160'spaceland')
+    Regional: CONSTANT_VNT'spaceland'-region()(I159'spaceland')
+     == region
+    Regional: CONSTANT_VNT'spaceland'-region()(I159'spaceland')
      == region
 
 
@@ -115,13 +117,13 @@ Phase XII ... Code generation
 
 ==== Phase XII.6 ... Compiling first block of phrases ====
 
-        Regional: CONSTANT_VNT'spaceland'-region(I225_spaceland)(I160'spaceland')
+        Regional: CONSTANT_VNT'spaceland'-region(I224_spaceland)(I159'spaceland')
          == region
-        Regional: CONSTANT_VNT'spaceland'-region(I225_spaceland)(I160'spaceland')
+        Regional: CONSTANT_VNT'spaceland'-region(I224_spaceland)(I159'spaceland')
          == region
-        Regional: CONSTANT_VNT'spaceland'-region(I225_spaceland)(I160'spaceland')
+        Regional: CONSTANT_VNT'spaceland'-region(I224_spaceland)(I159'spaceland')
          == region
-        Regional: CONSTANT_VNT'spaceland'-region(I225_spaceland)(I160'spaceland')
+        Regional: CONSTANT_VNT'spaceland'-region(I224_spaceland)(I159'spaceland')
          == region
 
 
@@ -191,7 +193,7 @@ Phase XIII ... Compilation now complete
 -----------------------------------------------------
 
 Total of 113 files written as streams.
-CPU time: 158 centiseconds
+CPU time: 161 centiseconds
 
 
 That concludes the debugging log from this run of Inform.
