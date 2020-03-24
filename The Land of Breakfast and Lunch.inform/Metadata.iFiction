@@ -16,16 +16,16 @@
             <group>Inform</group>
         </bibliographic>
         <cover>
-            <format>jpg</format>
-            <height>680</height>
-            <width>680</width>
+            <format>png</format>
+            <height>960</height>
+            <width>960</width>
             <description>The cover art.</description>
         </cover>
         <releases>
             <attached>
                 <release>
-                    <releasedate>2020-03-20</releasedate>
-                    <version>4</version>
+                    <releasedate>2020-03-23</releasedate>
+                    <version>8</version>
                     <compiler>Inform 7</compiler>
                     <compilerversion>6M62</compilerversion>
                 </release>
@@ -34,11 +34,11 @@
         <colophon>
             <generator>Inform 7</generator>
             <generatorversion>6M62</generatorversion>
-            <originated>2020-03-20</originated>
+            <originated>2020-03-23</originated>
         </colophon>
         <glulx>
-            <serial>200320</serial>
-            <release>4</release>
+            <serial>200323</serial>
+            <release>8</release>
             <compiler>Inform 7 build 6M62</compiler>
             <coverpicture>1</coverpicture>
         </glulx>

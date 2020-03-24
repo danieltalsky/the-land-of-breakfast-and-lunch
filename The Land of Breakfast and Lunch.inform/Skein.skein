@@ -11,7 +11,7 @@ Some would say that life is like a box of metaphors.  I would not say that.  I w
 
 The Land of Breakfast and Lunch
 ~ a land can contain both ~ by Daniel Talsky
-Release 3 / Serial number 200320 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
+Release 8 / Serial number 200323 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
 
 The Path
 You are at the beginning of a path.  It is plain, even homely.  It leads forward towards The Land of Breakfast and Lunch.  If you "walk forward" you will follow the path.
@@ -25,19 +25,25 @@ You are at the beginning of a path.  It is plain, even homely.  It leads forward
             <child nodeId="node-1256"></child>
             <child nodeId="node-1729"></child>
             <child nodeId="node-1643"></child>
+            <child nodeId="node-5383"></child>
             <child nodeId="node-1646"></child>
             <child nodeId="node-1657"></child>
             <child nodeId="node-2606"></child>
+            <child nodeId="node-6273"></child>
             <child nodeId="node-1664"></child>
+            <child nodeId="node-6362"></child>
             <child nodeId="node-1726"></child>
             <child nodeId="node-1735"></child>
             <child nodeId="node-1668"></child>
             <child nodeId="node-1719"></child>
             <child nodeId="node-1782"></child>
+            <child nodeId="node-5614"></child>
             <child nodeId="node-1780"></child>
             <child nodeId="node-1721"></child>
             <child nodeId="node-1722"></child>
             <child nodeId="node-1758"></child>
+            <child nodeId="node-6121"></child>
+            <child nodeId="node-5739"></child>
             <child nodeId="node-1759"></child>
             <child nodeId="node-2989"></child>
             <child nodeId="node-4297"></child>
@@ -45,13 +51,102 @@ You are at the beginning of a path.  It is plain, even homely.  It leads forward
             <child nodeId="node-1842"></child>
             <child nodeId="node-1852"></child>
             <child nodeId="node-3381"></child>
+            <child nodeId="node-6199"></child>
             <child nodeId="node-2840"></child>
             <child nodeId="node-2929"></child>
             <child nodeId="node-1741"></child>
             <child nodeId="node-1746"></child>
             <child nodeId="node-1904"></child>
+            <child nodeId="node-5387"></child>
             <child nodeId="node-1724"></child>
+            <child nodeId="node-6262"></child>
         </children>
+    </item>
+    <item nodeId="node-6262">
+        <command xml:space="preserve">x path</command>
+        <result xml:space="preserve">Which do you mean, Southmostpath, Hopeypath, or Seapath?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6263"></child>
+        </children>
+    </item>
+    <item nodeId="node-6263">
+        <command xml:space="preserve">follow it</command>
+        <result xml:space="preserve">I only understood you as far as wanting to examine north.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6264"></child>
+        </children>
+    </item>
+    <item nodeId="node-6264">
+        <command xml:space="preserve">follow path</command>
+        <result xml:space="preserve">
+The Land of Breakfast and Lunch
+The Land of Breakfast and Lunch is a lot smaller than you were expecting.  It's actually just a small clearing near the road, like a roadside stop, with a painted picnic table containing a simple but nourishing breakfast on one end, and a simple but nourishing lunch on the other end.  A stubby little path leads backwards, and the path continues forward, towards The Land of Unrealized Possibilities.  If you "walk forward" or just "forward" or even just "f" you will be walking towards it.
+
+You can see a painted picnic table (on which are Breakfast and Lunch) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6268"></child>
+        </children>
+    </item>
+    <item nodeId="node-6268">
+        <command xml:space="preserve">follow</command>
+        <result xml:space="preserve">That's not a verb I recognize.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6269"></child>
+        </children>
+    </item>
+    <item nodeId="node-6269">
+        <command xml:space="preserve">follow path</command>
+        <result xml:space="preserve">
+Hopeful Path
+You are on the hopeful path.  Backwards from here is The Land of Breakfast and Lunch.  Forward is The Land of Unrealized Possibilities.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6270"></child>
+        </children>
+    </item>
+    <item nodeId="node-6270">
+        <command xml:space="preserve">follow path</command>
+        <result xml:space="preserve">
+The Land of Unrealized Possibilities
+You are in the Land of Unrealized Possibilities.  Just being here gives you a sense of all that could be accomplished if enough time, effort, and focus were pointed in a specific direction.  There is a sense of both excitement and disappointment here that is almost palpable.  The Hopeful Path leads backward towards The Land of Breakfast and Lunch, a place with a much clearer sense of purpose.  The Seaside Path leads forward, towards The Land of Unlaunched Vessels.
+
+You can see a toy box (closed), a couch (on which is your brother), and a TV here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6271"></child>
+        </children>
+    </item>
+    <item nodeId="node-6271">
+        <command xml:space="preserve">follow it</command>
+        <result xml:space="preserve">
+Seaside Path
+You are on the seaside path.  Backwards from here is The Land of Unrealized Possibilities.  Forward is The Land of Unlaunched Vessels.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6272"></child>
+        </children>
+    </item>
+    <item nodeId="node-6272">
+        <command xml:space="preserve">follow it</command>
+        <result xml:space="preserve">
+The Land of Unlaunched Vessels
+You are in The Land of Unlaunched Vessels.  You stand near the edge of the bay, and there is a sailing ship moored here with thick and aged ropes tied to a bollard.  The Hopeful Path leads backward towards The Land of Unrealized Possibilities, a place you're not sure you want to be.  Forward, Sequel Path leads to The Land of Unlaunched Vessels II: The Launchening.
+
+You can see a swarthy hippie seaperson here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1724">
         <command xml:space="preserve">wake up</command>
@@ -65,6 +160,49 @@ You are at the beginning of a path.  It is plain, even homely.  It leads forward
     <item nodeId="node-1725">
         <command xml:space="preserve">sleep</command>
         <result xml:space="preserve">You don't feel even the tendrils of sleepiness, you could lie down, but it sounds pretty boring.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-5387">
+        <command xml:space="preserve">wait</command>
+        <result xml:space="preserve">You stop doing anything for exactly 208 seconds.  Nothing seems to have changed in that time.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5388"></child>
+        </children>
+    </item>
+    <item nodeId="node-5388">
+        <command xml:space="preserve">wait</command>
+        <result xml:space="preserve">You stop doing anything for exactly 205 seconds.  Nothing seems to have changed in that time.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5389"></child>
+        </children>
+    </item>
+    <item nodeId="node-5389">
+        <command xml:space="preserve">wait</command>
+        <result xml:space="preserve">You stop doing anything for exactly 94 seconds.  Nothing seems to have changed in that time.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5390"></child>
+        </children>
+    </item>
+    <item nodeId="node-5390">
+        <command xml:space="preserve">wait</command>
+        <result xml:space="preserve">You stop doing anything for exactly 124 seconds.  Nothing seems to have changed in that time.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5395"></child>
+        </children>
+    </item>
+    <item nodeId="node-5395">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">This really is as far back as the path goes.  Further behind you there's just a bunch of scrub brush as far as the eye can see.  It's really not your kind of thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -559,6 +697,105 @@ That's already open.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
+    <item nodeId="node-6199">
+        <command xml:space="preserve">test talkseaperson</command>
+        <result xml:space="preserve">(Testing.)
+
+&gt;[1] f
+
+The Land of Breakfast and Lunch
+The Land of Breakfast and Lunch is a lot smaller than you were expecting.  It's actually just a small clearing near the road, like a roadside stop, with a painted picnic table containing a simple but nourishing breakfast on one end, and a simple but nourishing lunch on the other end.  A stubby little path leads backwards, and the path continues forward, towards The Land of Unrealized Possibilities.  If you "walk forward" or just "forward" or even just "f" you will be walking towards it.
+
+You can see a painted picnic table (on which are Breakfast and Lunch) here.
+
+&gt;[2] f
+
+Hopeful Path
+You are on the hopeful path.  Backwards from here is The Land of Breakfast and Lunch.  Forward is The Land of Unrealized Possibilities.
+
+&gt;[3] f
+
+The Land of Unrealized Possibilities
+You are in the Land of Unrealized Possibilities.  Just being here gives you a sense of all that could be accomplished if enough time, effort, and focus were pointed in a specific direction.  There is a sense of both excitement and disappointment here that is almost palpable.  The Hopeful Path leads backward towards The Land of Breakfast and Lunch, a place with a much clearer sense of purpose.  The Seaside Path leads forward, towards The Land of Unlaunched Vessels.
+
+You can see a toy box (closed), a couch (on which is your brother), and a TV here.
+
+&gt;[4] f
+
+Seaside Path
+You are on the seaside path.  Backwards from here is The Land of Unrealized Possibilities.  Forward is The Land of Unlaunched Vessels.
+
+&gt;[5] f
+
+The Land of Unlaunched Vessels
+You are in The Land of Unlaunched Vessels.  You stand near the edge of the bay, and there is a sailing ship moored here with thick and aged ropes tied to a bollard.  The Hopeful Path leads backward towards The Land of Unrealized Possibilities, a place you're not sure you want to be.  Forward, Sequel Path leads to The Land of Unlaunched Vessels II: The Launchening.
+
+You can see a swarthy hippie seaperson here.
+
+&gt;[6] ask seaperson about bollard
+"Ah yeah, that's a mooring bollard."
+
+&gt;[7] ask seaperson about fluyt
+"Yes, that's The Chimera.  It's a Dutch cargo fluyt.  Due to a trade dispute it's temporarily moored here since it can't legally be moored at any real harbor.  I am required to ensure it isn't stolen and that no one boards it, but otherwise I don't have much else to do.  That's ok though, I do not mind resting in the sun day after day.  I've worked hard all my life and I'm fine being right here in The Land of Unlaunched Vessels.  If The Chimera ever launched, I believe we'd have to change the name of the place."
+
+&gt;[8] ask seaperson about trade dispute
+"The trade dispute began about four years ago, and The Chimera has been moored here in this temporary location nearly that entire time.  First time I've ever been paid NOT to sail.  I think someone in The Land of Taxable Interest got a little rowdy, and someone in The Land of Sensible Tariffs took exception.
+
+&gt;</result>
+        <commentary xml:space="preserve">[1] f
+[2] f
+[3] f
+[4] f
+[5] f
+[6] ask seaperson about bollard
+[7] ask seaperson about fluyt
+[8] ask seaperson about trade dispute
+</commentary>
+        <children><child nodeId="node-6249"></child>
+            <child nodeId="node-6229"></child>
+        </children>
+    </item>
+    <item nodeId="node-6229">
+        <command xml:space="preserve">ask seaperson about trade</command>
+        <result xml:space="preserve">"Sorry, I do not know about that."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6230"></child>
+        </children>
+    </item>
+    <item nodeId="node-6230">
+        <command xml:space="preserve">ask seaperson about dispute</command>
+        <result xml:space="preserve">"Sorry, I do not know about that."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-6249">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6260"></child>
+        </children>
+    </item>
+    <item nodeId="node-6260">
+        <command xml:space="preserve">ask seaperson about ropes</command>
+        <result xml:space="preserve">"Technically you would call them line, or mooring warps.  Landlubbers call them ropes though."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6261"></child>
+        </children>
+    </item>
+    <item nodeId="node-6261">
+        <command xml:space="preserve">ask seaperson about trade</command>
+        <result xml:space="preserve">"The trade dispute began about four years ago, and The Chimera has been moored here in this temporary location nearly that entire time.  First time I've ever been paid NOT to sail.  I think someone in The Land of Taxable Interest got a little rowdy, and someone in The Land of Sensible Tariffs took exception.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
     <item nodeId="node-3381">
         <command xml:space="preserve">test space</command>
         <result xml:space="preserve">(Testing.)
@@ -588,7 +825,7 @@ You are on the hopeful path.  Backwards from here is The Land of Breakfast and L
 The Land of Unrealized Possibilities
 You are in the Land of Unrealized Possibilities.  Just being here gives you a sense of all that could be accomplished if enough time, effort, and focus were pointed in a specific direction.  There is an sense of both excitement and disappointment here that is almost palpable.  The Hopeful Path leads backward towards The Land of Breakfast and Lunch, a place with a much clearer sense of purpose.
 
-You can see a toy box (closed), a couch (on which is your brother), a TV, and a kiddie ride here.
+You can see a toy box (closed), a couch (on which is your brother), and a TV here.
 
 &gt;[6] f
 
@@ -598,9 +835,9 @@ You are on the the seaside path.  Backwards from here is The Land of Unrealized 
 &gt;[7] f
 
 The Land of Unlaunched Vessels
-You are in the The Land of Unlaunched Vessels.  You stand near the edge of the bay, and there is a vessel moored here with thick and aged ropes tied to a bollard.  The Hopeful Path leads backward towards The Land of Unrealized Possibilities, a place you're not sure you want to be.  Forward, Sequel Path leads to The Land of Unlaunched Vessels II: The Launchening.
+You are in the The Land of Unlaunched Vessels.  You stand near the edge of the bay, and there is a sailing ship moored here with thick and aged ropes tied to a bollard.  The Hopeful Path leads backward towards The Land of Unrealized Possibilities, a place you're not sure you want to be.  Forward, Sequel Path leads to The Land of Unlaunched Vessels II: The Launchening.
 
-You can see an a swarthy hippie seaperson here.
+You can see a swarthy hippie seaperson here.
 
 &gt;[8] f
 
@@ -612,7 +849,7 @@ You are on the the sequel path.  Backwards from here is The Land of Unlaunched V
 The Land of Unlaunched Vessels II: The Launchening
 You are in The Land of Unlaunched Vessels II: The Launchening.  There is a launchpad here, on which sits a large, 1950's era rocket in galaxy white and candy-apple red. Sequel Path leads backwards towards The Land of Unlaunched Vessels
 
-You can see a launchpad and a Rocket here.
+You can see a launchpad and a rocket here.
 
 &gt;[10] open hatch
 You open the hatch.
@@ -623,7 +860,7 @@ You pull yourself into the rocket.
 The Inside of the Parked Rocket
 You are within the smooth walls of the rocket.  It is very plain here, out the porthole window you can see the sky, and out the hatch you can see The Land of Unlaunched Vessels II: The Launchening.
 
-You can see a the cockpit, a big metal unit containing a captain's chair and a control panel here.
+You can see a cockpit, a big metal unit containing a captain's chair and a control panel here.
 
 &gt;[12] press red button
 It's natural to expect blastoff immediately.  Instead, the hatch door whirrs slowly shut, coming to a solid clang.  You have just enough time to realize that you could buckle yourself into the captain's chair and you do.  Just in time, as you feel a tremendous slow and steady thrust of force wrap itself around you as the sky begins to move in the porthole window.  For just one moment you swear you can see The Land of Breakfast and Lunch streak by the window.  Finally, the sky begins to darken, and all sound becomes only a vibration.  The deep, dark void of space is with you.  You absentmindedly unbuckle the webbing securing you to the seat, and you feel free to move about the interior.
@@ -634,7 +871,7 @@ You are inside the rocket as it cruises very slowly through the deep, dark void 
 &gt;[13] press blue button
 Whoosh.  You thought maybe the engine engaged again, but something else already did.  It bent space softly around you, and, maybe the rocket moved a little.  Like with a soft whoosh.  It happened in less than a second.  Now, you think you're somewhere else.
 
-Chrysocolla Cluster
+Kamiro Quadrant
 You are inside the rocket as it cruises very slowly through the deep, dark void of space.  Outside the porthole window is the deep, dark void of space covered over with a curtain of stars.
 
 You notice something unusual outside the porthole window.
@@ -659,7 +896,131 @@ You notice something unusual outside the porthole window.
             <child nodeId="node-4274"></child>
             <child nodeId="node-3854"></child>
             <child nodeId="node-3912"></child>
+            <child nodeId="node-5465"></child>
+            <child nodeId="node-5354"></child>
         </children>
+    </item>
+    <item nodeId="node-5354">
+        <command xml:space="preserve">x window</command>
+        <result xml:space="preserve">Just outside the window is a simian businessperson, with a tidy leather jetpack.  Behind them is a curtain of stars.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5355"></child>
+        </children>
+    </item>
+    <item nodeId="node-5355">
+        <command xml:space="preserve">x space</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5372"></child>
+        </children>
+    </item>
+    <item nodeId="node-5372">
+        <command xml:space="preserve">press return</command>
+        <result xml:space="preserve">Whoosh. At the end of the rocket's soft whoosh, its mighty engines begin to engage, slowing its fall as it pillows down to the landing pad in The Land of Once Launched Vessels.
+
+The Inside of the Parked Rocket
+You are within the smooth walls of the rocket.  It is very plain here, out the porthole window you can see the sky, and out the hatch you can see The Land of Once Launched Vessels.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5373"></child>
+        </children>
+    </item>
+    <item nodeId="node-5373">
+        <command xml:space="preserve">exit</command>
+        <result xml:space="preserve">You exit the hatch opening and climb to the ground.
+
+The Land of Once Launched Vessels
+You are in The Land of Once Launched Vessels.  There is a launchpad here, on which sits a large, 1950's era rocket in galaxy white and candy-apple red. The Spiritual Sequel Path leads backwards towards The Land of Unlaunched Vessels
+
+You can see a launchpad and a Rocket here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5374"></child>
+        </children>
+    </item>
+    <item nodeId="node-5374">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+The anticlimactic path.
+You are on the anticlimactic path.  Backwards is The Land of Once Launched Vessels.  Ahead of you, you can see the back of the liquor store.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5375"></child>
+        </children>
+    </item>
+    <item nodeId="node-5375">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+Behind the liquor store
+You've got your standard collection of broken down boxes, a dumpster, and a stack of pallets.  Behind you, the anticlimactic path leads to The Land of Once Launched Vessels.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5376"></child>
+        </children>
+    </item>
+    <item nodeId="node-5376">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+The path around the liquor store
+You're on the path around the liquor store.  You see the side of the liquor store on one side and a fence on the other side.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5377"></child>
+        </children>
+    </item>
+    <item nodeId="node-5377">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+The front of the liquor store
+The liquor store is closed, looks like permanantly, and there's just a weird humvee kiddie ride here.
+
+You can see a kiddie ride here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5378"></child>
+        </children>
+    </item>
+    <item nodeId="node-5378">
+        <command xml:space="preserve">turn on kiddie ride</command>
+        <result xml:space="preserve">The way to turn on the kiddie ride is to put a quarter into the coin slot.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-5465">
+        <command xml:space="preserve">sit chair</command>
+        <result xml:space="preserve">I didn't understand that sentence.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5466"></child>
+        </children>
+    </item>
+    <item nodeId="node-5466">
+        <command xml:space="preserve">sit in chair</command>
+        <result xml:space="preserve">You settle into the captain's chair, and really feel Captain-ey immediately.  You practice buckling yourself into the protective webbing, and unbuckling it.  You get up eventually.  Now, when you are about to launch or land you will know what to do.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5467"></child>
+        </children>
+    </item>
+    <item nodeId="node-5467">
+        <command xml:space="preserve">enter chair</command>
+        <result xml:space="preserve">You settle into the captain's chair, and really feel Captain-ey immediately.  You practice buckling yourself into the protective webbing, and unbuckling it.  You get up eventually.  Now, when you are about to launch or land you will know what to do.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-3912">
         <command xml:space="preserve">press blue button</command>
@@ -3944,6 +4305,335 @@ You can see a shiny red button here.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
+    <item nodeId="node-5739">
+        <command xml:space="preserve">test brotalk</command>
+        <result xml:space="preserve">(Testing.)
+
+&gt;[1] f
+
+The Land of Breakfast and Lunch
+The Land of Breakfast and Lunch is a lot smaller than you were expecting.  It's actually just a small clearing near the road, like a roadside stop, with a painted picnic table containing a simple but nourishing breakfast on one end, and a simple but nourishing lunch on the other end.  A stubby little path leads backwards, and the path continues forward, towards The Land of Unrealized Possibilities.  If you "walk forward" or just "forward" or even just "f" you will be walking towards it.
+
+You can see a painted picnic table (on which are Breakfast and Lunch) here.
+
+&gt;[2] f
+
+Hopeful Path
+You are on the hopeful path.  Backwards from here is The Land of Breakfast and Lunch.  Forward is The Land of Unrealized Possibilities.
+
+&gt;[3] f
+
+The Land of Unrealized Possibilities
+You are in the Land of Unrealized Possibilities.  Just being here gives you a sense of all that could be accomplished if enough time, effort, and focus were pointed in a specific direction.  There is a sense of both excitement and disappointment here that is almost palpable.  The Hopeful Path leads backward towards The Land of Breakfast and Lunch, a place with a much clearer sense of purpose.  The Seaside Path leads forward, towards The Land of Unlaunched Vessels.
+
+You can see a toy box (closed), a couch (on which is your brother), and a TV here.
+
+&gt;[4] ask brother about box
+"It's the toy box, just look at it yourself."
+
+&gt;[5] ask brother about jack-in-the-box
+"What are you talking about, dogbreath?"
+
+&gt;[6] tell brother about box
+"Yeah, it's the toy box, snotball, what do you want from me?"
+
+&gt;[7] tell brother about jack-in-the-box
+"You expect me to believe you saw a real rocket?"
+
+&gt;[8] open box
+You open the toy box, revealing a wooden block, a skinny naked plastic doll, a closed jack-in-the-box, a lite-brite, a coloring book, a small heart shaped locket, and a small hobby horse.
+
+&gt;[9] ask brother about jack
+"It's the closed jack-in-the-box, just look at it yourself."
+
+&gt;[10] tell brother about jack
+"Yeah, it's the closed jack-in-the-box, snotball, what do you want from me?"
+
+&gt;[11] ask brother about rocket
+"What are you talking about, dogbreath?"
+
+&gt;[12] tell brother about rocket
+"You expect me to believe you saw a real rocket?"
+
+&gt;[13] ask brother about quarter
+"What are you talking about, dogbreath?"
+
+&gt;</result>
+        <commentary xml:space="preserve">[1] f
+[2] f
+[3] f
+[4] ask brother about box
+[5] ask brother about jack-in-the-box
+[6] tell brother about box
+[7] tell brother about jack-in-the-box
+[8] open box
+[9] ask brother about jack
+[10] tell brother about jack
+[11] ask brother about rocket
+[12] tell brother about rocket
+[13] ask brother about quarter
+</commentary>
+        <children><child nodeId="node-5745"></child>
+            <child nodeId="node-5894"></child>
+            <child nodeId="node-5944"></child>
+        </children>
+    </item>
+    <item nodeId="node-5944">
+        <command xml:space="preserve">tell brother about joob</command>
+        <result xml:space="preserve">"You expect me to believe you saw a real rocket?"
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5981"></child>
+        </children>
+    </item>
+    <item nodeId="node-5981">
+        <command xml:space="preserve">ask brother about rocket</command>
+        <result xml:space="preserve">"I saw a show about rockets.  It said they have really complicated controls."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5982"></child>
+        </children>
+    </item>
+    <item nodeId="node-5982">
+        <command xml:space="preserve">tell brother about rocket</command>
+        <result xml:space="preserve">"You expect me to believe you saw a real rocket?"
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-5894">
+        <command xml:space="preserve">ask seaperson about box</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5895"></child>
+        </children>
+    </item>
+    <item nodeId="node-5895">
+        <command xml:space="preserve">open box</command>
+        <result xml:space="preserve">You open the toy box, revealing a wooden block, a skinny naked plastic doll, a closed jack-in-the-box, a lite-brite, a coloring book, a small heart shaped locket, and a small hobby horse.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5896"></child>
+        </children>
+    </item>
+    <item nodeId="node-5896">
+        <command xml:space="preserve">ask brother about jack</command>
+        <result xml:space="preserve">"It's the closed jack-in-the-box, just look at it yourself."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5897"></child>
+        </children>
+    </item>
+    <item nodeId="node-5897">
+        <command xml:space="preserve">tell brother about jack</command>
+        <result xml:space="preserve">Your brother's eyes don't leave the TV, but he does say, "Yeah, it's the closed jack-in-the-box, snotball, what do you want from me?"
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5898"></child>
+        </children>
+    </item>
+    <item nodeId="node-5898">
+        <command xml:space="preserve">close box</command>
+        <result xml:space="preserve">You close the toy box.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5899"></child>
+        </children>
+    </item>
+    <item nodeId="node-5899">
+        <command xml:space="preserve">ask brother about jack</command>
+        <result xml:space="preserve">There is no reply.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-5745">
+        <command xml:space="preserve">ask brother about couch</command>
+        <result xml:space="preserve">"It's the couch, just look at it yourself."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5760"></child>
+        </children>
+    </item>
+    <item nodeId="node-5760">
+        <command xml:space="preserve">open box</command>
+        <result xml:space="preserve">You open the toy box, revealing a wooden block, a skinny naked plastic doll, a closed jack-in-the-box, a lite-brite, a coloring book, a small heart shaped locket, and a small hobby horse.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5761"></child>
+        </children>
+    </item>
+    <item nodeId="node-5761">
+        <command xml:space="preserve">ask brother about boobs</command>
+        <result xml:space="preserve">There is no reply.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5762"></child>
+        </children>
+    </item>
+    <item nodeId="node-5762">
+        <command xml:space="preserve">ask brother about doll</command>
+        <result xml:space="preserve">"It's the skinny naked plastic doll, just look at it yourself."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5783"></child>
+        </children>
+    </item>
+    <item nodeId="node-5783">
+        <command xml:space="preserve">ask brother about jack-in-the-box</command>
+        <result xml:space="preserve">"It's the closed jack-in-the-box, just look at it yourself."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5806"></child>
+        </children>
+    </item>
+    <item nodeId="node-5806">
+        <command xml:space="preserve">ask brother about jack-in-the-box</command>
+        <result xml:space="preserve">"It's the closed jack-in-the-box, just look at it yourself."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5843"></child>
+        </children>
+    </item>
+    <item nodeId="node-5843">
+        <command xml:space="preserve">tell brother about the jack-in-the-box</command>
+        <result xml:space="preserve">Your brother's eyes don't leave the TV, but he does say, "Yeah, it's the closed jack-in-the-box, snotball, what do you want from me?"
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5857"></child>
+        </children>
+    </item>
+    <item nodeId="node-5857">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5858"></child>
+        </children>
+    </item>
+    <item nodeId="node-5858">
+        <command xml:space="preserve">close box</command>
+        <result xml:space="preserve">You close the toy box.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5859"></child>
+        </children>
+    </item>
+    <item nodeId="node-5859">
+        <command xml:space="preserve">ask brother about jack</command>
+        <result xml:space="preserve">There is no reply.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-6121">
+        <command xml:space="preserve">test askbro</command>
+        <result xml:space="preserve">(Testing.)
+
+&gt;[1] f
+
+The Land of Breakfast and Lunch
+The Land of Breakfast and Lunch is a lot smaller than you were expecting.  It's actually just a small clearing near the road, like a roadside stop, with a painted picnic table containing a simple but nourishing breakfast on one end, and a simple but nourishing lunch on the other end.  A stubby little path leads backwards, and the path continues forward, towards The Land of Unrealized Possibilities.  If you "walk forward" or just "forward" or even just "f" you will be walking towards it.
+
+You can see a painted picnic table (on which are Breakfast and Lunch) here.
+
+&gt;[2] f
+
+Hopeful Path
+You are on the hopeful path.  Backwards from here is The Land of Breakfast and Lunch.  Forward is The Land of Unrealized Possibilities.
+
+&gt;[3] f
+
+The Land of Unrealized Possibilities
+You are in the Land of Unrealized Possibilities.  Just being here gives you a sense of all that could be accomplished if enough time, effort, and focus were pointed in a specific direction.  There is a sense of both excitement and disappointment here that is almost palpable.  The Hopeful Path leads backward towards The Land of Breakfast and Lunch, a place with a much clearer sense of purpose.  The Seaside Path leads forward, towards The Land of Unlaunched Vessels.
+
+You can see a toy box (closed), a couch (on which is your brother), and a TV here.
+
+&gt;[4] ask brother about box
+"It's the toy box, just look at it yourself."
+
+&gt;[5] ask brother about rocket
+"I don't have a quarter, no, but I think there's a penny under the couch."
+
+&gt;[6] ask brother about quarter
+"What are you talking about, dogbreath?"
+
+&gt;[7] ask brother about brother
+"It's your brother, just look at it yourself."
+
+&gt;</result>
+        <commentary xml:space="preserve">[1] f
+[2] f
+[3] f
+[4] ask brother about box
+[5] ask brother about rocket
+[6] ask brother about quarter
+[7] ask brother about brother
+</commentary>
+        <children><child nodeId="node-6145"></child>
+        </children>
+    </item>
+    <item nodeId="node-6145">
+        <command xml:space="preserve">test askbro</command>
+        <result xml:space="preserve">(Testing.)
+
+&gt;[1] f
+
+Seaside Path
+You are on the seaside path.  Backwards from here is The Land of Unrealized Possibilities.  Forward is The Land of Unlaunched Vessels.
+
+&gt;[2] f
+
+The Land of Unlaunched Vessels
+You are in The Land of Unlaunched Vessels.  You stand near the edge of the bay, and there is a sailing ship moored here with thick and aged ropes tied to a bollard.  The Hopeful Path leads backward towards The Land of Unrealized Possibilities, a place you're not sure you want to be.  Forward, Sequel Path leads to The Land of Unlaunched Vessels II: The Launchening.
+
+You can see a swarthy hippie seaperson here.
+
+&gt;[3] f
+
+Sequel Path
+You are on the sequel path.  Backwards from here is The Land of Unlaunched Vessels.  Forward is The Land of Unlaunched Vessels II: The Launchening.
+
+&gt;[4] ask brother about box
+You can't see any such thing.
+
+&gt;[5] ask brother about rocket
+You can't see any such thing.
+
+&gt;[6] ask brother about quarter
+You can't see any such thing.
+
+&gt;[7] ask brother about brother
+You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve">[1] f
+[2] f
+[3] f
+[4] ask brother about box
+[5] ask brother about rocket
+[6] ask brother about quarter
+[7] ask brother about brother
+</commentary>
+        <children></children>
+    </item>
     <item nodeId="node-1758">
         <command xml:space="preserve">test</command>
         <result xml:space="preserve">&gt;--&gt; The following tests are available:
@@ -3986,6 +4676,121 @@ You can see a shiny red button here.
     <item nodeId="node-1781">
         <command xml:space="preserve">pray</command>
         <result xml:space="preserve">That's not a verb I recognize.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-5614">
+        <command xml:space="preserve">score</command>
+        <result xml:space="preserve">You have 342,860,965 points.  You're really doing great.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5618"></child>
+        </children>
+    </item>
+    <item nodeId="node-5618">
+        <command xml:space="preserve">score</command>
+        <result xml:space="preserve">You have 859,102,420 points.  You're really doing great.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5619"></child>
+        </children>
+    </item>
+    <item nodeId="node-5619">
+        <command xml:space="preserve">score</command>
+        <result xml:space="preserve">You have 619,583,395 points.  You're really doing great.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5629"></child>
+        </children>
+    </item>
+    <item nodeId="node-5629">
+        <command xml:space="preserve">score</command>
+        <result xml:space="preserve">You have 335,720,140 points.  You're really doing great.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5630"></child>
+        </children>
+    </item>
+    <item nodeId="node-5630">
+        <command xml:space="preserve">score</command>
+        <result xml:space="preserve">You have 791,190,376 points.  You're really doing great.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5631"></child>
+        </children>
+    </item>
+    <item nodeId="node-5631">
+        <command xml:space="preserve">score</command>
+        <result xml:space="preserve">You have 419,645,190 points.  You're really doing great.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5632"></child>
+        </children>
+    </item>
+    <item nodeId="node-5632">
+        <command xml:space="preserve">score</command>
+        <result xml:space="preserve">You have 546,935,422 points.  You're really doing great.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5633"></child>
+        </children>
+    </item>
+    <item nodeId="node-5633">
+        <command xml:space="preserve">score</command>
+        <result xml:space="preserve">You have 339,849,144 points.  You're really doing great.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5634"></child>
+        </children>
+    </item>
+    <item nodeId="node-5634">
+        <command xml:space="preserve">score</command>
+        <result xml:space="preserve">You have 725,520,808 points.  You're really doing great.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5635"></child>
+        </children>
+    </item>
+    <item nodeId="node-5635">
+        <command xml:space="preserve">score</command>
+        <result xml:space="preserve">You have 265,126,147 points.  You're really doing great.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5636"></child>
+        </children>
+    </item>
+    <item nodeId="node-5636">
+        <command xml:space="preserve">score</command>
+        <result xml:space="preserve">You have 669,160,509 points.  You're really doing great.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5637"></child>
+        </children>
+    </item>
+    <item nodeId="node-5637">
+        <command xml:space="preserve">score</command>
+        <result xml:space="preserve">You have 921,684,700 points.  You're really doing great.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5638"></child>
+        </children>
+    </item>
+    <item nodeId="node-5638">
+        <command xml:space="preserve">score</command>
+        <result xml:space="preserve">You have 543,547,326 points.  You're really doing great.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -4579,6 +5384,24 @@ Lunch was wonderful.  Your stomach feels like a puzzle, where the final piece ha
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
+    <item nodeId="node-6362">
+        <command xml:space="preserve">look self</command>
+        <result xml:space="preserve">You are a fictional character who looks very much like the non-fictional you looks.  Almost exactly, in fact, except the non-fictional you is slightly more attractive, and the fictional you is a slightly better speller.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6363"></child>
+        </children>
+    </item>
+    <item nodeId="node-6363">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  a shirt (being worn)
+  pants (being worn)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
     <item nodeId="node-1664">
         <command xml:space="preserve">look potato</command>
         <result xml:space="preserve">You can't see any such thing.
@@ -4613,6 +5436,130 @@ You can see a painted picnic table (on which are Breakfast and Lunch) here.
     <item nodeId="node-1667">
         <command xml:space="preserve">smell potato</command>
         <result xml:space="preserve">yo
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-6273">
+        <command xml:space="preserve">look path</command>
+        <result xml:space="preserve">It's a scrubby little path that just kind of tapers off behind you and leads forward towards The Land of Breakfast and Lunch.  If you "walk forward" you'll be following it.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6277"></child>
+        </children>
+    </item>
+    <item nodeId="node-6277">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+The Land of Breakfast and Lunch
+The Land of Breakfast and Lunch is a lot smaller than you were expecting.  It's actually just a small clearing near the road, like a roadside stop, with a painted picnic table containing a simple but nourishing breakfast on one end, and a simple but nourishing lunch on the other end.  A stubby little path leads backwards, and the path continues forward, towards The Land of Unrealized Possibilities.  If you "walk forward" or just "forward" or even just "f" you will be walking towards it.
+
+You can see a painted picnic table (on which are Breakfast and Lunch) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6278"></child>
+        </children>
+    </item>
+    <item nodeId="node-6278">
+        <command xml:space="preserve">look path</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6279"></child>
+        </children>
+    </item>
+    <item nodeId="node-6279">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+Hopeful Path
+You are on the hopeful path.  Backwards from here is The Land of Breakfast and Lunch.  Forward is The Land of Unrealized Possibilities.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6280"></child>
+        </children>
+    </item>
+    <item nodeId="node-6280">
+        <command xml:space="preserve">look path</command>
+        <result xml:space="preserve">It's a simple, foot-trod path that connects The Land of Breakfast and Lunch and The Land of Unrealized Possibilities.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6281"></child>
+        </children>
+    </item>
+    <item nodeId="node-6281">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+The Land of Unrealized Possibilities
+You are in the Land of Unrealized Possibilities.  Just being here gives you a sense of all that could be accomplished if enough time, effort, and focus were pointed in a specific direction.  There is a sense of both excitement and disappointment here that is almost palpable.  The Hopeful Path leads backward towards The Land of Breakfast and Lunch, a place with a much clearer sense of purpose.  The Seaside Path leads forward, towards The Land of Unlaunched Vessels.
+
+You can see a toy box (closed), a couch (on which is your brother), and a TV here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6282"></child>
+        </children>
+    </item>
+    <item nodeId="node-6282">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+Seaside Path
+You are on the seaside path.  Backwards from here is The Land of Unrealized Possibilities.  Forward is The Land of Unlaunched Vessels.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6283"></child>
+        </children>
+    </item>
+    <item nodeId="node-6283">
+        <command xml:space="preserve">look path</command>
+        <result xml:space="preserve">It's a meandering path that leads away from The Land of Unrealized Possibilities and it technically beside the sea, but quite far away from it.  As you follow it forward it takes you closer to the sea, as well as The Land of Unlaunched Vessels.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6284"></child>
+        </children>
+    </item>
+    <item nodeId="node-6284">
+        <command xml:space="preserve">look sea</command>
+        <result xml:space="preserve">The sea is quite a ways away for a path to be called The Seaside Path, but you didn't name it, did you?  Even from here you can see it's not really a sea but some kind of sound or bay.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6285"></child>
+        </children>
+    </item>
+    <item nodeId="node-6285">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+The Land of Unlaunched Vessels
+You are in The Land of Unlaunched Vessels.  You stand near the edge of the bay, and there is a sailing ship moored here with thick and aged ropes tied to a bollard.  The Hopeful Path leads backward towards The Land of Unrealized Possibilities, a place you're not sure you want to be.  Forward, Sequel Path leads to The Land of Unlaunched Vessels II: The Launchening.
+
+You can see a swarthy hippie seaperson here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6286"></child>
+        </children>
+    </item>
+    <item nodeId="node-6286">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+Sequel Path
+You are on the sequel path.  Backwards from here is The Land of Unlaunched Vessels.  Forward is The Land of Unlaunched Vessels II: The Launchening.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6287"></child>
+        </children>
+    </item>
+    <item nodeId="node-6287">
+        <command xml:space="preserve">look path</command>
+        <result xml:space="preserve">You can't see any such thing.
+
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
@@ -5265,6 +6212,40 @@ You are in the The Land of Launching and Mooring.  Sometimes a vessel is moored 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
+    <item nodeId="node-5383">
+        <command xml:space="preserve">hep</command>
+        <result xml:space="preserve">That's not a verb I recognize.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5384"></child>
+        </children>
+    </item>
+    <item nodeId="node-5384">
+        <command xml:space="preserve">help</command>
+        <result xml:space="preserve">The Land of Breakfast and Lunch is a little place for you to walk around in and look at every little detail.  There are a couple of little tricky things you can accomplish, but there's really no point other than to look at everything and smell everything and laugh at my dumb little jokes.  Sometimes people don't notice the toy box in The Land of Unrealized Possiblities.  Sometimes people don't realize you can "open hatch" and "enter rocket" when you're near the 1950"s rocket.  Yes, there's one little puzzle and it involves the jack-in-the-box, but don't get too concerned about it.  If you need any other help you can just email me at danieltalsky@gmail.com.  I'm happy to help.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5385"></child>
+        </children>
+    </item>
+    <item nodeId="node-5385">
+        <command xml:space="preserve">jump</command>
+        <result xml:space="preserve">Ok, this is weird, but for some reason, jumping doesn' appear to work here.  You bend your knees and then shove away from the earth with a snap like you're used to, but your feet don't leave the ground.  It's a little disconcerting, sure, but it doesn't really change your life.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5386"></child>
+        </children>
+    </item>
+    <item nodeId="node-5386">
+        <command xml:space="preserve">wait</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
     <item nodeId="node-1643">
         <command xml:space="preserve">forward</command>
         <result xml:space="preserve">The Land of Breakfast and Lunch
@@ -5368,6 +6349,7 @@ You can see a painted picnic table (on which are Breakfast and Lunch) here.
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1614"></child>
             <child nodeId="node-1612"></child>
+            <child nodeId="node-6289"></child>
             <child nodeId="node-1613"></child>
             <child nodeId="node-1594"></child>
             <child nodeId="node-1257"></child>
@@ -5997,9 +6979,11 @@ You are on the hopeful path.  Backwards from here is The Land of Breakfast and L
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1536"></child>
+        <children><child nodeId="node-5728"></child>
+            <child nodeId="node-1536"></child>
             <child nodeId="node-1258"></child>
             <child nodeId="node-1551"></child>
+            <child nodeId="node-5488"></child>
             <child nodeId="node-1534"></child>
             <child nodeId="node-4492"></child>
         </children>
@@ -6057,6 +7041,224 @@ You can see a toy box (closed) here.
     <item nodeId="node-1535">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-5488">
+        <command xml:space="preserve">look brother</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5489"></child>
+        </children>
+    </item>
+    <item nodeId="node-5489">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+The Land of Unrealized Possibilities
+You are in the Land of Unrealized Possibilities.  Just being here gives you a sense of all that could be accomplished if enough time, effort, and focus were pointed in a specific direction.  There is an sense of both excitement and disappointment here that is almost palpable.  The Hopeful Path leads backward towards The Land of Breakfast and Lunch, a place with a much clearer sense of purpose.
+
+You can see a toy box (closed), a couch (on which is your brother), and a TV here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5490"></child>
+        </children>
+    </item>
+    <item nodeId="node-5490">
+        <command xml:space="preserve">look brother</command>
+        <result xml:space="preserve">Your brother is a lean masterpiece of laziness and force.  He is devoted to his wasting of time right now and has himself wedged into the couch like a part of it. He is watching TV, and frequently changing the channel.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5491"></child>
+        </children>
+    </item>
+    <item nodeId="node-5491">
+        <command xml:space="preserve">brother, jump</command>
+        <result xml:space="preserve">your brother has better things to do.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5492"></child>
+        </children>
+    </item>
+    <item nodeId="node-5492">
+        <command xml:space="preserve">bro, jump</command>
+        <result xml:space="preserve">your brother has better things to do.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5500"></child>
+        </children>
+    </item>
+    <item nodeId="node-5500">
+        <command xml:space="preserve">attack brother</command>
+        <result xml:space="preserve">Your brother nearly-psychically determines your intention. In a flash, he socks you in the quadricep with precision and speed.  He hits what you realize is an existing bruise from last time and you have to take deep breaths to keep from doubling over in pain.   "What's your problem, you aggro dipwad?" he says, distractedly, eyes still on the TV.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5501"></child>
+        </children>
+    </item>
+    <item nodeId="node-5501">
+        <command xml:space="preserve">attack brother</command>
+        <result xml:space="preserve">Your brother has been on the planet a little longer than you, and he isn't tricked by your simple attacks.  He uses a simple karate chop to the solar plexus and you have to fight the urge to barf for one moment.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5502"></child>
+        </children>
+    </item>
+    <item nodeId="node-5502">
+        <command xml:space="preserve">attack brother</command>
+        <result xml:space="preserve">Your brother has been on the planet a little longer than you, and he isn't tricked by your simple attacks.  He uses a simple karate chop to the solar plexus and you have to fight the urge to barf for one moment.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5503"></child>
+        </children>
+    </item>
+    <item nodeId="node-5503">
+        <command xml:space="preserve">attack brother</command>
+        <result xml:space="preserve">Your brother has been on the planet a little longer than you, and he isn't tricked by your simple attacks.  He uses a simple karate chop to the solar plexus and you have to fight the urge to barf for one moment.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5504"></child>
+        </children>
+    </item>
+    <item nodeId="node-5504">
+        <command xml:space="preserve">attack brother</command>
+        <result xml:space="preserve">Your brother has been on the planet a little longer than you, and he isn't tricked by your simple attacks.  He uses a simple karate chop to the solar plexus and you have to fight the urge to barf for one moment.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5505"></child>
+        </children>
+    </item>
+    <item nodeId="node-5505">
+        <command xml:space="preserve">attack brother</command>
+        <result xml:space="preserve">Your brother has been on the planet a little longer than you, and he isn't tricked by your simple attacks.  He uses a simple karate chop to the solar plexus and you have to fight the urge to barf for one moment.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5506"></child>
+        </children>
+    </item>
+    <item nodeId="node-5506">
+        <command xml:space="preserve">attack brother</command>
+        <result xml:space="preserve">Your brother has been on the planet a little longer than you, and he isn't tricked by your simple attacks.  He uses a simple karate chop to the solar plexus and you have to fight the urge to barf for one moment.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5507"></child>
+        </children>
+    </item>
+    <item nodeId="node-5507">
+        <command xml:space="preserve">attack brother</command>
+        <result xml:space="preserve">Your brother has been on the planet a little longer than you, and he isn't tricked by your simple attacks.  He uses a simple karate chop to the solar plexus and you have to fight the urge to barf for one moment.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5508"></child>
+        </children>
+    </item>
+    <item nodeId="node-5508">
+        <command xml:space="preserve">attack brother</command>
+        <result xml:space="preserve">Your brother has been on the planet a little longer than you, and he isn't tricked by your simple attacks.  He uses a simple karate chop to the solar plexus and you have to fight the urge to barf for one moment.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5509"></child>
+        </children>
+    </item>
+    <item nodeId="node-5509">
+        <command xml:space="preserve">attack brother</command>
+        <result xml:space="preserve">Your brother has been on the planet a little longer than you, and he isn't tricked by your simple attacks.  He uses a simple karate chop to the solar plexus and you have to fight the urge to barf for one moment.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5510"></child>
+        </children>
+    </item>
+    <item nodeId="node-5510">
+        <command xml:space="preserve">attack brother</command>
+        <result xml:space="preserve">Your brother has been on the planet a little longer than you, and he isn't tricked by your simple attacks.  He uses a simple karate chop to the solar plexus and you have to fight the urge to barf for one moment.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5511"></child>
+        </children>
+    </item>
+    <item nodeId="node-5511">
+        <command xml:space="preserve">attack brother</command>
+        <result xml:space="preserve">Your brother has been on the planet a little longer than you, and he isn't tricked by your simple attacks.  He uses a simple karate chop to the solar plexus and you have to fight the urge to barf for one moment.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5512"></child>
+        </children>
+    </item>
+    <item nodeId="node-5512">
+        <command xml:space="preserve">attack brother</command>
+        <result xml:space="preserve">Your brother has been on the planet a little longer than you, and he isn't tricked by your simple attacks.  He uses a simple karate chop to the solar plexus and you have to fight the urge to barf for one moment.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5513"></child>
+        </children>
+    </item>
+    <item nodeId="node-5513">
+        <command xml:space="preserve">attack brother</command>
+        <result xml:space="preserve">Your brother has been on the planet a little longer than you, and he isn't tricked by your simple attacks.  He uses a simple karate chop to the solar plexus and you have to fight the urge to barf for one moment.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5514"></child>
+        </children>
+    </item>
+    <item nodeId="node-5514">
+        <command xml:space="preserve">attack brother</command>
+        <result xml:space="preserve">Your brother has been on the planet a little longer than you, and he isn't tricked by your simple attacks.  He uses a simple karate chop to the solar plexus and you have to fight the urge to barf for one moment.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5515"></child>
+        </children>
+    </item>
+    <item nodeId="node-5515">
+        <command xml:space="preserve">attack brother</command>
+        <result xml:space="preserve">Your brother has been on the planet a little longer than you, and he isn't tricked by your simple attacks.  He uses a simple karate chop to the solar plexus and you have to fight the urge to barf for one moment.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5516"></child>
+        </children>
+    </item>
+    <item nodeId="node-5516">
+        <command xml:space="preserve">attack brother</command>
+        <result xml:space="preserve">Your brother has been on the planet a little longer than you, and he isn't tricked by your simple attacks.  He uses a simple karate chop to the solar plexus and you have to fight the urge to barf for one moment.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5517"></child>
+        </children>
+    </item>
+    <item nodeId="node-5517">
+        <command xml:space="preserve">attack brother</command>
+        <result xml:space="preserve">Your brother has been on the planet a little longer than you, and he isn't tricked by your simple attacks.  He uses a simple karate chop to the solar plexus and you have to fight the urge to barf for one moment.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5568"></child>
+        </children>
+    </item>
+    <item nodeId="node-5568">
+        <command xml:space="preserve">turn knob</command>
+        <result xml:space="preserve">"C'mon, Farts McJohnson," your brother says, wearily, "I'm watching this."
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -6131,13 +7333,15 @@ You put the faded picture of a child who looks a lot like you into the small hea
         <command xml:space="preserve">f</command>
         <result xml:space="preserve">
 The Land of Unrealized Possibilities
-You are in the Land of Unrealized Possibilities.  Just being here gives you a sense of all that could be accomplished if enough time, effort, and focus were pointed in a specific direction.  There is an sense of both excitement and disappointment here that is almost palpable.  The Hopeful Path leads backward towards The Land of Breakfast and Lunch, a place with a much clearer sense of purpose.
+You are in the Land of Unrealized Possibilities.  Just being here gives you a sense of all that could be accomplished if enough time, effort, and focus were pointed in a specific direction.  There is a sense of both excitement and disappointment here that is almost palpable.  The Hopeful Path leads backward towards The Land of Breakfast and Lunch, a place with a much clearer sense of purpose.  The Seaside Path leads forward, towards The Land of Unlaunched Vessels.
 
 You can see a toy box (closed), a couch (on which is your brother), and a TV here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-4499"></child>
+            <child nodeId="node-5736"></child>
+            <child nodeId="node-6188"></child>
             <child nodeId="node-1259"></child>
             <child nodeId="node-1405"></child>
             <child nodeId="node-1448"></child>
@@ -6152,7 +7356,10 @@ You can see a toy box (closed), a couch (on which is your brother), and a TV her
             <child nodeId="node-1452"></child>
             <child nodeId="node-1334"></child>
             <child nodeId="node-1406"></child>
+            <child nodeId="node-5407"></child>
             <child nodeId="node-1362"></child>
+            <child nodeId="node-5725"></child>
+            <child nodeId="node-5575"></child>
             <child nodeId="node-1404"></child>
             <child nodeId="node-1472"></child>
             <child nodeId="node-1371"></child>
@@ -7016,6 +8223,113 @@ You can see a toy box (closed), a couch (on which is your brother), and a TV her
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
+    <item nodeId="node-5575">
+        <command xml:space="preserve">tickle brother</command>
+        <result xml:space="preserve">Your brother nearly-psychically determines your intention. In a flash, he socks you in the quadricep with precision and speed.  He hits what you realize is an existing bruise from last time and you have to take deep breaths to keep from doubling over in pain.   "What's your problem, you aggro dipwad?" he says, distractedly, eyes still on the TV.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5576"></child>
+        </children>
+    </item>
+    <item nodeId="node-5576">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+Seaside Path
+You are on the seaside path.  Backwards from here is The Land of Unrealized Possibilities.  Forward is The Land of Unlaunched Vessels.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5577"></child>
+        </children>
+    </item>
+    <item nodeId="node-5577">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+The Land of Unlaunched Vessels
+You are in The Land of Unlaunched Vessels.  You stand near the edge of the bay, and there is a sailing ship moored here with thick and aged ropes tied to a bollard.  The Hopeful Path leads backward towards The Land of Unrealized Possibilities, a place you're not sure you want to be.  Forward, Sequel Path leads to The Land of Unlaunched Vessels II: The Launchening.
+
+You can see a swarthy hippie seaperson here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5578"></child>
+        </children>
+    </item>
+    <item nodeId="node-5578">
+        <command xml:space="preserve">tickle brother</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5579"></child>
+        </children>
+    </item>
+    <item nodeId="node-5579">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Seaside Path
+You are on the seaside path.  Backwards from here is The Land of Unrealized Possibilities.  Forward is The Land of Unlaunched Vessels.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5580"></child>
+        </children>
+    </item>
+    <item nodeId="node-5580">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+The Land of Unrealized Possibilities
+You are in the Land of Unrealized Possibilities.  Just being here gives you a sense of all that could be accomplished if enough time, effort, and focus were pointed in a specific direction.  There is an sense of both excitement and disappointment here that is almost palpable.  The Hopeful Path leads backward towards The Land of Breakfast and Lunch, a place with a much clearer sense of purpose.
+
+You can see a toy box (closed), a couch (on which is your brother), and a TV here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5581"></child>
+        </children>
+    </item>
+    <item nodeId="node-5581">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5582"></child>
+        </children>
+    </item>
+    <item nodeId="node-5582">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5594"></child>
+        </children>
+    </item>
+    <item nodeId="node-5594">
+        <command xml:space="preserve">tickle brother</command>
+        <result xml:space="preserve">Your brother has been on the planet a little longer than you, and he isn't tricked by your simple attacks.  He uses a simple karate chop to the solar plexus and you have to fight the urge to barf for one moment.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5595"></child>
+        </children>
+    </item>
+    <item nodeId="node-5595">
+        <command xml:space="preserve">kick brother</command>
+        <result xml:space="preserve">Your brother has been on the planet a little longer than you, and he isn't tricked by your simple attacks.  He uses a simple karate chop to the solar plexus and you have to fight the urge to barf for one moment.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-5725">
+        <command xml:space="preserve">talk to brother</command>
+        <result xml:space="preserve">To start a conversation, try to ASK your brother ABOUT something or TELL your brother ABOUT something.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
     <item nodeId="node-1362">
         <command xml:space="preserve">ride brother</command>
         <result xml:space="preserve">The mental picture is pretty funny, but you are 100% certain your brother is not going to find it funny.
@@ -7094,15 +8408,23 @@ You can see a toy box (closed), a couch (on which is your brother), and a TV her
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1406">
-        <command xml:space="preserve">open box</command>
-        <result xml:space="preserve">(the toy box)
-You open the toy box, revealing a wooden block, a skinny naked plastic doll, a closed jack-in-the-box, a lite-brite, a coloring book, a small heart shaped locket, and a small hobby horse.
+    <item nodeId="node-5407">
+        <command xml:space="preserve">open lid</command>
+        <result xml:space="preserve">You open the toy box, revealing a wooden block, a skinny naked plastic doll, a closed jack-in-the-box, a lite-brite, a coloring book, a small heart shaped locket, and a small hobby horse.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1407"></child>
+    </item>
+    <item nodeId="node-1406">
+        <command xml:space="preserve">open box</command>
+        <result xml:space="preserve">You open the toy box, revealing a wooden block, a skinny naked plastic doll, a closed jack-in-the-box, a lite-brite, a coloring book, a small heart shaped locket, and a small hobby horse.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5161"></child>
+            <child nodeId="node-1407"></child>
             <child nodeId="node-3173"></child>
+            <child nodeId="node-5699"></child>
             <child nodeId="node-1416"></child>
         </children>
     </item>
@@ -16638,6 +17960,40 @@ You put the wooden block into the small heart shaped locket.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
+    <item nodeId="node-5699">
+        <command xml:space="preserve">look jack</command>
+        <result xml:space="preserve">The jack-in-the-box is a brightly painted tin cube, and actually looks to be some sort of antique.  It is detailed with flames, and written on the back and front are the words "diable en boîte".  It has a tightly fitted lid on top, and a small wire and wood hand crank on one side.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5700"></child>
+        </children>
+    </item>
+    <item nodeId="node-5700">
+        <command xml:space="preserve">look wire</command>
+        <result xml:space="preserve">The crank is a piece of thick wire bent twice.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5701"></child>
+        </children>
+    </item>
+    <item nodeId="node-5701">
+        <command xml:space="preserve">look crank</command>
+        <result xml:space="preserve">A wire hand crank with a small wooden ball as a handle on the end.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5702"></child>
+        </children>
+    </item>
+    <item nodeId="node-5702">
+        <command xml:space="preserve">look ball</command>
+        <result xml:space="preserve">A wooden ball attached to the crank acts as a free-rotating handle for the crank.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
     <item nodeId="node-3173">
         <command xml:space="preserve">look crank</command>
         <result xml:space="preserve">A wire hand crank with a small wooden ball as a handle on the end.
@@ -16736,8 +18092,64 @@ The jack-in-the-box is a brightly painted tin cube, and actually looks to be som
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1408"></child>
+        <children><child nodeId="node-5413"></child>
+            <child nodeId="node-1408"></child>
+            <child nodeId="node-5429"></child>
         </children>
+    </item>
+    <item nodeId="node-5429">
+        <command xml:space="preserve">x locke</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5430"></child>
+        </children>
+    </item>
+    <item nodeId="node-5430">
+        <command xml:space="preserve">x locket</command>
+        <result xml:space="preserve">It is a small pewter locket.  It looks a bit old fashioned.  It has a small clasp on the side and looks like you could easily open it.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5438"></child>
+        </children>
+    </item>
+    <item nodeId="node-5438">
+        <command xml:space="preserve">open locket</command>
+        <result xml:space="preserve">You open the small heart shaped locket, revealing a faded picture of a child who looks a lot like you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5439"></child>
+        </children>
+    </item>
+    <item nodeId="node-5439">
+        <command xml:space="preserve">look locket</command>
+        <result xml:space="preserve">It is a small pewter locket.  It looks a bit old fashioned.  The locket has been opened on its tiny hinge.
+
+In the small heart shaped locket is a faded picture of a child who looks a lot like you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5449"></child>
+        </children>
+    </item>
+    <item nodeId="node-5449">
+        <command xml:space="preserve">take picture</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5450"></child>
+        </children>
+    </item>
+    <item nodeId="node-5450">
+        <command xml:space="preserve">look locket</command>
+        <result xml:space="preserve">It is a small pewter locket.  It looks a bit old fashioned.  The locket has been opened on its tiny hinge.  On the metal surface behind the picture is a tiny, engraved heart.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1408">
         <command xml:space="preserve">wear locket</command>
@@ -16810,6 +18222,506 @@ It doesn't really seem appropriate to just start eating lunch with a perfectly g
     <item nodeId="node-1415">
         <command xml:space="preserve">walk</command>
         <result xml:space="preserve">You'll have to say which compass direction to go in.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-5413">
+        <command xml:space="preserve">look locket</command>
+        <result xml:space="preserve">It is a small pewter locket.  It looks a bit old fashioned.  It has a small clasp on the side and looks like you could easily open it.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5414"></child>
+        </children>
+    </item>
+    <item nodeId="node-5414">
+        <command xml:space="preserve">open locket</command>
+        <result xml:space="preserve">You open the small heart shaped locket, revealing a faded picture of a child who looks a lot like you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5415"></child>
+        </children>
+    </item>
+    <item nodeId="node-5415">
+        <command xml:space="preserve">look locket</command>
+        <result xml:space="preserve">It is a small pewter locket.  It looks a bit old fashioned.  LOCKET IS OPEN
+
+In the small heart shaped locket is a faded picture of a child who looks a lot like you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-5161">
+        <command xml:space="preserve">get jack</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5162"></child>
+        </children>
+    </item>
+    <item nodeId="node-5162">
+        <command xml:space="preserve">drop jack</command>
+        <result xml:space="preserve">Dropped.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5163"></child>
+        </children>
+    </item>
+    <item nodeId="node-5163">
+        <command xml:space="preserve">get jack in the box</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5164"></child>
+        </children>
+    </item>
+    <item nodeId="node-5164">
+        <command xml:space="preserve">drop box</command>
+        <result xml:space="preserve">The toy box is already here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5165"></child>
+        </children>
+    </item>
+    <item nodeId="node-5165">
+        <command xml:space="preserve">open jack</command>
+        <result xml:space="preserve">You grasp the little wooden ball and begin to turn the crank as you hold the jack-in-the-box steady.  A dark little tune plinks its way out, echoing forth from the little tin box.  It's not "all around the mulberry bush" or any song you recognize, so you don't quite expect it when its last note ends, and the spring-loaded doll within leaps out with surprising agility.  You jump a tiny bit, in spite of yourself.  The devil doll looks pleased.
+
+For some reason, the crack of the jack-in-the-box opening unnerves your brother.  He leaps up from the couch for a moment. "Quit it, you craphead," your brother snarls.  He gives you an extremely intense look and lays back on the couch.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5166"></child>
+        </children>
+    </item>
+    <item nodeId="node-5166">
+        <command xml:space="preserve">look jack</command>
+        <result xml:space="preserve">The jack-in-the-box is a brightly painted tin cube, and actually looks to be some sort of antique.  It is detailed with flames, and written on the back and front are the words "diable en boîte".  Its tin lid is popped open, revealing a small fabric devil puppet.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5167"></child>
+        </children>
+    </item>
+    <item nodeId="node-5167">
+        <command xml:space="preserve">look jack-in-the-box</command>
+        <result xml:space="preserve">(the open jack-in-the-box)
+The jack-in-the-box is a brightly painted tin cube, and actually looks to be some sort of antique.  It is detailed with flames, and written on the back and front are the words "diable en boîte".  Its tin lid is popped open, revealing a small fabric devil puppet.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5179"></child>
+        </children>
+    </item>
+    <item nodeId="node-5179">
+        <command xml:space="preserve">restart</command>
+        <result xml:space="preserve">Are you sure you want to restart? </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5180"></child>
+        </children>
+    </item>
+    <item nodeId="node-5180">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">Please answer yes or no.&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5181"></child>
+        </children>
+    </item>
+    <item nodeId="node-5181">
+        <command xml:space="preserve">yes</command>
+        <result xml:space="preserve">
+
+
+Some would say that life is like a box of metaphors.  I would not say that.  I would say life is a land of metaphors.  You come to this land perhaps from a hidden door in the back of a piece of furniture, perhaps from a door in a dream.  Either way, you find yourself here.
+
+The Land of Breakfast and Lunch
+~ a land can contain both ~ by Daniel Talsky
+Release 5 / Serial number 200321 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
+
+The Path
+You are at the beginning of a path.  It is plain, even homely.  It leads forward towards The Land of Breakfast and Lunch.  If you "walk forward" you will follow the path.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5182"></child>
+        </children>
+    </item>
+    <item nodeId="node-5182">
+        <command xml:space="preserve">test space</command>
+        <result xml:space="preserve">(Testing.)
+
+&gt;[1] f
+
+The Land of Breakfast and Lunch
+The Land of Breakfast and Lunch is a lot smaller than you were expecting.  It's actually just a small clearing near the road, like a roadside stop, with a painted picnic table containing a simple but nourishing breakfast on one end, and a simple but nourishing lunch on the other end.  A stubby little path leads backwards, and the path continues forward, towards The Land of Unrealized Possibilities.  If you "walk forward" or just "forward" or even just "f" you will be walking towards it.
+
+You can see a painted picnic table (on which are Breakfast and Lunch) here.
+
+&gt;[2] eat breakfast
+(Breakfast)
+You sit down for a moment and eat breakfast.  It is delicious but you still don't quite feel satisfied.
+
+&gt;[3] eat lunch
+(Lunch)
+Lunch was wonderful.  Your stomach feels like a puzzle, where the final piece has finally been snapped into place.  You now feel as if you could take on the world.
+
+&gt;[4] f
+
+Hopeful Path
+You are on the hopeful path.  Backwards from here is The Land of Breakfast and Lunch.  Forward is The Land of Unrealized Possibilities.
+
+&gt;[5] f
+
+The Land of Unrealized Possibilities
+You are in the Land of Unrealized Possibilities.  Just being here gives you a sense of all that could be accomplished if enough time, effort, and focus were pointed in a specific direction.  There is an sense of both excitement and disappointment here that is almost palpable.  The Hopeful Path leads backward towards The Land of Breakfast and Lunch, a place with a much clearer sense of purpose.
+
+You can see a toy box (closed), a couch (on which is your brother), and a TV here.
+
+&gt;[6] f
+
+Seaside Path
+You are on the the seaside path.  Backwards from here is The Land of Unrealized Possibilities.  Forward is The Land of Unlaunched Vessels.
+
+&gt;[7] f
+
+The Land of Unlaunched Vessels
+You are in the The Land of Unlaunched Vessels.  You stand near the edge of the bay, and there is a sailing ship moored here with thick and aged ropes tied to a bollard.  The Hopeful Path leads backward towards The Land of Unrealized Possibilities, a place you're not sure you want to be.  Forward, Sequel Path leads to The Land of Unlaunched Vessels II: The Launchening.
+
+You can see an a swarthy hippie seaperson here.
+
+&gt;[8] f
+
+Sequel Path
+You are on the the sequel path.  Backwards from here is The Land of Unlaunched Vessels.  Forward is The Land of Unlaunched Vessels II: The Launchening.
+
+&gt;[9] f
+
+The Land of Unlaunched Vessels II: The Launchening
+You are in The Land of Unlaunched Vessels II: The Launchening.  There is a launchpad here, on which sits a large, 1950's era rocket in galaxy white and candy-apple red. Sequel Path leads backwards towards The Land of Unlaunched Vessels
+
+You can see a launchpad and a Rocket here.
+
+&gt;[10] open hatch
+You open the hatch.
+
+&gt;[11] climb ladder
+You pull yourself into the rocket.
+
+The Inside of the Parked Rocket
+You are within the smooth walls of the rocket.  It is very plain here, out the porthole window you can see the sky, and out the hatch you can see The Land of Unlaunched Vessels II: The Launchening.
+
+You can see a the cockpit, a big metal unit containing a captain's chair and a control panel here.
+
+&gt;[12] press red button
+It's natural to expect blastoff immediately.  Instead, the hatch door whirrs slowly shut, coming to a solid clang.  You have just enough time to realize that you could buckle yourself into the captain's chair and you do.  Just in time, as you feel a tremendous slow and steady thrust of force wrap itself around you as the sky begins to move in the porthole window.  For just one moment you swear you can see The Land of Breakfast and Lunch streak by the window.  Finally, the sky begins to darken, and all sound becomes only a vibration.  The deep, dark void of space is with you.  You absentmindedly unbuckle the webbing securing you to the seat, and you feel free to move about the interior.
+
+The Deep, Dark Void of Space
+You are inside the rocket as it cruises very slowly through the deep, dark void of space.  Outside the porthole window is the deep, dark void of space covered over with a curtain of stars.
+
+&gt;[13] press blue button
+Whoosh.  You thought maybe the engine engaged again, but something else already did.  It bent space softly around you, and, maybe the rocket moved a little.  Like with a soft whoosh.  It happened in less than a second.  Now, you think you're somewhere else.
+
+Graphene Solar System
+You are inside the rocket as it cruises very slowly through the deep, dark void of space.  Outside the porthole window is the deep, dark void of space covered over with a curtain of stars.
+
+You notice something unusual outside the porthole window.
+
+&gt;</result>
+        <commentary xml:space="preserve">[1] f
+[2] eat breakfast
+[3] eat lunch
+[4] f
+[5] f
+[6] f
+[7] f
+[8] f
+[9] f
+[10] open hatch
+[11] climb ladder
+[12] press red button
+[13] press blue button
+</commentary>
+        <children><child nodeId="node-5196"></child>
+        </children>
+    </item>
+    <item nodeId="node-5196">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5197"></child>
+        </children>
+    </item>
+    <item nodeId="node-5197">
+        <command xml:space="preserve">look porthole</command>
+        <result xml:space="preserve">The graphene solar system hangs like a jewel in the distance.  It is partially obscured by several deep orbits worth of space junk.  Bands of the junk thousands of miles wide wrap in orbit around some planets, as well as the entire solar system.  It is, in its own way, breathtaking.  Behind it is a curtain of stars.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5228"></child>
+        </children>
+    </item>
+    <item nodeId="node-5228">
+        <command xml:space="preserve">press forward</command>
+        <result xml:space="preserve">Whoosh.  You thought maybe the engine engaged again, but something else already did.  It bent space softly around you, and, maybe the rocket moved a little.  Like with a soft whoosh.  It happened in less than a second.  Now, you think you're somewhere else.
+
+Chrysocolla Cluster
+You are inside the rocket as it cruises very slowly through the deep, dark void of space.  Outside the porthole window is the deep, dark void of space covered over with a curtain of stars.
+
+You notice something unusual outside the porthole window.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5229"></child>
+        </children>
+    </item>
+    <item nodeId="node-5229">
+        <command xml:space="preserve">press land</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5230"></child>
+        </children>
+    </item>
+    <item nodeId="node-5230">
+        <command xml:space="preserve">press return</command>
+        <result xml:space="preserve">Whoosh. At the end of the rocket's soft whoosh, its mighty engines begin to engage, slowing its fall as it pillows down to the landing pad in The Land of Once Launched Vessels.
+
+The Inside of the Parked Rocket
+You are within the smooth walls of the rocket.  It is very plain here, out the porthole window you can see the sky, and out the hatch you can see The Land of Once Launched Vessels.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5231"></child>
+        </children>
+    </item>
+    <item nodeId="node-5231">
+        <command xml:space="preserve">get out</command>
+        <result xml:space="preserve">You exit the hatch opening and climb to the ground.
+
+The Land of Once Launched Vessels
+You are in The Land of Once Launched Vessels.  There is a launchpad here, on which sits a large, 1950's era rocket in galaxy white and candy-apple red. The Spiritual Sequel Path leads backwards towards The Land of Unlaunched Vessels
+
+You can see a launchpad and a Rocket here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5232"></child>
+        </children>
+    </item>
+    <item nodeId="node-5232">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+The Spiritual Sequel Path
+You are on the the sequel path.  Backwards from here is The Land of Unlaunched Vessels.  Forward is The Land of Once Launched Vessels.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5233"></child>
+        </children>
+    </item>
+    <item nodeId="node-5233">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+The Land of Unlaunched Vessels
+You are in the The Land of Unlaunched Vessels.  You stand near the edge of the bay, and there is a sailing ship moored here with thick and aged ropes tied to a bollard.  The Hopeful Path leads backward towards The Land of Unrealized Possibilities, a place you're not sure you want to be.  Forward, The Spiritual Sequel Path leads to The Land of Once Launched Vessels.
+
+You can see an a swarthy hippie seaperson here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5234"></child>
+        </children>
+    </item>
+    <item nodeId="node-5234">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Seaside Path
+You are on the the seaside path.  Backwards from here is The Land of Unrealized Possibilities.  Forward is The Land of Unlaunched Vessels.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5235"></child>
+        </children>
+    </item>
+    <item nodeId="node-5235">
+        <command xml:space="preserve">restart</command>
+        <result xml:space="preserve">Are you sure you want to restart? </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5236"></child>
+        </children>
+    </item>
+    <item nodeId="node-5236">
+        <command xml:space="preserve">yes</command>
+        <result xml:space="preserve">
+
+
+Some would say that life is like a box of metaphors.  I would not say that.  I would say life is a land of metaphors.  You come to this land perhaps from a hidden door in the back of a piece of furniture, perhaps from a door in a dream.  Either way, you find yourself here.
+
+The Land of Breakfast and Lunch
+~ a land can contain both ~ by Daniel Talsky
+Release 5 / Serial number 200321 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
+
+The Path
+You are at the beginning of a path.  It is plain, even homely.  It leads forward towards The Land of Breakfast and Lunch.  If you "walk forward" you will follow the path.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5283"></child>
+            <child nodeId="node-5237"></child>
+        </children>
+    </item>
+    <item nodeId="node-5237">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+The Land of Breakfast and Lunch
+The Land of Breakfast and Lunch is a lot smaller than you were expecting.  It's actually just a small clearing near the road, like a roadside stop, with a painted picnic table containing a simple but nourishing breakfast on one end, and a simple but nourishing lunch on the other end.  A stubby little path leads backwards, and the path continues forward, towards The Land of Unrealized Possibilities.  If you "walk forward" or just "forward" or even just "f" you will be walking towards it.
+
+You can see a painted picnic table (on which are Breakfast and Lunch) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5238"></child>
+        </children>
+    </item>
+    <item nodeId="node-5238">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">The Land of Breakfast and Lunch
+The Land of Breakfast and Lunch is a lot smaller than you were expecting.  It's actually just a small clearing near the road, like a roadside stop, with a painted picnic table containing a simple but nourishing breakfast on one end, and a simple but nourishing lunch on the other end.  A stubby little path leads backwards, and the path continues forward, towards The Land of Unrealized Possibilities.  If you "walk forward" or just "forward" or even just "f" you will be walking towards it.
+
+You can see a painted picnic table (on which are Breakfast and Lunch) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5239"></child>
+        </children>
+    </item>
+    <item nodeId="node-5239">
+        <command xml:space="preserve">look antipasto</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5240"></child>
+        </children>
+    </item>
+    <item nodeId="node-5240">
+        <command xml:space="preserve">look tray</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5241"></child>
+        </children>
+    </item>
+    <item nodeId="node-5241">
+        <command xml:space="preserve">look tray of antipasto</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5242"></child>
+        </children>
+    </item>
+    <item nodeId="node-5242">
+        <command xml:space="preserve">look lunch</command>
+        <result xml:space="preserve">(Lunch)
+Lunch is made up of a grilled cheese sandwich, a bowl of tomato soup, a small tray of antipasto, and a ramekin filled with a very enticing potato salad.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5243"></child>
+        </children>
+    </item>
+    <item nodeId="node-5243">
+        <command xml:space="preserve">look tray</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-5283">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5284"></child>
+        </children>
+    </item>
+    <item nodeId="node-5284">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+The Land of Breakfast and Lunch
+The Land of Breakfast and Lunch is a lot smaller than you were expecting.  It's actually just a small clearing near the road, like a roadside stop, with a painted picnic table containing a simple but nourishing breakfast on one end, and a simple but nourishing lunch on the other end.  A stubby little path leads backwards, and the path continues forward, towards The Land of Unrealized Possibilities.  If you "walk forward" or just "forward" or even just "f" you will be walking towards it.
+
+You can see a painted picnic table (on which are Breakfast and Lunch) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5285"></child>
+        </children>
+    </item>
+    <item nodeId="node-5285">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">The Land of Breakfast and Lunch
+The Land of Breakfast and Lunch is a lot smaller than you were expecting.  It's actually just a small clearing near the road, like a roadside stop, with a painted picnic table containing a simple but nourishing breakfast on one end, and a simple but nourishing lunch on the other end.  A stubby little path leads backwards, and the path continues forward, towards The Land of Unrealized Possibilities.  If you "walk forward" or just "forward" or even just "f" you will be walking towards it.
+
+You can see a painted picnic table (on which are Breakfast and Lunch) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5286"></child>
+        </children>
+    </item>
+    <item nodeId="node-5286">
+        <command xml:space="preserve">look antipasto</command>
+        <result xml:space="preserve">This is an antique bakelite tray containing an assortment of little foods: several different kinds of olives, marinated artichoke hearts, fresh figs, grilled vegetable slices, and cornichon.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5287"></child>
+        </children>
+    </item>
+    <item nodeId="node-5287">
+        <command xml:space="preserve">look tray</command>
+        <result xml:space="preserve">This is an antique bakelite tray containing an assortment of little foods: several different kinds of olives, marinated artichoke hearts, fresh figs, grilled vegetable slices, and cornichon.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5288"></child>
+        </children>
+    </item>
+    <item nodeId="node-5288">
+        <command xml:space="preserve">look tray of antipasto</command>
+        <result xml:space="preserve">This is an antique bakelite tray containing an assortment of little foods: several different kinds of olives, marinated artichoke hearts, fresh figs, grilled vegetable slices, and cornichon.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5289"></child>
+        </children>
+    </item>
+    <item nodeId="node-5289">
+        <command xml:space="preserve">look lunch</command>
+        <result xml:space="preserve">(Lunch)
+Lunch is made up of a grilled cheese sandwich, a bowl of tomato soup, a small tray of antipasto, and a ramekin filled with a very enticing potato salad.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5290"></child>
+        </children>
+    </item>
+    <item nodeId="node-5290">
+        <command xml:space="preserve">look tray</command>
+        <result xml:space="preserve">This is an antique bakelite tray containing an assortment of little foods: several different kinds of olives, marinated artichoke hearts, fresh figs, grilled vegetable slices, and cornichon.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -17358,11 +19270,12 @@ On the couch is your brother.
     </item>
     <item nodeId="node-1311">
         <command xml:space="preserve">kick brother</command>
-        <result xml:space="preserve">I only understood you as far as wanting to kick.
+        <result xml:space="preserve">Your brother nearly-psychically determines your intention. In a flash, he socks you in the quadricep with precision and speed.  He hits what you realize is an existing bruise from last time and you have to take deep breaths to keep from doubling over in pain.   "What's your problem, you aggro dipwad?" he says, distractedly, eyes still on the TV.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1312"></child>
+            <child nodeId="node-5613"></child>
             <child nodeId="node-1318"></child>
         </children>
     </item>
@@ -17378,6 +19291,13 @@ On the couch is your brother.
     <item nodeId="node-1319">
         <command xml:space="preserve">attack brother</command>
         <result xml:space="preserve">Your brother nearly-psychically determines your intention. In a flash, he socks you in the quadricep with precision and speed.  He hits what you realize is an existing bruise from last time and you have to take deep breaths to keep from doubling over in pain.   "What's your problem, you aggro dipwad?" he says, distractedly, eyes still on the TV.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-5613">
+        <command xml:space="preserve">kick brother</command>
+        <result xml:space="preserve">Your brother has been on the planet a little longer than you, and he isn't tricked by your simple attacks.  He uses a simple karate chop to the solar plexus and you have to fight the urge to barf for a moment.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -17523,20 +19443,21 @@ True change comes from within.
         <command xml:space="preserve">f</command>
         <result xml:space="preserve">
 Seaside Path
-You are on the the seaside path.  Backwards from here is The Land of Unrealized Possibilities.  Forward is The Land of Unlaunched Vessels.
+You are on the seaside path.  Backwards from here is The Land of Unrealized Possibilities.  Forward is The Land of Unlaunched Vessels.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1261"></child>
+        <children><child nodeId="node-5295"></child>
+            <child nodeId="node-1261"></child>
         </children>
     </item>
     <item nodeId="node-1261">
         <command xml:space="preserve">f</command>
         <result xml:space="preserve">
 The Land of Unlaunched Vessels
-You are in the The Land of Unlaunched Vessels.  You stand near the edge of the bay, and there is a vessel moored here with thick and aged ropes tied to a bollard.  The Hopeful Path leads backward towards The Land of Unrealized Possibilities, a place you're not sure you want to be.  Forward, Sequel Path leads to The Land of Unlaunched Vessels II: The Launchening.
+You are in The Land of Unlaunched Vessels.  You stand near the edge of the bay, and there is a sailing ship moored here with thick and aged ropes tied to a bollard.  The Hopeful Path leads backward towards The Land of Unrealized Possibilities, a place you're not sure you want to be.  Forward, Sequel Path leads to The Land of Unlaunched Vessels II: The Launchening.
 
-You can see a kiddie ride and an a swarthy hippie seaperson here.
+You can see a swarthy hippie seaperson here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -17719,7 +19640,7 @@ The kiddie ride is currently switched off.
         <command xml:space="preserve">f</command>
         <result xml:space="preserve">
 Sequel Path
-You are on the the sequel path.  Backwards from here is The Land of Unlaunched Vessels.  Forward is The Land of Unlaunched Vessels II: The Launchening.
+You are on the sequel path.  Backwards from here is The Land of Unlaunched Vessels.  Forward is The Land of Unlaunched Vessels II: The Launchening.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -17962,7 +19883,7 @@ You can see a toy box (closed), a couch (on which is your brother), and a TV her
 The Land of Unlaunched Vessels II: The Launchening
 You are in The Land of Unlaunched Vessels II: The Launchening.  There is a launchpad here, on which sits a large, 1950's era rocket in galaxy white and candy-apple red. Sequel Path leads backwards towards The Land of Unlaunched Vessels
 
-You can see a launchpad and a Rocket here.
+You can see a launchpad and a rocket here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -17972,7 +19893,38 @@ You can see a launchpad and a Rocket here.
             <child nodeId="node-2629"></child>
             <child nodeId="node-2639"></child>
             <child nodeId="node-1265"></child>
+            <child nodeId="node-5475"></child>
         </children>
+    </item>
+    <item nodeId="node-5475">
+        <command xml:space="preserve">up</command>
+        <result xml:space="preserve">The hatch is closed.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5484"></child>
+        </children>
+    </item>
+    <item nodeId="node-5484">
+        <command xml:space="preserve">open hatch</command>
+        <result xml:space="preserve">You open the hatch.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5485"></child>
+        </children>
+    </item>
+    <item nodeId="node-5485">
+        <command xml:space="preserve">up</command>
+        <result xml:space="preserve">You pull yourself into the rocket.
+
+The Inside of the Parked Rocket
+You are within the smooth walls of the rocket.  It is very plain here, out the porthole window you can see the sky, and out the hatch you can see The Land of Unlaunched Vessels II: The Launchening.
+
+You can see a cockpit, a big metal unit containing a captain's chair and a control panel here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1265">
         <command xml:space="preserve">look sea</command>
@@ -18121,11 +20073,15 @@ You can see a launchpad and a Rocket here.
     </item>
     <item nodeId="node-3501">
         <command xml:space="preserve">f</command>
-        <result xml:space="preserve">You can't go that way.
+        <result xml:space="preserve">
+Anticlimactic path
+You are on the anticlimactic path.  Backwards is The Land of Unlaunched Vessels II: The Launchening.  Ahead of you, you can see the back of the liquor store.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3502"></child>
+        <children><child nodeId="node-5675"></child>
+            <child nodeId="node-4862"></child>
+            <child nodeId="node-3502"></child>
         </children>
     </item>
     <item nodeId="node-3502">
@@ -18154,6 +20110,846 @@ You can see a the cockpit, a big metal unit containing a captain's chair and a c
     <item nodeId="node-3504">
         <command xml:space="preserve">press red button</command>
         <result xml:space="preserve">You're too hungry to go to space.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-4862">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+Behind the liquor store
+You've got your standard collection of broken down boxes, a dumpster, and a stack of pallets.  Behind you, the anticlimactic path leads to The Land of Unlaunched Vessels II: The Launchening.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4863"></child>
+        </children>
+    </item>
+    <item nodeId="node-4863">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+The path around the liquor store
+You're on the path around the liquor store.  You see the side of the liquor store on one side and a fence on the other side.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4884"></child>
+        </children>
+    </item>
+    <item nodeId="node-4884">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+The front of the liquor store
+The liquor store is closed, looks like permanantly, and there's just a weird humvee kiddie ride here.
+
+You can see a kiddie ride here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5093"></child>
+            <child nodeId="node-4885"></child>
+        </children>
+    </item>
+    <item nodeId="node-4885">
+        <command xml:space="preserve">ride kiddie ride</command>
+        <result xml:space="preserve">You climb up on the molded fiberglass seat of the humvee but it feels cold, joyless, and dead underneath you.  You distinctly feel the feeling of being so unloved that no one would put a quarter in the slot, not understanding how such a simple thing could make all the difference.  You slide slowly off.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4898"></child>
+        </children>
+    </item>
+    <item nodeId="node-4898">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+A white, hazy place that barely exists.
+You find yourself in a white, hazy place that barely exists.  You were going forward from the liquor store, and now you find yourself here.  It feels confusing, and chilly, and fictional.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4912"></child>
+        </children>
+    </item>
+    <item nodeId="node-4912">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4913"></child>
+        </children>
+    </item>
+    <item nodeId="node-4913">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4914"></child>
+        </children>
+    </item>
+    <item nodeId="node-4914">
+        <command xml:space="preserve">b</command>
+        <result xml:space="preserve">
+The front of the liquor store
+The liquor store is closed, looks like permanantly, and there's just a weird humvee kiddie ride here.
+
+You can see a kiddie ride here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4915"></child>
+        </children>
+    </item>
+    <item nodeId="node-4915">
+        <command xml:space="preserve">b</command>
+        <result xml:space="preserve">
+The path around the liquor store
+You're on the path around the liquor store.  You see the side of the liquor store on one side and a fence on the other side.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4916"></child>
+        </children>
+    </item>
+    <item nodeId="node-4916">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+The front of the liquor store
+The liquor store is closed, looks like permanantly, and there's just a weird humvee kiddie ride here.
+
+You can see a kiddie ride here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4917"></child>
+        </children>
+    </item>
+    <item nodeId="node-4917">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+A white, hazy place that barely exists.
+You find yourself in a white, hazy place that barely exists.  You were going forward from the liquor store, and now you find yourself here.  It feels confusing, and chilly, and fictional.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4918"></child>
+        </children>
+    </item>
+    <item nodeId="node-4918">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4939"></child>
+        </children>
+    </item>
+    <item nodeId="node-4939">
+        <command xml:space="preserve">b</command>
+        <result xml:space="preserve">
+The front of the liquor store
+The liquor store is closed, looks like permanantly, and there's just a weird humvee kiddie ride here.
+
+You can see a kiddie ride here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4940"></child>
+        </children>
+    </item>
+    <item nodeId="node-4940">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+A white, hazy place that barely exists.
+You find yourself in a white, hazy place that barely exists.  You were going forward from the liquor store, and now you find yourself here.  It feels confusing, and chilly, and fictional.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4941"></child>
+        </children>
+    </item>
+    <item nodeId="node-4941">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4942"></child>
+        </children>
+    </item>
+    <item nodeId="node-4942">
+        <command xml:space="preserve">b</command>
+        <result xml:space="preserve">
+The front of the liquor store
+The liquor store is closed, looks like permanantly, and there's just a weird humvee kiddie ride here.
+
+You can see a kiddie ride here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4967"></child>
+        </children>
+    </item>
+    <item nodeId="node-4967">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+A white, hazy place that barely exists.
+You find yourself in a white, hazy place that barely exists.  You were going forward from the liquor store, and now you find yourself here.  It feels confusing, and chilly, and fictional.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4968"></child>
+        </children>
+    </item>
+    <item nodeId="node-4968">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4969"></child>
+        </children>
+    </item>
+    <item nodeId="node-4969">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4997"></child>
+        </children>
+    </item>
+    <item nodeId="node-4997">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-5093">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+A white, hazy place that barely exists.
+You find yourself in a white, hazy place that barely exists.  You were going forward from the liquor store, and now you find yourself here.  It feels confusing, and chilly, and fictional.  It feels like a dead end.  You don't know to a certainty how to go forward from here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5094"></child>
+        </children>
+    </item>
+    <item nodeId="node-5094">
+        <command xml:space="preserve">b</command>
+        <result xml:space="preserve">
+The front of the liquor store
+The liquor store is closed, looks like permanantly, and there's just a weird humvee kiddie ride here.
+
+You can see a kiddie ride here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5095"></child>
+        </children>
+    </item>
+    <item nodeId="node-5095">
+        <command xml:space="preserve">ride ride</command>
+        <result xml:space="preserve">You climb up on the molded fiberglass seat of the humvee but it feels cold, joyless, and dead underneath you.  You distinctly feel the feeling of being so unloved that no one would put a quarter in the slot, not understanding how such a simple thing could make all the difference.  You slide slowly off.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5110"></child>
+        </children>
+    </item>
+    <item nodeId="node-5110">
+        <command xml:space="preserve">b</command>
+        <result xml:space="preserve">
+The path around the liquor store
+You're on the path around the liquor store.  You see the side of the liquor store on one side and a fence on the other side.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5111"></child>
+        </children>
+    </item>
+    <item nodeId="node-5111">
+        <command xml:space="preserve">b</command>
+        <result xml:space="preserve">
+Behind the liquor store
+You've got your standard collection of broken down boxes, a dumpster, and a stack of pallets.  Behind you, the anticlimactic path leads to The Land of Unlaunched Vessels II: The Launchening.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5112"></child>
+        </children>
+    </item>
+    <item nodeId="node-5112">
+        <command xml:space="preserve">b</command>
+        <result xml:space="preserve">
+The anticlimactic path.
+You are on the anticlimactic path.  Backwards is The Land of Unlaunched Vessels II: The Launchening.  Ahead of you, you can see the back of the liquor store.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5113"></child>
+        </children>
+    </item>
+    <item nodeId="node-5113">
+        <command xml:space="preserve">b</command>
+        <result xml:space="preserve">
+The Land of Unlaunched Vessels II: The Launchening
+You are in The Land of Unlaunched Vessels II: The Launchening.  There is a launchpad here, on which sits a large, 1950's era rocket in galaxy white and candy-apple red. Sequel Path leads backwards towards The Land of Unlaunched Vessels
+
+You can see a launchpad and a Rocket here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5114"></child>
+        </children>
+    </item>
+    <item nodeId="node-5114">
+        <command xml:space="preserve">b</command>
+        <result xml:space="preserve">
+Sequel Path
+You are on the the sequel path.  Backwards from here is The Land of Unlaunched Vessels.  Forward is The Land of Unlaunched Vessels II: The Launchening.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5115"></child>
+        </children>
+    </item>
+    <item nodeId="node-5115">
+        <command xml:space="preserve">b</command>
+        <result xml:space="preserve">
+The Land of Unlaunched Vessels
+You are in the The Land of Unlaunched Vessels.  You stand near the edge of the bay, and there is a sailing ship moored here with thick and aged ropes tied to a bollard.  The Hopeful Path leads backward towards The Land of Unrealized Possibilities, a place you're not sure you want to be.  Forward, Sequel Path leads to The Land of Unlaunched Vessels II: The Launchening.
+
+You can see an a swarthy hippie seaperson here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5116"></child>
+        </children>
+    </item>
+    <item nodeId="node-5116">
+        <command xml:space="preserve">b</command>
+        <result xml:space="preserve">
+Seaside Path
+You are on the the seaside path.  Backwards from here is The Land of Unrealized Possibilities.  Forward is The Land of Unlaunched Vessels.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5117"></child>
+        </children>
+    </item>
+    <item nodeId="node-5117">
+        <command xml:space="preserve">b</command>
+        <result xml:space="preserve">
+The Land of Unrealized Possibilities
+You are in the Land of Unrealized Possibilities.  Just being here gives you a sense of all that could be accomplished if enough time, effort, and focus were pointed in a specific direction.  There is an sense of both excitement and disappointment here that is almost palpable.  The Hopeful Path leads backward towards The Land of Breakfast and Lunch, a place with a much clearer sense of purpose.
+
+You can see a toy box (closed), a couch (on which is your brother), and a TV here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5118"></child>
+        </children>
+    </item>
+    <item nodeId="node-5118">
+        <command xml:space="preserve">look under couch</command>
+        <result xml:space="preserve">There's nothing under there except a small, grimy penny.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5119"></child>
+        </children>
+    </item>
+    <item nodeId="node-5119">
+        <command xml:space="preserve">get penny</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5120"></child>
+        </children>
+    </item>
+    <item nodeId="node-5120">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+Seaside Path
+You are on the the seaside path.  Backwards from here is The Land of Unrealized Possibilities.  Forward is The Land of Unlaunched Vessels.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5121"></child>
+        </children>
+    </item>
+    <item nodeId="node-5121">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+The Land of Unlaunched Vessels
+You are in the The Land of Unlaunched Vessels.  You stand near the edge of the bay, and there is a sailing ship moored here with thick and aged ropes tied to a bollard.  The Hopeful Path leads backward towards The Land of Unrealized Possibilities, a place you're not sure you want to be.  Forward, Sequel Path leads to The Land of Unlaunched Vessels II: The Launchening.
+
+You can see an a swarthy hippie seaperson here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5122"></child>
+        </children>
+    </item>
+    <item nodeId="node-5122">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+Sequel Path
+You are on the the sequel path.  Backwards from here is The Land of Unlaunched Vessels.  Forward is The Land of Unlaunched Vessels II: The Launchening.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5123"></child>
+        </children>
+    </item>
+    <item nodeId="node-5123">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+The Land of Unlaunched Vessels II: The Launchening
+You are in The Land of Unlaunched Vessels II: The Launchening.  There is a launchpad here, on which sits a large, 1950's era rocket in galaxy white and candy-apple red. Sequel Path leads backwards towards The Land of Unlaunched Vessels
+
+You can see a launchpad and a Rocket here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5124"></child>
+        </children>
+    </item>
+    <item nodeId="node-5124">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+The anticlimactic path.
+You are on the anticlimactic path.  Backwards is The Land of Unlaunched Vessels II: The Launchening.  Ahead of you, you can see the back of the liquor store.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5125"></child>
+        </children>
+    </item>
+    <item nodeId="node-5125">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+Behind the liquor store
+You've got your standard collection of broken down boxes, a dumpster, and a stack of pallets.  Behind you, the anticlimactic path leads to The Land of Unlaunched Vessels II: The Launchening.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5126"></child>
+        </children>
+    </item>
+    <item nodeId="node-5126">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+The path around the liquor store
+You're on the path around the liquor store.  You see the side of the liquor store on one side and a fence on the other side.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5127"></child>
+        </children>
+    </item>
+    <item nodeId="node-5127">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+The front of the liquor store
+The liquor store is closed, looks like permanantly, and there's just a weird humvee kiddie ride here.
+
+You can see a kiddie ride here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5128"></child>
+        </children>
+    </item>
+    <item nodeId="node-5128">
+        <command xml:space="preserve">put penny in slot</command>
+        <result xml:space="preserve">The penny slides down the chute, briefly contacts some mechanism inside, and clanks out the coin return tray.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5129"></child>
+        </children>
+    </item>
+    <item nodeId="node-5129">
+        <command xml:space="preserve">ride ride</command>
+        <result xml:space="preserve">You climb up on the molded fiberglass seat of the humvee but it feels cold, joyless, and dead underneath you.  You distinctly feel the feeling of being so unloved that no one would put a quarter in the slot, not understanding how such a simple thing could make all the difference.  You slide slowly off.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5130"></child>
+        </children>
+    </item>
+    <item nodeId="node-5130">
+        <command xml:space="preserve">b</command>
+        <result xml:space="preserve">
+The path around the liquor store
+You're on the path around the liquor store.  You see the side of the liquor store on one side and a fence on the other side.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5131"></child>
+        </children>
+    </item>
+    <item nodeId="node-5131">
+        <command xml:space="preserve">b</command>
+        <result xml:space="preserve">
+Behind the liquor store
+You've got your standard collection of broken down boxes, a dumpster, and a stack of pallets.  Behind you, the anticlimactic path leads to The Land of Unlaunched Vessels II: The Launchening.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5132"></child>
+        </children>
+    </item>
+    <item nodeId="node-5132">
+        <command xml:space="preserve">b</command>
+        <result xml:space="preserve">
+The anticlimactic path.
+You are on the anticlimactic path.  Backwards is The Land of Unlaunched Vessels II: The Launchening.  Ahead of you, you can see the back of the liquor store.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5133"></child>
+        </children>
+    </item>
+    <item nodeId="node-5133">
+        <command xml:space="preserve">b</command>
+        <result xml:space="preserve">
+The Land of Unlaunched Vessels II: The Launchening
+You are in The Land of Unlaunched Vessels II: The Launchening.  There is a launchpad here, on which sits a large, 1950's era rocket in galaxy white and candy-apple red. Sequel Path leads backwards towards The Land of Unlaunched Vessels
+
+You can see a launchpad and a Rocket here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5134"></child>
+        </children>
+    </item>
+    <item nodeId="node-5134">
+        <command xml:space="preserve">b</command>
+        <result xml:space="preserve">
+Sequel Path
+You are on the the sequel path.  Backwards from here is The Land of Unlaunched Vessels.  Forward is The Land of Unlaunched Vessels II: The Launchening.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5135"></child>
+        </children>
+    </item>
+    <item nodeId="node-5135">
+        <command xml:space="preserve">b</command>
+        <result xml:space="preserve">
+The Land of Unlaunched Vessels
+You are in the The Land of Unlaunched Vessels.  You stand near the edge of the bay, and there is a sailing ship moored here with thick and aged ropes tied to a bollard.  The Hopeful Path leads backward towards The Land of Unrealized Possibilities, a place you're not sure you want to be.  Forward, Sequel Path leads to The Land of Unlaunched Vessels II: The Launchening.
+
+You can see an a swarthy hippie seaperson here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5136"></child>
+        </children>
+    </item>
+    <item nodeId="node-5136">
+        <command xml:space="preserve">b</command>
+        <result xml:space="preserve">
+Seaside Path
+You are on the the seaside path.  Backwards from here is The Land of Unrealized Possibilities.  Forward is The Land of Unlaunched Vessels.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5137"></child>
+        </children>
+    </item>
+    <item nodeId="node-5137">
+        <command xml:space="preserve">b</command>
+        <result xml:space="preserve">
+The Land of Unrealized Possibilities
+You are in the Land of Unrealized Possibilities.  Just being here gives you a sense of all that could be accomplished if enough time, effort, and focus were pointed in a specific direction.  There is an sense of both excitement and disappointment here that is almost palpable.  The Hopeful Path leads backward towards The Land of Breakfast and Lunch, a place with a much clearer sense of purpose.
+
+You can see a toy box (closed), a couch (on which is your brother), and a TV here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5138"></child>
+        </children>
+    </item>
+    <item nodeId="node-5138">
+        <command xml:space="preserve">b</command>
+        <result xml:space="preserve">
+Hopeful Path
+You are on the hopeful path.  Backwards from here is The Land of Breakfast and Lunch.  Forward is The Land of Unrealized Possibilities.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5139"></child>
+        </children>
+    </item>
+    <item nodeId="node-5139">
+        <command xml:space="preserve">b</command>
+        <result xml:space="preserve">
+The Land of Breakfast and Lunch
+The Land of Breakfast and Lunch is a lot smaller than you were expecting.  It's actually just a small clearing near the road, like a roadside stop, with a painted picnic table containing a simple but nourishing breakfast on one end, and a simple but nourishing lunch on the other end.  A stubby little path leads backwards, and the path continues forward, towards The Land of Unrealized Possibilities.  If you "walk forward" or just "forward" or even just "f" you will be walking towards it.
+
+You can see a painted picnic table (on which are Breakfast and Lunch) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5140"></child>
+        </children>
+    </item>
+    <item nodeId="node-5140">
+        <command xml:space="preserve">eat breakfast</command>
+        <result xml:space="preserve">(Breakfast)
+You sit down for a moment and eat breakfast.  It is delicious but you still don't quite feel satisfied.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5141"></child>
+        </children>
+    </item>
+    <item nodeId="node-5141">
+        <command xml:space="preserve">eat lunch</command>
+        <result xml:space="preserve">(Lunch)
+Lunch was wonderful.  Your stomach feels like a puzzle, where the final piece has finally been snapped into place.  You now feel as if you could take on the world.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5142"></child>
+        </children>
+    </item>
+    <item nodeId="node-5142">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+Hopeful Path
+You are on the hopeful path.  Backwards from here is The Land of Breakfast and Lunch.  Forward is The Land of Unrealized Possibilities.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5143"></child>
+        </children>
+    </item>
+    <item nodeId="node-5143">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+The Land of Unrealized Possibilities
+You are in the Land of Unrealized Possibilities.  Just being here gives you a sense of all that could be accomplished if enough time, effort, and focus were pointed in a specific direction.  There is an sense of both excitement and disappointment here that is almost palpable.  The Hopeful Path leads backward towards The Land of Breakfast and Lunch, a place with a much clearer sense of purpose.
+
+You can see a toy box (closed), a couch (on which is your brother), and a TV here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5144"></child>
+        </children>
+    </item>
+    <item nodeId="node-5144">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+Seaside Path
+You are on the the seaside path.  Backwards from here is The Land of Unrealized Possibilities.  Forward is The Land of Unlaunched Vessels.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5145"></child>
+        </children>
+    </item>
+    <item nodeId="node-5145">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+The Land of Unlaunched Vessels
+You are in the The Land of Unlaunched Vessels.  You stand near the edge of the bay, and there is a sailing ship moored here with thick and aged ropes tied to a bollard.  The Hopeful Path leads backward towards The Land of Unrealized Possibilities, a place you're not sure you want to be.  Forward, Sequel Path leads to The Land of Unlaunched Vessels II: The Launchening.
+
+You can see an a swarthy hippie seaperson here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5146"></child>
+        </children>
+    </item>
+    <item nodeId="node-5146">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+Sequel Path
+You are on the the sequel path.  Backwards from here is The Land of Unlaunched Vessels.  Forward is The Land of Unlaunched Vessels II: The Launchening.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5147"></child>
+        </children>
+    </item>
+    <item nodeId="node-5147">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+The Land of Unlaunched Vessels II: The Launchening
+You are in The Land of Unlaunched Vessels II: The Launchening.  There is a launchpad here, on which sits a large, 1950's era rocket in galaxy white and candy-apple red. Sequel Path leads backwards towards The Land of Unlaunched Vessels
+
+You can see a launchpad and a Rocket here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5148"></child>
+        </children>
+    </item>
+    <item nodeId="node-5148">
+        <command xml:space="preserve">open hatch</command>
+        <result xml:space="preserve">You open the hatch.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5149"></child>
+        </children>
+    </item>
+    <item nodeId="node-5149">
+        <command xml:space="preserve">climb ladder</command>
+        <result xml:space="preserve">You pull yourself into the rocket.
+
+The Inside of the Parked Rocket
+You are within the smooth walls of the rocket.  It is very plain here, out the porthole window you can see the sky, and out the hatch you can see The Land of Unlaunched Vessels II: The Launchening.
+
+You can see a the cockpit, a big metal unit containing a captain's chair and a control panel here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5150"></child>
+        </children>
+    </item>
+    <item nodeId="node-5150">
+        <command xml:space="preserve">press launch</command>
+        <result xml:space="preserve">It's natural to expect blastoff immediately.  Instead, the hatch door whirrs slowly shut, coming to a solid clang.  You have just enough time to realize that you could buckle yourself into the captain's chair and you do.  Just in time, as you feel a tremendous slow and steady thrust of force wrap itself around you as the sky begins to move in the porthole window.  For just one moment you swear you can see The Land of Breakfast and Lunch streak by the window.  Finally, the sky begins to darken, and all sound becomes only a vibration.  The deep, dark void of space is with you.  You absentmindedly unbuckle the webbing securing you to the seat, and you feel free to move about the interior.
+
+The Deep, Dark Void of Space
+You are inside the rocket as it cruises very slowly through the deep, dark void of space.  Outside the porthole window is the deep, dark void of space covered over with a curtain of stars.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5151"></child>
+        </children>
+    </item>
+    <item nodeId="node-5151">
+        <command xml:space="preserve">look window</command>
+        <result xml:space="preserve">If you push your head out a little past the walls of the ship into the bubble of the porthole window, you can see quite a vista.   It's hard to make out any specific detail here, just a ceaseless curtain of stars that extends forever.  All of it looks very far away.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5152"></child>
+        </children>
+    </item>
+    <item nodeId="node-5152">
+        <command xml:space="preserve">look porthole</command>
+        <result xml:space="preserve">If you push your head out a little past the walls of the ship into the bubble of the porthole window, you can see quite a vista.   It's hard to make out any specific detail here, just a ceaseless curtain of stars that extends forever.  All of it looks very far away.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5153"></child>
+        </children>
+    </item>
+    <item nodeId="node-5153">
+        <command xml:space="preserve">press forward</command>
+        <result xml:space="preserve">Whoosh.  You thought maybe the engine engaged again, but something else already did.  It bent space softly around you, and, maybe the rocket moved a little.  Like with a soft whoosh.  It happened in less than a second.  Now, you think you're somewhere else.
+
+Chrysocolla Cluster
+You are inside the rocket as it cruises very slowly through the deep, dark void of space.  Outside the porthole window is the deep, dark void of space covered over with a curtain of stars.
+
+You notice something unusual outside the porthole window.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5154"></child>
+        </children>
+    </item>
+    <item nodeId="node-5154">
+        <command xml:space="preserve">look window</command>
+        <result xml:space="preserve">Just outside the window is a simian businessperson, with a tidy leather jetpack.  Behind them is a curtain of stars.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5155"></child>
+        </children>
+    </item>
+    <item nodeId="node-5155">
+        <command xml:space="preserve">look out window</command>
+        <result xml:space="preserve">I only understood you as far as wanting to look outside.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5156"></child>
+        </children>
+    </item>
+    <item nodeId="node-5156">
+        <command xml:space="preserve">look porthole</command>
+        <result xml:space="preserve">Just outside the window is a simian businessperson, with a tidy leather jetpack.  Behind them is a curtain of stars.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-5675">
+        <command xml:space="preserve">b</command>
+        <result xml:space="preserve">
+The Land of Unlaunched Vessels II: The Launchening
+You are in The Land of Unlaunched Vessels II: The Launchening.  There is a launchpad here, on which sits a large, 1950's era rocket in galaxy white and candy-apple red. Sequel Path leads backwards towards The Land of Unlaunched Vessels
+
+You can see a launchpad and a rocket here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5676"></child>
+        </children>
+    </item>
+    <item nodeId="node-5676">
+        <command xml:space="preserve">b</command>
+        <result xml:space="preserve">
+Sequel Path
+You are on the sequel path.  Backwards from here is The Land of Unlaunched Vessels.  Forward is The Land of Unlaunched Vessels II: The Launchening.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5677"></child>
+        </children>
+    </item>
+    <item nodeId="node-5677">
+        <command xml:space="preserve">b</command>
+        <result xml:space="preserve">
+The Land of Unlaunched Vessels
+You are in The Land of Unlaunched Vessels.  You stand near the edge of the bay, and there is a sailing ship moored here with thick and aged ropes tied to a bollard.  The Hopeful Path leads backward towards The Land of Unrealized Possibilities, a place you're not sure you want to be.  Forward, Sequel Path leads to The Land of Unlaunched Vessels II: The Launchening.
+
+You can see a swarthy hippie seaperson here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5678"></child>
+        </children>
+    </item>
+    <item nodeId="node-5678">
+        <command xml:space="preserve">b</command>
+        <result xml:space="preserve">
+Seaside Path
+You are on the seaside path.  Backwards from here is The Land of Unrealized Possibilities.  Forward is The Land of Unlaunched Vessels.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5679"></child>
+        </children>
+    </item>
+    <item nodeId="node-5679">
+        <command xml:space="preserve">b</command>
+        <result xml:space="preserve">
+The Land of Unrealized Possibilities
+You are in the Land of Unrealized Possibilities.  Just being here gives you a sense of all that could be accomplished if enough time, effort, and focus were pointed in a specific direction.  There is a sense of both excitement and disappointment here that is almost palpable.  The Hopeful Path leads backward towards The Land of Breakfast and Lunch, a place with a much clearer sense of purpose.
+
+You can see a toy box (closed), a couch (on which is your brother), and a TV here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5680"></child>
+        </children>
+    </item>
+    <item nodeId="node-5680">
+        <command xml:space="preserve">read wrinkled poem</command>
+        <result xml:space="preserve">"Wrm allre my lv," you remember it saying.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -18257,6 +21053,122 @@ Lunch was wonderful.  Your stomach feels like a puzzle, where the final piece ha
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
+    <item nodeId="node-5295">
+        <command xml:space="preserve">b</command>
+        <result xml:space="preserve">
+The Land of Unrealized Possibilities
+You are in the Land of Unrealized Possibilities.  Just being here gives you a sense of all that could be accomplished if enough time, effort, and focus were pointed in a specific direction.  There is a sense of both excitement and disappointment here that is almost palpable.  The Hopeful Path leads backward towards The Land of Breakfast and Lunch, a place with a much clearer sense of purpose.
+
+You can see a toy box (closed), a couch (on which is your brother), and a TV here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5716"></child>
+            <child nodeId="node-5296"></child>
+        </children>
+    </item>
+    <item nodeId="node-5296">
+        <command xml:space="preserve">open box</command>
+        <result xml:space="preserve">You open the toy box, revealing a wooden block, a skinny naked plastic doll, a closed jack-in-the-box, a lite-brite, a coloring book, a small heart shaped locket, and a small hobby horse.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5297"></child>
+        </children>
+    </item>
+    <item nodeId="node-5297">
+        <command xml:space="preserve">get lite</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5298"></child>
+        </children>
+    </item>
+    <item nodeId="node-5298">
+        <command xml:space="preserve">look cord</command>
+        <result xml:space="preserve">It's a black power cord with ungrounded U.S. prongs.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5299"></child>
+        </children>
+    </item>
+    <item nodeId="node-5299">
+        <command xml:space="preserve">look prongs</command>
+        <result xml:space="preserve">They are ungrounded.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5309"></child>
+        </children>
+    </item>
+    <item nodeId="node-5309">
+        <command xml:space="preserve">x prongs</command>
+        <result xml:space="preserve">They are ungrounded.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-5716">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">The Land of Unrealized Possibilities
+You are in the Land of Unrealized Possibilities.  Just being here gives you a sense of all that could be accomplished if enough time, effort, and focus were pointed in a specific direction.  There is a sense of both excitement and disappointment here that is almost palpable.  The Hopeful Path leads backward towards The Land of Breakfast and Lunch, a place with a much clearer sense of purpose.
+
+You can see a toy box (closed), a couch (on which is your brother), and a TV here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5717"></child>
+        </children>
+    </item>
+    <item nodeId="node-5717">
+        <command xml:space="preserve">open box</command>
+        <result xml:space="preserve">You open the toy box, revealing a wooden block, a skinny naked plastic doll, a closed jack-in-the-box, a lite-brite, a coloring book, a small heart shaped locket, and a small hobby horse.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5718"></child>
+        </children>
+    </item>
+    <item nodeId="node-5718">
+        <command xml:space="preserve">get locket</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5719"></child>
+        </children>
+    </item>
+    <item nodeId="node-5719">
+        <command xml:space="preserve">open locket</command>
+        <result xml:space="preserve">You open the small heart shaped locket, revealing a faded picture of a child who looks a lot like you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5720"></child>
+        </children>
+    </item>
+    <item nodeId="node-5720">
+        <command xml:space="preserve">x locket</command>
+        <result xml:space="preserve">It is a small pewter locket.  It looks a bit old fashioned.  The locket has been opened on its tiny hinge.
+
+In the small heart shaped locket is a faded picture of a child who looks a lot like you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5721"></child>
+        </children>
+    </item>
+    <item nodeId="node-5721">
+        <command xml:space="preserve">x clasp</command>
+        <result xml:space="preserve">It is a small pewter locket.  It looks a bit old fashioned.  The locket has been opened on its tiny hinge.
+
+In the small heart shaped locket is a faded picture of a child who looks a lot like you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
     <item nodeId="node-1448">
         <command xml:space="preserve">eat lunch</command>
         <result xml:space="preserve">You can't see any such thing.
@@ -18305,6 +21217,47 @@ It doesn't really seem appropriate to just start eating lunch with a perfectly g
     <item nodeId="node-1259">
         <command xml:space="preserve">attack brother</command>
         <result xml:space="preserve">Violence isn't the answer to this one.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-6188">
+        <command xml:space="preserve">ask brother about quarter</command>
+        <result xml:space="preserve">"I don't have a quarter, no, but I think there's a penny under the couch."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6189"></child>
+        </children>
+    </item>
+    <item nodeId="node-6189">
+        <command xml:space="preserve">ask brother about quarters</command>
+        <result xml:space="preserve">"I don't have a quarter, no, but I think there's a penny under the couch."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6190"></child>
+        </children>
+    </item>
+    <item nodeId="node-6190">
+        <command xml:space="preserve">tell brother about rocket</command>
+        <result xml:space="preserve">"You expect me to believe you saw a real rocket?"
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6191"></child>
+        </children>
+    </item>
+    <item nodeId="node-6191">
+        <command xml:space="preserve">talk to brother</command>
+        <result xml:space="preserve">To start a conversation, try to ASK your brother ABOUT something or TELL your brother ABOUT something.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-5736">
+        <command xml:space="preserve">ask brother about box</command>
+        <result xml:space="preserve">Yeah, it's your brother, snotball, what do you want from me?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -19298,12 +22251,23 @@ You can see a painted picnic table (on which are Breakfast and Lunch) here.
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-3508"></child>
             <child nodeId="node-1538"></child>
+            <child nodeId="node-5382"></child>
             <child nodeId="node-1537"></child>
         </children>
     </item>
     <item nodeId="node-1537">
         <command xml:space="preserve">look path</command>
         <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-5382">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">The Land of Breakfast and Lunch
+The Land of Breakfast and Lunch is a lot smaller than you were expecting.  It's actually just a small clearing near the road, like a roadside stop, with a painted picnic table containing a simple but nourishing breakfast on one end, and a simple but nourishing lunch on the other end.  A stubby little path leads backwards, and the path continues forward, towards The Land of Unrealized Possibilities.  If you "walk forward" or just "forward" or even just "f" you will be walking towards it.
+
+You can see a painted picnic table (on which are Breakfast and Lunch) here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -19880,6 +22844,53 @@ You are within the smooth walls of the rocket.  It is very plain here, out the p
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
+    <item nodeId="node-5728">
+        <command xml:space="preserve">ask brother about box</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5729"></child>
+        </children>
+    </item>
+    <item nodeId="node-5729">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+The Land of Unrealized Possibilities
+You are in the Land of Unrealized Possibilities.  Just being here gives you a sense of all that could be accomplished if enough time, effort, and focus were pointed in a specific direction.  There is a sense of both excitement and disappointment here that is almost palpable.  The Hopeful Path leads backward towards The Land of Breakfast and Lunch, a place with a much clearer sense of purpose.  The Seaside Path leads forward, towards The Land of Unlaunched Vessels.
+
+You can see a toy box (closed), a couch (on which is your brother), and a TV here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5730"></child>
+        </children>
+    </item>
+    <item nodeId="node-5730">
+        <command xml:space="preserve">ask brother about penny</command>
+        <result xml:space="preserve">Yeah, it's , snotball, what do you want from me?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5731"></child>
+        </children>
+    </item>
+    <item nodeId="node-5731">
+        <command xml:space="preserve">ask brother about box</command>
+        <result xml:space="preserve">Yeah, it's , snotball, what do you want from me?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5732"></child>
+        </children>
+    </item>
+    <item nodeId="node-5732">
+        <command xml:space="preserve">ask brother about monkey</command>
+        <result xml:space="preserve">Yeah, it's , snotball, what do you want from me?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
     <item nodeId="node-1594">
         <command xml:space="preserve">eat breakfast</command>
         <result xml:space="preserve">(Breakfast)
@@ -19887,7 +22898,8 @@ You sit down for a moment and eat breakfast.  It is delicious but you still don'
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1596"></child>
+        <children><child nodeId="node-6353"></child>
+            <child nodeId="node-1596"></child>
             <child nodeId="node-1595"></child>
         </children>
     </item>
@@ -19914,6 +22926,98 @@ You sit down for a moment and eat breakfast.  It is delicious but you still don'
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
+    <item nodeId="node-6353">
+        <command xml:space="preserve">eat lunch</command>
+        <result xml:space="preserve">(Lunch)
+Lunch was wonderful.  Your stomach feels like a puzzle, where the final piece has finally been snapped into place.  You now feel as if you could take on the world.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6354"></child>
+        </children>
+    </item>
+    <item nodeId="node-6354">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+Hopeful Path
+You are on the hopeful path.  Backwards from here is The Land of Breakfast and Lunch.  Forward is The Land of Unrealized Possibilities.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6355"></child>
+        </children>
+    </item>
+    <item nodeId="node-6355">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+The Land of Unrealized Possibilities
+You are in the Land of Unrealized Possibilities.  Just being here gives you a sense of all that could be accomplished if enough time, effort, and focus were pointed in a specific direction.  There is a sense of both excitement and disappointment here that is almost palpable.  The Hopeful Path leads backward towards The Land of Breakfast and Lunch, a place with a much clearer sense of purpose.  The Seaside Path leads forward, towards The Land of Unlaunched Vessels.
+
+You can see a toy box (closed), a couch (on which is your brother), and a TV here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6356"></child>
+        </children>
+    </item>
+    <item nodeId="node-6356">
+        <command xml:space="preserve">open box</command>
+        <result xml:space="preserve">You open the toy box, revealing a wooden block, a skinny naked plastic doll, a closed jack-in-the-box, a lite-brite, a coloring book, a small heart shaped locket, and a small hobby horse.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6357"></child>
+        </children>
+    </item>
+    <item nodeId="node-6357">
+        <command xml:space="preserve">get jack</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6358"></child>
+        </children>
+    </item>
+    <item nodeId="node-6358">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+Seaside Path
+You are on the seaside path.  Backwards from here is The Land of Unrealized Possibilities.  Forward is The Land of Unlaunched Vessels.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6359"></child>
+        </children>
+    </item>
+    <item nodeId="node-6359">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+The Land of Unlaunched Vessels
+You are in The Land of Unlaunched Vessels.  You stand near the edge of the bay, and there is a sailing ship moored here with thick and aged ropes tied to a bollard.  The Hopeful Path leads backward towards The Land of Unrealized Possibilities, a place you're not sure you want to be.  Forward, Sequel Path leads to The Land of Unlaunched Vessels II: The Launchening.
+
+You can see a swarthy hippie seaperson here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6360"></child>
+        </children>
+    </item>
+    <item nodeId="node-6360">
+        <command xml:space="preserve">ask hippie about hippie</command>
+        <result xml:space="preserve">"I'm just a simple seaperson, I don't know much about the swarthy hippie seaperson."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6361"></child>
+        </children>
+    </item>
+    <item nodeId="node-6361">
+        <command xml:space="preserve">ask hippie about hippies</command>
+        <result xml:space="preserve">"I don't know what a hippie is.  Is it like a fannie pack?"
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
     <item nodeId="node-1613">
         <command xml:space="preserve">credits</command>
         <result xml:space="preserve">The Land of Breakfast and Lunch was written by Daniel Talsky.
@@ -19925,6 +23029,167 @@ Jason Dockins
 Matthew George
 Mike Tarbert
 Caleb Wilson.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-6289">
+        <command xml:space="preserve">b</command>
+        <result xml:space="preserve">
+The Path
+You are at the beginning of a path.  It is plain, even homely.  It leads forward towards The Land of Breakfast and Lunch.  If you "walk forward" you will follow the path.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6290"></child>
+        </children>
+    </item>
+    <item nodeId="node-6290">
+        <command xml:space="preserve">look path</command>
+        <result xml:space="preserve">It's a scrubby little path that just kind of tapers off behind you and leads forward towards The Land of Breakfast and Lunch.  If you "walk forward" you'll be following it.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6291"></child>
+        </children>
+    </item>
+    <item nodeId="node-6291">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+The Land of Breakfast and Lunch
+The Land of Breakfast and Lunch is a lot smaller than you were expecting.  It's actually just a small clearing near the road, like a roadside stop, with a painted picnic table containing a simple but nourishing breakfast on one end, and a simple but nourishing lunch on the other end.  A stubby little path leads backwards, and the path continues forward, towards The Land of Unrealized Possibilities.  If you "walk forward" or just "forward" or even just "f" you will be walking towards it.
+
+You can see a painted picnic table (on which are Breakfast and Lunch) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6292"></child>
+        </children>
+    </item>
+    <item nodeId="node-6292">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+Hopeful Path
+You are on the hopeful path.  Backwards from here is The Land of Breakfast and Lunch.  Forward is The Land of Unrealized Possibilities.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6293"></child>
+        </children>
+    </item>
+    <item nodeId="node-6293">
+        <command xml:space="preserve">look path</command>
+        <result xml:space="preserve">It's a simple, foot-trod path that connects The Land of Breakfast and Lunch and The Land of Unrealized Possibilities.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6294"></child>
+        </children>
+    </item>
+    <item nodeId="node-6294">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+The Land of Unrealized Possibilities
+You are in the Land of Unrealized Possibilities.  Just being here gives you a sense of all that could be accomplished if enough time, effort, and focus were pointed in a specific direction.  There is a sense of both excitement and disappointment here that is almost palpable.  The Hopeful Path leads backward towards The Land of Breakfast and Lunch, a place with a much clearer sense of purpose.  The Seaside Path leads forward, towards The Land of Unlaunched Vessels.
+
+You can see a toy box (closed), a couch (on which is your brother), and a TV here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6295"></child>
+        </children>
+    </item>
+    <item nodeId="node-6295">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+Seaside Path
+You are on the seaside path.  Backwards from here is The Land of Unrealized Possibilities.  Forward is The Land of Unlaunched Vessels.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6296"></child>
+        </children>
+    </item>
+    <item nodeId="node-6296">
+        <command xml:space="preserve">look path</command>
+        <result xml:space="preserve">It's a meandering path that leads away from The Land of Unrealized Possibilities and it technically beside the sea, but quite far away from it.  As you follow it forward it takes you closer to the sea, as well as The Land of Unlaunched Vessels.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6297"></child>
+        </children>
+    </item>
+    <item nodeId="node-6297">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+The Land of Unlaunched Vessels
+You are in The Land of Unlaunched Vessels.  You stand near the edge of the bay, and there is a sailing ship moored here with thick and aged ropes tied to a bollard.  The Hopeful Path leads backward towards The Land of Unrealized Possibilities, a place you're not sure you want to be.  Forward, Sequel Path leads to The Land of Unlaunched Vessels II: The Launchening.
+
+You can see a swarthy hippie seaperson here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6298"></child>
+        </children>
+    </item>
+    <item nodeId="node-6298">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+Sequel Path
+You are on the sequel path.  Backwards from here is The Land of Unlaunched Vessels.  Forward is The Land of Unlaunched Vessels II: The Launchening.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6299"></child>
+        </children>
+    </item>
+    <item nodeId="node-6299">
+        <command xml:space="preserve">look path</command>
+        <result xml:space="preserve">The Sequel Path connects two lands.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6300"></child>
+        </children>
+    </item>
+    <item nodeId="node-6300">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+The Land of Unlaunched Vessels II: The Launchening
+You are in The Land of Unlaunched Vessels II: The Launchening.  There is a launchpad here, on which sits a large, 1950's era rocket in galaxy white and candy-apple red. The Sequel Path leads backwards towards The Land of Unlaunched Vessels.  Ahead of you, The Anticlimactic Path probably leads somewhere really amazing.
+
+You can see a launchpad and a rocket here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6301"></child>
+        </children>
+    </item>
+    <item nodeId="node-6301">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+Anticlimactic path
+You are on the anticlimactic path.  Backwards is The Land of Unlaunched Vessels II: The Launchening.  Ahead of you, you can see the back of the liquor store.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6302"></child>
+        </children>
+    </item>
+    <item nodeId="node-6302">
+        <command xml:space="preserve">look path</command>
+        <result xml:space="preserve">It's bound to lead somewhere exciting.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6318"></child>
+        </children>
+    </item>
+    <item nodeId="node-6318">
+        <command xml:space="preserve">f</command>
+        <result xml:space="preserve">
+The Land Behind the Liquor Store
+You are in The Land Behind the Liquor Store.  It's underwhelming.  You've got your standard collection of broken down boxes, a dumpster, and a stack of pallets.  Behind you, the anticlimactic path leads to The Land of Unlaunched Vessels II: The Launchening.  Ahead of you, The Path Around the Liquor Store leads to The Land in Front of the Liquor Store.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -20244,14 +23509,17 @@ You can see a toy box (closed), a couch (on which is your brother), a TV, and a 
         <command xml:space="preserve">credits</command>
         <result xml:space="preserve">The Land of Breakfast and Lunch was written by Daniel Talsky.
 
-Inspiration and discussion by Hypothesis Archer | http://reptilemind.com
+Inspiration and 3-D modeled cover art by Hypothesis Archer | http://reptilemind.com
 
 The game's generous and thorough beta testers include:
 
-- Jason Dockins
+- Jason "Always Be Testing" Dockins
 - Matthew George
-- Mike Tarbert
-- Caleb Wilson.
+- Mike "The Pious" Tarbert
+- Caleb "No Stone Unturned" Wilson
+- Josh Grams
+
+Last, but not least, I'd like to thank you, the player, personally.  You could be watching Better Call Saul or reading Fyodor Dostoevsky or be playing pinball.  Instead, you're taking the time to explore something I made and I really appreciate it.  I had fun making this, but most of the fun was imagining you doing what you're doing right now.  Ok, I'll quit, I'm gushing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>

@@ -259,7 +259,10 @@ the cover image.
 	font-weight: normal;
 	color: #FFF;
 }
-
+.sourcecoverimage img {
+	width: 140px;
+	height: 140px;
+}
 .sourcebibliography
 {
 	display: none;
@@ -425,7 +428,14 @@ Styles for play.html
 	margin-top: 200px;
 	position: fixed;
 }
-
+.coverimage img {
+	width: 180px;
+	height: 180px;
+}
+.play .coverimage img {
+	width: 140px;
+	height: 140px;
+}
 .interpretercredit
 {
 	bottom: 1em;

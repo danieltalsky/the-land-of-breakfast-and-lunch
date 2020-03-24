@@ -76,6 +76,11 @@ the cover image.
 	color: #FFF;
 }
 
+.coverimage img {
+	width: 150px;
+	height: 150px;
+}
+
 /* 
 The introduction formatting applies to the title, author name, and release
 number, here presented at the top of the page. 

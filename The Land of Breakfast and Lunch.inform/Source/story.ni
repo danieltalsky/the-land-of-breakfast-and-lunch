@@ -2,27 +2,32 @@
 
 The story headline is "~ a land can contain both ~"
 
-The release number is 4
-
+[R.E.L.E.A.S.E., FIND OUT WHAT IT MEANS TO ME]
+The release number is 8.
 ["Lunchy" Website Theme"]
-Release along with a website and a "Lunchy" website.  Release along with an interpreter.  Release along with cover art.  Release along with the source text.
+Release along with a website and a "Lunchy" website.
+[Release along with a "Vorple" website.]
+Release along with an interpreter.  
+Release along with cover art.  
+Release along with the source text.
 
-Use no scoring, the serial comma and American dialect. Use full-length room descriptions.
+[eyeroll scoring only]
+Use no scoring, the serial comma and American dialect.
+Carry out requesting the score:
+	say "You have [a random number from 100 to 999],[a random number from 100 to 999],[a random number from 100 to 999] points.  You're really doing great." instead.
 
+Use full-length room descriptions.
 The story description is "An interactive diorama of made-up memories."
-
-The description of the player is "You are a fictional character who looks very much like the non-fictional you looks.  Almost exactly, in fact, except the non-fictional you is slightly more attractive, and the fictional you is a slightly better speller."
 
 When play begins:
 	say "Some would say that life is like a box of metaphors.  I would not say that.  I would say life is a land of metaphors.  You come to this land perhaps from a hidden door in the back of a piece of furniture, perhaps from a door in a dream.  Either way, you find yourself here."
 
-You are wearing a shirt. 
-
+The description of the player is "You are a fictional character who looks very much like the non-fictional you looks.  Almost exactly, in fact, except the non-fictional you is slightly more attractive, and the fictional you is a slightly better speller.".
 
 Section 1 - General World Rules and Messages
 
 [There are only two directions.]
-Understand "forward/forwards/f" or "follow path" or "follow the path" as north.
+Understand "forward/forwards/f" or "follow it" or "follow path" or "follow the path" as north.
 Understand "back/return/retreat/backward/backwards/b" as south.
 Understand "go back" as south. 
 Instead of going east:
@@ -49,17 +54,31 @@ Report praying: say "You decide to pray in the Tibetan Dzogchen style; you stare
 Singing is an action applying to nothing. Understand "sing" as singing.
 Report singing: say "I'm not sure what you like to sing in a private moment.  Maybe it's Beyoncé, maybe it's a little Sinatra, maybe it's Neutral Milk Hotel, and maybe it's the worms song.  You sing it, whatever it is, and you feel slightly better.".
 
+[help]
+Displaying the help text is an action out of world. Understand "help" as displaying the help text. Carry out displaying the help text: say "[helptext]". To say helptext: say "The Land of Breakfast and Lunch is a little place for you to walk around in and look at every little detail.  There are a couple of little tricky things you can accomplish, but there's really no point other than to look at everything and smell everything and laugh at my dumb little jokes.  Sometimes people don't notice the toy box in The Land of Unrealized Possiblities.  Sometimes people don't realize you can 'open hatch' and 'enter rocket' when you're near the 1950's rocket.  Yes, there's one little puzzle and it involves the jack-in-the-box, but don't get too concerned about it.  If you need any other help you can just email me at danieltalsky@gmail.com.  I'm happy to help.".
+
 [about]
 Displaying the about text is an action out of world. Understand "about" as displaying the about text. Carry out displaying the about text: say "[abouttext]". To say abouttext: say "You're playing The Land of Breakfast and Lunch, a kind of game or more accurately, a fictional world where you can walk around and waste your time.  There is not a lot of point to it, so just look around and poke around and enjoy yourself, if you like that kind of thing.[paragraph break]All versions of The Land of Breakfast and Lunch are released under the Creative Commons Attribution-Noncommercial-Share Alike 3.0 license. In summary, you may freely distribute, perform, or create derivative works, but not for commercial purposes without permission from the author. More information is available at http://creativecommons.org/licenses/by-nc-sa/3.0/us/.".
 
 [credits]
-Displaying the credit text is an action out of world. Understand "credits" as displaying the credit text. Carry out displaying the credit text: say "[credittext]". To say credittext: say "The Land of Breakfast and Lunch was written by Daniel Talsky.[paragraph break]Inspiration and discussion by Hypothesis Archer | http://reptilemind.com[paragraph break]The game's generous and thorough beta testers include:[paragraph break]- Jason 'Always Be Testing' Dockins[line break]- Matthew George[line break]- Mike Tarbert[line break]- Caleb 'No Stone Unturned' Wilson[paragraph break]Last, but not least, I'd like to thank you, the player, personally.  You could be watching Better Call Saul or reading Fyodor Dostoevsky or be playing pinball.  Instead, you're taking the time to explore something I made and I really appreciate it.  I had fun making this, but most of the fun was imaginging you doing what you're doing right now.  Ok, I'll quit, I'm gushing.".
+Displaying the credit text is an action out of world. Understand "credits" as displaying the credit text. Carry out displaying the credit text: say "[credittext]". To say credittext: say "The Land of Breakfast and Lunch was written by Daniel Talsky.[paragraph break]Inspiration and 3-D modeled cover art by Hypothesis Archer | http://reptilemind.com[paragraph break]The game's generous and thorough beta testers include:[paragraph break]- Jason 'Always Be Testing' Dockins[line break]- Matthew George[line break]- Mike 'The Pious' Tarbert[line break]- Caleb 'No Stone Unturned' Wilson[line break]- Josh Grams[paragraph break]Last, but not least, I'd like to thank you, the player, personally.  You could be watching Better Call Saul or reading Fyodor Dostoevsky or be playing pinball.  Instead, you're taking the time to explore something I made and I really appreciate it.  I had fun making this, but most of the fun was imagining you doing what you're doing right now.  Ok, I'll quit, I'm gushing.".
 
 [Nicer default description of things with no description.]
 The description of a thing is usually "You look at [the noun] very closely indeed, and to be completely honest, it looks about how you'd expect.  You think for a moment that there might be something slightly special about it but then, upon looking just a little closer, you see that there isn't."
 
+[talking]
+Understand "talk to [someone]" as a mistake ("To start a conversation, try to ASK [the noun] ABOUT something or TELL [the noun] ABOUT something.").
+[asking and telling about visible things]
+Understand "ask [someone] about [something]" as thing-asking it about. thing-asking it about is an action applying to two visible things.
+Understand "tell [someone] about [something]" as thing-telling it about. thing-telling it about is an action applying to two visible things.
+
+[sleeping / jumping / waiting / xyzzying / empty inventory]
 Instead of sleeping: say "You don't feel even the tendrils of sleepiness.  You could lie down, but it sounds pretty boring."
 Instead of waking up: say "You are already quite alert."
+
+Instead of jumping: say "Ok, this is weird, but for some reason, jumping doesn[apostrophe]t appear to work here.  You bend your knees and then shove away from the earth with a snap like you're used to, but your feet don't leave the ground.  It's a little disconcerting, sure, but it doesn't really change your life."
+
+Instead of waiting: say "You stop doing anything for exactly [a random number from 12 to 234] seconds.  Nothing seems to have changed in that time."
 
 Xyzzying is an action out of world applying to nothing. Understand "xyzzy" as xyzzying. Carry out xyzzying: say "You feel the temperature shift briefly a little warmer, and then back to normal.  The air shimmers for a moment.  The very fabric of the universe quivers in anticipation.  Nothing actually changes, though."
 
@@ -67,15 +86,15 @@ The print empty inventory rule response (A) is "You examine what you'd normally 
 
 Section 2 - The Land of Breakfast and Lunch
 
-The Path is a room.  "You are at the beginning of a path.  It is plain, even homely.  It leads forward towards The Land of Breakfast and Lunch.  If you 'walk forward' you will follow the path."  The printed name of the path is "The Path"
-
-Southmostpath is in The Path.  It is scenery.  The description of southmostpath is "It's a scrubby little path that just kind of tapers off behind you and leads forward towards The Land of Breakfast and Lunch.  If you 'walk forward' you'll be following it." Understand "path" as southmostpath.
+The Path is a room.  "You are at the beginning of a path.  It is plain, even homely.  It leads forward towards The Land of Breakfast and Lunch.  If you 'walk forward' you will follow the path."  The printed name of the path is "The Path".
+The southmostpath is in The Path.  It is scenery.  The description of southmostpath is "It's a scrubby little path that just kind of tapers off behind you and leads forward towards The Land of Breakfast and Lunch.  If you 'walk forward' you'll be following it." 
+Understand "path" as the southmostpath.
 
 Scrub brush is in The Path.  It is scenery. The description is "Clusters of scrubby, wild, low shrubbery.  It's the kind of plant that grows where very little else wants to grow.  Like here, at the terminus of this plain path, which is less interesting than the places it leads."
 
-Check going south:
+Check of going south:
 	If the player is in The Path:
-		say "This really is as far back as the path goes.  Further behind you there's just a bunch of scrub brush as far as the eye can see.  It's really not your kind of thing."
+		say "This really is as far back as the path goes.  Further behind you there's just a bunch of scrub brush as far as the eye can see.  It's really not your kind of thing." instead;
 
 [The Land of Breakfast and Lunch]
 TLoBL is a room. "The Land of Breakfast and Lunch is a lot smaller than you were expecting.  It's actually just a small clearing near the road, like a roadside stop, with a painted picnic table containing a simple but nourishing breakfast on one end, and a simple but nourishing lunch on the other end.  A stubby little path leads backwards, and the path continues forward, towards The Land of Unrealized Possibilities.  If you 'walk forward' or just 'forward' or even just 'f' you will be walking towards it.".  TLoBL is north of The Path.
@@ -93,7 +112,7 @@ Instead of entering the table:
 
 [breakfast]
 Breakfast is on the table.  It is edible.  The table can be meals-eaten or meals-uneaten.  The table is meals-uneaten.  The description of breakfast is "Breakfast consists of a halved grapefruit with the membranes cut for easier eating, a soft-boiled egg in a specially designed holder, and a bowl of Lieutenant Chomp with a small pitcher of milk next to it.". 
-
+Instead of smelling the breakfast, say "It smells pretty nice, but the individual breakfast items each have their own smell."
 Instead of taking the breakfast: say "The breakfast has several items and is a little unwieldy.  You can take a moment and eat the breakfast if you'd like.  It seems to have been put here for that purpose, but gathering all the breakfast items in your shirt just seems odd.".
 
 Instead of eating the breakfast:
@@ -104,22 +123,22 @@ Instead of eating the breakfast:
 	now all part-of-a-complete-breakfast are nowhere;
 
 A part-of-a-complete-breakfast is a kind of thing. A part-of-a-complete-breakfast is always scenery.  
-Instead of eating or taking or tasting a part-of-a-complete-breakfast, say "Breakfast is kind of an all-or-nothing affair.  One really needs to sit down and tuck into it, rather than simply nibbling at one thing or another and leaving the rest of it to repel and disgust another traveller.".
+Instead of eating or taking or tasting or attacking a part-of-a-complete-breakfast, say "Breakfast is kind of an all-or-nothing affair.  One really needs to sit down and tuck into it, rather than simply nibbling at one thing or another and leaving the rest of it to repel and disgust another traveller.".
 The bowl of Lieutenant Chomp is a part-of-a-complete-breakfast on the table.  Understand "cereal" or "Lieutenant Chomp" as the bowl of Lieutenant Chomp.  The description of the bowl is "It looks like a bowl filled with the famous cereal known as Lieutenant Chomp.  You grew up seeing the commercials and can almost see the picture of the Lieutenant on the box in your mind's eye.  You know from experience that if you pour the milk too soon before you eat, the cereal will lacerate the roof of your mouth.  If you wait too long: sugary mush."
 Instead of smelling the bowl of Lieutenant Chomp, say "It smells like sugar."
 The pitcher of milk is a part-of-a-complete-breakfast on the table.  The description of the pitcher of milk is "It's a simple, white pitcher of milk, like you'd find in a diner."
 Instead of smelling the pitcher of milk, say "Smells faintly of the sweetness of lactose."
 The halved grapefruit is a part-of-a-complete-breakfast on the table. Understand "membrane" or "sugar" as the grapefruit.  The description is "It's a traditional grapefruit.  It's not one of the slightly sweeter red varieties, and it's not an exotic pomelo.  It looks as if a very thin sprinkling of sugar has been applied.".  Understand "fruit" as the grapefruit.
 Instead of smelling the halved grapefruit, say "You can tell the grapefruit was recently cut, since the oils of the peel almost burn your nose with their zinginess."
-The soft-boiled egg is a part-of-a-complete-breakfast on the table. Understand "spoon" or "little spoon" or "holder" as the egg.  The description is "The soft-boiled egg is a prim and underappreciated breakfast item.  Sure, it's a lot of work to get to all the egg, but it's a very delicate experience.  You would take the nearby small spoon and gently crack the top of the egg off, exposing the soft and rich partially-cooked egg inside."
+The soft-boiled egg is a part-of-a-complete-breakfast on the table. Understand "spoon" or "little spoon" or "holder" as the egg.  The description is "The soft-boiled egg is a prim and underappreciated breakfast item.  Sure, it's a lot of work to get to every bit of the egg, but it's a very delicate experience.  You would take the nearby small spoon and gently crack the top of the egg off, exposing the soft and rich partially-cooked egg inside."
 Instead of smelling the soft-boiled egg, say "A soft-boiled egg doesn't smell like much but you can feel the warmth of it on your nose."
 The breakfast dishes are on the table.  The breakfast dishes are scenery.  The description is "They are keeping the breakfast from just sitting on the table."
 Instead of eating the breakfast dishes, say "You have gotten everything you wanted from the breakfast dishes."
 
 [lunch]
 Lunch is on the table.  It is edible.  The description of lunch is "Lunch is made up of a grilled cheese sandwich, a bowl of tomato soup, a small tray of antipasto, and a ramekin filled with a very enticing potato salad.".
-
-Instead of taking the lunch: say "The lunch has several items and is a little unweildy.  You can take a moment and eat the lunch if you'd like.  It seems to have been put here for that purpose, but gathering all the lunch items in your shirt just seems odd.".
+Instead of smelling the lunch, say "It smells pretty nice, but the individual lunch items each have their own smell."
+Instead of taking the lunch: say "The lunch has several items and is a little unwieldy.  You can take a moment and eat the lunch if you'd like.  It seems to have been put here for that purpose, but gathering all the lunch items in your shirt just seems odd.".
 
 Instead of eating the lunch:
 	if the breakfast is on the table:
@@ -133,11 +152,12 @@ Instead of eating the lunch:
 		now the table is meals-eaten.
 
 A part-of-a-complete-lunch is a kind of thing. A part-of-a-complete-lunch is always scenery.  
-Instead of eating or taking or tasting a part-of-a-complete-lunch, say "Lunch is kind of an all-or-nothing affair.  One really needs to sit down and tuck into it, rather than simply nibbling at one thing or another and leaving the rest of it to repel and disgust another traveller.".
+Instead of eating or taking or tasting or attacking a part-of-a-complete-lunch, say "Lunch is kind of an all-or-nothing affair.  One really needs to sit down and tuck into it, rather than simply nibbling at one thing or another and leaving the rest of it to repel and disgust another traveller.".
 The grilled cheese sandwich is a part-of-a-complete-lunch on the table.  Understand "bread" or "butter" as the sandwich.  The description of the grilled cheese sandwich is "It's a grilled cheese sandwich in the classic sense, in that there's nothing in it but cheese.  The sandwich has been cut in half diagonally and the tiniest bit of cheese has oozed out towards the table.  It looks like a combination of cheeses.  The bread is toasted to a perfect golden brown and glistens with its thin layer of butter."
 Instead of smelling the grilled cheese sandwich, say "You mostly smell butter, but perhaps a hint of cheddar."
 The bowl of tomato soup is a part-of-a-complete-lunch on the table.  Understand "pepper" as the soup.  The description of the bowl of tomato soup is "Warm, creamy, and comforting, and about two thirds the way to filling a fiestaware bowl.  There is a bit of coarsely cracked pepper at the top."
 Instead of smelling the bowl of tomato soup, say "You mostly smell the pepper, but with a warm tomato-ey bottom note."
+The tray of antipasto is a part-of-a-complete-lunch on the table. 
 The description of the tray of antipasto is "This is an antique bakelite tray containing an assortment of little foods: several different kinds of olives, marinated artichoke hearts, fresh figs, grilled vegetable slices, and cornichon."
 Instead of smelling the tray of antipasto, say "You mostly smell the tartness of the artichoke hearts, but if you lean closely you can smell the cornichon."
 
@@ -157,17 +177,20 @@ Instead of eating the lunch dishes, say "You have gotten everything you wanted f
 Section 3 - The Land of Unrealized Possibilities
 
 The Hopeful Path is a room.  "You are on the hopeful path.  Backwards from here is The Land of Breakfast and Lunch.  Forward is The Land of Unrealized Possibilities."  The Hopeful Path is north of TLoBL.
+Hopeypath is in The Hopeful Path.  It is scenery.  The description of Hopeypath is "It's a simple, foot-trod path that connects The Land of Breakfast and Lunch and The Land of Unrealized Possibilities." Understand "path" as Hopeypath.
 
-TLoUP is a room. "You are in the Land of Unrealized Possibilities.  Just being here gives you a sense of all that could be accomplished if enough time, effort, and focus were pointed in a specific direction.  There is an sense of both excitement and disappointment here that is almost palpable.  The Hopeful Path leads backward towards The Land of Breakfast and Lunch, a place with a much clearer sense of purpose."   TLoUP is north of the hopeful path.
+TLoUP is a room. "You are in the Land of Unrealized Possibilities.  Just being here gives you a sense of all that could be accomplished if enough time, effort, and focus were pointed in a specific direction.  There is a sense of both excitement and disappointment here that is almost palpable.  The Hopeful Path leads backward towards The Land of Breakfast and Lunch, a place with a much clearer sense of purpose.  The Seaside Path leads forward, towards The Land of Unlaunched Vessels."   TLoUP is north of the hopeful path.
 The printed name of TLoUP is "The Land of Unrealized Possibilities"
 
 [The Toy Box]
 There is a toy box in TLoUP.  It is an openable closed container.  It is fixed in place.  The description of the toy box is "It is a large simple wooden toy box stained with a nice hand-painted varnish.  It has a hinged lid on top."
 The hinged wooden lid is a part of the toy box.
+Instead of opening the hinged wooden lid:
+	try opening the toy box.
 
-There is a wooden block in the toy box.  The description of the wooden block is "It is a simple block made out of wood.  It is an unpainted cube, with very slightly rounded corners.  It's the kind of thing you would find at a Montessouri school, usually in the company of many of its compatriots.  This one is alone."
+There is a wooden block in the toy box.  The description of the wooden block is "It is a simple block made out of wood.  It is an unpainted cube, with very slightly rounded corners.  It's the kind of thing you would find at a Montessori school, usually in the company of many of its compatriots.  This one is alone."
 
-There is a skinny naked plastic doll in the toy box.  The description is "The face of the skinny plastic doll is forever frozen in an expression of bored self-satisfaction.  Its long naked arms and legs bend and articulate, but not much.  Its breasts are idealized, yet awkwardly shaped, like rounded pyramids.  It has nylon synthetic hair that cascades stiffly around its shoulders.".  The nylon hair is a part of the doll.  The description is "The hair is really tiny tufts of nylon that poke out of holes in the doll's head.".  The breasts are a part of the plastic doll.  The description is "They are merely designed to fill out a miniature blouse, and look very unnatural unclothed.".  Understand "arms/legs" as the doll.
+There is a skinny naked plastic doll in the toy box.  The description is "The face of the skinny plastic doll is forever frozen in an expression of bored self-satisfaction.  Its long naked arms and legs bend and articulate, but not much.  Its breasts are idealized, yet awkwardly shaped, like rounded pyramids.  It has nylon synthetic hair that cascades stiffly around its shoulders.".  The nylon hair is a part of the doll.  The description is "The hair is really tiny tufts of nylon that poke out of holes in the doll's head.".  The breasts are a part of the plastic doll.  The description is "They are merely designed to fill out a miniature blouse, and look very unnatural unclothed.".  Understand "arms/legs/arm/leg/shoulder" as the doll.  
 Understand "bend [the plastic doll]" as bending.  Bending is an action applying to one visible thing.
 Instead of bending the plastic doll:
 	try taking the plastic doll;
@@ -175,7 +198,8 @@ Instead of bending the plastic doll:
 	
 [The jack-in-the-box]
 There is a closed jack-in-the-box in the toy box. 
-The description of the closed jack-in-the-box is "The jack-in-the-box is a brightly painted tin cube, and actually looks to be some sort of antique.  It is detailed with flames, and written on the back and front are the words 'diable en boîte'.  It has a tightly fitted lid on top, and a small wire and wood hand crank on one side.".  The usable hand crank is a part of the closed jack-in-the-box.  The description is "A wire hand crank with a small wooden ball as a handle on the end.".  The closed tin lid is a part of the closed jack-in-the-box.
+Understand "jack" or "jack-in-the-box" or "jack in the box" as the closed jack-in-the-box.
+The description of the closed jack-in-the-box is "The jack-in-the-box is a brightly painted tin cube, and actually looks to be some sort of antique.  It is detailed with flames, and written on the back and front are the words 'diable en boîte'.  It has a tightly fitted lid on top, and a small wire and wood hand crank on one side.".  The usable hand crank is a part of the closed jack-in-the-box.  The description is "A wire hand crank with a small wooden ball as a handle on the end.".  The closed tin lid is a part of the closed jack-in-the-box.  Wire is a part of the crank.  The description is "The crank is a piece of thick wire bent twice."  Ball is a part of the crank.  The description is "A wooden ball attached to the crank acts as a free-rotating handle for the crank."
 
 Understand "turn [the usable hand crank]" as opening.
 Understand "twist [the usable hand crank]" as opening.
@@ -189,11 +213,6 @@ Instead of opening the closed jack-in-the-box:
 	say "You grasp the little wooden ball and begin to turn the crank as you hold the jack-in-the-box steady.  A dark little tune plinks its way out, echoing forth from the little tin box.  It's not 'all around the mulberry bush' or any song you recognize, so you don[apostrophe]t quite expect it when its last note ends, and the spring-loaded doll within leaps out with surprising agility.  You jump a tiny bit, in spite of yourself.  The devil doll looks pleased.";
 	move the open jack-in-the-box to the player;
 	now the closed jack-in-the-box is nowhere;
-[
-
-***************************************************************************	
-
-]
 	[Special jack-in-the-box locations:]
 	if the player is in TLoUP:
 		say "[line break]For some reason, the crack of the jack-in-the-box opening unnerves your brother.  He leaps up from the couch for a moment. 'Quit it, you craphead,' your brother snarls.  He gives you an extremely intense look and lays back on the couch.";
@@ -208,7 +227,9 @@ Instead of opening the closed jack-in-the-box:
 			say "[line break]The simian businessperson's eyes widen in fear for a moment, but otherwise he keeps his cool.".
 
 [open jack in the box is a totally different object, presto]
-There is an open jack-in-the-box. The description of the open jack-in-the-box is "The jack-in-the-box is a brightly painted tin cube, and actually looks to be some sort of antique.  It is detailed with flames, and written on the back and front are the words 'diable en boîte'.  Its tin lid is popped open, revealing a small fabric devil puppet.".  The devil doll is a part of the open jack-in-the-box.  The description of the devil doll is "The devil doll looks handmade, from fabric and wood.  It has bright, black beads for eyes and a grinning face.  It looks delighted at its recent opportunity to surprise you with its cartoonish evil.".  Understand "puppet/spring/horns" as the devil doll.  The black bead eyes are a part of the devil doll.  The description of the black bead eyes is "Glassy.".  The spent hand crank is a part of the open jack-in-the-box.  The description is "A wire hand crank with a small wooden ball as a handle on the end.  You can turn the crank, but the jack-in-the-box is already out-of-the-box.". The open lid of the jack-in-the-box is a part of the open jack-in-the-box.
+There is an open jack-in-the-box. 
+Understand "jack" or "jack-in-the-box" or "jack in the box" as the open jack-in-the-box.
+The description of the open jack-in-the-box is "The jack-in-the-box is a brightly painted tin cube, and actually looks to be some sort of antique.  It is detailed with flames, and written on the back and front are the words 'diable en boîte'.  Its tin lid is popped open, revealing a small fabric devil puppet.".  The devil doll is a part of the open jack-in-the-box.  The description of the devil doll is "The devil doll looks handmade, from fabric and wood.  It has bright, black beads for eyes and a grinning face.  It looks delighted at its recent opportunity to surprise you with its cartoonish evil.".  Understand "puppet/spring/horns" as the devil doll.  The black bead eyes are a part of the devil doll.  The description of the black bead eyes is "Glassy.".  The spent hand crank is a part of the open jack-in-the-box.  The description is "A wire hand crank with a small wooden ball as a handle on the end.  You can turn the crank, but the jack-in-the-box is already out-of-the-box.". The open lid of the jack-in-the-box is a part of the open jack-in-the-box.
 
 Understand "turn [the spent hand crank]" as opening.
 Understand "twist [the spent hand crank]" as opening.
@@ -224,20 +245,26 @@ Instead of closing the open jack-in-the-box:
 
 test jack-in-the-box with "f / f / f / open toy box / x jack-in-the-box / turn crank / x jack-in-the-box / close jack-in-the-box / twist crank / twist crank"
 
-There is a lite-brite in the toy box.  The description of the lite-brite is "You're looking at a white plastic case with a black plastic pegboard covering one side.   Attached to the back is a black power cord.  If you've seen one before, you know that it's got a little light inside, and usually comes with sheets of black construction paper to affix to the pegboard.  Usually comes with dozens of transparent, colored pegs too.  Push them into the pegboard to make little light-up pictures.  You don't see any of that stuff though.".
+There is a lite-brite in the toy box.  
+Understand "lite/brite" or "lite brite" or "light-bright" or "light bright" as the lite-brite.
+The description of the lite-brite is "You're looking at a white plastic case with a black plastic pegboard covering one side.   Attached to the back is a black power cord.  If you've seen one before, you know that it's got a little light inside, and usually comes with sheets of black construction paper to affix to the pegboard.  Usually comes with dozens of transparent, colored pegs too.  Push them into the pegboard to make little light-up pictures.  You don't see any of that stuff though.".
+The cord is a part of the lite-brite.  The description is "It's a black power cord with ungrounded U.S. prongs.".
+The US prongs are a part of the lite-brite.  The description is "They are ungrounded."
 
-There is a coloring book in the toy box.  The description of the coloring book is "The title of the coloring book reads 'Horse Party!'  Inside are drawings of horses in pastoral settings, but with festive party hats.  They are doing no discernable celebrating.  Seems a little demented, really.  A couple of the pictures are colored neatly, and one is very carefully colored, as if by an adult.".
+There is a coloring book in the toy box.  The description of the coloring book is "The title of the coloring book reads 'Horse Party!'  Inside are drawings of horses in pastoral settings, but with festive party hats.  They are doing no discernible celebrating.  Seems a little demented, really.  A couple of the pictures are colored neatly, and one is very carefully colored, as if by an adult.".
 Understand "color [the coloring book]" as coloring.  Coloring is an action applying to one visible thing.
 Instead of coloring the coloring book, say "You don't have anything to color with, but you run your finger over one of the already-colored pages and pretend for a little while."
+The pictures are a part of the coloring book.  Understand "colors/drawings/drawing" as the pictures.  The description of the pictures is "There are several pictures of horses, and they are doing normal horse things, like standing near fences and barns.  They are not partying.  They are just wearing party hats.  Some of them are colored, but most of them are not.".
+The hats are a part of the coloring book.  Understand "hat/stripe/stripes" as the hats.  The description of the hats is "Every hat is an identical, stereotypical conical party hat.  They are striped, and do not have any other adornment like streamers or tassels.".
 
-There is a small heart shaped locket in the toy box.  It is an openable closed container.  It is wearable.  The description is "It is a small pewter locket.  It looks a bit old fashioned.  It has a small clasp on the side and looks like you could easily open it."  Understand "clasp" as the locket.
+There is a small heart shaped locket in the toy box.  It is an openable closed container.  It is wearable.  The description is "It is a small pewter locket.  It looks a bit old fashioned.  [if locket is open]The locket has been opened on its tiny hinge.[otherwise]It has a small clasp on the side and looks like you could easily open it.[end if][if the picture is not in the locket and the locket is open]  On the metal surface behind the picture is a tiny, engraved heart.[end if]".  Understand "clasp" as the locket.
 Instead of inserting something (called the item) into the locket:
 	if the item is not the picture:
 		say "The locket is quite small." instead;
 	otherwise:
 		continue the action.
 
-There is a faded picture of a child who looks a lot like you in the locket.    The description of the picture is "You don't remember ever seeing any picture of you like this photo, but this one looks almost exactly other pictures of you at about three.  There is a smile that's a mix of sadness and joy on the child's face.  When you look at it, you can almost feel the feeling."
+There is a faded picture of a child who looks a lot like you in the locket.    The description of the picture is "You don't remember ever seeing any picture of you like this photo, but this one looks almost exactly like other pictures of you at about three.  There is a smile that's a mix of sadness and joy on the child's face.  When you look at it, you can almost feel the feeling."
 Understand "photo/photograph/smile" as the picture.
 
 There is a small hobby horse in the toy box.   The description of the horse is "It is a small, wooden hobby horse.  It's very sturdily built, but made to entertain a three-year old.  It has yarn for a mane."  The yarn mane is a part of the horse.  The description is "The mane is made from tight loops of yarn.".
@@ -246,6 +273,8 @@ test toybox with "f / f / f / open box / x doll / x hair / x breasts / bend doll
 
 [Your Brother]
 There is a couch in TLoUP.  It is a supporter. It is fixed in place. The description of the couch is "This is the blue corduroy couch of your youth.  You have rolled over on it many times and sat up to read it's wrinkled poem on your arm.  Why would anyone get a corduroy couch?"
+The wrinkled poem is scenery in TLoUP.  The description is "'Wrm allre my lv,' you remember it saying.".
+Instead of reading the wrinkled poem, try examining the wrinkled poem.  Reading is an action applying to one visible thing.
 There is a penny. The penny can be found or lost. The penny is lost. The description of the penny is "It's a single penny, so grimy you can't read the date.  It looks older than 1982, which means it's made of solid copper, but coated in rust and grime."
 The printed name of the penny is "small, grimy penny from under the couch".
 Instead of looking under the couch when the penny is lost:
@@ -255,9 +284,9 @@ Instead of looking under the couch when the penny is lost:
 
 Table 1 - TV Shows
 channel	show
-10	"Darkwing Duck"
-11	"Thundercats"
-12 	"Buck Rogers"
+10	"Dorkwing Duck"
+11	"Lightningcats"
+12 	"Bank Rogers"
 13	"Enraged Juggalos"
 14	"Wet Planet IV"
 15	"Botswana (1992)"
@@ -276,7 +305,7 @@ channel	show
 28	"Brad!"
 29	"Speed Burners (1975)"
 30	"Delta Farce (2001)"
-31	"Punky Brewster"
+31	"Ponky Brewster"
 32	"Bills and Bennies"
 33	"Trial of Jetsy Watson"
 35	"Bedside (1997)"
@@ -286,6 +315,13 @@ channel	show
 39	"Song of Ire and Spice"
 40	"That 20[apostrophe]s Show"
 41	"Stupid, Stupid Baby (1998)"
+42 	"Cram it, Loser!"
+43	"Survival Hoarders"
+44	"Fix [apostrophe]er Up [apostrophe]n[apostrophe] Flip [apostrophe]er"
+45	"Man vs. Gravity"
+46	"Outside the Singers Studio"
+47	"Nom de Plume"
+48 	"Speak Up Sonny, I Cain[apostrophe]t Hear You!"
 
 There is a TV in TLOUP.  It is fixed in place.  It is a switched on device.
 Instead of examining the TV:
@@ -295,15 +331,21 @@ Understand "channel/knob/television" as TV.
 Understand "change [something]" as changing.  Changing is an action applying to one visible thing.
 Instead of changing a thing:
 	if the noun is the TV:
-		say "C'mon, Farts McJohnson,' your brother says, wearily, 'I'm watching this.";
+		say "C'mon, Farts McJohnson,' your brother says, wearily, 'I'm watching this.'";
 	else if the noun is the player:
 		say "You can only change when you're ready.";
 	otherwise:
 		say "True change comes from within.".
+Instead of turning the TV:
+	say "'C'mon, Farts McJohnson,' your brother says, wearily, 'I'm watching this.'".
 Instead of switching off the TV:
 	say "'C'mon, Farts McJohnson,' your brother says, wearily, 'I'm watching this.'".
+Understand "block [TV]" as blocking.  Blocking is an action applying to one visible thing.
+Instead of blocking the TV:
+	say "'Real mature,' your brother says, and cranes his neck to see around you."
 	
-Brother is a man.  The printed name of brother is "your brother". Brother is on the couch. The description of brother is "Your brother is a lean masterpiece of laziness and force.  He is devoted to his wasting of time right now and has himself wedged into the couch like a part of it. He is watching TV, and frequently changing the channel."
+Your brother is a man.  Brother is on the couch. The description of brother is "Your brother is a lean masterpiece of laziness and force.  He is devoted to his wasting of time right now and has himself wedged into the couch like a part of it. He is watching TV, and frequently changing the channel."
+Understand "bro" as brother.
 The remote control is scenery in TLOUP.  The description of the remote control is "Your brother is holding it, and, almost rhythmically, changing the channel."
 Understand "remote/clicker" as the remote control.
 Instead of taking the remote control, say "Your brother snatches the remote away from you and gives you a quick, dirty look that reminds you he's ready to back it up with the kind of painful violence that will not leave a mark."
@@ -311,12 +353,33 @@ Instead of taking the remote control, say "Your brother snatches the remote away
 Instead of smelling brother:
 	say "Weirdly, he smells fine."
 Instead of attacking brother:
-	say "Your brother nearly-psychically determines your intention. In a flash, he socks you in the quadricep with precision and speed.  He hits what you realize is an existing bruise from last time and you have to take deep breaths to keep from doubling over in pain.   ‘What’s your problem, you aggro dipwad?’ he says, distractedly, eyes still on the TV."
+	say "[one of]Your brother nearly-psychically determines your intention. In a flash, he socks you in the quadricep with precision and speed.  He hits what you realize is an existing bruise from last time and you have to take deep breaths to keep from doubling over in pain.   ‘What’s your problem, you aggro dipwad?’ he says, distractedly, eyes still on the TV.[or]Your brother has been on the planet a little longer than you, and he isn't tricked by your simple attacks.  He uses a simple karate chop to the solar plexus and you have to fight the urge to barf for a moment.[stopping]";
 Instead of kissing brother:
 	say "A swift wave of nausea dissuades you."	
-	
-Understand "kick", "punch", "hit" as attacking.
-Understand "my brother", "bro" as brother
+
+Understand "kick [brother]" or "tickle [brother]" as attacking.
+Understand "my brother", "bro" as brother.
+
+[special brother dialog rules]
+[any visible thing]
+Instead of thing-asking brother about a thing:
+	say "'It's [the second noun], just look at it yourself.'".
+Instead of thing-telling brother about a thing:
+	say "'Yeah, it's [the second noun], snotball, what do you want from me?'".
+[specific non-visible thing topics - asking]
+Instead of asking your brother about "quarter/quarters":
+	say "'I don[apostrophe]t have a quarter, no, but I think there's a penny under the couch.'".
+[specific non-visible thing topics - telling]
+Instead of telling your brother about "rocket":
+	say "'You expect me to believe you saw a real rocket?'".
+[fallthrough]
+Instead of asking brother about something:
+	say "'What are you talking about, dogbreath?'".
+Instead of telling brother about something:
+	say "You really like making mouth noises while I watch TV, don[apostrophe]t you?".
+
+test brotalk with "f / f / f / ask brother about box / ask brother about jack-in-the-box / tell brother about box / tell brother about jack-in-the-box / open box / ask brother about jack / tell brother about jack / ask brother about rocket / tell brother about rocket / ask brother about quarter".
+test askbro with "f / f / f / ask brother about box / ask brother about rocket / ask brother about quarter / ask brother about brother".
 
 [Riding (the horse)]
 Understand "ride [something]" as riding.  Riding is an action applying to one thing.
@@ -337,13 +400,15 @@ Instead of entering or riding the couch, say "Your brother is utilizing so much 
 
 Section 4 - The Land of Unlaunched Vessels
 
-The Seaside Path is a room.  "You are on the the seaside path.  Backwards from here is The Land of Unrealized Possibilities.  Forward is The Land of Unlaunched Vessels."  The Seaside Path is north of TLOUP.
+The Seaside Path is a room.  "You are on the seaside path.  Backwards from here is The Land of Unrealized Possibilities.  Forward is The Land of Unlaunched Vessels."  The Seaside Path is north of TLOUP.
+Seapath is in The Seaside Path.  It is scenery.  The description of Seapath is "It's a meandering path that leads away from The Land of Unrealized Possibilities and it technically beside the sea, but quite far away from it.  As you follow it forward it takes you closer to the sea, as well as The Land of Unlaunched Vessels." Understand "path" as Seapath.
 
 The sea is in the seaside path.  The sea is scenery.  The description is "The sea is quite a ways away for a path to be called The Seaside Path, but you didn't name it, did you?  Even from here you can see it's not really a sea but some kind of sound or bay."
 
-TLOUV is a room. "You are in the The Land of Unlaunched Vessels.  You stand near the edge of the bay, and there is a sailing ship moored here with thick and aged ropes tied to a bollard.  The Hopeful Path leads backward towards The Land of Unrealized Possibilities, a place you're not sure you want to be.  Forward, [printed name of The Sequel Path] leads to [printed name of TLOUV2]."   TLOUV is north of the seaside path.
+TLOUV is a room. "You are in The Land of Unlaunched Vessels.  You stand near the edge of the bay, and there is a sailing ship moored here with thick and aged ropes tied to a bollard.  The Hopeful Path leads backward towards The Land of Unrealized Possibilities, a place you're not sure you want to be.  Forward, [printed name of The Sequel Path] leads to [printed name of TLOUV2]."   TLOUV is north of the seaside path.
 The printed name of TLOUV is "The Land of Unlaunched Vessels"
 
+Understand "rope/line/lines" as the ropes.
 The ropes are in TLOUV.  The ropes are scenery.  The description is "The ropes are weathered but sturdy, with crusty barnacles aplenty.  They are tied with odd-looking knots to a giant metal bollard bolted to a cement retaining wall."
 The knots are in TLOUV.  The knots are scenery.  The knots are a closed container.  The description is "They're not knots you'd recognize.  They seem needlessly complicated."
 Understand "knot" as the knots.
@@ -356,10 +421,13 @@ The bollard is in TLOUV.  The bollard is scenery.  The description is "It's an i
 
 The cement retaining wall is in TLOUV.  The wall is scenery.  The description is "A cement retaining wall keeping the land separate from the bay."
 
-Understand "ship/vessel" or "sailing ship" as the fluyt.
-The Dutch fluyt is in TLOUV.  The Dutch fluyt is scenery.  The description is "Close your eyes and imagine a big sailing ship and what you're seeing is a Dutch fluyt.  The Mayflower was a fluyt.  It has multiple masts with big, square sails.  Its anchor is lowered and it is tied to the mast with giant ropes attached securely to a bollard bolted to the retaining wall."
+Understand "ship/vessel/flouwt/Chimera" or "sailing ship" as the fluyt.
+The Dutch fluyt is in TLOUV.  The Dutch fluyt is scenery.  The description is "Close your eyes and imagine a big sailing ship and what you're seeing is a Dutch fluyt.  It's pronounced kind of like 'flouwt'.  The Mayflower was a fluyt.  It has multiple masts with big, square sails.  Its anchor is lowered.  Giant ropes stream out from the padeye of the ship to the land, attached securely to a bollard bolted to the retaining wall.  It's not going anywhere."
 Understand "launch [something]" as pushing.
 Instead of pushing the fluyt, say "You'd need to be on the fluyt."
+The masts are a part of the fluyt.  Understand "mast" as the masts.  The description of the masts is "The fluyt has three main masts."
+The sails are a part of the fluyt.  Understand "sail" as the sails.  The description of the sails is "Each of the three masts of the fluyt has two sets of large square sails."
+The padeye is a part of the fluyt.  The description is "The padeye is a reinforced hole in the side of the fluyt that the ropes go through."
 
 The bay is in TLOUV. The bay is scenery.  The description is "You stand at the edge of the bay.  It could be any kind of inlet, possibly a fjord, but it's too calm to be the sea itself, and you can't see land on the other side.  Let's call it a bay.  A cement retaining wall allows you to stand right at the edge of it."
 Understand "the water" or "sea" or "the sea" or "water" or "ocean" or "inlet" or "fjord" as the bay.
@@ -374,29 +442,78 @@ Check swimming:
 
 [The Hippie Seaperson]
 	
-The swarthy hippie seaperson is a woman in the TLOUV.  The printed name of the seaperson is "a swarthy hippie seaperson".  The description of the hippie seaperson is "She has thick blonde dreds, and all her eyes and limbs.  You can't tell if she's the piratey kind of seaperson or not.  Honestly, you can't even tell if she's a hippie or not, but her dreds do have little brass bands on them."
+The swarthy hippie seaperson is a woman in the TLOUV.  The printed name of the seaperson is "swarthy hippie seaperson".  The description of the hippie seaperson is "She has thick blonde dreds, and all her eyes and limbs.  You can't tell if she's the piratey kind of seaperson or not.  Honestly, you can't even tell if she's a hippie or not, but her dreds do have little brass bands on them."
 The dreds are a part of the seaperson.  The description is "They're mostly neat and even with a few chunky, misshapen ones.  A few have little brass bands wrapped around them as jewelry."
 The little brass bands are a part of the dreds.  The description is "The little brass bands secure or adorn a few of the dreds.  One, you can see, has a celtic knot engraved in it.".
 The both eyes are a part of the seaperson.  The description is "She has both of them."
-The arms are a part of the seaperson.  The description is "Neither of them look like a hook."
-The legs are a part of the seaperson.  The description is "Neither of them look like pegs."
+The intact arms are a part of the seaperson.  The description is "Neither of them look like a hook."
+The intact legs are a part of the seaperson.  The description is "Neither of them look like pegs."
 
 Instead of kissing the hippie seaperson, say "She pulls her head way back and eyes you with suspicion.  When you think about it, you realize you just kind of embarrassed yourself."
 
 Instead of taking or attacking the hippie seaperson, say "The hippie seaperson actually looks kind of tough."
 
-[Instead of talking to the the hippie seaperson:
-	say "[one of]'Hi!', she says.[or]She nods in a wise, seapersonlike way.[stopping]".]
+[special seaperson dialog rules]
+[any visible thing]
+Instead of thing-asking seaperson about a thing:
+	if the second noun is bollard:
+		say "'Ah yeah, that[apostrophe]s a mooring bollard.'";
+	else if the second noun is ropes:
+		say "'Technically you would call them line, or mooring warps.  Landlubbers call them ropes though.'";	
+	else if the second noun is seaperson:
+		say "'I don[apostrophe]t know what a hippie is.  Is it like a fannie pack?'";
+	else if the second noun is padeye:
+		say "'Oh, the padeye?  It's like the eye of a needle.'";		
+	else if the second noun is sails:
+		say "'Square sails are the best for going straight downwind.'";		
+	else if the second noun is masts:
+		say "'There are three main masts on The Chimera.  See?'";			
+	else if the second noun is dreds:
+		say "'Yeah, if you[apostrophe]re a seaperson, combing your hair gets pretty old after a while.  This way I can just rinse them out with seawater from time to time.'";			
+	else if the second noun is brass bands:
+		say "'They[apostrophe]re just there for decoration.'";			
+	else if the second noun is fluyt:
+		say "'Yes, that's The Chimera.  It's a Dutch cargo fluyt.  Fluyt is Dutch for flute.  Due to a trade dispute it[apostrophe]s temporarily moored here since it can't legally be moored at any real harbor.  I am required to ensure it isn[apostrophe]t stolen and that no one boards it, but otherwise I don[apostrophe]t have much else to do.  That[apostrophe]s ok though, I do not mind resting in the sun day after day.  I[apostrophe]ve worked hard all my life and I[apostrophe]m fine being right here in The Land of Unlaunched Vessels.  If The Chimera ever launched, I believe we[apostrophe]d have to change the name of the place.'  She snorts with a little laugh at the idea.";	
+	otherwise:
+		say "'I[apostrophe]m just a simple seaperson, I don[apostrophe]t know much about [the second noun].'".
+Instead of thing-telling seaperson about a thing:
+	say "'Yeah that's [the second noun].  I see.'".
+[specific non-visible thing topics - asking]
+Instead of asking seaperson about "quarter/quarters":
+	say "'I do not make it a habit to carry coins about.'".
+Instead of asking seaperson about "rocket":
+	say "'Yeah, I[apostrophe]ve seen that rocket.  I[apostrophe]m more of a sea vessel type of person than a space vessel type of person.'".	
+Instead of asking seaperson about "pirate/pirates":
+	say "'Generally pirates do not come so close to the shore hoping for temporarily moored trade ships.  If they did, that[apostrophe]s what I[apostrophe]m here for.'".
+Instead of asking seaperson about "hippies/hippie/hippy":
+	say "'I don[apostrophe]t know what a hippie is.  Is it like a fannie pack?'".	
+Instead of asking seaperson about "trade/dispute":
+	say "'The trade dispute began about four years ago, and The Chimera has been moored here in this temporary location nearly that entire time.  First time I[apostrophe]ve ever been paid NOT to sail.  I think someone in The Land of Taxable Interest got a little rowdy, and someone in The Land of Sensible Tariffs took exception.'".		
+Instead of asking seaperson about "trade dispute":
+	say "'The trade dispute began about four years ago, and The Chimera has been moored here in this temporary location nearly that entire time.  First time I[apostrophe]ve ever been paid NOT to sail.  I think someone in The Land of Taxable Interest got a little rowdy, and someone in The Land of Sensible Tariffs took exception.'".		
+[specific non-visible thing topics - telling]
+Instead of asking seaperson about "rocket":
+	say "'Yeah, I[apostrophe]ve seen the rocket.  I[apostrophe]m more of a sea vessel type of person than a space vessel type of person.'".
+[fallthrough]
+Instead of asking seaperson about something:
+	say "'Sorry, I do not know about that.'".
+Instead of telling seaperson about something:
+	say "'Hm.'".
+
+test talkseaperson with "f / f / f / f / f / ask seaperson about bollard / ask seaperson about fluyt / ask seaperson about trade dispute"
 
 Section 5 - The 1950's Rocket
 
-The Sequel Path is a room.  "You are on the the sequel path.  Backwards from here is The Land of Unlaunched Vessels.  Forward is [printed name of TLOUV2]."  The Sequel Path is north of TLOUV.
+The Sequel Path is a room.  "You are on the sequel path.  Backwards from here is The Land of Unlaunched Vessels.  Forward is [printed name of TLOUV2]."  The Sequel Path is north of TLOUV.
+The sqlpath is scenery in The Sequel Path.  Understand "path" as sqlpath.  The description is "The [printed name of the sequel path] connects two lands."
 
-TLOUV2 is a room. "You are in [printed name of TLOUV2].  There is a launchpad here, on which sits a large, 1950[apostrophe]s era rocket in galaxy white and candy-apple red. [printed name of The Sequel Path] leads backwards towards The Land of Unlaunched Vessels".  TLOUV2 is north of the sequel path.
+TLOUV2 is a room. "You are in [printed name of TLOUV2].  There is a launchpad here, on which sits a large, 1950[apostrophe]s era rocket in galaxy white and candy-apple red. The [printed name of The Sequel Path] leads backwards towards The Land of Unlaunched Vessels.  Ahead of you, The Anticlimactic Path probably leads somewhere really amazing.".  TLOUV2 is north of the sequel path.
 The printed name of TLOUV2 is "The Land of Unlaunched Vessels II: The Launchening"
 
-The launchpad is in TLOUV2.  The description is "The launchpad appears to be just a featureless steel box set into the ground.  Only a few inches of it protrude up to support the rocket.  It has a mirrory shine, as if the rocket had never been launched."
-The Rocket is in TLOUV2. The description is "On the launchpad sits a 1950[apostrophe]s era rocket in galaxy white and candy-apple red.  Close your eyes and imagine the idea of a cartoon rocket (ok, now open them again) and that's what you've got here.  It's got a bubble of a porthole, curvy fins, and an incredibly phallic body, coming to a point with an extra couple of spheres on the tip of the nose cone.  There is a small, retractable ladder that leads to the hatch."
+The launchpad is in TLOUV2.  The description is "The launchpad appears to be just a featureless steel box set into the ground.  Only a few inches of it protrude up to support the rocket.  It has a mirrory shine, as if the rocket had never been launched."  
+Understand "pad" as the launchpad.
+
+The rocket is in TLOUV2. The description is "On the launchpad sits a 1950[apostrophe]s era rocket in galaxy white and candy-apple red.  Close your eyes and imagine the idea of a cartoon rocket (ok, now open them again) and that's what you've got here.  It's got a bubble of a porthole, curvy fins, and an incredibly phallic body, coming to a point with an extra couple of spheres on the tip of the nose cone.  There is a small, retractable ladder that leads to the hatch."
 Before entering the rocket:
 	if the hatch is closed:
 		say "The hatch is closed." instead.
@@ -430,11 +547,12 @@ Instead of retracting a thing:
 		say "The ladder retracts automatically when the rocket is getting ready to launch.";
 	otherwise:
 		say "That's not retractable.".
+Check going up:
+	if the location is TLOUV2:
+		try entering the rocket instead.
 Understand "climb [the ladder]" as entering.
 Instead of entering the ladder:
 	try entering the rocket.	
-
-
 
 [The Inside of the Parked Rocket]
 parked-rocket-innards is a room.  The printed name is "The Inside of the Parked Rocket".  The description is "You are within the smooth walls of the rocket.  It is very plain here, out the porthole window you can see the sky, and out the hatch you can see [printed name of TLOUV2]."
@@ -451,11 +569,13 @@ Instead of exiting when the player is in parked-rocket-innards:
 The out-of-reach inner hatch is in parked-rocket-innards.  It is scenery.  The description is "The hatch is wide open and the hatch door is out of reach.".
 Instead of closing the out-of-reach inner hatch, say "The hatch door is out of reach from where you're standing.  It doesn't seem possible to close it from inside the rocket.  There's probably some control inside the rocket that closes it.".
 The landed porthole window is scenery in parked-rocket-innards.  The description is "The porthole window, at the moment, allows you a good view of the featureless sky above [printed name of TLOUV2]."
-The cockpit is in parked-rocket-innards.  It is fixed in place.  The description is "The cockpit, containing the captain[apostrophe]s chair and the control panel is firmly mounted to the inner wall of the rocket across from the porthole.  The captain's chair is angled so that you can sit in it when the rocket is vertical or horizontal."  The printed name is "the cockpit, a big metal unit containing a captain[apostrophe]s chair and a control panel".
+The cockpit is in parked-rocket-innards.  It is fixed in place.  The description is "The cockpit, containing the captain[apostrophe]s chair and the control panel is firmly mounted to the inner wall of the rocket across from the porthole.  The captain's chair is angled so that you can sit in it when the rocket is vertical or horizontal."  The printed name is "cockpit, a big metal unit containing a captain[apostrophe]s chair and a control panel".
 The captain's chair is a part of the cockpit.  It is a supporter.  The description is "The captain's chair is rightfully named.  It looks fit for a captain.  It's leather-clad, and the same galaxy white and candy-apple red as the exterior of the ship.".
+Instead of entering the chair:
+	say "You settle into the captain's chair, and really feel Captain-ey immediately.  You practice buckling yourself into the protective webbing, and unbuckling it.  You get up eventually.  Now, when you are about to launch or land you will know what to do.".
 
 [The Control Panel]
-The control panel is a part of the cockpit.  The description of the control panel is "The control panel is an extremely austere, some might even say naive set of controls.  There is a large, shiny, red button labeled 'Launch', a smaller black button that labeled 'Return', and then off to your right, a medium-sized bright blue button labeled 'Forward'.  Finally, along the top is a small LED readout display that says '[description of readout-location-name ]'.[paragraph break]That's it.  Surely you should be able to operate a spacecraft with only those controls?  (You look on the front for a button marked 'Fire Laser' or 'Warp 7' but those buttons are not on the control panel or anywhere else inside the ship.)".
+The control panel is a part of the cockpit.  The description of the control panel is "The control panel is an extremely austere, some might even say naive set of controls.  There is a large, shiny, red button labeled 'Launch', a smaller black button that[apostrophe]s labeled 'Return', and then off to your right, a medium-sized bright blue button labeled 'Forward'.  Finally, along the top is a small LED readout display that says '[description of readout-location-name ]'.[paragraph break]That's it.  Surely you should be able to operate a spacecraft with only those controls?  (You look on the front for a button marked 'Fire Laser' or 'Warp 7' but those buttons are not on the control panel or anywhere else inside the ship.)".
 The small LED readout display is a part of the control panel.  The description is "The LED readout display is a small, crude screen made of LED lights that looks like it could display about 50 letters in a pinch.  It currently says: [bold type][description of readout-location-name][roman type].".
 The readout-location-name is a part of the LED readout display.  The description is "[printed name of TLOUV2]".
 The shiny red launch button is a part of the control panel.  It is a switched off device.
@@ -488,14 +608,26 @@ Instead of switching on the launch button:
 		now the description of readout-location-name is "[the player's surroundings]";
 		move the cockpit to the location of the player.
 Instead of switching on the return button:
-	say "[bold type]Whoosh.[roman type] At the end of the rocket's soft whoosh, its mighty engines begin to engage, slowing its fall as it pillows down to the landing pad in [printed name of TLOUV2].";
-	move the player to parked-rocket-innards;
-	now the description of readout-location-name is "[the player's surroundings]";
-	move the cockpit to the location of the player.
+	if the player is in spaceland:
+		say "[bold type]Whoosh.[roman type] At the end of the rocket's soft whoosh, its mighty engines begin to engage, slowing its fall as it pillows down to the landing pad in [printed name of TLOUV2].";
+		move the player to parked-rocket-innards;
+		now the description of readout-location-name is "[the player's surroundings]";
+		move the cockpit to the location of the player;
+	otherwise:
+		say "There is only the soft click of the button's mechanism.  It might only work when the rocket has been launched.".
 Instead of switching on the forward button:
 	if the player is in spaceland:
 		say "[bold type]Whoosh.[roman type]  You thought maybe the engine engaged again, but something else already did.  It bent space softly around you, and, maybe the rocket moved a little.  Like with a soft whoosh.  It happened in less than a second.  Now, you think you're somewhere else.";
-		move the player to a random spacey room;
+		if the player is in The void of space:
+			move the player to Elbow Nebula;
+		else if the player is in the Elbow Nebula:
+			move the player to kamiro quadrant;
+		else if the player is in kamiro quadrant:
+			move the player to Chrysocolla Cluster;
+		else if the player is in Elbow Nebula:
+			move the player to Graphene Solar System;
+		else:
+			move the player to the void of space;
 		move the cockpit to the location of the player;
 		now the description of readout-location-name is "[the player's surroundings]";
 	otherwise:
@@ -505,8 +637,6 @@ Test launchcount with  "f / eat breakfast / eat lunch / f / f / f / f / f / f / 
 
 Test rocket with "f / f / f / f / f / f / f / x launchpad / x rocket / x porthole / x bubble / x fins / x hatch / x ladder / x cone / x spheres / retract ladder / climb ladder / climb ladder / open hatch / climb ladder"
 
-Instead of going north from TLOUV2:
-	say "You don't know to a certainty how to go forward in this situation.";
 
 Section 6 - The Deep, Dark Void of Space
 
@@ -514,7 +644,8 @@ Section 6 - The Deep, Dark Void of Space
 A room can be spacey.  A room is usually not spacey.
 Spaceland is a region.
 The walls of the flying rocket are a backdrop.  The walls of the flying rocket are in spaceland.  The description is "[description of the parked rocket walls]".
-The curtain of stars is a backdrop.  The curtain of stars are in spaceland.  The description is "The curtain of stars is laid majestically over the black cloud of forever.  There are an infinite number of constellations you can make just by drawing pictures between different bright points, but out here there's too much to connect, and it almost looks like a continuous fabric.  Clusters, galaxies, pulsars, gas giants, form a vast, curtain covering the outside of the porthole window, that almost appears to undulate before your eyes.".
+The curtain of stars is a backdrop.  The curtain of stars are in spaceland.  The description is "The curtain of stars is laid majestically over the black cloud of forever.  There are an infinite number of constellations you can make just by drawing pictures between different bright points, but out here there's too much to connect, and it almost looks like a continuous fabric.  Clusters, galaxies, pulsars, gas giants, form a vast curtain covering the outside of the porthole window, that almost appears to undulate before your eyes.".
+Understand "space" as the curtain of stars.
 The closed inner hatch is a backdrop.  The closed inner hatch is in spaceland.
 Instead of opening the closed inner hatch, say "The inner hatch is closed and magnetically locked.  You expect landing the rocket would unlock the hatch.".
 inside-space-rocket is a backdrop.  inside-space-rocket is in spaceland.  The description of inside-space-rocket is "You are inside the rocket as it cruises very slowly through the deep, dark void of space.  Outside the porthole window is the deep, dark void of space covered over with a curtain of stars."
@@ -524,21 +655,22 @@ inside-space-rocket is a backdrop.  inside-space-rocket is in spaceland.  The de
 [the void]
 The void of space is a room in spaceland. "[description of inside-space-rocket]". The printed name is "The Deep, Dark Void of Space".  The boring porthole window is scenery in the void of space.  The description of the boring porthole window is "If you push your head out a little past the walls of the ship into the bubble of the porthole window, you can see quite a vista.   It's hard to make out any specific detail here, just a ceaseless curtain of stars that extends forever.  All of it looks very far away."
 
-[Kamiro Quadrant]
-The Kamiro Quadrant is a spacey room in spaceland.  "[description of inside-space-rocket][paragraph break]You notice something unusual outside the porthole window."   The first porthole window is scenery in the kamiro quadrant.  The description of the first porthole window is "There is a space station here, as crisp and clean in the near distance as 1960's motion picture film.  It's a wheel with four little crossbars connecting its two tubular circles.  It's dotted with windows and tiny devices you can't see clearly from here.  A few lights pulse on the surface from time to time.  Its surface is almost blindingly white and clean.  It is very well lit.  Behind it is a curtain of stars.".
-The space station is scenery in the kamiro quadrant.  The description is "@TODO".
-The crossbars are a part of the space station. The description is "@TODO".
-
 [Elbow Nebula]
 The Elbow Nebula is a spacey room in spaceland. "[description of inside-space-rocket][paragraph break]You notice something unusual outside the porthole window."  The second porthole window is scenery in the elbow nebula.  The description of the second porthole window is "There is a giant space jellyfish made of light here.  It's not an actual  jellyfish, but that's the closest thing you can think of to call it.  Behind it is a curtain of stars."
 The space jellyfish is scenery in the elbow nebula.  The description is "Just like a jellyfish is a being perfectly adapted to passively following the currents, with a bulbous body, and little tendrils of itself slowing and evening out its trajectory, so is this being of light (and...plasma(?)) seemingly perfectly adapted to the currents of the deep, dark void of space.  It pulses, shoving out the firmament of space behind it, either completely unaware of your rocket or maybe swimming in perfect tandem beside it.".
+Understand "fish" as the jellyfish.
 The bulbous body is a part of the space jellyfish.  The description is "It pulses, ejecting whatever space is made of.".
-The tendrils are a part of the space jellyfish.  The description is "Long tendrils in rows of six cascade out from the space jellyfish.  In a real jellyfish they would be there to catch prey, and maybe these are, but they just seem to be creating drag and stabilizing the massive thing, or just making it look elegent and pretty; bits of light eddy out of the very edges of them." Understand "tentacles/tentacle/tendril" as the tendrils.
+The tendrils are a part of the space jellyfish.  The description is "Long tendrils in rows of six cascade out from the space jellyfish.  In a real jellyfish they would be there to catch prey, and maybe these are, but they just seem to be creating drag and stabilizing the massive thing, or just making it look elegant and pretty; bits of light eddy out of the very edges of them." Understand "tentacles/tentacle/tendril" as the tendrils.
 The currents are scenery in the elbow nebula.  The description is "Well, [bold type]you[roman type] can't see whatever ripples and waves it's riding." Understand "current" as the currents.
+
+[Kamiro Quadrant]
+The Kamiro Quadrant is a spacey room in spaceland.  "[description of inside-space-rocket][paragraph break]You notice something unusual outside the porthole window."   The first porthole window is scenery in the kamiro quadrant.  The description of the first porthole window is "There is a space station here, as crisp and clean in the near distance as 1960[apostrophe]s  film.  Behind it is a curtain of stars.".
+The space station is scenery in the kamiro quadrant.  The description is "It's a wheel with four little crossbars connecting its two tubular circles.  It's dotted with windows and tiny devices you can't see clearly from here.  A few lights pulse on the surface from time to time.  Its surface is almost blindingly white and clean.  It is slowly turning end over end.  It is very well lit.".
+The crossbars are a part of the space station. The description is "There are four crossbars, making a sort of plus sign with a hole in the middle.".
 
 [Chrysocolla Cluster]
 The Chrysocolla Cluster is a spacey room in spaceland. "[description of inside-space-rocket][paragraph break]You notice something unusual outside the porthole window."  The jinky porthole window is scenery in the chrysocolla cluster.  The description of the jinky porthole window is "Just outside the window is a simian businessperson, with a tidy leather jetpack.  Behind them is a curtain of stars."
-The simain businessperson is scenery in the chrysocolla cluster.  The description is "The simian businessperson looks like they could be a human or monkey, but with elaborate stage makeup.  Their fur is a pale pink, and they have an oddly shaped skull.  You think 'businessperson', because of the exquisitely tailored suit of clothes.  The simian is just floating softly in space, as if killing time while waiting for a bus, fidgeting with eight-fingered, pink hands.  Paws.  You can't quite see what it is, but the simian is spinning some very small object in its fingers."  Understand "simian/monkey" as the businessperson.
+The simian businessperson is scenery in the chrysocolla cluster.  The description is "The simian businessperson looks like they could be a human or monkey, but with elaborate stage makeup.  Their fur is a pale pink, and they have an oddly shaped skull.  You think 'businessperson', because of the exquisitely tailored suit of clothes.  The simian is just floating softly in space, as if killing time while waiting for a bus, fidgeting with eight-fingered, pink hands.  Paws.  You can't quite see what it is, but the simian is spinning some very small object in its fingers."  Understand "simian/monkey" as the businessperson.
 The skull is a part of the businessperson.  The description is "It is certainly oddly shaped."
 The suit of clothes is a part of the businessperson.  The description is "It's a tastefully flashy suit like a corporate attorney would wear."
 The fingers are a part of the businessperson.  The description is "The simian businessperson is swiftly flipping some small object in its long pink fingers, like someone flipping a pen or a coin.  The businessperson is barely paying attention to the object, and almost seems to be staring in your direction.".  The businessperson can be startled or unstartled.  The businessperson is unstartled.
@@ -550,8 +682,9 @@ Instead of attacking the jinky porthole window:
 	say "The simian businessperson flicks an eye towards you, but otherwise doesn't pay any attention.";
 
 [Graphene Solar System]
-The Graphene Solar System is a spacey room in spaceland.  "[description of inside-space-rocket][paragraph break]You notice something unusual outside the porthole window."   The damp porthole window is scenery in the kamiro quadrant.  The description of the damp porthole window is "The graphene solar system hangs like a jewel in the distance.  It is partially obscured by several deep orbits worth of space junk.  Bands of the junk thousands of miles wide wrap in orbit around some planets, as well as the entire solar system.  It is, in its own way, breathtaking.  Behind it is a curtain of stars.".
-The space junk is scenery in the The Graphene Solar System.  The description is "@TODO".
+The Graphene Solar System is a spacey room in spaceland.  "[description of inside-space-rocket][paragraph break]You notice something unusual outside the porthole window."   The damp porthole window is scenery in the graphene solar system.  The description of the damp porthole window is "The graphene solar system hangs like a jewel in the distance.  It is partially obscured by several deep orbits worth of space junk.  Bands of the junk thousands of miles wide wrap in orbit around some planets, as well as the entire solar system.  It is, in its own way, breathtaking.  Behind it is a curtain of stars.".
+The space junk is scenery in The Graphene Solar System.  The description is "The space junk exists on a truly solar system scale.  A few of the planets have rings like Saturn composed entirely of broken-up equipment, compressed cubes of trash, metal pieces of every shape and size, in endless streams.  Then, another couple of monolithic bands orbit the entire solar system.".
+The planets are scenery in the graphene solar system.  The description is "There are six planets, all of them almost equal size.  A few have bands of space junk orbiting them."
 
 [
 The Princely Corridor is a spacey room in spaceland. "[description of inside-space-rocket][paragraph break]You notice something unusual outside the porthole window."
@@ -564,16 +697,31 @@ The Quick Nebula is a spacey room in spaceland. "[description of inside-space-ro
 
 Test space with "f / eat breakfast / eat lunch / f / f / f / f / f / f / open hatch / climb ladder / press red button / press blue button"
 
-[The path to behind the liquor/grocery store]
+Section Seven - The Liquor Store
 
-[behind the liquor/grocery store]
+The anticlimactic path is a room.  The printed name is "Anticlimactic Path". It is north of TLOUV2.   The description is "You are on the anticlimactic path.  Backwards is [printed name of TLOUV2].  Ahead of you, you can see the back of the liquor store."
+The antipath is in the anticlimactic path.  It is scenery.  The description of antipath is "It[apostrophe]s bound to lead somewhere exciting." 
+Understand "path" as the antipath.
 
-[the path to the around the liquor/g store]
+TLBTLS is a room. It is north of the anticlimactic path. The printed name is "The Land Behind the Liquor Store". The description is "You are in The Land Behind the Liquor Store.  It's underwhelming.  You've got your standard collection of broken down boxes, a dumpster, and a stack of pallets.  Behind you, the anticlimactic path leads to [printed name of TLOUV2].  Ahead of you, The Path Around the Liquor Store leads to The Land in Front of the Liquor Store."
 
-The front of the drug store is a room.
+TPATLS is a room.  The printed name is "The path around the liquor store".  It is north of TLBTLS.  The description is "You're on the path around the liquor store.  You see the side of the liquor store on one side and a fence on the other side."
+The liquorpath is in TPATLS.  It is scenery.  The description of liquorpath is "It[apostrophe]s a little like a sidewalk." 
+Understand "path" as the liquorpath.
+The fence is in TPATLS.  It is scenery.  The description is "A wooden slat fence, about ten feet high.  It's too high to climb."
+Instead of climbing the fence, say "It's too high and seamless to climb."
+The side of the liquor store is in TPATLS.  It is scenery.  The description is "The side of the liquor store is the least interesting part of the liquor store.  There[apostrophe]s not even any graffiti."
+
+TFOTLS is a room.  The printed name is "The Land in Front of the Liquor Store".  It is north of TPATLS. The description is "The liquor store is closed, looks like permanently, and there's just a weird kiddie ride here.".
+
+AWP is a room.  The printed name is "a white, hazy place that barely exists".  AWP is north of TFOTLS.  The description is "You find yourself in a white, hazy place that barely exists.  You were going forward from the liquor store, and now you find yourself here.  It feels confusing, and chilly, and fictional.  It feels like a dead end.  You don't know to a certainty how to go forward from here."
+
+Check going north:
+	If the player is in AWP:
+		say "You don't know to a certainty how to go forward from here." instead.
 
 [ The Kiddie Ride]
-There is a kiddie ride in the front of the drug store. The kiddie ride is a switched off device.  It is fixed in place.  The description is "Off to the side a little ways is a mechanical kiddie ride.  It's a big (to a child) yellow humvee with cartoon human eyes where the headlights should be.  It's anchored to a diamond plate platform and looks to have stopped mid-tilt.[paragraph break]Mounted on a post next to it is a coin box showing the coin denomination necessary to make it run: 25¢, or one U.S. quarter dollar piece.[paragraph break]There were once two of these rides outside every grocery store in America.  Whether they died out because kids collectively realized they weren't fun, or just liability, you're surprised to see this one here."
+There is a kiddie ride in TFOTLS. The kiddie ride is a switched off device.  It is fixed in place.  The description is "Off to the side a little ways is a mechanical kiddie ride.  It's a big (to a child) yellow humvee with cartoon human eyes where the headlights should be.  It's anchored to a diamond plate platform and looks to have stopped mid-tilt.[paragraph break]Mounted on a post next to it is a coin box showing the coin denomination necessary to make it run: 25¢, or one U.S. quarter dollar piece.[paragraph break]There were once two of these rides outside every grocery store in America.  Whether they died out because kids collectively realized they weren't fun, or just liability, you're surprised to see this one here."
 Understand "car/humvee" as the kiddie ride.
 Check examining the ride:
 	if the ride is switched on, say "The kiddie ride has snapped to life, and the humvee is mechanically bucking like a very lazy bronco." instead.
@@ -587,14 +735,14 @@ The coin release button is a part of the coin box.  The description is "The coin
 Instead of pushing the coin release button:
 	say "It smoothly depresses all the way down into the coin box.  If there were a coin stuck in the mechanism, this action would theoretically release it into the coin release tray.  There does not appear to be a coin and the coin release button depresses and releases noiselessly and frictionlessly.".
 Check inserting something into the coin slot:
-	if the noun is a penny and the player has the penny:
-		now the penny is in the tray;
-		say "The penny slides down the chute, briefly contacts some mechanism inside, and clanks out the coin return tray." instead;
 	if the noun is a quarter and the player has the quarter:
 		[ * 25¢ baby! * ]
 		now the kiddie ride is switched on;	
 		now the quarter is nowhere;	
 		say "Gravity pulls the quarter down into the slot, and then there is an agonizing pause before the weight of the quarter trips an internal lever in the machine and its song comes to life.  50% speed in one second, full speed at two seconds.  The song is 'In my merry Oldsmobile' and the dance of the humvee is drunken yet tame as it rolls and lists in a pattern potentially thrilling to a 3-year old but usually not really.  If you want to, you can ride the humvee now." instead;
+	otherwise if the noun is a penny and the player has the penny:
+		now the penny is in the tray;
+		say "The penny slides down the chute, briefly contacts some mechanism inside, and clanks out the coin return tray." instead;
 	else:
 		say "It won't fit.  It's not a coin." instead;
 Check inserting something into the tray:
@@ -607,9 +755,12 @@ Check inserting something into the tray:
 Understand "sit on [the kiddie ride]" as riding.
 Instead of riding the kiddie ride:
 	If the kiddie ride is switched on:
-		say "You climb up on the molded fiberglass seat of the humvee like a pro and right yourself against its tame rollicking.  At first you find it boring, but you quickly get in the spirit, facetiously adjusting your imaginary cowboy hat and making a quick lasso motion with your wrist to show the yellow humvee you're in full control, despite its raucous bucking.[paragraph break]If this was what you were trying to do, you pretty much won the game.  If you still have more to do, go ahead.";
+		say "You climb up on the molded fiberglass seat of the humvee like a pro and right yourself against its tame rollicking.  At first you find it boring, but you quickly get in the spirit, facetiously adjusting your imaginary cowboy hat and making a quick lasso motion with your wrist to show the yellow humvee you're in full control, despite its raucous bucking.[paragraph break]If this was what you were trying to do, you pretty much won the game, but c'mon, you entered this fictional world with all its richness and descriptions of antipasto and space locations and all you wanted to do is solve its one puzzle?  It's a mood piece, man!  You're just supposed to be relaxed and soak up the sweet, sweet ambience.  That said, none of my beta testers actually got the puzzle on their own.  I didn't think it was that hard since if you trigger the jack-in-the-box in the room you find it in, it freaks your brother out, so I felt like that was a big clue, but I do have a lot of worthless items / red herrings.  What was I talking about?  I dunno, good job though.  I personally suck at puzzles in games so I doubt I would have been able to figure it out myself.[paragraph break]Ok.  I'll admit it.  There might be one even harder puzzle.";
 		now the kiddie ride is switched off;
 	otherwise:
 		say "You climb up on the molded fiberglass seat of the humvee but it feels cold, joyless, and dead underneath you.  You distinctly feel the feeling of being so unloved that no one would put a quarter in the slot, not understanding how such a simple thing could make all the difference.  You slide slowly off.".
+
+Instead of switching on the kiddie ride:
+	say "The way to turn on the kiddie ride is to put a quarter into the coin slot.  Cash rules everything around me.  Gotta insert the money.  Quarter, quarter coin y'all.".
 
 Test ride with "f / f / f / x ride / press coin release button / look under couch / get penny / put penny in slot"
