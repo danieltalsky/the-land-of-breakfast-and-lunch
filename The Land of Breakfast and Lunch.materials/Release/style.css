@@ -1,4 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Quattrocento:400,700|Titan+One&display=swap');
+
+/*
+@import url('https://fonts.googleapis.com/css?family=Quattrocento:400,700|Baloo+Thambi+2:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Quattrocento:400,700|Trade+Winds&display=swap');
+*/
 /*
 
 Standard CSS file for use with Standard.html and Standard-Source.html. 
@@ -99,23 +104,24 @@ To change the appearance of specific elements, tweak
 }
 
 .introduction h1 {
-	font-family: 'Trade Winds';
-	font-size: 30px;
-	color: #630b62;
+	font-family: 'Titan One';
+	font-size: 28px;
+	color: #324f3f;
 	position: relative; 
+	font-weight: 400;
 
-	animation: intrigue 2s infinite 5s linear;
-	text-shadow: .02em .02em #424256;
+	animation: intrigue 2s infinite 6s linear;
+	/*text-shadow: .02em .02em #424256;*/
 }
 
 @keyframes intrigue {
-	0% { top: 0; }
-	86% { top: 0; }
-	88% { top: -6px; }
-	90% {  top: 0; }
-  	92% {  top: -3px; }
-	94% { top: 0; }
-	100% { top: 0; }
+	0% { top: 0; letter-spacing: 0px;}
+	86% { top: 0; letter-spacing: 0px; }
+	88% { top: -6px; letter-spacing: 0.6px; }
+	90% {  top: 0; letter-spacing: 0px;}
+  	92% {  top: -3px; letter-spacing: 0.2px; }
+	94% { top: 0; letter-spacing: 0px;}
+	100% { top: 0; letter-spacing: 0px;}
 }
 
 /* 

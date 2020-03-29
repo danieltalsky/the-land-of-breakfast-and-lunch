@@ -22,7 +22,7 @@ placeholder [IFID] = "4E7D8B5D-ABD4-4675-BBD2-31E9CCC2B2CC"
 placeholder [RELEASE] = "12"
 placeholder [YEAR] = "2020"
 placeholder [TITLE] = "The Land of Breakfast and Lunch"
-placeholder [AUTHOR] = "Daniel Talsky"
+placeholder [AUTHOR] = "Daniel Talsky &amp; Rabbit, Rabbit"
 placeholder [BLURB] = "An interactive diorama of made-up memories."
 
 ! Other material to release

@@ -11,7 +11,7 @@ Some would say that life is like a box of metaphors.  I would not say that.  I w
 
 The Land of Breakfast and Lunch
 ~ a land can contain both ~ by Daniel Talsky
-Release 11 / Serial number 200328 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
+Release 12 / Serial number 200328 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
 
 The Path
 You are at the beginning of a path.  It is plain, even homely.  It leads forward towards The Land of Breakfast and Lunch.  If you "walk forward" you will follow the path.
@@ -440,6 +440,7 @@ You can see a painted picnic table (on which are Breakfast and Lunch) here.
             <child nodeId="node-6749"></child>
             <child nodeId="node-7801"></child>
             <child nodeId="node-8092"></child>
+            <child nodeId="node-9362"></child>
             <child nodeId="node-6729"></child>
         </children>
     </item>
@@ -483,6 +484,105 @@ You are at the beginning of a path.  It is plain, even homely.  It leads forward
         <result xml:space="preserve">Mr. Tuxedo is a young, healthy dog in the very prime of his life.  He's black all over except the tips of his front paws, and the bottom of his chin and belly, giving him the appearance of permanent formalwear.
 
 That's not a verb I recognize.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-9362">
+        <command xml:space="preserve">tuxedo, fetch</command>
+        <result xml:space="preserve">Mister Tuxedo doesn't recognize the command, but he will probably fetch something you throw if he's interested.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9385"></child>
+        </children>
+    </item>
+    <item nodeId="node-9385">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9386"></child>
+        </children>
+    </item>
+    <item nodeId="node-9386">
+        <command xml:space="preserve">tuxedo, sit</command>
+        <result xml:space="preserve">Mister Tuxedo cocks his head and sits for a moment, but he doesn't stay sitting for long.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9387"></child>
+        </children>
+    </item>
+    <item nodeId="node-9387">
+        <command xml:space="preserve">tuxedo, stay</command>
+        <result xml:space="preserve">Mister Tuxedo cocks his head and sits for a moment, but he doesn't stay sitting for long.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9413"></child>
+        </children>
+    </item>
+    <item nodeId="node-9413">
+        <command xml:space="preserve">tuxedo, roll</command>
+        <result xml:space="preserve">Mister Tuxedo looks at you quizzically for a moment, but then, to your surprise, actually rolls over quickly.  He barks as if it's not his favorite trick.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9414"></child>
+        </children>
+    </item>
+    <item nodeId="node-9414">
+        <command xml:space="preserve">tuxedo, roll over</command>
+        <result xml:space="preserve">Mister Tuxedo looks at you quizzically for a moment, but then, to your surprise, actually rolls over quickly.  He barks as if it's not his favorite trick.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9442"></child>
+        </children>
+    </item>
+    <item nodeId="node-9442">
+        <command xml:space="preserve">tuxedo speak</command>
+        <result xml:space="preserve">That's not a verb I recognize.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9443"></child>
+        </children>
+    </item>
+    <item nodeId="node-9443">
+        <command xml:space="preserve">tuxedo, speak</command>
+        <result xml:space="preserve">Mister Tuxedo gives a curt bark, and then a little awoo, so you know he was responding to your command.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9444"></child>
+        </children>
+    </item>
+    <item nodeId="node-9444">
+        <command xml:space="preserve">tell tuxedo to speak</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9445"></child>
+        </children>
+    </item>
+    <item nodeId="node-9445">
+        <command xml:space="preserve">ask tuxedo to speak</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9477"></child>
+        </children>
+    </item>
+    <item nodeId="node-9477">
+        <command xml:space="preserve">play with jack</command>
+        <result xml:space="preserve">You grasp the little wooden ball and begin to turn the crank as you hold the jack-in-the-box steady.  A dark little tune plinks its way out, echoing forth from the little tin box.  It's not "all around the mulberry bush" or any song you recognize, so you don't quite expect it when its last note ends, and the spring-loaded doll within leaps out with surprising agility.  You jump a tiny bit, in spite of yourself.  The devil doll looks pleased.
+
+Mister Tuxedo lets out a sharp "Yipe!" and eyes you warily.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -2497,6 +2597,7 @@ You notice something unusual outside the porthole window.
             <child nodeId="node-3854"></child>
             <child nodeId="node-3912"></child>
             <child nodeId="node-5465"></child>
+            <child nodeId="node-9253"></child>
             <child nodeId="node-5354"></child>
         </children>
     </item>
@@ -2593,6 +2694,95 @@ You can see a kiddie ride here.
     <item nodeId="node-5378">
         <command xml:space="preserve">turn on kiddie ride</command>
         <result xml:space="preserve">The way to turn on the kiddie ride is to put a quarter into the coin slot.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-9253">
+        <command xml:space="preserve">wave</command>
+        <result xml:space="preserve">You wave your little heart out, but that doesn't get the space jellyfish's attention.  There's got to be some way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9254"></child>
+        </children>
+    </item>
+    <item nodeId="node-9254">
+        <command xml:space="preserve">wave at jellyfish</command>
+        <result xml:space="preserve">You wave your little heart out, but that doesn't get the space jellyfish's attention.  There's got to be some way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9255"></child>
+        </children>
+    </item>
+    <item nodeId="node-9255">
+        <command xml:space="preserve">tap on glass</command>
+        <result xml:space="preserve">You hit the porthole window but it doesn't seem to affect the space jellyfish.  There's got to be some way to get the space jellyfish's attention.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9256"></child>
+        </children>
+    </item>
+    <item nodeId="node-9256">
+        <command xml:space="preserve">press blue</command>
+        <result xml:space="preserve">Whoosh.  You thought maybe the engine engaged again, but something else already did.  It bent space softly around you, and, maybe the rocket moved a little.  Like with a soft whoosh.  It happened in less than a second.  Now, you think you're somewhere else.
+
+Kamiro Quadrant
+You are inside the rocket as it cruises very slowly through the deep, dark void of space.  Outside the porthole window is the deep, dark void of space covered over with a curtain of stars.
+
+You notice something unusual outside the porthole window.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9257"></child>
+        </children>
+    </item>
+    <item nodeId="node-9257">
+        <command xml:space="preserve">press blue</command>
+        <result xml:space="preserve">Whoosh.  You thought maybe the engine engaged again, but something else already did.  It bent space softly around you, and, maybe the rocket moved a little.  Like with a soft whoosh.  It happened in less than a second.  Now, you think you're somewhere else.
+
+Chrysocolla Cluster
+You are inside the rocket as it cruises very slowly through the deep, dark void of space.  Outside the porthole window is the deep, dark void of space covered over with a curtain of stars.
+
+You notice something unusual outside the porthole window.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9277"></child>
+        </children>
+    </item>
+    <item nodeId="node-9277">
+        <command xml:space="preserve">talk to the simian</command>
+        <result xml:space="preserve">The simian businessperson is not going to be able to understand anything you say through the vacuum of space.   Doesn't seem to notice your mouth moving.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9298"></child>
+        </children>
+    </item>
+    <item nodeId="node-9298">
+        <command xml:space="preserve">ask simian about face</command>
+        <result xml:space="preserve">The simian businessperson is not going to be able to understand anything you say through the vacuum of space.   Doesn't seem to notice your mouth moving.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9299"></child>
+        </children>
+    </item>
+    <item nodeId="node-9299">
+        <command xml:space="preserve">ask simian about self</command>
+        <result xml:space="preserve">The simian businessperson is not going to be able to understand anything you say through the vacuum of space.   Doesn't seem to notice your mouth moving.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9300"></child>
+        </children>
+    </item>
+    <item nodeId="node-9300">
+        <command xml:space="preserve">ask simian about self</command>
+        <result xml:space="preserve">The simian businessperson is not going to be able to understand anything you say through the vacuum of space.   Doesn't seem to notice your mouth moving.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -9048,6 +9238,7 @@ You can see a painted picnic table (on which are Breakfast and Lunch) here.
             <child nodeId="node-2819"></child>
             <child nodeId="node-1569"></child>
             <child nodeId="node-1573"></child>
+            <child nodeId="node-9325"></child>
             <child nodeId="node-1574"></child>
             <child nodeId="node-1576"></child>
             <child nodeId="node-1578"></child>
@@ -9243,6 +9434,22 @@ You are at the beginning of a path.  It is plain, even homely.  It leads forward
     <item nodeId="node-1575">
         <command xml:space="preserve">take off shirt</command>
         <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-9325">
+        <command xml:space="preserve">push table</command>
+        <result xml:space="preserve">The painted picnic table is super heavy and it doesn't seem worth it.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9326"></child>
+        </children>
+    </item>
+    <item nodeId="node-9326">
+        <command xml:space="preserve">pull table</command>
+        <result xml:space="preserve">The painted picnic table is super heavy and it doesn't seem worth it.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -10171,6 +10378,8 @@ You can see a toy box (closed), a couch (on which is your brother), and a TV her
             <child nodeId="node-5736"></child>
             <child nodeId="node-6188"></child>
             <child nodeId="node-1259"></child>
+            <child nodeId="node-9481"></child>
+            <child nodeId="node-9487"></child>
             <child nodeId="node-1405"></child>
             <child nodeId="node-7380"></child>
             <child nodeId="node-1448"></child>
@@ -22252,9 +22461,18 @@ You're on the path around the liquor store.  You see the side of the liquor stor
         <command xml:space="preserve">f</command>
         <result xml:space="preserve">
 The Land in Front of the Liquor Store
-The Land in Front of the Liquor Store looks mostly abandoned, and you feel a slight sense of disappointment and dread here.  The liquor store is closed, looks like permanently, and there's just a weird kiddie ride here.  There are marks on the sidewalk where some other metal vending machines were, but it looks like they've been carted away.  Only the kiddie ride remains.  It's pretty depressing here, but if you continue to go forward, the Idyllic Path leads to The Land of Puppy Cardiovascular health, which is the H.
+The Land in Front of the Liquor Store looks mostly abandoned, and you feel a slight sense of disappointment and dread here.  The liquor store is closed, looks like permanently, and there's just a weird kiddie ride here.  There are marks on the sidewalk where some other metal vending machines were, but it looks like they've been carted away.  Only the kiddie ride remains.  It's pretty depressing here, but if you continue to go forward, the Idyllic Path leads to The Land of Puppy Cardiovascular health, which is the superior place.
 
 You can see a kiddie ride here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9340"></child>
+        </children>
+    </item>
+    <item nodeId="node-9340">
+        <command xml:space="preserve">insert block into kiddie ride</command>
+        <result xml:space="preserve">It won't fit.  It's not a coin.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -22996,8 +23214,10 @@ You can see a swarthy hippie seaperson here.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-8356"></child>
+            <child nodeId="node-9235"></child>
             <child nodeId="node-1262"></child>
             <child nodeId="node-4719"></child>
+            <child nodeId="node-9493"></child>
             <child nodeId="node-1294"></child>
             <child nodeId="node-8261"></child>
             <child nodeId="node-1295"></child>
@@ -23242,6 +23462,13 @@ You are on the the sequel path.  Backwards from here is The Land of Unlaunched V
     <item nodeId="node-1294">
         <command xml:space="preserve">look bay</command>
         <result xml:space="preserve">You stand at the edge of the bay.  It could be any kind of inlet, possibly a fjord, but it's too calm to be the sea itself, and you can't see land on the other side.  Let's call it a bay.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-9493">
+        <command xml:space="preserve">hippie, walk north</command>
+        <result xml:space="preserve">"Although I am not technically the captain of The Chimera, I do not generally take orders from strangers."
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -24921,7 +25148,7 @@ You notice something unusual outside the porthole window.
         <command xml:space="preserve">b</command>
         <result xml:space="preserve">
 The Land of Unlaunched Vessels II: The Launchening
-You are in The Land of Unlaunched Vessels II: The Launchening.  There is a launchpad here, on which sits a large, 1950's era rocket in galaxy white and candy-apple red. Sequel Path leads backwards towards The Land of Unlaunched Vessels
+You are in The Land of Unlaunched Vessels II: The Launchening.  There is a launchpad here, on which sits a large, 1950's era rocket in galaxy white and candy-apple red. The Sequel Path leads backwards towards The Land of Unlaunched Vessels.  Ahead of you, The Anticlimactic Path probably leads somewhere really amazing.
 
 You can see a launchpad and a rocket here.
 
@@ -24952,7 +25179,33 @@ You can see a swarthy hippie seaperson here.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-5678"></child>
+            <child nodeId="node-9505"></child>
         </children>
+    </item>
+    <item nodeId="node-9505">
+        <command xml:space="preserve">seaperson, take mast</command>
+        <result xml:space="preserve">"Although I am not technically the captain of The Chimera, I do not generally take orders from strangers."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9506"></child>
+        </children>
+    </item>
+    <item nodeId="node-9506">
+        <command xml:space="preserve">seaperson, take ball</command>
+        <result xml:space="preserve">"Although I am not technically the captain of The Chimera, I do not generally take orders from strangers."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9507"></child>
+        </children>
+    </item>
+    <item nodeId="node-9507">
+        <command xml:space="preserve">seaperson, take tennis ball</command>
+        <result xml:space="preserve">"Although I am not technically the captain of The Chimera, I do not generally take orders from strangers."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-5678">
         <command xml:space="preserve">b</command>
@@ -25080,6 +25333,47 @@ You sit down for a moment and eat breakfast.  It is delicious but you still don'
         <command xml:space="preserve">eat lunch</command>
         <result xml:space="preserve">(Lunch)
 Lunch was wonderful.  Your stomach feels like a puzzle, where the final piece has finally been snapped into place.  You now feel as if you could take on the world.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-9235">
+        <command xml:space="preserve">ask seaperson about bal</command>
+        <result xml:space="preserve">"Sorry, I do not know about that."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9236"></child>
+        </children>
+    </item>
+    <item nodeId="node-9236">
+        <command xml:space="preserve">ask seaperson about ball</command>
+        <result xml:space="preserve">"Oh, you want the tennis ball?  Hey, that seems reasonable."
+
+The seaperson puts both fingers in her mouth and emits an incredibly loud and shrill whistle.  A crewmember pops his head over the edge of the deck and she gives him a little nod.  A few minutes later, he appears at the retaining wall with a large rowboat.
+
+The seaperson hops in, and they row around to the opposite side of the fluyt.  Several minutes later, you see the hippie seaperson doggedly climbing the mast to get to the tennis ball.  It takes her quite a few minutes to get it pulled free from however it's attached to the mast.
+
+Finally, she's rowed back to the retaining wall and she returns to you, panting deeply.  "Here you go," she says wearily, "I hope you find some good use for it."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9237"></child>
+        </children>
+    </item>
+    <item nodeId="node-9237">
+        <command xml:space="preserve">g</command>
+        <result xml:space="preserve">"I hope you found a good use for it."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9238"></child>
+        </children>
+    </item>
+    <item nodeId="node-9238">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  a tennis ball
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -25373,6 +25667,39 @@ It doesn't really seem appropriate to just start eating lunch with a perfectly g
     <item nodeId="node-1405">
         <command xml:space="preserve">change the channel</command>
         <result xml:space="preserve">That's not a verb I recognize.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-9487">
+        <command xml:space="preserve">brother, walk north</command>
+        <result xml:space="preserve">"Does it look like I'm taking orders from you?  A little reminder: you are a giant loser."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-9481">
+        <command xml:space="preserve">brother, jump</command>
+        <result xml:space="preserve">"Does it look like I'm taking orders from you?  Reminder: you are a giant loser."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9482"></child>
+        </children>
+    </item>
+    <item nodeId="node-9482">
+        <command xml:space="preserve">brother, walk</command>
+        <result xml:space="preserve">You'll have to say which compass direction to go in.
+I didn't understand that instruction.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-9483"></child>
+        </children>
+    </item>
+    <item nodeId="node-9483">
+        <command xml:space="preserve">brother, walk north</command>
+        <result xml:space="preserve">Your brother has better things to do.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>

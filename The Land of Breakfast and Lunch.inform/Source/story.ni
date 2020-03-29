@@ -1,4 +1,4 @@
-"The Land of Breakfast and Lunch" by Daniel Talsky
+"The Land of Breakfast and Lunch" by Daniel Talsky & Rabbit,Rabbit
 
 The story headline is "~ a land can contain both ~"
 
@@ -75,7 +75,7 @@ Displaying the help text is an action out of world. Understand "help" as display
 Displaying the about text is an action out of world. Understand "about" as displaying the about text. Carry out displaying the about text: say "[abouttext]". To say abouttext: say "You're playing The Land of Breakfast and Lunch, a kind of game or a fictional miniverse where you can walk around and waste your time.  There is not a lot of point to it, so just look around and poke around and enjoy yourself, if you like that kind of thing.[paragraph break]There's only one puzzle and you won't miss much if you don't solve it.  [paragraph break]All versions of The Land of Breakfast and Lunch are released under the Creative Commons Attribution-Noncommercial-Share Alike 3.0 license. In summary, you may freely distribute, perform, or create derivative works, but not for commercial purposes without permission from the author. More information is available at http://creativecommons.org/licenses/by-nc-sa/3.0/us/.".
 
 [credits]
-Displaying the credit text is an action out of world. Understand "credits" as displaying the credit text. Carry out displaying the credit text: say "[credittext]". To say credittext: say "The Land of Breakfast and Lunch was written by Daniel Talsky and is a [bracket][bracket]Rabbit,Rabbit[close bracket][close bracket] production.[paragraph break]Inspiration and 3-D modeled cover art by Hypothesis Archer | http://reptilemind.com[paragraph break]The game's generous and thorough beta testers include:[paragraph break]- Jason 'Always Be Testing' Dockins[line break]- Mike 'The Pious' Tarbert[line break]- Caleb 'No Stone Unturned' Wilson[line break]- Josh Grams[line break]- Matthew George[line break]- Michael 'Space Swimmer' Baltes[line break]- Daniël Worm[line break]- Nick Gauthier[paragraph break]Last, but not least, I'd like to thank you, the player, personally.  You could be watching Better Call Saul or reading Fyodor Dostoevsky or be playing pinball.  Instead, you're taking the time to explore something I made and I really appreciate it.  I had fun making this, but most of the fun was imagining you doing what you're doing right now.".
+Displaying the credit text is an action out of world. Understand "credits" as displaying the credit text. Carry out displaying the credit text: say "[credittext]". To say credittext: say "The Land of Breakfast and Lunch was written by Daniel Talsky and is a [bracket][bracket]Rabbit,Rabbit[close bracket][close bracket] production.[line break]http://rabbitrabbit.city[paragraph break]Inspiration and 3-D modeled cover art by Hypothesis Archer[line break]http://reptilemind.com[paragraph break]The game's generous and thorough beta testers include:[paragraph break]- Jason 'Always Be Testing' Dockins[line break]- Mike 'The Pious' Tarbert[line break]- Caleb 'No Stone Unturned' Wilson[line break]- Josh Grams[line break]- Matthew George[line break]- Michael 'Space Swimmer' Baltes[line break]- Daniël Worm[line break]- Nick Gauthier[paragraph break]Special thanks to Mike 'The Lord is His Shepherd' Tarbert for extensive testing PLUS actual code help.[paragraph break]Last, but not least, I'd like to thank you, the player, personally.  You could be watching Better Call Saul or reading Fyodor Dostoevsky or playing pinball.  Instead, you're taking the time to explore something I made and I really appreciate it.  I had fun making this, but most of the fun was imagining you doing what you're doing right now.  Reading the credits.  No, I mean playing the game.".
 
 [Nicer default description of things with no description.]
 The description of a thing is usually "You look at [the noun] very closely indeed, and to be completely honest, it looks about how you'd expect.  You think for a moment that there might be something slightly special about it but then, upon looking just a little closer, you see that there isn't."
@@ -154,6 +154,7 @@ The printed name of TLoBL is "The Land of Breakfast and Lunch"
 A clearing is in TLoBL.  The clearing is scenery.  The description is "The clearing is a small picnic area, intentionally cleared and maintained to allow a person or family to stop by the side of the path and dine."
 
 A painted picnic table is in TLoBL. The table is a supporter. The table is enterable.  The description is "It's a well-maintained picnic table painted in a bright, childish, civic style, depicting a crude sun with huge yellow beams bathing jagged pine trees in their light.".  
+Understand "push [table]" or "pull [table]" as a mistake ("The painted picnic table is super heavy and it doesn't seem worth it.").
 The sun is in TLoBL.  The sun is scenery.  The description is "The sun is a simple yellow circle.".  The beams are in TLoBL.  The beams are scenery.  The description is "The sun beams are bright yellow geometric shapes symbolically nourishing the pine trees with their light.".  Understand "sun beams" as the beams.  The pine trees are in TLoBL.  The pine trees are scenery.  The description is "The pine trees are just a brown rectangle topped with a jagged green pine tree shape.".
 Instead of looking under the table, say "The grass underneath is getting a bit brown."
 Grass is scenery in TLoBL.  The description of the grass is "It's grassy.  And brownish."
@@ -245,8 +246,8 @@ The hinged wooden lid is a part of the toy box.
 Instead of opening the hinged wooden lid:
 	try opening the toy box.
 Understand "lift [lid]" as opening.
-Instead of taking the box, say "You could probably lift it, but it's a sturdy wooden box and heavier than anything you want to carry around."
-Instead of pushing or pulling the box, say "It's a nicely made wooden box, you're just going to scuff it up shoving it around."
+Instead of taking the toy box, say "You could probably lift it, but it's a sturdy wooden box and heavier than anything you want to carry around."
+Instead of pushing or pulling the toy box, say "It's a nicely made wooden box, you're just going to scuff it up shoving it around."
 
 There is a wooden block in the toy box.  The block is puppy-throwable.  The description of the wooden block is "It is a simple block made out of wood.  It is an unpainted cube, with very slightly rounded corners.  It's the kind of thing you would find at a Montessori school, usually in the company of many of its compatriots.  This one is alone."
 [Playing with things]
@@ -254,6 +255,8 @@ Playing with is an action applying to one visible thing.
 Understand "play with [a visible thing]" as playing with.
 Instead of playing with a visible thing:
 	say "You did.  You are good at entertaining yourself.".
+Instead of playing with Mister Tuxedo:
+	say "Mister Tuxedo has a preferred way he likes to be played with: throwing something for him to catch.".	
 Instead of playing with the wooden block:
 	say "It's just one block.  It's possibly the single most boring toy imaginable by itself.".
 Instead of playing with the plastic doll:
@@ -264,9 +267,10 @@ Instead of playing with the hobby horse:
 	try riding the hobby horse.
 Instead of playing with the coloring book:
 	try coloring the coloring book.
+Instead of playing with the jack-in-the-box:
+	try opening the jack-in-the-box.
 Instead of playing with breasts:
 	say "C'mon dude.".
-
 
 There is a skinny naked plastic doll in the toy box.  The naked doll is puppy-throwable.  The description is "The face of the skinny plastic doll is forever frozen in an expression of bored self-satisfaction.  Its long naked arms and legs bend and articulate, but not much.  Its breasts are idealized, yet awkwardly shaped, like rounded pyramids.  It has nylon synthetic hair that cascades stiffly around its shoulders.".  The nylon hair is a part of the doll.  The description is "The hair is really tiny tufts of nylon that poke out of holes in the doll's head.".  The breasts are a part of the plastic doll.  The description is "They are merely designed to fill out a miniature blouse, and look very unnatural unclothed.".  Understand "arms/legs/arm/leg/shoulder" as the doll.  
 Understand "bend [the plastic doll]" as bending.  Bending is an action applying to one visible thing.
@@ -296,11 +300,15 @@ Instead of opening the closed jack-in-the-box:
 		say "[line break]For some reason, the crack of the jack-in-the-box opening unnerves your brother.  He leaps up from the couch for a moment. 'Quit it, you craphead,' your brother snarls.  He gives you an extremely intense look and lays back on the couch.";
 	otherwise if the player is in TLOUV:
 		say "[line break]'AAAAAAAGH,' the seaperson screams, leaping fully into the air, a wide, scratchy bellow.  'Goddamnit.  Get that creepy thing away from me,' she requests sincerely, 'What the hell is that, a little devil-in-a-box?  What's wrong with you?'.";
+	otherwise if the player is in TLOPCH:
+		say "[line break]Mister Tuxedo lets out a sharp 'Yipe!' and eyes you warily.";
+	otherwise if the player is in Elbow Nebula:
+		say "[line break]You cannot be certain, but it almost seemed like the space jellyfish veered away from the ship for a moment.";			
 	otherwise if the player is in The Chrysocolla Cluster:
 		if the businessperson is unstartled:
 			say "[line break]The simian businessperson's eyes whip suddenly to the face of the devil doll.  Its eyes widen and turn shockingly pale blue in a clearly recognizable look of total terror.  Their fingers whip forward towards you involuntarily, and you suddenly feel whatever they were holding in the palm of your own hand.  It is a shiny 1964 quarter.  The businessperson looks briefly dismayed but merely pulls something else out of its pocket.";
 			now the businessperson is startled;
-			move the shiny 1964 quarter to the player;
+			move the shiny 1964 quarter to the player;			
 		otherwise:
 			say "[line break]The simian businessperson's eyes widen in fear for a moment, but otherwise he keeps his cool.".
 
@@ -474,16 +482,31 @@ Understand "my brother", "bro" as brother.
 [special brother dialog rules]
 [any visible thing]
 Instead of thing-asking brother about a thing:
-	say "'It's [the second noun], just look at it yourself.'".
+	say "'It's [a second noun], just look at it yourself.'".
 Instead of thing-asking brother about brother:
 	say "'Yes, I[apostrophe]m your brother.  I am watching TV.'".
+Instead of thing-asking brother about couch:
+	say "'I am the current sole resident of the couch.  You can sit on the toy box.  Or the floor.  I do not care.  You don't really need to sit.'".	
+Instead of thing-asking brother about locket:
+	say "'Yeah, I think it was mom[apostrophe]s.  Because she loves you soooooo much.  Barf.'".	
+Instead of thing-asking brother about jack-in-the-box:
+	say "'Can you do me a favor and play with that somewhere else?  I hate its creepy little French song.  And face.  I hate everything about it.'".		
+Instead of thing-asking brother about block:
+	say "Your brother rolls his eyes, 'It is definitely a wooden block.  See if you can get it open, I think it has gold inside.'".		
+Instead of thing-asking brother about lite-brite:
+	say "Oh yeah, you know the coloring book came with a special lite-brite bulb.  If you put the last page in it and plug it in, the picture glows.'".		
+Instead of  thing-asking brother about coloring book:	say "'Yeah, it came with a special bulb for the lite-brite.  I put the bulb in a long time ago.  Horse party dude!'";
 Instead of thing-asking brother about the player:
-	say "'You are mentally challenged.'".
+	say "'Fun fact about you: you are mentally challenged.'".
 Instead of thing-telling brother about a thing:
 	say "'Yeah, it's [the second noun], snotball, what do you want from me?'".
 [specific non-visible thing topics - asking]
 Instead of asking your brother about "quarter/quarters":
 	say "'I don[apostrophe]t have a quarter, no, but I think there's a penny under the couch.'".
+Instead of asking your brother about "mister/tuxedo":
+	say "'Aw yeah, Mister Tuxedo is adorable.'".	
+Instead of asking your brother about "mister tuxedo":
+	say "'Aw yeah, Mister Tuxedo is adorable.'".	
 [specific non-visible thing topics - telling]
 Instead of telling your brother about "rocket":
 	say "'You expect me to believe you saw a real rocket?'".
@@ -583,8 +606,14 @@ Instead of thing-asking seaperson about a thing:
 		say "'Ah yeah, that[apostrophe]s a mooring bollard.'";
 	else if the second noun is ropes:
 		say "'Technically you would call them line, or mooring warps.  Landlubbers call them ropes though.'";	
+	else if the second noun is knots:
+		say "'It[apostrophe]s a really obscure knot, you probably wouldn[apostrophe]t know it.'";		
+	else if the second noun is devil doll:
+		say "'I truly think that thing is evil.'";	
+	else if the second noun is jack-in-the-box:
+		say "'You can keep that thing away from me.'";			
 	else if the second noun is seaperson:
-		say "'I don[apostrophe]t know what a hippie is.  Is it like a fannie pack?'";
+		say "'I[apostrophe]m an able-bodied seaperson, who happens to be a woman.'";
 	else if the second noun is the player:
 		say "'I don[apostrophe]t know you very well, but you seem nice enough.  I mostly know about seafaring things.'";
 	else if the second noun is padeye:
@@ -592,7 +621,7 @@ Instead of thing-asking seaperson about a thing:
 	else if the second noun is sails:
 		say "'Square sails are the best for going straight downwind.'";		
 	else if the second noun is masts:
-		say "'There are three main masts on The Chimera.  See?'";			
+		say "'There are three main masts on The Chimera.  See?  The back mast has a tennis ball wired to it for good luck.  I cannot even remember how that tradition started.'";			
 	else if the second noun is dreadlocks:
 		say "'Yeah, if you[apostrophe]re a seaperson, combing your hair gets pretty old after a while.  This way I can just rinse them out with seawater from time to time.'";			
 	else if the second noun is brass bands:
@@ -600,8 +629,8 @@ Instead of thing-asking seaperson about a thing:
 	else if the second noun is tennis ball:
 		if the tennis ball is attached-to-the-mast:
 			say "'Oh, you want the tennis ball?  Hey, that seems reasonable.'[paragraph break]The seaperson puts both fingers in her mouth and emits an incredibly loud and shrill whistle.  A crewmember pops his head over the edge of the deck and she gives him a little nod.  A few minutes later, he appears at the retaining wall with a large rowboat.[paragraph break]The seaperson hops in, and they row around to the opposite side of the fluyt.  Several minutes later, you see the hippie seaperson doggedly climbing the mast to get to the tennis ball.  It takes her quite a few minutes to get it pulled free from however it[apostrophe]s attached to the mast.[paragraph break]Finally, she[apostrophe]s rowed back to the retaining wall and she returns to you, panting deeply.  'Here you go,' she says wearily, 'I hope you find some good use for it.'";
-			move the tennis ball to the player;
 			now the tennis ball is not attached-to-the-mast;
+			move the tennis ball to the player;
 		otherwise:
 			say "'I hope you found a good use for it.'";	
 	else if the second noun is fluyt:
@@ -624,7 +653,7 @@ Instead of asking seaperson about "pirate/pirates":
 Instead of asking seaperson about "hippies/hippie/hippy":
 	say "'I don[apostrophe]t know what a hippie is.  Is it like a fannie pack?'".	
 Instead of asking seaperson about "trade/dispute":
-	say "'The trade dispute began about four years ago, and The Chimera has been moored here in this temporary location nearly that entire time.  First time I[apostrophe]ve ever been paid NOT to sail.  I think someone in The Land of Taxable Interest got a little rowdy, and someone in The Land of Sensible Tariffs took exception.'".		
+	say "'The trade dispute began about four years ago, and The Chimera has been moored here in this temporary location nearly that entire time.  First time I[apostrophe]ve ever been paid NOT to sail.  I think someone in The Land of Taxable Interest got a little rowdy, and someone in The Land of Sensible Tariffs took exception.'".	
 Instead of asking seaperson about "trade dispute":
 	say "'The trade dispute began about four years ago, and The Chimera has been moored here in this temporary location nearly that entire time.  First time I[apostrophe]ve ever been paid NOT to sail.  I think someone in The Land of Taxable Interest got a little rowdy, and someone in The Land of Sensible Tariffs took exception.'".		
 [specific non-visible thing topics - telling]
@@ -851,12 +880,20 @@ The bulbous body is a part of the space jellyfish.  The description is "It pulse
 The tendrils are a part of the space jellyfish.  The description is "Long tendrils in rows of six cascade out from the space jellyfish.  In a real jellyfish they would be there to catch prey, and maybe these are, but they just seem to be creating drag and stabilizing the massive thing, or just making it look elegant and pretty; bits of light eddy out of the very edges of them.[if the jellyfish is delighted]The space jellyfish wiggles its tendrils in what you can only assume is delight and satisfaction.[end if]". Understand "tentacles/tentacle/tendril" as the tendrils.
 The currents are scenery in the elbow nebula.  The description is "Well, [bold type]you[roman type] can't see whatever ripples and waves it's riding." Understand "current" as the currents.
 
+Instead of waving hands when the player is in Elbow Nebula, say "You wave your little heart out, but that doesn't get the space jellyfish's attention.  There's got to be some way.".
+Instead of waving at the jellyfish, say "You wave your little heart out, but that doesn't get the space jellyfish's attention.  There's got to be some way.".
+Understand "glass" as the second porthole window.
+Instead of attacking the second porthole window:
+	say "You hit the porthole window but it doesn't seem to affect the space jellyfish.  There's got to be some way to get the space jellyfish's attention.";
+
 To say jellyfish-delight-text: say "The space jellyfish seems to react to the luminous day-glo quality of the now-lit horse party.[paragraph break]The jellyfish pulses rapidly and its tendrils begin to oscillate rapidly.  The space in front of the window begins to shimmer and shift, and pulses of light begin to form and coalesce.[paragraph break]In the space in front of you, a version of the horse party scene depicted on the last page of the coloring book begins to form.  It looks as if the space jellyfish has manipulated its light or plasma or whatever to create a sparkling image that floats in space in front of the porthole window.[paragraph break]The space jellyfish wiggles its tendrils in what you can only assume is delight and satisfaction.[paragraph break]If that's what you were trying to do, you won the game!  You can also throw the tennis ball to Mister Tuxedo and ride the kiddie ride if you're a completionist.";
 
 [Kamiro Quadrant]
 The Kamiro Quadrant is a spacey room in spaceland.  "[description of inside-space-rocket][paragraph break]You notice something unusual outside the porthole window."   The first porthole window is scenery in the kamiro quadrant.  The description of the first porthole window is "There is a space station here, as crisp and clean in the near distance as 1960[apostrophe]s  film.  Behind it is a curtain of stars.".  Instead of searching the first porthole window, try examining the first porthole window.
 The space station is scenery in the kamiro quadrant.  The description is "It's a wheel with four little crossbars connecting its two tubular circles.  It's dotted with windows and tiny devices you can't see clearly from here.  A few lights pulse on the surface from time to time.  Its surface is almost blindingly white and clean.  It is slowly turning end over end.  It is very well lit.".
-The crossbars are a part of the space station. The description is "There are four crossbars, making a sort of plus sign with a hole in the middle.".
+The crossbars are a part of the space station. The description is "There are four crossbars, making a sort of plus sign with a hole in the middle.".  Understand "axis" as the crossbars.
+The wheel is a part of the space station.  The description is "The space station itself is basically a wheel separated by four crossbars.  It seems to spin very slowly along its center axis.".
+The lights are a part of the space station.  The description is "You have no idea what the lights could be for.  A couple of them could be beacons or indicator lights, but there's really no reason for all those lights.  They do make the space station look cool though."
 
 [Chrysocolla Cluster]
 The Chrysocolla Cluster is a spacey room in spaceland. "[description of inside-space-rocket][paragraph break]You notice something unusual outside the porthole window."  The jinky porthole window is scenery in the chrysocolla cluster.  The description of the jinky porthole window is "Just outside the window is a simian businessperson, with a tidy leather jetpack.  Behind them is a curtain of stars.".  Instead of searching the jinky porthole window, try examining the jinky porthole window.
@@ -868,17 +905,22 @@ There is a shiny 1964 quarter.  The description of the quarter is "Before 1964, 
 The jetpack is scenery in the chrysocolla cluster.  The description is "It's a really tasteful jetpack.  So well made, out of something like hand-tooled leather.  It doesn't shoot fire so much as tight concentric circles of light and force."
 Instead of waving hands when the player is in Chrysocolla Cluster, say "You wave your little heart out, but that doesn't get the simian businessperson's attention.".
 Waving at is an action applying to one thing.  Understand "wave at [something]" as waving at.  Instead of waving at the businessperson, say "You wave your little heart out, but that doesn't get the simian businessperson's attention.".
-Understand "tap [a visible thing]" or "knock [a visible thing]" or "knock on [a visible thing]" as attacking.
+Understand "tap [a visible thing]" or "knock [a visible thing]" or "knock on [a visible thing]" or "tap on [a visible thing]"as attacking.
 Understand "glass" as the jinky porthole window.
 Instead of attacking the jinky porthole window:
-	say "The simian businessperson flicks an eye towards you, but otherwise doesn't pay any attention.  Vibration doesn't travel very well through the vacuum of space.  There's got to be some way to get the businessperson's attention.";
+	say "The simian businessperson flicks an eye towards you, but otherwise doesn't pay any attention.  Vibration doesn't travel very well through the vacuum of space.  There's got to be some way to get the businessperson's attention.".
+Understand "talk to [businessperson]" as a mistake ("The simian businessperson is not going to be able to understand anything you say through the vacuum of space.   Doesn't seem to notice your mouth moving.").
+Understand "ask [businessperson] about [text]" as a mistake ("The simian businessperson is not going to be able to understand anything you say through the vacuum of space.   Doesn't seem to notice your mouth moving.").
+Understand "tell [businessperson] about [text]" as a mistake ("The simian businessperson is not going to be able to understand anything you say through the vacuum of space.   Doesn't seem to notice your mouth moving.").
+Understand "kiss [businessperson]" as a mistake ("You press your lips to the glass, but the simian businessperson does not do the same.").
 
 [Graphene Solar System]
 The Graphene Solar System is a spacey room in spaceland.  "[description of inside-space-rocket][paragraph break]You notice something unusual outside the porthole window."   The damp porthole window is scenery in the graphene solar system.  The description of the damp porthole window is "The graphene solar system hangs like a jewel in the distance.  It is partially obscured by several deep orbits worth of space junk.  Bands of the junk thousands of miles wide wrap in orbit around some planets, as well as the entire solar system.  It is, in its own way, breathtaking.  Behind it is a curtain of stars.".  Instead of searching the damp porthole window, try examining the damp porthole window.
 The space junk is scenery in The Graphene Solar System.  The description is "The space junk exists on a truly solar scale.  A few of the planets have rings like Saturn composed entirely of broken-up equipment, compressed cubes of trash, metal pieces of every shape and size, in endless streams.  Then, another couple of monolithic bands orbit the entire solar system.".  Understand "bands/rings" as the space junk. 
 The planets are scenery in the graphene solar system.  The description is "There are six planets, all of them almost equal size.  A few have bands of space junk orbiting them."
 The metal pieces are a part of the space junk.  The description is "There are pieces of metal of every possible size and shape.  Some look like almost-complete pieces of equipment, or derelict spaceships.  Others are just giant misshapen hunks of metal."  Understand "equipment" as the metal pieces.
-The compressed cubes of trash are part of the space junk.  The description is "The compressed cubes of trash vary in size, but most of them seem to be the size of skyscrapers."
+The compressed cubes of trash are part of the space junk.  The description is "The compressed cubes of trash vary in size, but most of them seem to be the size of skyscrapers.".
+
 
 Test space with "f / eat breakfast / eat lunch / f / f / f / f / f / f / open hatch / climb ladder / press red button / press blue button"
 
@@ -893,7 +935,7 @@ The distant liquor store is scenery in the anticlimactic path.   The description
 TLBTLS is a room. It is north of the anticlimactic path. The printed name is "The Land Behind the Liquor Store". The description is "You are in The Land Behind the Liquor Store.  It's underwhelming.  You've got your standard collection of broken down boxes, a dumpster, and a stack of pallets.  Behind you, the anticlimactic path leads to [printed name of TLOUV2].  Ahead of you, The Path Around the Liquor Store leads to The Land in Front of the Liquor Store."
 There are broken down boxes in TLBTLS.  It is scenery.  The description is "The broken down boxes are stacked behind the dumpster.  They are bound by nylon rope in stacks too big to carry.".
 The nylon rope is a part of the broken down boxes.
-There is a stack of pallets in TLBTLS.  It is scenery.  The description is "There are some wooden pallets and some ".
+There is a stack of pallets in TLBTLS.  It is scenery.  The description is "There are some wooden pallets and some plastic ones.".  The wooden pallets are a part of the stack of pallets.  The description is "They are made of wood.".  The plastic pallets are part of the stack of pallets.  The description is "They are made of plastic.".
 There is a dumpster in TLBTLS.  It is scenery.  The description is "The dumpster is closed and locked, and has 'Jerkins and Parkins Waste Management' written on the side of it.".
 Instead of taking something when the player is in TLBTLS:
 	if the noun is dumpster or the noun is rope or the noun is boxes or the noun is pallets:
@@ -903,8 +945,8 @@ TPATLS is a room.  The printed name is "The Path Around the Liquor Store".  It i
 The liquorpath is in TPATLS.  It is scenery.  The description of liquorpath is "It[apostrophe]s a little like a sidewalk." 
 Understand "path" as the liquorpath.
 The fence is in TPATLS.  It is scenery.  The description is "A wooden slat fence, about ten feet high.  It's too high to climb."
-Instead of climbing the fence, say "It's too high and seamless to climb."
-The liquor-store-side is in TPATLS.  The printed name is "side of the liquor store". It is scenery.  The description is "The side of the liquor store is the least interesting part of the liquor store.  There[apostrophe]s not even any graffiti."
+Instead of climbing the fence, say "It's too high and seamless to climb.  It's a very well made wooden slat fence and there's nothing to grab onto.  Also, there's nothing good on the other side.  It's a construction site, but there's not even anything there.  It's just a hole in the ground basically.  If you could climb the fence you could roll in the dirt if that's your thing.  But it's not your thing is it?   It doesn't matter.  You can't climb the fence."
+The liquor-store-side is in TPATLS.  The printed name is "side of the liquor store". It is scenery.  The description is "The side of the liquor store is the least interesting part of the liquor store.  There[apostrophe]s not even any graffiti."  Understand "side/store" as the liquor-store-side.
 
 Table 2 - Liquor Advertisements
 adcopy
@@ -922,7 +964,7 @@ adcopy
 "Smooth like the surface of a lake in a windless valley."
 "The booze that's smoother than me, Billie Dee."
 
-TFOTLS is a room.  The printed name is "The Land in Front of the Liquor Store".  It is north of TPATLS. The description is "The Land in Front of the Liquor Store looks mostly abandoned, and you feel a slight sense of disappointment and dread here.  The liquor store is closed, looks like permanently, and there's just a weird kiddie ride here.  There are marks on the sidewalk where some other metal vending machines were, but it looks like they've been carted away.  Only the kiddie ride remains.  It's pretty depressing here, but if you continue to go forward, the Idyllic Path leads to The Land of Puppy Cardiovascular health, which is the H.".
+TFOTLS is a room.  The printed name is "The Land in Front of the Liquor Store".  It is north of TPATLS. The description is "The Land in Front of the Liquor Store looks mostly abandoned, and you feel a slight sense of disappointment and dread here.  The liquor store is closed, looks like permanently, and there's just a weird kiddie ride here.  There are marks on the sidewalk where some other metal vending machines were, but it looks like they've been carted away.  Only the kiddie ride remains.  It's pretty depressing here, but if you continue to go forward, the Idyllic Path leads to The Land of Puppy Cardiovascular health, which is the superior place.".
 The front of the liquor store is scenery in TFOTLS.  The description is "The liquor store looks closed, but pretty recently.  Liquor advertisements are hung in the windows."
 The sidewalk is scenery in TFOTLS.  The description is "There are marks where a vending machine and a couple of other entertainments once were.  For some reason the kiddie ride is still here.".  Understand "mark/marks" as the sidewalk.
 The advertisements are scenery in TFOTLS.  Understand "ad/ads/advertisement" as the advertisements. 
@@ -973,6 +1015,10 @@ Instead of pushing the coin release button:
 	say "It smoothly depresses all the way down into the coin box.  If there were a coin stuck in the mechanism, this action would theoretically release it into the coin release tray.  There does not appear to be a coin and the coin release button depresses and releases noiselessly and frictionlessly.".
 Before inserting a quarter into the coin slot when the kiddie ride is unplugged:
 	say "The kiddie ride is unplugged." instead.
+Instead of inserting something into the kiddie ride:
+	try inserting the noun into the coin slot.
+Instead of inserting something into the coin box:
+	try inserting the noun into the coin slot.	
 Check inserting something into the coin slot:
 	if the noun is a quarter and the player has the quarter:
 		[ * 25¢ baby! * ]
@@ -1014,18 +1060,30 @@ Idyllpath is in The Idyllic Path.  It is scenery.  The description of Idyllpath 
 
 TLOPCH is north of the idyllic path.  The printed name is "The Land of Puppy Cardiovascular Health".  The description is "The meadows are wide and rolling here.  [Mister Tuxedo] leaps and cavorts excitedly, barking every now and again.".
 
-There is a post in TLOPCH.  It is fixed in place.  
-The power outlet is in TLOPCH.
-
 Mister Tuxedo is an animal in TLOPCH.  Mister Tuxedo is proper-named.  The printed name is "Mister Tuxedo". The description is "Mister Tuxedo is a young, healthy dog in the very prime of his life.  He's black all over except the tips of his front paws, and the bottom of his chin and belly, giving him the appearance of permanent formalwear.  He is a very handsome dog, and his honoric (Mister) is never abbreviated as 'Mr.'.  You can call him 'Mister' or 'Tuxedo', but not 'Mr.' or 'Mr. Tuxedo'.  It's for a good reason, I promise.[paragraph break]Mister Tuxedo lives only to leap, cavort, and catch a thrown ball."  Understand "mister/tux/tuxedo" or "mister tux" or "mister tuxedo" as Tuxedo.
 The paws are a part of Mister Tuxedo.  The description is "The front paws are white, and the back paws are black.".
 mr is scenery in TLOPCH.  The description is "You can call him 'Mister' or 'Tuxedo', but not 'Mr.' or 'Mr. Tuxedo'.  It's just not his name, and it[apostrophe]s just not done.".  Understand "mr" or "mr tux" or "mr tuxedo" as mr.
 
-Petting is an action applying to one visible thing.  Understand "pet [an animal]" as petting.
+Petting is an action applying to one visible thing.  Understand "pet [an animal]" as petting.  Understand "pat [an animal]" as petting.
 Instead of petting or kissing or taking Mister Tuxedo:
 	say "Mister Tuxedo is too excited to settle down and be affectionate.  He's in more of a prancing, cavorting, chasing things mood right now.".
 Instead of attacking Mister Tuxedo:
 	say "Whoa there, let's just pretend you're not the kind of person to attack a young, hopeful puppy.  Anyway, Mister Tuxedo is a lot faster than you.".
+
+[commands for Mister Tuxedo]
+Fetching is an action applying to nothing.  Understand "fetch" as fetching.
+Instead of asking Mister Tuxedo to try fetching, say "Mister Tuxedo doesn't recognize the command, but he will probably fetch something you throw if he's interested.".
+Staying is an action applying to nothing.  Understand "sit" or "stay" as staying.
+Instead of asking Mister Tuxedo to try staying, say "Mister Tuxedo cocks his head and sits for a moment, but he doesn't stay sitting for long.".
+Rolling over is an action applying to nothing.  Understand "roll over" or "roll" as rolling over.
+Instead of asking Mister Tuxedo to try rolling over, say "Mister Tuxedo looks at you quizzically for a moment, but then, to your surprise, actually rolls over quickly.  He barks as if it's not his favorite trick.".
+Speaking is an action applying to nothing.  Understand "speak" or "bark" as speaking.
+Instead of asking Mister Tuxedo to try speaking, say "Mister Tuxedo gives a curt bark, and then a little awoo, so you know he was responding to your command.".
+[other commands]
+Instead of asking your brother to try doing something:
+	say "'Does it look like I[apostrophe]m taking orders from you?  A little reminder: you are a giant loser.'".
+Instead of asking the seaperson to try doing something:
+	say "'Although I am not technically the captain of The Chimera, I do not generally take orders from strangers.'".
 
 AWP is a room.  The printed name is "a white, hazy place that barely exists".  AWP is north of TLOPCH.  The description is "You find yourself in a white, hazy place that barely exists.  You were going forward from the liquor store, and now you find yourself here.  It feels confusing, and chilly, and fictional.  It feels like a dead end.  You don't know to a certainty how to go forward from here."
 The haze is scenery in AWP.  The description is "The haze is thick, cold, fictional, and fills you with a sense of mild dread and confusion.  No matter how hard you look, you can't see very far into it.  You can walk out in it quite a while, but as soon as you turn around and go backwards, you're back at The Land in Front of the Liquor Store.".
