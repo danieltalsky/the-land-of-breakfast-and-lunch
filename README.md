@@ -1,5 +1,7 @@
 # The Land of Breakfast and Lunch
 
+![](http://breakfastlunch.rabbitrabbit.city/Cover.png)
+
 ### A diorama of made-up memories.
 
 The Land of Breakfast and Lunch is an aimless and detailed text adventure written in Inform 7.
@@ -11,6 +13,15 @@ At the 2019 Spring thing it won the audience awards:
  - Best Jokes
  - Most Poetic Jokes
  - Best Parser Game
+
+## Play Online
+
+[http://breakfastlunch.rabbitrabbit.city/play.html
+](http://breakfastlunch.rabbitrabbit.city/play.html)
+
+## Actual source code of the game
+
+[https://github.com/danieltalsky/the-land-of-breakfast-and-lunch/blob/maestra/The%20Land%20of%20Breakfast%20and%20Lunch.inform/Source/story.ni](https://github.com/danieltalsky/the-land-of-breakfast-and-lunch/blob/maestra/The%20Land%20of%20Breakfast%20and%20Lunch.inform/Source/story.ni)
 
 ## Game Description
 
